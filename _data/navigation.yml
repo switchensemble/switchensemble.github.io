@@ -1,0 +1,27 @@
+- title: About
+  url: /about/
+
+- title: Projects
+  url: /projects/
+  sublinks:
+    - page: Call for Scores
+      url: /projects/call-for-scores.html
+    - page: Concerts
+      url: /projects/concerts.html
+    - page: Repertoire
+      url: /projects/repertoire.html
+    - page: Residencies
+      url: /projects/residencies.html
+
+- title: Media
+  url: /media/
+  sublinks:
+    - page: Audio and Video
+      url: /media/media.html
+    - page: Photos
+      url: /media/photos.html
+    - page: Resources
+      url: /media/resources.html
+
+- title: Support
+  url: /support/

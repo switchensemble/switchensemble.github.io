@@ -1,0 +1,19 @@
+<div class="row justify-content-between">
+  {%- for listing in site.data.donors -%}
+    <div class="col-12 col-md-5 pb-4">
+      <div class="d-flex justify-content-between">
+        <h5>{{ listing.name }}</h5>
+        {%- if listing.amountEnd -%}
+          <p class="small mb-2">${{ listing.amountStart }} - {{ listing.amountEnd }}</p>
+        {%- else -%}
+          <p class="small mb-2">${{ listing.amountStart }}</p>
+        {%- endif -%}
+      </div>
+      {%- for donor in listing.individuals -%}
+        <p class="mb-0">
+          {{ donor }}
+        </p>
+      {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</div>

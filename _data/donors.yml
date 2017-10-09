@@ -1,0 +1,83 @@
+- name: Panic Button
+  amountStart: 10,000+
+  individuals:
+
+- name: Mercury Tilt Switch
+  amountStart: 5,000
+  amountEnd: 9,999
+  individuals:
+
+- name: Rocker
+  amountStart: 2,500
+  amountEnd: 4,999
+  individuals:
+    - Music at the Anthology
+    - New Music USA Project Grant
+
+- name: Rotary Switch
+  amountStart: 1,000
+  amountEnd: 2,499
+  individuals:
+    - Anonymous (2)
+    - "​Avaloch Farm Music Institute (in-kind)"
+    - "Conservatorio Superior de Música de Valencia (in-kind)"
+    - Harvard University
+    - "Queens New Music Festival (in-kind)"
+    - "Valencia International Performance Academy & Festival (in-kind)"
+    - Eastman Computer Music Center
+    - ​University of Missouri
+    - "University of California, San Diego"
+    - "Eastman School of Music, Paul R. Judy Grant"
+
+- name: Toggle Switch
+  amountStart: 500
+  amountEnd: 999
+  individuals:
+    - University of Chicago
+
+- name: Pushbutton Switch
+  amountStart: 200
+  amountEnd: 499
+  individuals:
+    - ​Anonymous (1)
+    - Eastman School of Music
+    - ​Mary Collins
+
+- name: Three-Pole
+  amountStart: 100
+  amountEnd: 199
+  individuals:
+    - Anonymous (4)
+    - ​David Arns
+    - B Canniffe
+    - Michaela & Warren Donohue
+    - Richard Greenstone and Ramsey Moureau
+    - ​Richard J. Greenstone
+    - Ann & Jeff Swain
+
+- name: Two-Pole
+  amountStart: 50
+  amountEnd: 99
+  individuals:
+    - ​The Glassey Family
+    - Peter Kalal
+    - Rand Steiger and Rebecca Plant
+    - Richard Thorpe
+
+- name: Single-Pole
+  amountStart: 25
+  amountEnd: 49
+  individuals:
+    - Jennifer Bellor
+    - Robert Dillon
+    - ​Louis Goldford
+    - Zane Merritt
+    - Jan Opalach
+    - Penni Thorpe
+    - Anonymous
+
+- name: Light Switch
+  amountStart: 1
+  amountEnd: 24
+  individuals:
+    - Anonymous (1)

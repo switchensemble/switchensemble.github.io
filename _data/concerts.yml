@@ -1,0 +1,241 @@
+- date: 2016-12-16
+  event: Vernon Salon Series
+  location:
+    - city: Oakland
+      state: CA
+  program:
+    - composer: Ben Isaacs
+      title: allone
+    - composer: Chris Chandler
+      title: in shadow, in shade
+    - composer: Max Murray
+      title: Ad Marginem des Versuchs
+    - composer: Matt Sargent
+      title: soft song
+    - composer: Anthony Pateras
+      title: Broken Then Fixed Then Broken
+
+- date: 2016-12-14
+  location:
+    - venue: Center for New Music
+      city: San Francisco
+      state: CA
+  program:
+    - composer: Anthony Pateras
+      title: Broken Then Fixed Then Broken
+    - composer: Matt Sargent
+      title: Tide
+    - composer: ​Lisa Streich
+      title: Asche
+    - composer: Chris Chandler
+      title: in shadow, in shade
+    - composer: Max Murray
+      title: Ad Marginem des Versuchs
+    - composer: Ben Isaacs
+      title: allone
+
+- date: 2016-09-25
+  event: Vanguard New Music Guest Artist Series
+  location:
+    - place: Kent State University
+      venue: Ludwig Recital Hall
+      city: Kent
+      state: OH
+  program:
+    - composer: Alex Mincek
+      title: Pendulum III
+    - composer: Jonathan Harvey
+      title: Tombeau de Messiaen
+    - composer: Jason Thorpe Buchanan
+      title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
+    - composer: Eric Wubbels
+      title: this is this is this is
+
+- date: 2016-05-22
+  event: Queens New Music Festival
+  location:
+    - venue: Secret Theatre
+      city: Queens
+      state: NY
+  program:
+    - composer: Chris Chandler
+      title: Smoke and Mirrors
+    - composer: Lisa Streich
+      title: Asche
+    - composer: Clay Mettens
+      title: He Dreams a Mother
+    - composer: Santiago Diez-Fischer
+      title: Loop’s Definition
+    - composer: Anthony Vine
+      title: Things Fall Apart
+    - composer: Alexander Schubert
+      title: Star Me Kitten
+
+# - date:
+#     - start: 2016-07-06
+#     - end: 2016-07-16
+#   event: Valencia International Performance Academy & Festival
+#       Ensemble-in-Residence
+#       Nine new works by participant composers of the 2016 VIPA
+#       Festival selected from an international call for scores and proposals:
+#       - Mathew Arrellin, Vertigo for alto saxophone & electronics
+#       - Jeremy Corren, new work
+#       - Baldwin Giang, new work
+#       - Samuel Gillies, new work
+#       - Tyler Gilmore, new work
+#       - NamHoon "Matthew" Kim, new work
+#       - Theocharis Papatrechas, new work
+#       - Igor Santos, new work
+#       - Anna-Louise Walton, new work
+#       Two new commissions by James Bean and Timothy McCormack
+#       Works by faculty guest composers Rand Steiger, Gregorio Jimenez,
+#       and Stefano Gervasoni
+
+- date: 2015-07-13
+  event: World Saxophone Congress
+  location:
+    - city: Strasbourg
+      country: FR
+  program:
+    - composer: Jason Thorpe Buchanan
+      title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
+
+- date: 2015-05-15
+  event: MATA Interval 8 Series
+  location:
+    - venue: DiMenna Center, Benzaquen Hall
+      address: 450 West 37th Street
+      city: New York City
+      state: NY
+      zip: 10018
+  program:
+    - composer: Zach Sheets
+      title: Seer
+    - composer: Stylianos Dimou
+      title: "[Hiss] structure . . .from {with[in} - g]"
+    - composer: Stefan Prins
+      title: "Flesh+Prosthesis #1"
+    - composer: Wojtek Blecharz
+      title: "Transcryptum: K'an for steel drum and ca. 130 sticks"
+    - composer: Wojtek Blecharz
+      title: "Transcryptum: The map of tenderness for cello solo"
+    - composer: Jason Thorpe Buchanan
+      title: "Hunger: A Multimedia Opera in Four Parts (Part III)"
+
+- date: 2014-10-27
+  event: Eastman Computer Music Center Concert
+  location:
+    - venue: Hatch Recital Hall
+      city: Rochester
+      state: NY
+  program:
+   - composer: Rand Steiger
+     title: A Menacing Plume
+   - composer: Henk Badings
+     title: Capriccio
+   - composer: Jonathan Harvey
+     title: Tombeau de Messiaen
+
+- date: 2014-06-02
+  event: New York City Electroacoustic Music Festival
+  location:
+    - venue: Abrons Art Center
+      city: New York City
+      state: NY
+  program:
+    - composer: Christopher Chandler
+      title: Smoke and Mirrors
+    - composer: Jason Thorpe Buchanan
+      title: "Asymptotic Flux: First Study in Entropy"
+
+- date: 2014-05-21
+  location:
+    - venue: Hallwalls Contemporary Arts Center
+      city: Buffalo
+      state: NY
+  program:
+    - composer: Panayiotis Kokoras
+      title: Morphallaxis
+    - composer: Konstantina Orlandatou
+      title: Constant Flowing
+    - composer: Fausto Romitelli
+      title: Domenica alla periferia dell'impero
+    - composer: Zach Sheets
+      title: Seer
+    - composer: Bruno Maderna
+      title: Piece pour Ivry
+    - composer: Christopher Chandler
+      title: Smoke and Mirrors
+
+- date: 2014-04-13
+  event: Eastman Computer Music Center Concert
+  location:
+    - venue: Sproull Atrium
+      city: Rochester
+      state: NY
+  program:
+    - composer: Bryan Jacobs
+      title: TSTS
+    - composer: Panayiotis Kokoras
+      title: Morphallaxis
+    - composer: Clay Mettens
+      title: Labyrinth Meditations
+    - composer: Zach Sheets
+      title: Seer
+
+- date: 2013-12-02
+  event: Ossia New Music Concert
+  location:
+    - venue: Kilbourn Hall
+      city: Rochester
+      state: NY
+  program:
+    - composer: Karlheinz Stockhausen
+      title: Mikrophonie I
+
+- date: 2013-11-20
+  event: Eastman Computer Music Center Concert
+  location:
+    - venue: Hatch Recital Hall
+      city: Rochester
+      state: NY
+  program:
+    - composer: Christopher Chandler
+      title: Smoke and Mirrors
+    - composer: Philippe Leroux
+      title: Voi(rex)
+
+- date: 2013-03-29
+  location:
+    - venue: Ossia New Music Concert, Kilbourn Hall
+      city: Rochester
+      state: NY
+  program:
+    - composer: Magnus Lindberg
+      title: UR
+
+- date: 2012-11-12
+  event: Eastman Computer Music Center Concert
+  location:
+    - venue: Hatch Hall
+      city: Rochester
+      state: NY
+  program:
+    - composer: Fausto Romitelli
+      title: Amok Koma
+    - composer: Jason Thorpe Buchanan
+      title: "Asymptotic Flux: First Study in Entropy"
+    - composer: Sascha Lino Lemke
+      title: Liebes-Lied
+
+- date: 2012-10-04
+  event: Ossia New Music Concert
+  location:
+    - venue: East Wing 415
+      city: Rochester
+      state: NY
+  program:
+    - composer: Fausto Romitelli
+      title: Amok Koma (2001)
+    - composer: Jason Thorpe Buchanan
+      title: "Asymptotic Flux: First Study in Entropy"

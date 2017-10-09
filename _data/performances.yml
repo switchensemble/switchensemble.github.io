@@ -1,0 +1,30 @@
+- title: Work Title
+  composer: Composer Name
+  duration: 14
+  instrumentation:
+    - flute (alto, piccolo)
+    - clarinet (Eb, bass)
+    - piano
+    - percussion
+  commissioned: yes
+  premiere:
+    - date: 11-13-17
+      venue: IRCAM
+
+- title: Work Title 2
+  composer: Composer Name 2
+  duration: 91
+  movements:
+    - something something
+    - blah blah
+    - test test
+    - doot doot
+  instrumentation:
+    - oboe
+    - clarinet
+    - piano
+    - percussion
+  commissioned: no
+  premiere:
+    - date: 11-13-17
+      venue: IRCAM

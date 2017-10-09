@@ -1,0 +1,18 @@
+{%- for person in site.data.members -%}
+  <div class="col-md-4 col-team">
+    <img class="rounded-corners img-fluid" src="{{ site.assets }}/images/ensemble/{{ person.headshot }}"  width="240" height="240">
+    <h4>{{ person.name }}</h4>
+    {%- if person.title -%}<p class="mb-2">{{ person.title }}</p>{%- endif -%}
+    {%- if person.role -%}<p class="mb-2"><span class="emphasis">{{ person.role }}</span></p>{%- endif -%}
+    <ul class="social">
+      {%- for link in person.links -%}
+        {%- if link.email -%}<li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>{%- endif -%}
+        {%- if link.website -%}<li><a href="{{ link.website }}"><i class="fa fa-globe" aria-hidden="true"></i></a></li>{%- endif -%}
+        {%- if link.facebook -%}<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>{%- endif -%}
+        {%- if link.twitter -%}<li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{%- endif -%}
+      {%- endfor -%}
+      <li><a href="/about/ensemble/{{ person.name | downcase | replace: ' ', '-' | replace: '.', '' }}.html"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+      <div class="clear"></div>
+    </ul>
+  </div>
+{%- endfor -%}

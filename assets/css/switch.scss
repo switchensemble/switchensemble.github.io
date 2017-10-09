@@ -1,0 +1,15 @@
+---
+# blank yaml for compiling sass
+---
+body {
+  padding-top: 7rem;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.business-hero {
+  background: url(/assets/images/switch-home.jpg);
+}
+.business-hero h2, .business-hero p {
+  width: auto;
+}

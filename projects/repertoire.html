@@ -1,0 +1,78 @@
+---
+layout: default
+title: Repertoire
+---
+
+<div class="row">
+  <!-- create empty string to append tags -->
+  {% assign tagString = '' %}
+  <!-- capture the process of appending tags in a list -->
+  <!-- append current tag to tagString, strip all whitespace, but retain space between words -->
+  {% capture listOfTags %}
+    {%- for work in site.data.repertoire -%}
+      {%- if work.tags -%}
+        {%- for tag in work.tags -%}
+          {{ tagString | append: tag | append: ' ' }}
+        {%- endfor -%}
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+
+  <!-- split the list of tags, remove duplicates, and sort by alpha -->
+  {% assign tagArray = listOfTags | split: ' ' | uniq | sort %}
+
+</div>
+
+<div class="row">
+	<div class="filters col-3 mx-auto mb-3 mb-md-0">
+		<h5 class="text-center">Filters</h5>
+    <button
+			type="button"
+			class="btn btn-outline-secondary btn-sm btn-block filter-rep"
+			data-filter="all">
+			All
+		</button>
+    {%- for tag in tagArray -%}
+      <button
+        type="button"
+        class="btn btn-outline-secondary btn-sm btn-block filter-rep"
+        data-filter=".{{ tag }}">
+        {{ tag | capitalize }}
+      </button>
+    {%- endfor -%}
+	</div>
+
+
+  <div class="mixitup-rep col-9">
+    {%- assign sortedRep = site.data.repertoire | sort: 'title' -%}
+    {%- for work in site.data.repertoire -%}
+        <div class="rep border border-primary {% for item in work.tags %}{{ item }} {% endfor %}">
+          <h2>Composer: {{ work.composer }}</h2>
+          <h3>Title: {{ work.title }}</h3>
+          {%- if work.movements -%}
+            {%- for movement in work.movements -%}
+              <p>{{ forloop.index }}. {{ movement }}</p>
+            {%- endfor -%}
+          {%- endif -%}
+          <p>Duration: {{ work.duration }}</p>
+          <p>Year composed: {{ work.yearComposed }}</p>
+          <p>{{ work.commissionedOrWrittenFor }}</p>
+          <p>Instrumentation:</p>
+          <p>
+          {%- for instrument in work.instrumentation -%}
+            {%- if forloop.last == true -%}
+              and {{ instrument -}}
+            {% else %}
+              {{ instrument | append: ', ' }}
+            {%- endif -%}
+          {%- endfor -%}
+          </p>
+          {%- for item in work.media -%}
+            <p>title: {{ item.title }} </p>
+            <p>type: {{ item.type }} </p>
+            <p>url: {{ item.url }} </p>
+          {%- endfor -%}
+        </div>
+    {%- endfor -%}
+  </div>
+</div>
