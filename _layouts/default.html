@@ -5,9 +5,7 @@
 	</head>
 	<body class="{%- if page.title == 'Home' -%}pt-0{% endif %}">
 		{% include navigation.html %}
-		<div class="{%- if page.title == 'Home' -%}{%- else -%}container{% endif %}">
-			{{ content }}
-		</div>
+		{{ content }}
 		{% include footer.html %}
 		{% include scripts.html %}
 	</body>
