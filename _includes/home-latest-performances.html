@@ -1,0 +1,6 @@
+<div class="latest-performance">
+	{% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
+	{%- for post in performancePosts -%}
+		<span><strong>{{ post.performance-date | date_to_long_string }}, {{ post.venue }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span>
+	{% endfor %}
+</div>

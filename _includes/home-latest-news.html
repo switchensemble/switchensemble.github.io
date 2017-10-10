@@ -1,0 +1,7 @@
+<div class="latest-news">
+	{% for post in site.posts limit:1 %}
+		{%- if post.categories contains "news" -%}
+			<span><strong>{{ post.title }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span>
+		{%- endif -%}
+	{% endfor %}
+</div>
