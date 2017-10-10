@@ -2,7 +2,7 @@
 # blank yaml for compiling sass
 ---
 body {
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 .dropdown:hover>.dropdown-menu {
   display: block;
@@ -21,4 +21,7 @@ p.social a {
   padding-right: 1rem;
   color: #fff;
   font-size: 1.25rem;
+}
+.footer {
+  margin-top: 0px;
 }
