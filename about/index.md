@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-## Artistic Statement
+<h2 class="text-center">Artistic Statement</h2>
 
 A new music ensemble for the 21st Century, the [Switch~ Ensemble] is dedicated to the creation and performance of new works for chamber ensemble and electronics, often featuring multimedia and other forms of technology. Our 2016-2017 season includes residencies at Kent State University, the San Francisco Center for New Music, and Vernon Salon Series in Oakland, as well as a Spring residency at the University of Chicago to develop seven new works by doctoral student composers for ensemble and technology. Our 2017-18 season includes residencies at Bard College, Cornell University, Buffalo State University, and more to be announced.
 
@@ -13,11 +13,8 @@ We believe that working directly with composers throughout their creative proces
 
 Founded in 2012 at the Eastman School of Music in Rochester, NY as a flexible-size professional Ensemble-in-Residence at the Eastman Computer Music Center, the [Switch~ Ensemble] looks toward the future of contemporary music. We're dedicated to high-level chamber music performance integrated with cutting-edge technology and multimedia, supporting emerging and early career composers to create bold new works featuring multimedia and electroacoustic elements, and are passionate about helping to build a diverse canon of 21st century works that leaves space for all voices—especially those that, historically, have been excluded from our fields. At the core of each performance is our commitment of total integration between technology and live performance -- our goal is compelling artistry achieved through seamless production, creation, and execution.
 
-<div class="divider"></div>
+<h2 class="text-center">Musicians</h2>
 
-## Musicians
+<p class="lead text-center">Meet the ensemble</p>
 
-<!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-<div class="row">
 {% include ensemble-listing.html %}
-</div>
