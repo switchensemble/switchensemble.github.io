@@ -15,24 +15,24 @@ background: switch-home.jpg
 
 <div class="index-features mt-0" data-scroll>
   <div class="container">
-    <section class="features">
-      <div class="row">
-        <div  class="col-12 col-sm-4">
-          <h5 class="">Upcoming</h5>
-          <p>Here is some upcoming information</p>
-        </div>
-        <div  class="col-12 col-sm-4">
-          <h5 class="">News</h5>
-          <p>Here is some news information</p>
-        </div>
-        <div  class="col-12 col-sm-4">
-          <h5 class="">Support</h5>
-          <p>
-            We are currently raising funds to suuport our 2017-18 season. Help make our musical dreams become reality.
-            <a href="/support/index.html"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
-          </p>
-        </div>
+    <div class="row">
+      <div class="col-12 col-sm-4 pb-3">
+        <h5>Upcoming</h5>
+        {% include home-latest-performances.html %}
       </div>
-    </section>
+      <div class="col-12 col-sm-4 pb-3">
+        <h5 class="">News</h5>
+        {% include home-latest-news.html %}
+      </div>
+      <div class="col-12 col-sm-4 pb-3">
+        <h5 class="">Support</h5>
+        <p>
+          We are currently raising funds to support our 2017-18 season. Help make our musical dreams become reality.
+          <a href="/support/index.html">
+            <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+    </div>
   </div>
 </div>
