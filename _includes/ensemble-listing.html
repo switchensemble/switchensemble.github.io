@@ -2,7 +2,7 @@
   <div class="container no-override">
     <div class="row no-gutters">
       {%- for person in site.data.members -%}
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4 p-3">
         <div class="project">
           <span class="mask">
             <span class="info">
@@ -13,9 +13,9 @@
             <p class="social mt-5">
               {%- for link in person.links -%}
                 {%- if link.email -%}<a href="mailto:{{ link.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>{%- endif -%}
-                {%- if link.website -%}<a href="{{ link.website }}"><i class="fa fa-globe" aria-hidden="true"></i></a>{%- endif -%}
-                {%- if link.facebook -%}<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>{%- endif -%}
-                {%- if link.twitter -%}<a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>{%- endif -%}
+                {%- if link.website -%}<a href="{{ link.website }}" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>{%- endif -%}
+                {%- if link.facebook -%}<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>{%- endif -%}
+                {%- if link.twitter -%}<a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{%- endif -%}
               {%- endfor -%}
               <a href="/about/ensemble/{{ person.name | downcase | replace: ' ', '-' | replace: '.', '' }}.html"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
             </p>
