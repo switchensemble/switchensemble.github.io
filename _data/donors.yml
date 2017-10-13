@@ -1,11 +1,13 @@
 - name: Panic Button
   amountStart: 10,000+
   individuals:
+    - Be our first!
 
 - name: Mercury Tilt Switch
   amountStart: 5,000
   amountEnd: 9,999
   individuals:
+    - Be our first!
 
 - name: Rocker
   amountStart: 2,500

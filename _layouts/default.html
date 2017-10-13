@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		{% include head.html %}
-	</head>
-	<body class="{%- if page.title == 'Home' -%}pt-0{% endif %}">
-		{% include navigation.html %}
-		{{ content }}
-		{% include footer.html %}
+	{% include head.html %}
+	<body>
+
+		<!-- Layout-->
+		<div class="layout">
+
+			<!-- Header-->
+			{% include header.html %}
+			<!-- Header end-->
+
+			<!-- Wrapper-->
+			<div class="wrapper">
+
+				{{ content }}
+
+				<!-- Footer-->
+				{% include footer.html %}
+				<!-- Footer end-->
+
+				<a class="scroll-top" href="#top"><i class="fa fa-angle-up"></i></a>
+			</div>
+			<!-- Wrapper end-->
+
+		</div>
+		<!-- Layout end-->
+
+		<!-- Off canvas-->
+		{% comment %}
+		{% include off-canvas-sidebar.html %}
+		{% endcomment %}
+		<!-- Off canvas end-->
+
+		<!-- Scripts -->
 		{% include scripts.html %}
+		<!-- Scripts end-->
 	</body>
+
 </html>

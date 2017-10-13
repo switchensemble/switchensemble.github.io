@@ -1,20 +1,24 @@
+- title: Home
+  url: /
+
 - title: About
   url: /about/
+  sublinks:
+    - page: Musicians
+      url: /about/index.html#musicians
+    - page: Repertoire
+      url: /about/repertoire.html
 
 - title: Projects
-  url: /projects/
   sublinks:
     - page: Call for Scores
       url: /projects/call-for-scores.html
     - page: Concerts
       url: /projects/concerts.html
-    - page: Repertoire
-      url: /projects/repertoire.html
     - page: Residencies
       url: /projects/residencies.html
 
 - title: Media
-  url: /media/
   sublinks:
     - page: Audio and Video
       url: /media/media.html

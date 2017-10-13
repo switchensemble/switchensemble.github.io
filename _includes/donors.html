@@ -1,3 +1,4 @@
+{% comment %}
 <div class="row justify-content-between">
   {%- for listing in site.data.donors -%}
     <div class="col-12 col-md-5 pb-4">
@@ -17,3 +18,46 @@
     </div>
   {%- endfor -%}
 </div>
+{% endcomment %}
+
+<!-- Accordions-->
+<section class="module module-divider-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 m-auto">
+				<!-- Accordion card-body-->
+				<div class="accordion panel-group" id="accordion">
+          {%- for listing in site.data.donors -%}
+  					<div class="card">
+  						<div class="card-header">
+                <a
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#{{ listing.name | downcase | remove: ' ' }}"
+                  aria-expanded="false"
+                  class="d-flex justify-content-between">
+                  <div>{{ listing.name }}</div>
+                  <div class="ml-auto mr-4">
+                    {%- if listing.amountEnd -%}
+                      ${{ listing.amountStart }} - {{ listing.amountEnd }}
+                    {%- else -%}
+                      ${{ listing.amountStart }}
+                    {%- endif -%}
+                  </div>
+                </a>
+              </div>
+  						<div class="collapse" id="{{ listing.name | downcase | remove: ' ' }}">
+  							<div class="card-body">
+                  {%- for donor in listing.individuals -%}
+                    <p class="mb-0">{{ donor }}</p>
+                  {%- endfor -%}
+                </div>
+  						</div>
+  					</div>
+          {%- endfor -%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Accordions end-->

@@ -1,17 +1,7 @@
 ---
-layout: default
+layout: page
 title: Photos
 ---
 {%- assign image_files = site.static_files | where: "image", true -%}
-<div class="container">
-  <div class="row">
-    <div class="col-12 text-center mt-5">
-      <h2>Photos</h2>
-    </div>
-    {%- for image in image_files -%}
-      <div class="col-3 p-3">
-        <img class="img-fluid" src="{{ image.path }}" alt="{{ image.basename }}">
-      </div>
-    {%- endfor -%}
-  </div>
-</div>
+
+{% include photos-portfolio.html %}

@@ -1,4 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-spacial
+core-index.html
+assets/images/core-index
+_includes/off-canvas-sidebar.html

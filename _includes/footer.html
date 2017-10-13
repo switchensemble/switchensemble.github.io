@@ -1,66 +1,57 @@
-<footer class="footer" id="footer">
+<footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <div class="title">
-          About Switch~
-        </div>
-        <ul class="menu">
-          <li>
-            <a href="#">Here</a>
-          </li>
-          <li>
-            <a href="#">Are</a>
-          </li>
-          <li>
-            <a href="#">Some</a>
-          </li>
-          <li>
-            <a href="#">Links</a>
-          </li>
-        </ul>
+      <div class="col-md-6 col-lg-4">
+        <!-- Text widget-->
+        <aside class="widget widget_text">
+          <div class="widget-title">
+            <h5>Contact</h5>
+          </div>
+            <p>Get in touch. We would love to hear from you.</p>
+            <div class="col-md-6 px-0">
+              <div class="d-flex justify-content-between">
+                <a href="mailto:switchensemble@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/SwitchEnsemble/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/switchensemble"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/switchensemble/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+        </aside>
       </div>
-      <div class="col-md-4">
-        <div class="title">
-          Connect with us
-        </div>
-        <ul class="menu">
-          <li>
-            <a href="#">
-              <i class="fa fa-facebook"></i>
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-instagram"></i>
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-              Twitter
-            </a>
-          </li>
-        </ul>
+      <div class="col-md-6 col-lg-4">
+        <!-- Recent entries widget-->
+        <aside class="widget widget_recent_entries">
+          <div class="widget-title">
+            <h5>Recent & Upcoming Performances</h5>
+          </div>
+          {% include home-latest-performances.html %}
+        </aside>
       </div>
-      <div class="col-md-4 newsletter">
-        <div class="title">
-          Get Updates
+      <div class="col-md-6 col-lg-4">
+        <!-- Recent entries widget-->
+        <aside class="widget widget_recent_entries">
+          <div class="widget-title">
+            <h5>Latest News</h5>
+          </div>
+          {% include home-latest-news.html %}
+        </aside>
+      </div>
+      <!-- <div class="col-md-6 col-lg-3">
+        <aside class="widget widget_tag_cloud">
+          <div class="widget-title">
+            <h5>Tags</h5>
+          </div>
+          <div class="tagcloud"><a href="#">Design</a><a href="#">Travel</a><a href="#">Startup</a><a href="#">Music</a><a href="#">Portfolio</a><a href="#">Responsive</a></div>
+        </aside>
+      </div> -->
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center"><span class="copyright">sound for your ears</span></div>
         </div>
-        <p>
-          Enter your email address to sign up for our newsletter.
-        </p>
-
-        <form class="newsletter-form" autocomplete="off">
-          <input type="email" id="mc-email" class="form-control" placeholder="Email address" required />
-
-          <button type="submit">
-            <i class="fa fa-chevron-right"></i>
-          </button>
-          <label for="mc-email" class="text-white newsletter-feedback mt-3"></label>
-        </form>
       </div>
     </div>
   </div>

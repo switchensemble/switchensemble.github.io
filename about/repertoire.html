@@ -1,0 +1,65 @@
+---
+layout: page
+title: Repertoire
+---
+
+<!-- create empty string to append tags -->
+{% assign tagString = '' %}
+<!-- capture the process of appending tags in a list -->
+<!-- append current tag to tagString, strip all whitespace, but retain space between words -->
+{% capture listOfTags %}
+  {%- for work in site.data.repertoire -%}
+    {%- if work.tags -%}
+      {%- for tag in work.tags -%}
+        {{ tagString | append: tag | append: ' ' }}
+      {%- endfor -%}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+<!-- split the list of tags, remove duplicates, and sort by alpha -->
+{%- assign tagArray = listOfTags | split: ' ' | uniq | sort -%}
+<!-- sort repertoire by alpha -->
+{%- assign sortedRep = site.data.repertoire | sort: 'title' -%}
+
+<!-- Portfolio-->
+	<section class="module p-0">
+		<div class="container-fluid">
+			<div class="row row-portfolio-filter">
+				<div class="col-sm-12">
+					<ul class="filters h5" id="filters">
+						<li><a class="current" href="#" data-filter="*">All</a></li>
+            {%- for tag in tagArray -%}
+              <li><a href="#" data-filter=".{{ tag }}">{{ tag | capitalize }}</a></li>
+            {%- endfor -%}
+					</ul>
+				</div>
+			</div>
+			<div class="row row-portfolio" date-portfolio-type="standard" data-columns="3">
+				<div class="grid-sizer"></div>
+        {%- for work in site.data.repertoire -%}
+  				<div class="portfolio-item px-1 {% for item in work.tags %}{{ item }} {% endfor %}">
+  					<div class="portfolio-wrapper">
+  						<img src="https://placeholdit.co//i/500x250?bg=282F37" alt="">
+  						<div class="portfolio-overlay"></div>
+  					</div>
+  					<div class="portfolio-caption">
+  						<h5 class="portfolio-title">{{ work.title }} {% if work.yearComposed == nil %}{% else %}({{ work.yearComposed }}){% endif %}</h5>
+  						<div class="portfolio-subtitle font-serif">{{ work.composer }}</div>
+              <div class="portfolio-subtitle font-serif">
+                {%- for instrument in work.instrumentation -%}
+                  {%- if forloop.last == true -%}
+                    and {{ instrument -}}
+                  {% else %}
+                    {{ instrument | append: ', ' }}
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+  					</div>
+            <a class="portfolio-link" href="#"></a>
+          </div>
+        {%- endfor -%}
+			</div>
+		</div>
+	</section>
+	<!-- Portfolio end-->

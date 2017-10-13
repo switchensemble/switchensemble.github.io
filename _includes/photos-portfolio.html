@@ -1,0 +1,19 @@
+<!-- Portfolio-->
+<section class="module p-0">
+	<div class="container-fluid">
+		<div class="row row-portfolio" data-columns="3">
+			<div class="grid-sizer"></div>
+			{%- for image in image_files -%}
+				<div class="portfolio-item p-1">
+					<div class="portfolio-wrapper">
+						<img src="{{ image.path }}" alt="{{ image.basename }}">
+						<!-- <div class="portfolio-overlay"></div> -->
+						<!-- <div class="portfolio-caption"><h5 class="portfolio-title">Mutualismi</h5></div> -->
+						<a class="portfolio-link" href="{{ image.path }}"></a>
+					</div>
+				</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>
+<!-- Portfolio end-->

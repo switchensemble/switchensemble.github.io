@@ -1,0 +1,43 @@
+.header {
+  border-bottom: 0px solid rgba(220, 220, 220, .2);
+}
+.header.header-small {
+  background: #1b1d1f; // #2a313a;
+  border-bottom: 1px solid rgba(42,49,58,0.2)
+}
+.header .extra-nav > ul > li > a,
+.header .inner-nav > ul > li > a,
+.header.header-light.header-small .extra-nav > ul > li > a,
+.header.header-light.header-small .inner-nav > ul > li > a {
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .header {
+    background-color: #1b1d1f;
+    border-bottom: 1px solid rgba(42, 49, 58, 0.2);
+    padding: 0;
+  }
+}
+.nav-toggle > a span {
+  background: #fff;
+}
+
+.module, .module-sm {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.filters>li {
+  margin: 10px 15px;
+}
+.filters {
+  padding-bottom: 40px;
+}
+
+.offset:before {
+	display: block;
+ 	content: " ";
+	height: 150px;      /* Give height of your fixed element */
+  margin-top: -150px; /* Give negative margin of your fixed element */
+  visibility: hidden;
+}

@@ -1,50 +1,33 @@
-<div class="agency-portfolio-gallery mt-3">
-  <div class="container no-override">
-    <div class="row no-gutters">
-      {%- for person in site.data.members -%}
-      <div class="col-md-6 col-lg-4 p-3">
-        <div class="project">
-          <span class="mask">
-            <span class="info">
-              <h3>{{ person.name }}</h3>
-              {%- if person.title -%}<p class="mb-2">{{ person.title }}</p>{%- endif -%}
-              {%- if person.role -%}<p class="mb-2"><span class="emphasis">{{ person.role }}</span></p>{%- endif -%}
-            </span>
-            <p class="social mt-5">
-              {%- for link in person.links -%}
-                {%- if link.email -%}<a href="mailto:{{ link.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>{%- endif -%}
-                {%- if link.website -%}<a href="{{ link.website }}" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>{%- endif -%}
-                {%- if link.facebook -%}<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>{%- endif -%}
-                {%- if link.twitter -%}<a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{%- endif -%}
-              {%- endfor -%}
-              <a href="/about/ensemble/{{ person.name | downcase | replace: ' ', '-' | replace: '.', '' }}.html"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-            </p>
-          </span>
-          <span style="background-image:url('{{ site.assets }}/images/ensemble/{{ person.headshot }}');" class="pic"></span>
-        </div>
-      </div>
-      {%- endfor -%}
+<!-- Ensemble listing -->
+<div class="row m-b-100">
+  <div class="col-md-12">
+    <div class="special-heading text-center">
+      <h2 id="musicians" class="offset">Musicians</h2>
     </div>
   </div>
-</div>
-
-{%- comment -%}
   {%- for person in site.data.members -%}
-    <div class="col-md-4 col-team">
-      <img class="rounded-corners img-fluid" src="{{ site.assets }}/images/ensemble/{{ person.headshot }}"  width="240" height="240">
-      <h4>{{ person.name }}</h4>
-      {%- if person.title -%}<p class="mb-2">{{ person.title }}</p>{%- endif -%}
-      {%- if person.role -%}<p class="mb-2"><span class="emphasis">{{ person.role }}</span></p>{%- endif -%}
-      <ul class="social">
-        {%- for link in person.links -%}
-          {%- if link.email -%}<li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>{%- endif -%}
-          {%- if link.website -%}<li><a href="{{ link.website }}"><i class="fa fa-globe" aria-hidden="true"></i></a></li>{%- endif -%}
-          {%- if link.facebook -%}<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>{%- endif -%}
-          {%- if link.twitter -%}<li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{%- endif -%}
-        {%- endfor -%}
-        <li><a href="/about/ensemble/{{ person.name | downcase | replace: ' ', '-' | replace: '.', '' }}.html"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-        <div class="clear"></div>
-      </ul>
+    <div class="col-sm-6 col-md-4">
+      <div class="team-item m-b-30">
+        <div class="team-image"><img src="{{ site.assets }}/images/ensemble/{{ person.headshot }}" alt="">
+          <div class="team-content">
+            <h5>{{ person.name }}</h5>
+            {%- if person.title -%}<p>{{ person.title }}</p>{%- endif -%}
+            {%- if person.role -%}<p><span class="emphasis">{{ person.role }}</span></p>{%- endif -%}
+          </div>
+          <div class="team-content-social">
+            <ul>
+              <li><a href="/about/ensemble/{{ person.name | downcase | replace: ' ', '-' | replace: '.', '' }}.html"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+              {%- for link in person.links -%}
+                {%- if link.email -%}<li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>{%- endif -%}
+                {%- if link.website -%}<li><a href="{{ link.website }}" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>{%- endif -%}
+                {%- if link.facebook -%}<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>{%- endif -%}
+                {%- if link.twitter -%}<li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{%- endif -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   {%- endfor -%}
-{%- endcomment -%}
+</div>
+<!-- Ensemble listing end-->
