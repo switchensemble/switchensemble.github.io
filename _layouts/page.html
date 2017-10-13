@@ -20,3 +20,7 @@ layout: default
   </div>
 </section>
 <!-- Module end-->
+
+{%- if page.url contains 'support' -%}
+  {%- include donor-scroller.html -%}
+{%- endif -%}
