@@ -7,22 +7,30 @@
         <img class="brand-light" src="{{ site.assets }}/images/switch-white-icon.png" height="30" width="36" alt="[~]">
       </a></div>
     <!-- Navigation-->
+    {%- comment -%}
+    {%- for entry in site.data.navigation -%}
+      {%- capture fullurl -%}{{ site.baseurl }}{{ entry.url }}{%- endcapture -%}
+      {%- if page.url == fullurl or page.url contains fullurl -%}
+          {%- assign current_page = fullurl -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- endcomment -%}
     <div class="inner-navigation collapse">
       <div class="inner-navigation-inline">
         <div class="inner-nav">
           <ul>
             {%- for entry in site.data.navigation -%}
-
+              {%- comment -%}
               {% if entry.url == current_page %}
                 {% assign current = "active" %}
               {% else %}
                 {% assign current = nil %}
               {% endif %}
-
+              {%- endcomment -%}
               {%- if entry.sublinks -%}
 
                 <li class="menu-item-has-children">
-                  <a class="{{ current }}" href="{%- if entry.url -%}{{ entry.url }}{%- else -%}#{%- endif -%}">{{ entry.title }}</a>
+                  <a class="{%- comment -%}{{ current }}{%- endcomment -%}" href="{%- if entry.url -%}{{ entry.url }}{%- else -%}#{%- endif -%}">{{ entry.title }}</a>
                   <ul class="sub-menu">
                     {%- for sublink in entry.sublinks -%}
                       <li><a href="{{ site.url }}{{ sublink.url }}">{{ sublink.page }}</a></li>
@@ -32,7 +40,7 @@
 
               {%- else -%}
 
-                <li><a class="{{ current }}" href="{{ site.url }}{{ entry.url }}" alt="{{ entry.title }}">{{ entry.title }}</a></li>
+                <li><a class="{%- comment -%}{{ current }}{%- endcomment -%}" href="{{ site.url }}{{ entry.url }}" alt="{{ entry.title }}">{{ entry.title }}</a></li>
 
               {%- endif -%}
 
