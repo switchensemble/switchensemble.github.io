@@ -41,6 +41,6 @@ Coming soon.
 [Jekyll website]: https://jekyllrb.com/
 [Jekyll documentation]: https://jekyllrb.com/docs/home/
 [Jekyll front matter]: https://jekyllrb.com/docs/frontmatter/
-[Liquid][Liquid Github]: https://github.com/Shopify/liquid
+[Liquid Github]: https://github.com/Shopify/liquid
 [Liquid syntax]: https://shopify.github.io/liquid/
 [YAML overview]: https://learn.getgrav.org/advanced/yaml
