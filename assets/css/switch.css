@@ -34,6 +34,13 @@ body {
 }
 
 /*
+   TYPOGRAPHY
+*/
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/*
    REPERTOIRE
 */
 .filters>li {
@@ -50,8 +57,4 @@ body {
   width: 0;
 	height: 100px;
   margin-top: -100px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
 }
