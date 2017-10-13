@@ -1,0 +1,15 @@
+{%- assign donor_logos = site.static_files | where: "donor", true -%}
+
+<section class="module-sm module-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="owl-carousel clients-carousel">
+					{%- for logo in donor_logos -%}
+						<div class="client"><img src="{{ logo.path }}" alt="{{ logo.basename }}"></div>
+					{%- endfor -%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

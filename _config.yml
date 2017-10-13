@@ -30,9 +30,13 @@ plugins:
 
 defaults:
   - scope:
-      path: "assets/images/masonry"
+      path: "assets/images/auto-add-photos"
     values:
       image: true
+  - scope:
+      path: "assets/images/auto-add-donors"
+    values:
+      donor: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
