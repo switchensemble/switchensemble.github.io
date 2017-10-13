@@ -1,3 +1,6 @@
+/*
+   HEADER AND NAVIGATION
+*/
 .header {
   border-bottom: 0px solid rgba(220, 220, 220, .2);
 }
@@ -22,11 +25,17 @@
   background: #fff;
 }
 
-/*.module, .module-sm {
-  background-color: #fff;
-  padding: 50px 0;
-}*/
+/*
+   BODY
+*/
+body {
+    line-height: 1.75;
+    font-size: 16px;
+}
 
+/*
+   REPERTOIRE
+*/
 .filters>li {
   margin: 10px 15px;
 }
@@ -35,11 +44,12 @@
 }
 
 .offset:before {
-	display: block;
- 	content: " ";
-	height: 150px;      /* Give height of your fixed element */
-  margin-top: -150px; /* Give negative margin of your fixed element */
-  visibility: hidden;
+  display: block;
+  position: relative;
+ 	content: "";
+  width: 0;
+	height: 100px;
+  margin-top: -100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
