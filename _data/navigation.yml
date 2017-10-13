@@ -24,8 +24,8 @@
       url: /media/media.html
     - page: Photos
       url: /media/photos.html
-    - page: Resources
-      url: /media/resources.html
+    # - page: Resources
+    #   url: /media/resources.html
 
 - title: Support
   url: /support/
