@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: concert
+categories: performance
+date: 2018-02-25
 title: "Performance at Bard College"
 venue: Bard College
-performance-date: 2018-02-25
 categories: performance
 author: "Chris Chandler"
 ---
