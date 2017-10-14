@@ -1,6 +1,6 @@
 <div class="latest-news">
 	{% assign newsPosts = site.posts | where_exp:"item", "item.categories contains 'news'" %}
-	{%- for post in newsPosts -%}
+	{%- for post in newsPosts limit:1 -%}
 		<span><strong>{{ post.title }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span>
 	{% endfor %}
 </div>
