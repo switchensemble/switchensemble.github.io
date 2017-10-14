@@ -9,12 +9,13 @@
     - page: Repertoire
       url: /about/repertoire.html
 
+- title: Concerts
+  url: /concerts/index.html
+
 - title: Projects
   sublinks:
     - page: Call for Scores
       url: /projects/call-for-scores/index.html
-    - page: Concerts
-      url: /projects/concerts.html
     - page: Residencies
       url: /projects/residencies.html
 
