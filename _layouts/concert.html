@@ -7,13 +7,15 @@ layout: default
   	<div class="container">
   		<div class="row">
   			<div class="col-md-12">
-  				{%- if page.event -%}
-  				  <h1 class="h1 m-b-20">Performance at {{ page.event }}</h1>
-          {%- else page.institution -%}
-            <h1 class="h1 m-b-20">Performance at {{ page.institution }}</h1>
-          {%- else page.venue -%}
-            <h1 class="h1 m-b-20">Performance at {{ page.venue }}</h1>
-  				{%- endif -%}
+          <h1 class="h1 m-b-20">
+            {%- if page.event -%}
+    				  Performance at {{ page.event }}
+            {%- else page.institution -%}
+              Performance at {{ page.institution }}
+            {%- else page.venue -%}
+              Performance at {{ page.venue }}
+    				{%- endif -%}
+          </h1>
   			</div>
   		</div>
   	</div>
@@ -36,6 +38,11 @@ layout: default
   </section>
   <!-- Page Header end-->
 {%- endif -%}
+
+<div class="mapping">
+  <div class="map-canvas" id="map-event"></div>
+  <div class="map-point" address="{{ page.address }}, {{ page.city }}, {{ page.state }}" {% if page.latitude %}latitude="{{ page.latitude }}" longitude="{{ page.longitude }}"{%- endif -%}></div>
+</div>
 
 <!-- Module -->
 <section class="module module-divider-bottom">
@@ -64,7 +71,7 @@ layout: default
 		            {%- endif -%}
 		          </p>
 		      <div class="portfoli-details">
-		            {{ content }}
+		          {{ content }}
 		      </div>
 		    </div>
 		  </div>
