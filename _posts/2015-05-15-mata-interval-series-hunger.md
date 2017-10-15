@@ -3,12 +3,11 @@ layout: concert
 categories: performance
 date: 2015-05-15
 event: MATA Interval 8 Series
-location:
-  - venue: DiMenna Center, Benzaquen Hall
-    address: 450 West 37th Street
-    city: New York City
-    state: NY
-    zip: 10018
+venue: DiMenna Center, Benzaquen Hall
+address: 450 West 37th Street
+city: New York City
+state: NY
+zip: 10018
 program:
   - composer: Zach Sheets
     title: Seer

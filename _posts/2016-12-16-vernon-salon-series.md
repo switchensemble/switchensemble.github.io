@@ -3,11 +3,10 @@ layout: concert
 categories: performance
 date: 2016-12-16
 event: Vernon Salon Series
-location:
-  - address: 271 Vernon Street
-    city: Oakland
-    state: CA
-    zip: 94610
+address: 271 Vernon Street
+city: Oakland
+state: CA
+zip: 94610
 program:
   - composer: Ben Isaacs
     title: allone

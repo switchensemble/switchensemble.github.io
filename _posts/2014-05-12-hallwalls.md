@@ -2,12 +2,11 @@
 layout: concert
 categories: performance
 date: 2014-05-21
-location:
-  - venue: Hallwalls Contemporary Arts Center
-    address: 341 Delaware Ave.
-    city: Buffalo
-    state: NY
-    zip: 14202
+venue: Hallwalls Contemporary Arts Center
+address: 341 Delaware Ave.
+city: Buffalo
+state: NY
+zip: 14202
 program:
   - composer: Panayiotis Kokoras
     title: Morphallaxis
