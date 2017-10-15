@@ -7,7 +7,13 @@ layout: default
   	<div class="container">
   		<div class="row">
   			<div class="col-md-12">
-  				<h1 class="h1 m-b-20">{{ page.title }}</h1>
+  				{%- if page.event -%}
+  				  <h1 class="h1 m-b-20">Performance at {{ page.event }}</h1>
+          {%- else page.institution -%}
+            <h1 class="h1 m-b-20">Performance at {{ page.institution }}</h1>
+          {%- else page.venue -%}
+            <h1 class="h1 m-b-20">Performance at {{ page.venue }}</h1>
+  				{%- endif -%}
   			</div>
   		</div>
   	</div>
@@ -18,7 +24,13 @@ layout: default
   <section class="module-page-title">
     <div class="container">
       <div class="row-page-title">
-        <h1 class="h5 text-center">{{ page.title }}</h1>
+        {%- if page.event -%}
+          <h1 class="h5 text-center">Performance at {{ page.event }}</h1>
+        {%- else page.institution -%}
+          <h1 class="h5 text-center">Performance at {{ page.institution }}</h1>
+        {%- else page.venue -%}
+          <h1 class="h5 text-center">Performance at {{ page.venue }}</h1>
+        {%- endif -%}
       </div>
     </div>
   </section>
@@ -28,9 +40,35 @@ layout: default
 <!-- Module -->
 <section class="module module-divider-bottom">
   <div class="container">
-
-    {{ content }}
-
+		<div class="row">
+		  <div class="col-md-5">
+		    <div class="portfolio-content">
+		      <div class="image-slider owl-carousel">
+            <img class="img-fluid mb-3 mb-md-0" src="https://placeholdit.co//i/500x250?bg=282F37" alt="">
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-md-7">
+		    <div class="portfolio-sidebar pt-0">
+		      <h3 class="single-portfolio-title text-md-left">{{ page.date | date_to_long_string }}</h3>
+		          {%- if page.event -%}<h3 class="single-portfolio-title text-md-left">{{ page.event }}</h3>{%- endif -%}
+		          <p class="text-center text-md-left">
+		            {%- if page.institution -%}{{ page.institution }}<br />{%- endif -%}
+		            {%- if page.building -%}{{ page.building }}<br />{%- endif -%}
+		            {%- if page.venue -%}{{ page.venue }}<br />{%- endif -%}
+		            {%- if page.address -%}{{ page.address }}<br />{%- endif -%}
+		            {%- if page.country -%}
+		              {{ page.city }}, {{ page.country }}
+		            {%- else -%}
+		              {{ page.city }}, {{ page.state }} {{ page.zip }}
+		            {%- endif -%}
+		          </p>
+		      <div class="portfoli-details">
+		            {{ content }}
+		      </div>
+		    </div>
+		  </div>
+		</div>
   </div>
 </section>
 <!-- Module end-->
