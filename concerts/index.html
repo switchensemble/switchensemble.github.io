@@ -3,3 +3,42 @@ layout: page
 title: Concerts
 headerImage: header-vipa-ensemble.jpg
 ---
+
+{% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
+
+{%- for concert in performancePosts -%}
+  <div class="row mb-5">
+    <div class="col-12 col-md-5">
+      <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="https://placeholdit.co//i/500x250?bg=282F37" alt=""></a>
+    </div>
+    <div class="col-12 col-md-7">
+      <h3 class="text-left mb-2">{{ concert.date | date_to_long_string }}</h3>
+      {%- if concert.country -%}
+        <h3 class="text-left">{{ concert.city }}, {{ concert.country }}</h3>
+      {%- else -%}
+        <h3 class="text-left">{{ concert.city }}, {{ concert.state }}</h3>
+      {%- endif -%}
+      <p class="location-details">
+        {%- if concert.event -%}{{ concert.event }}<br />{%- endif -%}
+        {%- if concert.institution -%}{{ concert.institution }}<br />{%- endif -%}
+        {%- if concert.building -%}{{ concert.building }}<br />{%- endif -%}
+        {%- if concert.venue -%}{{ concert.venue }}<br />{%- endif -%}
+        {%- if concert.address -%}{{ concert.address }}<br />{%- endif -%}
+        {%- if concert.country -%}
+          {{ concert.city }}, {{ concert.country }}
+        {%- else -%}
+          {{ concert.city }}, {{ concert.state }} {{ concert.zip }}
+        {%- endif -%}
+      </p>
+      {%- for work in concert.program -%}
+        <p class="mb-0">
+          <span class="font-weight-bold text-uppercase">{{ work.composer }}</span>
+          <span class="font-italic">{{ work.title }}</span>
+        </p>
+      {%- endfor -%}
+      <p class="mt-3">
+        <a href="{{ concert.url }}" type="button" class="btn btn-outline-dark" name="button">Details</a>
+      </p>
+    </div>
+  </div>
+{% endfor %}
