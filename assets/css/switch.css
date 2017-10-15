@@ -75,3 +75,12 @@ h1, h2, h3, h4, h5, h6 {
 .map-canvas {
   height: 300px;
 }
+.maps-container {
+  height: 300px;
+}
+#map {
+  height: 100%;
+}
+#inputs {
+  display: none;
+}
