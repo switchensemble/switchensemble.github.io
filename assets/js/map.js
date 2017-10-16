@@ -31,7 +31,7 @@ function codeAddress() {
       document.getElementById('lat').value = marker.getPosition().lat();
       document.getElementById('lng').value = marker.getPosition().lng();
     } else {
-      alert('Geocode was not successful for the following reason: ' + status);
+      // alert('Geocode was not successful for the following reason: ' + status);
     }
   });
 }
