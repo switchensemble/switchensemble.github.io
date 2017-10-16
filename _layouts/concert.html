@@ -1,81 +1,30 @@
 ---
 layout: default
 ---
-{%- if page.headerImage -%}
-  <!-- Page Header-->
-  <section class="module-header parallax bg-dark bg-dark-60" data-background="{{ site.images }}/{{ page.headerImage }}">
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-md-12">
-          <h1 class="h1 m-b-20">
-            {%- if page.event -%}
-    				  Performance at {{ page.event }}
-            {%- else page.institution -%}
-              Performance at {{ page.location.institution }}
-            {%- else page.venue -%}
-              Performance at {{ page.location.venue }}
-    				{%- endif -%}
-          </h1>
-  			</div>
-  		</div>
-  	</div>
-  </section>
-  <!-- Page Header end-->
-{%- else -%}
-  <!-- Page Header-->
-  <section class="module-page-title">
-    <div class="container">
-      <div class="row-page-title">
+<!-- Page Header-->
+<section class="module-page-title">
+  <div class="container">
+    <div class="row-page-title">
+      <h1 class="h5 text-center">
         {%- if page.event -%}
-          <h1 class="h5 text-center">Performance at {{ page.event }}</h1>
-        {%- else page.location.institution -%}
-          <h1 class="h5 text-center">Performance at {{ page.location.institution }}</h1>
+          Performance at {{ page.event }}
+        {%- elsif page.location.institution -%}
+          Performance at {{ page.location.institution }}
         {%- else page.location.venue -%}
-          <h1 class="h5 text-center">Performance at {{ page.location.venue }}</h1>
+          Performance at {{ page.location.venue }}
         {%- endif -%}
-      </div>
+      </h1>
     </div>
-  </section>
-  <!-- Page Header end-->
-{%- endif -%}
-
-<!-- <div class="mapping">
-  <div class="map-canvas" id="map-event"></div>
-  <div class="map-point" address="{{ page.address }}, {{ page.city }}, {{ page.state }}" {% if page.latitude %}latitude="{{ page.latitude }}" longitude="{{ page.longitude }}"{%- endif -%}></div>
-</div> -->
+  </div>
+</section>
+<!-- Page Header end-->
 
 <div id="inputs">
-  <input id="address" type="textbox" value="2313 Dragonfly Lane North Chesterfield, VA 23235">
-  <input id="submit" type="button" value="Geocode">
+  <input id="address" type="textbox" value="{{ page.location.address }}, {{ page.location.city }}, {{ page.location.state }}">
 </div>
 <div class="maps-container">
-  <div id="map"></div>
+  <div id="map-canvas"></div>
 </div>
-<script>
-  function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          center: {lat: -34.397, lng: 150.644}
-        });
-        var geocoder = new google.maps.Geocoder();
-          geocodeAddress(geocoder, map);
-      }
-
-      function geocodeAddress(geocoder, resultsMap) {
-        var address = document.getElementById('address').value;
-        geocoder.geocode({'address': address}, function(results, status) {
-          if (status === 'OK') {
-            resultsMap.setCenter(results[0].geometry.location);
-            var marker = new google.maps.Marker({
-              map: resultsMap,
-              position: results[0].geometry.location
-            });
-          } else {
-            alert('Geocode was not successful for the following reason: ' + status);
-          }
-        });
-      }
-</script>
 
 <!-- Module -->
 <section class="module module-divider-bottom">
