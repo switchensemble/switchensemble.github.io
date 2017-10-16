@@ -72,6 +72,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.breakout {
+    margin-left:-100%;
+    margin-right:-100%;
+}
+
 /*
    GOOGLE MAPS API FOR CONCERTS
 */
