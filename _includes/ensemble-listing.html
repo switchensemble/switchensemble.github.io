@@ -4,7 +4,7 @@
     <h2 class="text-center"><a class="offset" id="musicians">Musicians</a></h2>
   </div>
   {%- for person in site.data.members -%}
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-4 mx-auto">
       <div class="team-item m-b-30">
         <div class="team-image"><img src="{{ site.images }}/ensemble/{{ person.headshot }}" alt="">
           <div class="team-content">
@@ -20,6 +20,24 @@
                 {%- if link.website -%}<li><a href="{{ link.website }}" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>{%- endif -%}
                 {%- if link.facebook -%}<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>{%- endif -%}
                 {%- if link.twitter -%}<li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{%- endif -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+        <div class="d-sm-none">
+          <div class="member-info">
+              <h5 class="mt-4 mb-1">{{ person.name }}</h5>
+              {%- if person.title -%}<p class="mb-1">{{ person.title }}</p>{%- endif -%}
+              {%- if person.role -%}<p class="mb-1"><span class="emphasis">{{ person.role }}</span></p>{%- endif -%}
+          </div>
+          <div class="member-links d-block w-50 mx-auto">
+            <ul class="px-5 d-flex justify-content-between">
+              <li class="d-inline-block"><a href="/about/ensemble/{{ person.name | downcase | replace: ' ', '-' | replace: '.', '' }}.html"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+              {%- for link in person.links -%}
+                {%- if link.email -%}<li class="d-inline-block"><a href="mailto:{{ link.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>{%- endif -%}
+                {%- if link.website -%}<li class="d-inline-block"><a href="{{ link.website }}" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>{%- endif -%}
+                {%- if link.facebook -%}<li class="d-inline-block"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>{%- endif -%}
+                {%- if link.twitter -%}<li class="d-inline-block"><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{%- endif -%}
               {%- endfor -%}
             </ul>
           </div>
