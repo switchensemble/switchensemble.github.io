@@ -3,11 +3,14 @@ layout: concert
 categories: performance
 date: 2014-04-13
 event: Eastman Computer Music Center Concert
-institution: Eastman School of Music
-venue: Sproull Atrium
-address: 26 Gibbs St.
-city: Rochester
-state: NY
+location:
+  institution: Eastman School of Music
+  building: Miller Center
+  venue: Sproull Atrium
+  address: 26 Gibbs St.
+  city: Rochester
+  state: NY
+  zip: 14604
 program:
   - composer: Bryan Jacobs
     title: TSTS

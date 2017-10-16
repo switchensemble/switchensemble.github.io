@@ -3,11 +3,14 @@ layout: concert
 categories: performance
 date: 2012-11-12
 event: Eastman Computer Music Center Concert
-institution: Eastman School of Music
-address: 26 Gibbs St.
-venue: Hatch Hall
-city: Rochester
-state: NY
+location:
+  institution: Eastman School of Music
+  building: Eastman East Wing
+  address: 433 East Main St
+  venue: Hatch Recital Hall
+  city: Rochester
+  state: NY
+  zip: 14604
 program:
   - composer: Fausto Romitelli
     title: Amok Koma

@@ -2,11 +2,12 @@
 layout: concert
 categories: performance
 date: 2016-12-14
-venue: Center for New Music
-address: 55 Taylor St
-city: San Francisco
-state: CA
-zip: 94102
+location:
+  venue: Center for New Music
+  address: 55 Taylor St
+  city: San Francisco
+  state: CA
+  zip: 94102
 program:
   - composer: Anthony Pateras
     title: Broken Then Fixed Then Broken

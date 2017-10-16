@@ -3,11 +3,13 @@ layout: concert
 categories: performance
 date: 2014-10-27
 event: Eastman Computer Music Center Concert
-institution: Eastman School of Music
-venue: Hatch Recital Hall
-address: 26 Gibbs St.
-city: Rochester
-state: NY
+location:
+  institution: Eastman School of Music
+  building: Eastman East Wing
+  venue: Hatch Recital Hall
+  address: 433 East Main St
+  city: Rochester
+  state: NY
 program:
   - composer: Rand Steiger
     title: A Menacing Plume

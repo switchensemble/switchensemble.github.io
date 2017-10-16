@@ -1,21 +1,22 @@
 ---
 layout: concert
 categories: performance
-date: 2016-09-25
-event: Vanguard New Music Guest Artist Series
+date: 2017-04-26
 location:
-  institution: Kent State University
-  building: Center for the Performing Arts
-  venue: Ludwig Recital Hall
-  address: 1325 Theatre Dr
-  city: Kent
-  state: OH
-  zip: 44243
+  institution: University of Richmond
+  building: North Court
+  venue: Perkinson Recital Hall
+  address: 28 Westhampton Way
+  city: Richmond
+  state: VA
+  zip: 23173
 program:
   - composer: Alex Mincek
     title: Pendulum III
   - composer: Jonathan Harvey
     title: Tombeau de Messiaen
+  - composer: Christopher Chandler
+    title: "in shadow, in shade"
   - composer: Jason Thorpe Buchanan
     title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
   - composer: Eric Wubbels

@@ -11,9 +11,9 @@ layout: default
             {%- if page.event -%}
     				  Performance at {{ page.event }}
             {%- else page.institution -%}
-              Performance at {{ page.institution }}
+              Performance at {{ page.location.institution }}
             {%- else page.venue -%}
-              Performance at {{ page.venue }}
+              Performance at {{ page.location.venue }}
     				{%- endif -%}
           </h1>
   			</div>
@@ -28,10 +28,10 @@ layout: default
       <div class="row-page-title">
         {%- if page.event -%}
           <h1 class="h5 text-center">Performance at {{ page.event }}</h1>
-        {%- else page.institution -%}
-          <h1 class="h5 text-center">Performance at {{ page.institution }}</h1>
-        {%- else page.venue -%}
-          <h1 class="h5 text-center">Performance at {{ page.venue }}</h1>
+        {%- else page.location.institution -%}
+          <h1 class="h5 text-center">Performance at {{ page.location.institution }}</h1>
+        {%- else page.location.venue -%}
+          <h1 class="h5 text-center">Performance at {{ page.location.venue }}</h1>
         {%- endif -%}
       </div>
     </div>
@@ -93,14 +93,14 @@ layout: default
 		      <h3 class="single-portfolio-title text-md-left">{{ page.date | date_to_long_string }}</h3>
 		          {%- if page.event -%}<h3 class="single-portfolio-title text-md-left">{{ page.event }}</h3>{%- endif -%}
 		          <p class="text-center text-md-left">
-		            {%- if page.institution -%}{{ page.institution }}<br />{%- endif -%}
-		            {%- if page.building -%}{{ page.building }}<br />{%- endif -%}
-		            {%- if page.venue -%}{{ page.venue }}<br />{%- endif -%}
-		            {%- if page.address -%}{{ page.address }}<br />{%- endif -%}
-		            {%- if page.country -%}
-		              {{ page.city }}, {{ page.country }}
+		            {%- if page.location.institution -%}{{ page.location.institution }}<br />{%- endif -%}
+		            {%- if page.location.building -%}{{ page.location.building }}<br />{%- endif -%}
+		            {%- if page.location.venue -%}{{ page.location.venue }}<br />{%- endif -%}
+		            {%- if page.location.address -%}{{ page.location.address }}<br />{%- endif -%}
+		            {%- if page.location.country -%}
+		              {{ page.location.city }}, {{ page.location.country }}
 		            {%- else -%}
-		              {{ page.city }}, {{ page.state }} {{ page.zip }}
+		              {{ page.location.city }}, {{ page.location.state }} {{ page.location.zip }}
 		            {%- endif -%}
 		          </p>
 		      <div class="portfoli-details">

@@ -14,20 +14,20 @@ headerImage: header-vipa-ensemble.jpg
     <div class="col-12 col-md-7">
       <h3 class="text-left mb-2">{{ concert.date | date_to_long_string }}</h3>
       {%- if concert.country -%}
-        <h3 class="text-left">{{ concert.city }}, {{ concert.country }}</h3>
+        <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.country }}</h3>
       {%- else -%}
-        <h3 class="text-left">{{ concert.city }}, {{ concert.state }}</h3>
+        <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.state }}</h3>
       {%- endif -%}
       <p class="location-details">
         {%- if concert.event -%}{{ concert.event }}<br />{%- endif -%}
-        {%- if concert.institution -%}{{ concert.institution }}<br />{%- endif -%}
-        {%- if concert.building -%}{{ concert.building }}<br />{%- endif -%}
-        {%- if concert.venue -%}{{ concert.venue }}<br />{%- endif -%}
-        {%- if concert.address -%}{{ concert.address }}<br />{%- endif -%}
-        {%- if concert.country -%}
-          {{ concert.city }}, {{ concert.country }}
+        {%- if concert.location.institution -%}{{ concert.location.institution }}<br />{%- endif -%}
+        {%- if concert.location.building -%}{{ concert.location.building }}<br />{%- endif -%}
+        {%- if concert.location.venue -%}{{ concert.location.venue }}<br />{%- endif -%}
+        {%- if concert.location.address -%}{{ concert.location.address }}<br />{%- endif -%}
+        {%- if concert.location.country -%}
+          {{ concert.location.city }}, {{ concert.location.country }}
         {%- else -%}
-          {{ concert.city }}, {{ concert.state }} {{ concert.zip }}
+          {{ concert.location.city }}, {{ concert.location.state }} {{ concert.location.zip }}
         {%- endif -%}
       </p>
       {%- for work in concert.program -%}
