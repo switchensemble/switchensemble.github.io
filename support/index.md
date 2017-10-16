@@ -23,11 +23,11 @@ Switch~ Ensemble
 
 Jason Thorpe Buchanan, composer (Artistic Director)  
 Christopher Chandler, composer (Executive Director)  
-Clay Mettens, composer (Director of Develop  
+Clay Mettens, composer (Director of Development)  
 Zach Sheets, flute  
 Madison Greenstone, clarinet  
 Matt Evans, saxophone  
-Lauren Cauley, violin (PR Manager)  
+Lauren Cauley, violin  
 T.J. Borden, cello  
 Wei-Han Wu, piano  
 Megan Arns, percussion  
