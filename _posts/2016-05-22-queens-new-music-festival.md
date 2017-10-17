@@ -24,4 +24,5 @@ program:
     title: Things Fall Apart
   - composer: Alexander Schubert
     title: Star Me Kitten
+photosFolder: testing
 ---
