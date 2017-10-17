@@ -1,0 +1,8 @@
+{% if include.folderName %}
+  {% for image in site.static_files %}
+    {% if image.path contains include.folderName | prepend: '/assets/images/auto-add/' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+  {% endfor %}
+{% else %}
+{% endif %}
