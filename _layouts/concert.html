@@ -53,6 +53,13 @@ layout: default
 		            {%- endif -%}
 		          </p>
 		      <div class="portfoli-details">
+            {%- for work in page.program -%}
+              <p class="mb-0">
+                <span class="font-weight-bold text-uppercase">{{ work.composer }}</span>
+                <span class="font-italic">{{ work.title }}</span>
+              </p>
+            {%- endfor -%}
+
 		          {{ content }}
 		      </div>
 		    </div>
