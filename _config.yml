@@ -29,6 +29,7 @@ images: "/assets/images"
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-paginate
 
 defaults:
   - scope:
