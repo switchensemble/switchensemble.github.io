@@ -31,10 +31,10 @@ headerImage: header-vipa-ensemble.jpg
         {%- endif -%}
       </p>
       {%- for work in concert.program -%}
-        <p class="mb-0">
-          <span class="font-weight-bold text-uppercase">{{ work.composer }}</span>
-          <span class="font-italic">{{ work.title }}</span>
-        </p>
+        <div class="row">
+          <div class="col-5 font-weight-bold text-uppercase">{{ work.composer }}</div>
+          <div class="col-7 font-italic">{{ work.title }}</div>
+        </div>
       {%- endfor -%}
       <p class="mt-3">
         <a class="btn btn-outline-dark" href="{{ concert.url }}" role="button">Details</a>
