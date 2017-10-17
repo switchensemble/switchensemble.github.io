@@ -1,0 +1,15 @@
+{%- assign imageFiles = site.static_files | where: "image", true -%}
+
+<div class="gallery gallery-columns-3">
+	{%- for image in imageFiles -%}
+		{%- if image.path contains include.folderName -%}
+			<figure class="gallery-item">
+				<div class="gallery-icon">
+					<a href="{{ image.path }}" title="{{ image.basename }}" rel="gallery">
+						<img src="{{ image.path }}" alt="Image">
+					</a>
+				</div>
+			</figure>
+		{%- endif -%}
+	{%- endfor -%}
+</div>
