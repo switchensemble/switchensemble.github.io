@@ -31,11 +31,11 @@ plugins:
 
 defaults:
   - scope:
-      path: "assets/images/auto-add-photos"
+      path: "assets/images/auto-add"
     values:
       image: true
   - scope:
-      path: "assets/images/auto-add-donors"
+      path: "assets/images/auto-add/donors"
     values:
       donor: true
 
