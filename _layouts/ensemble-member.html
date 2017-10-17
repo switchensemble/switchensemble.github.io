@@ -3,24 +3,20 @@ layout: page
 ---
 {%- for person in site.data.members -%}
   {%- if person.name == page.about -%}
-    <section class="content-4">
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-md-6 pl-5 pr-5 text-center" >
-            <img class="mb-4 img-fluid" src="{{ site.images }}/ensemble/{{ person.headshot }}"  alt="{{ person.name | append: Headshot}}">
-          </div>
-          <div class="col-md-6" >
-            <h2 class="text-center text-md-left">{{ person.name }}</h2>
-            {%- if person.title -%}<p class="lead text-center text-md-left mt-3">{{ person.title }}</p>{%- endif -%}
-            {%- if person.role -%}<p class="lead text-center text-md-left mt-3 mb-5">{{ person.role }}</p>{%- endif -%}
-            <div class="row">
-              <div class="col-12 col-feature mb-4">
-                {{ content }}
-              </div>
-            </div>
+    <div class="row">
+      <div class="col-md-6 pl-5 pr-5 text-center" >
+        <img class="mb-4 img-fluid" src="{{ site.images }}/ensemble/{{ person.headshot }}"  alt="{{ person.name | append: Headshot}}">
+      </div>
+      <div class="col-md-6" >
+        <h2 class="text-center text-md-left mb-3">{{ person.name }}</h2>
+        {%- if person.title -%}<p class="lead text-center text-md-left mb-0">{{ person.title }}</p>{%- endif -%}
+        {%- if person.role -%}<p class="lead text-center text-md-left mb-3">{{ person.role }}</p>{%- endif -%}
+        <div class="row">
+          <div class="col-12 col-feature mb-4">
+            {{ content }}
           </div>
         </div>
       </div>
-    </section>
+    </div>
   {%- endif -%}
 {%- endfor -%}
