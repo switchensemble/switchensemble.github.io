@@ -1,9 +1,11 @@
+{%- assign imageFiles = site.static_files | where: "image", true -%}
+
 <!-- Portfolio-->
 <section class="module p-0">
 	<div class="container-fluid">
 		<div class="row row-portfolio" data-columns="3">
 			<div class="grid-sizer"></div>
-			{%- for image in image_files -%}
+			{%- for image in imageFiles -%}
 				{%- if image.path contains include.folderName -%}
 					<div class="portfolio-item p-1">
 						<div class="portfolio-wrapper">
