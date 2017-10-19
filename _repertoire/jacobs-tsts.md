@@ -21,5 +21,5 @@ tags:
 media:
   - title: TsTs (2010) by Bryan Jacobs
     type: video
-    url: https://www.youtube.com/watch?v=TZPGeIO4478
+    url: https://www.youtube.com/embed/TZPGeIO4478
 ---

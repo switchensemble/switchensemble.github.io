@@ -2,6 +2,7 @@
 composer:
   first: Christopher
   last: Chandler
+  website: http://christopherchandlermusic.com
 title: Smoke and Mirrors
 movements:
 duration: "7:20"
@@ -25,8 +26,10 @@ tags:
 media:
   - title: Smoke and Mirrors by Christopher Chandler
     type: video
-    url: https://www.youtube.com/watch?v=cKzJI5zQh40
+    url: https://www.youtube.com/embed/cKzJI5zQh40
   - title: "Smoke and Mirrors by Christopher Chandler - Live at NYCEMF"
     type: audio
     url: https://soundcloud.com/theswitchensemble/smoke-and-mirrors-by-christopher-chandler
+    ID: 156386338
+
 ---

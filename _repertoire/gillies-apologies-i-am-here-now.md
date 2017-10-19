@@ -23,7 +23,8 @@ media:
   - title: "Apologies, I am Here Now (2016) by Samuel Gillies - VIPA Festival World Premiere"
     type: audio
     url: https://soundcloud.com/theswitchensemble/apologies-i-am-here-now-2016-by-samuel-gillies
+    ID: 305160988
   - title: "Apologies, I am Here Now (2016) by Samuel Gillies - VIPA Festival"
     type: video
-    url: https://www.youtube.com/watch?v=Q0NmxQvgtws
+    url: https://www.youtube.com/embed/Q0NmxQvgtws
 ---

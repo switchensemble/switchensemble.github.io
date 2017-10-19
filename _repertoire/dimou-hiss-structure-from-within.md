@@ -18,7 +18,4 @@ tags:
   - electronics
   - clicktrack
 media:
-  - title:
-    type:
-    url:
 ---
