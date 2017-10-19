@@ -83,6 +83,10 @@ h2.single-portfolio-title {
     margin-right:-100%;
 }
 
+.portfolio-item {
+  min-height: 325px;
+}
+
 /*
    GOOGLE MAPS API FOR CONCERTS
 */
