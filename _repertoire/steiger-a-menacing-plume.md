@@ -19,7 +19,6 @@ instrumentation:
   - cello
   - electronics
 tags:
-  - ecological collapse
 media:
   - title:
     type:
