@@ -29,10 +29,8 @@ tags:
   - vocal
 media:
   - title: Voi(REX) by Philippe Leroux (Mvts. 1-2)
-    type: video
     url: https://www.youtube.com/embed/H0YE5RGodfk
   - title: Voi(REX) by Philippe Leroux (Mvts. 1-2)
-    type: audio
     url: https://soundcloud.com/theswitchensemble/voirex-by-philippe-leroux-mvts-1-2
     ID: 176118045
 ---

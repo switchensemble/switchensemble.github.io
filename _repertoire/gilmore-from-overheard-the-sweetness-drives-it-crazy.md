@@ -18,7 +18,6 @@ tags:
   - ensemble
 media:
   - title: From overhead the sweetness drives it crazy. (2016) by Tyler Gilmore - VIPA Festival World Premiere
-    type: audio
     url: https://soundcloud.com/theswitchensemble/from-overhead-the-sweetness-drives-it-crazy-2016-by-tyler-gilmore-the-switch-ensemble
     ID: 283730787
 ---

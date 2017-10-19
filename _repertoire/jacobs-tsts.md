@@ -20,6 +20,5 @@ instrumentation:
 tags:
 media:
   - title: TsTs (2010) by Bryan Jacobs
-    type: video
     url: https://www.youtube.com/embed/TZPGeIO4478
 ---

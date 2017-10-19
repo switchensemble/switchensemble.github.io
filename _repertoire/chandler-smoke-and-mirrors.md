@@ -24,11 +24,9 @@ tags:
   - percussion
   - conducted
 media:
-  - title: Smoke and Mirrors by Christopher Chandler
-    type: video
+  - title: Smoke and Mirrors by Christopher Chandler    
     url: https://www.youtube.com/embed/cKzJI5zQh40
   - title: "Smoke and Mirrors by Christopher Chandler - Live at NYCEMF"
-    type: audio
     url: https://soundcloud.com/theswitchensemble/smoke-and-mirrors-by-christopher-chandler
     ID: 156386338
 

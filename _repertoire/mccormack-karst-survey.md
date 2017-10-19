@@ -23,7 +23,6 @@ tags:
   - ensemble
 media:
   - title: karst survey (2016)
-    type: audio
     url: https://soundcloud.com/timothy-mccormack/karst-survey-2016-the-switch-ensemble
     ID: 286316126
 ---
