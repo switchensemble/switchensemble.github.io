@@ -7,17 +7,17 @@
     - page: Musicians
       url: /about/index.html#musicians
     - page: Repertoire
-      url: /about/repertoire.html
+      url: /about/repertoire/
 
 - title: Concerts
-  url: /concerts/index.html
+  url: /concerts/
 
 - title: Projects
   sublinks:
     - page: Call for Scores
-      url: /projects/call-for-scores/index.html
+      url: /projects/call-for-scores/
     - page: Events
-      url: /projects/events/index.html
+      url: /projects/events/
 
 - title: Media
   sublinks:
