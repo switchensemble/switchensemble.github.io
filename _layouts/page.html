@@ -27,7 +27,11 @@ layout: default
 
 <!-- Module -->
 <section class="module module-divider-bottom">
-  <div class="container">
+  {%- if page.container == 'fluid' -%}
+    <div class="container-fluid">
+  {%- else -%}
+    <div class="container">
+  {%- endif -%}
 
     {{ content }}
 
