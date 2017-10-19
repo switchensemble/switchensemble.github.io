@@ -45,6 +45,10 @@ h2.single-portfolio-title {
 .portfoli-details li>h5 {
     text-align: left;
 }
+footer aside .fa {
+  font-size: 20px;
+  padding: 0rem 0.5rem;
+}
 
 /*
    REPERTOIRE
