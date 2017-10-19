@@ -40,6 +40,19 @@ defaults:
       path: "assets/images/auto-add/donors"
     values:
       donor: true
+  - scope:
+      path: ""
+      type: repertoire
+    values:
+      layout: page
+
+collections:
+  - repertoire
+
+collections:
+  repertoire:
+    output: true
+    permalink: /:collection/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
