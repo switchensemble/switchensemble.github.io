@@ -6,9 +6,9 @@
 				<li>
 					<span class="post-date">{{ post.date | date_to_long_string }}</span>
 						{%- if post.country -%}
-							<a href="{{ post.url }}">{{ post.location.city }}, {{ post.location.country }}<br>{{ post.location.venue }}</a>
+							<a href="{{ post.url }}">{%- if post.event -%}{{ post.event }}<br />{%- endif -%}{%- if post.location.venue -%}{{ post.location.venue }}<br />{%- endif -%}{{ post.location.city }}, {{ post.location.country }}</a>
 						{%- else -%}
-							<a href="{{ post.url }}">{{ post.location.city }}, {{ post.location.state }}<br>{{ post.location.venue }}</a>
+							<a href="{{ post.url }}">{%- if post.event -%}{{ post.event }}<br />{%- endif -%}{%- if post.location.venue -%}{{ post.location.venue }}<br />{%- endif -%}{{ post.location.city }}, {{ post.location.state }}</a>
 						{%- endif -%}
 				</li>
 		{% endfor %}
