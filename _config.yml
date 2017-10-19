@@ -44,7 +44,7 @@ defaults:
       path: ""
       type: repertoire
     values:
-      layout: page
+      layout: repertoire
 
 collections:
   - repertoire
