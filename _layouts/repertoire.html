@@ -15,11 +15,13 @@ layout: page
 			{%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
 				<div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen></iframe></div>
 			{%- elsif item.url contains 'soundcloud' -%}
-				{% include soundcloud_player.html trackID=item.ID %}
+				<div class="col-12 mb-3">{% include soundcloud_player.html trackID=item.ID %}</div>
 			{%- else -%}
+			{% comment %}
 				<div class="col-12 mb-3">
 					<audio src="{{ item.url }}" preload="auto" />
 				</div>
+			{% endcomment %}
 			{%- endif -%}
 		{%- endfor -%}
 	</div>
