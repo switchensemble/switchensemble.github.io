@@ -8,7 +8,7 @@ title: Repertoire
 <!-- capture the process of appending tags in a list -->
 <!-- append current tag to tagString, strip all whitespace, but retain space between words -->
 {% capture listOfTags %}
-  {%- for work in site.data.repertoire -%}
+  {%- for work in site.repertoire -%}
     {%- if work.tags -%}
       {%- for tag in work.tags -%}
         {{ tagString | append: tag | append: ' ' }}
@@ -20,7 +20,7 @@ title: Repertoire
 <!-- split the list of tags, remove duplicates, and sort by alpha -->
 {%- assign tagArray = listOfTags | split: ' ' | uniq | sort -%}
 <!-- sort repertoire by alpha -->
-{%- assign sortedRep = site.data.repertoire | sort: 'title' -%}
+{%- assign sortedRep = site.repertoire | sort: 'composer.last' -%}
 
 <!-- Portfolio-->
 	<section class="module p-0">
@@ -37,7 +37,7 @@ title: Repertoire
 			</div>
 			<div class="row row-portfolio" date-portfolio-type="standard" data-columns="3">
 				<div class="grid-sizer"></div>
-        {%- for work in site.data.repertoire -%}
+        {%- for work in sortedRep -%}
   				<div class="portfolio-item px-1 {% for item in work.tags %}{{ item }} {% endfor %}">
   					<div class="portfolio-wrapper">
   						<img src="https://placeholdit.co//i/500x250?bg=282F37" alt="">
@@ -45,8 +45,10 @@ title: Repertoire
   					</div>
   					<div class="portfolio-caption">
   						<h5 class="portfolio-title">{{ work.title }} {% if work.yearComposed == nil %}{% else %}({{ work.yearComposed }}){% endif %}</h5>
-  						<div class="portfolio-subtitle font-serif">{{ work.composer }}</div>
+  						<div class="portfolio-subtitle font-serif">{{ work.composer.first }} {{ work.composer.last }}</div>
               <div class="portfolio-subtitle font-serif">
+                {{ work.size }} {% for tag in work.tags %}{% if tag == 'electronics' %}and electronics{% endif %}{% endfor %}
+                {% comment %}
                 {%- for instrument in work.instrumentation -%}
                   {%- if forloop.last == true -%}
                     and {{ instrument -}}
@@ -54,9 +56,10 @@ title: Repertoire
                     {{ instrument | append: ', ' }}
                   {%- endif -%}
                 {%- endfor -%}
+                {% endcomment %}
               </div>
   					</div>
-            <a class="portfolio-link" href="#"></a>
+            <a class="portfolio-link" href="{{ work.url }}"></a>
           </div>
         {%- endfor -%}
 			</div>
