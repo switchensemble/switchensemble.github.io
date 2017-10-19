@@ -1,6 +1,14 @@
 <div class="latest-news">
 	{% assign newsPosts = site.posts | where_exp:"item", "item.categories contains 'news'" %}
-	{%- for post in newsPosts limit:1 -%}
-		<span><strong>{{ post.title }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span>
-	{% endfor %}
+	<ul>
+		{%- for post in newsPosts limit:3 -%}
+		{% comment %} <span><strong>{{ post.title }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span> {% endcomment %}
+			<li>
+				<span class="post-date">{{ post.date | date_to_long_string }}</span>
+				<a href="{{ post.url }}">
+					<strong>{{ post.title }}</strong>. {{ post.content | truncatewords: 20 }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
 </div>

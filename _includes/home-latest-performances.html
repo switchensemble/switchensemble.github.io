@@ -1,6 +1,16 @@
 <div class="latest-performance">
 	{% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
-	{%- for post in performancePosts limit:1 -%}
-		<span><strong>{{ post.date | date_to_long_string }}, {{ post.venue }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span>
-	{% endfor %}
+	<ul>
+		{%- for post in performancePosts limit:3 -%}
+			{% comment %}<span><strong>{{ post.date | date_to_long_string }}, {{ post.location.venue }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span>{% endcomment %}
+				<li>
+					<span class="post-date">{{ post.date | date_to_long_string }}</span>
+						{%- if post.country -%}
+							<a href="{{ post.url }}">{{ post.location.city }}, {{ post.location.country }}<br>{{ post.location.venue }}</a>
+						{%- else -%}
+							<a href="{{ post.url }}">{{ post.location.city }}, {{ post.location.state }}<br>{{ post.location.venue }}</a>
+						{%- endif -%}
+				</li>
+		{% endfor %}
+	</ul>
 </div>

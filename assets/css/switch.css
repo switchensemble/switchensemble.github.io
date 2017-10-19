@@ -103,3 +103,10 @@ footer aside .fa {
 #inputs {
   display: none;
 }
+
+/*
+  FOOTER
+*/
+.widget ol li, .widget ul li {
+    border-bottom: 0px solid rgba(238, 238, 238, .9);
+}
