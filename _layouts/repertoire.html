@@ -1,3 +1,92 @@
 ---
 layout: page
 ---
+
+{% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
+{% comment %}{% assign currentPiecePerfs = site.repertoire | where_exp:"item", "item.title contains 'page.title'" %}{% endcomment %}
+
+<!-- Composition-->
+<div class="row">
+	{%- if page.media -%}
+	<!-- Media-->
+	<div class="col-12 mb-5">
+		<h2 class="text-left">Media</h2>
+		{%- for item in page.media -%}
+			{%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
+				<div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen></iframe></div>
+			{%- elsif item.url contains 'soundcloud' -%}
+				{% include soundcloud_player.html trackID=item.ID %}
+			{%- else -%}
+				<div class="col-12 mb-3">
+					<audio src="{{ item.url }}" preload="auto" />
+				</div>
+			{%- endif -%}
+		{%- endfor -%}
+	</div>
+	<!-- Media end-->
+	{%- endif -%}
+	<div class="col-lg-8 order-2 order-md-1">
+    <h2 class="single-portfolio-title">Performances of {{ page.title }}</h2>
+    <div class="concert-program mb-3">
+      {%- for performance in performancePosts -%}
+        {%- for piece in performance.program -%}
+          {%- if piece.title == page.title -%}
+					<div class="performacne">
+						<p class="location-details">
+							{{ performance.date | date_to_long_string }} <br />
+			        {%- if performance.event -%}{{ performance.event }}<br />{%- endif -%}
+			        {%- if performance.location.institution -%}{{ performance.location.institution }}{%- endif -%}{%- if performance.location.building -%}, {{ performance.location.building }}<br />{%- endif -%}
+			        {%- if performance.location.venue -%}{{ performance.location.venue }}<br />{%- endif -%}
+			        {%- if performance.location.address -%}{{ performance.location.address }}<br />{%- endif -%}
+			        {%- if performance.location.country -%}
+			          {{ performance.location.city }}, {{ performance.location.country }}
+			        {%- else -%}
+			          {{ performance.location.city }}, {{ performance.location.state }} {{ performance.location.zip }}
+			        {%- endif -%}
+			      </p>
+					</div>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </div>
+  </div>
+	<div class="col-lg-4 order-1 order-md-2 pb-4">
+		<div class="portfoli-details border-left">
+			<h2 class="text-left">About the work:</h2>
+			<ul>
+				<li>
+					<h5>Year Composed:</h5>
+          {{ page.yearComposed }}
+				</li>
+        {%- if page.instrumentation -%}
+          <li>
+            <h5>Instrumentation:</h5>
+						{%- for instrument in page.instrumentation -%}
+	            {%- if forloop.last == true -%}
+	              and {{ instrument -}}
+	            {% else %}
+	              {{ instrument | append: ', ' }}
+	            {%- endif -%}
+	          {%- endfor -%}
+          </li>
+        {%- endif -%}
+        {%- if page.composer.website -%}
+          <li>
+            <h5>Composer's Website:</h5>
+            <a href="{{ page.composer.website }}">{{ page.composer.website }}</a>
+          </li>
+        {%- endif -%}
+				<li>
+				<li>
+					<h5>Share:</h5>
+					<ul class="social-icons">
+						<li><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
+						<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- Composition end-->
