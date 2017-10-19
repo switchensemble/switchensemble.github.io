@@ -13,7 +13,7 @@ location:
   zip: 14604
 program:
   - composer: Bryan Jacobs
-    title: TSTS
+    title: TsTs
   - composer: Panayiotis Kokoras
     title: Morphallaxis
   - composer: Clay Mettens
