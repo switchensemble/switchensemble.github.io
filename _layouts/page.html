@@ -26,7 +26,11 @@ layout: default
 {%- endif -%}
 
 <!-- Module -->
+{%- if page.moduleSize == 'small' -%}
+<section class="module-sm module-divider-bottom">
+{%- else -%}
 <section class="module module-divider-bottom">
+{%- endif -%}
   {%- if page.container == 'fluid' -%}
     <div class="container-fluid">
   {%- else -%}
