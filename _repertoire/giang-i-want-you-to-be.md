@@ -1,0 +1,20 @@
+---
+composer:
+  first: Baldwin
+  last: Giang
+title: I want you to be
+duration:
+yearComposed: 2016
+commissionedOrWrittenFor:
+size: solo
+instrumentation:
+  - violoncello
+  - electronics
+commissionedOrWrittenFor: written
+tags:
+  -
+  -
+media:
+  - title:
+    url:
+---
