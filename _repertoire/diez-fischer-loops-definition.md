@@ -16,4 +16,5 @@ tags:
 media:
   - title:
     url:
+headerImage: repertoire-images/diez-fischer_loopsdefinition_1000x500px.jpg
 ---

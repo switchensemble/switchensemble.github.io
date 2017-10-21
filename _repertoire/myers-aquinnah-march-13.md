@@ -21,4 +21,5 @@ media:
   - title:
     type:
     url:
+headerImage: repertoire-images/myers_aquinnah_1000x500px.jpg
 ---

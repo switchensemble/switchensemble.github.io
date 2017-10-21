@@ -19,4 +19,5 @@ media:
   - title:
     type:
     url:
+headerImage: repertoire-images/prins_fleshprosthesis_1000x500px.jpg
 ---

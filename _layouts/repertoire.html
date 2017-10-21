@@ -10,11 +10,19 @@ layout: page
 	{%- if page.media -%}
 	<!-- Media-->
 	<div class="col-12 mb-5">
-		<h2 class="text-left">Media</h2>
+		{% assign printHeader = true %}
 		{%- for item in page.media -%}
 			{%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
+				{%- if printHeader == true -%}
+					<h2 class="text-left">Media</h2>
+					{% assign printHeader = nil %}
+				{%- endif -%}
 				<div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen></iframe></div>
 			{%- elsif item.url contains 'soundcloud' -%}
+				{%- if printHeader == true -%}
+					<h2 class="text-left">Media</h2>
+					{% assign printHeader = nil %}
+				{%- endif -%}
 				<div class="col-12 mb-3">{% include soundcloud_player.html trackID=item.ID %}</div>
 			{%- else -%}
 			{% comment %}

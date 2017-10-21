@@ -33,4 +33,5 @@ media:
   - title: Voi(REX) by Philippe Leroux (Mvts. 1-2)
     url: https://soundcloud.com/theswitchensemble/voirex-by-philippe-leroux-mvts-1-2
     ID: 176118045
+headerImage: repertoire-images/leroux_voirex_1000x500px.jpg
 ---

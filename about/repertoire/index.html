@@ -50,7 +50,11 @@ title: Repertoire
   {%- for work in sortedRep -%}
 		<div class="portfolio-item px-1 {% for item in work.tags %}{{-item }} {% endfor %}{{ work.size -}}">
 			<div class="portfolio-wrapper">
-				<img src="https://placeholdit.co//i/500x250?bg=282F37" alt="">
+        {%- if work.headerImage -%}
+          <img src="{{ site.images }}/{{ work.headerImage }}" alt="">
+        {% else %}
+          <img src="{{ site.images }}/repertoire-images/switch_misc_1000x500px.jpg" alt="">
+        {%- endif -%}
 				<div class="portfolio-overlay"></div>
 			</div>
 			<div class="portfolio-caption">

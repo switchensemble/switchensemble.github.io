@@ -24,4 +24,5 @@ media:
     url: https://soundcloud.com/theswitchensemble/amok-koma-by-fausto-romitelli-nov-12-2012
     ID: 158258802
     notes: live
+headerImage: repertoire-images/romitelli_amok_1000x500px.jpg
 ---

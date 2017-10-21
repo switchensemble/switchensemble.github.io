@@ -23,4 +23,5 @@ media:
   - title:
     type:
     url:
+headerImage: repertoire-images/bean_givenname_1000x500.jpg
 ---
