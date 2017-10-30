@@ -2,7 +2,7 @@
 composer:
   first: Henk
   last: Badings
-title: Capriccio for violin and two sound tracks
+title: Capriccio for violin
 duration: solo
 yearComposed: 1959
 commissionedOrWrittenFor:
