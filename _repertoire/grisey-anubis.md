@@ -2,7 +2,8 @@
 composer:
   first: Gérard
   last: Grisey
-title: Anubis from Deux Pieces pour Clarinete Conrebasse en Si Bémol
+title: Anubis
+subtitle: from Deux Pieces pour Clarinete Conrebasse en Si Bémol
 duration:
 yearComposed: 1983
 size: solo
