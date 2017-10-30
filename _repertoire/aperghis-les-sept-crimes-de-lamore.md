@@ -7,7 +7,7 @@ title: "Les Sept Crimes de l'Amour "
 duration:
 yearComposed: 1979
 commissionedOrWrittenFor:
-size:
+size: trio
 instrumentation:
   - soprano
   - clarinet
