@@ -1,0 +1,32 @@
+{%- assign imageFiles = site.static_files | where: "image", true -%}
+
+
+
+<!-- Portfolio-->
+
+
+### Under construction
+
+Legacy site:
+<iframe src="http://switchensemble.weebly.com/media.html">
+
+
+<!-- JTB temp comment out
+<div class="container-fluid">
+	<div class="row row-portfolio" data-columns="3">
+		<div class="grid-sizer"></div>
+		{%- for image in imageFiles -%}
+			{%- if image.path contains include.folderName -%}
+				<div class="portfolio-item p-1">
+					<div class="portfolio-wrapper">
+						<img src="{{ image.path }}" alt="{{ image.basename }}"> -->
+						<!-- <div class="portfolio-overlay"></div> -->
+						<!-- <div class="portfolio-caption"><h5 class="portfolio-title">Title Goes Here</h5></div> -->
+	<!-- 					<a class="portfolio-link" href="{{ image.path }}"></a>
+					</div>
+				</div>
+			{%- endif -%}
+		{%- endfor -%}
+	</div>
+</div> -->
+<!-- Portfolio end-->
