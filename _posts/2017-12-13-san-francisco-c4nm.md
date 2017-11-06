@@ -1,24 +1,28 @@
 ---
 layout: concert
 categories: performance
-date: 2017-05-12
+date: 2017-12-13
+event: SF C4NM Concert
 location:
   institution:
   building:
-  venue: Mana Contemporary Chicago
-  address: 2233 S Throop St
-  city: Chicago
-  state: IL
-  zip: 60608
+  venue: San Francisco Center for New Music
+  address: 55 Taylor St.
+  city: San Francisco
+  state: CA
+  zip: 94102
 program:
-  - composer: Alican Camci
-    title: landscape, with inscription
-  - composer: Max Murray
-    title: ad marginem des versuchs
-  - composer: Tim Page
-    title: New Work
-  - composer: Reiny Rolock
-    title: "Trio #4"
-  - composer: Anna Walton
-    title: Jökulsárlón
+  - composer: Fausto Romitell
+    title: Domeniche alla periferia dell'impero
+  - composer: Tonia Ko
+    title: Tribute | Axis II
+  - composer: Santiago Diez Fischer
+    title: Loop's Definition
+  - composer: Elvira Garifzyanova
+    title: Aurora Borealis
 ---
+
+8pm.
+More information and tickets available here: <a href="https://www.facebook.com/events/128894384477637/" target="blank">https://www.facebook.com/events/128894384477637/ </a>
+
+<!-- should we have a separate field for ticket sales and time -->
