@@ -21,5 +21,5 @@ program:
     title: "Trio #4"
   - composer: Anna Walton
     title: Jökulsárlón
-thumbnail: thumbnail: camci_landscape_1000x500.jpg     
+thumbnail: camci_landscape_1000x500.jpg     
 ---
