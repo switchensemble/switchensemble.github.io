@@ -9,7 +9,11 @@ headerImage: header-vipa-ensemble.jpg
 {%- for concert in performancePosts -%}
   <div class="row mb-5">
     <div class="col-12 col-md-5">
-      <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="https://placeholdit.co//i/500x250?bg=282F37" alt=""></a>
+      {%- if concert.thumbnail -%}
+        <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/concert-thumbnails/{{ concert.thumbnail }}" alt=""></a>
+      {% else %}
+        <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="https://placeholdit.co//i/500x250?bg=282F37" alt=""></a>
+      {%- endif -%}
     </div>
     <div class="col-12 col-md-7">
       <h3 class="text-left mb-2">{{ concert.date | date_to_long_string }}</h3>
