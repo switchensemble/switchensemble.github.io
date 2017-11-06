@@ -20,7 +20,7 @@ program:
     title: Loop's Definition
   - composer: Elvira Garifzyanova
     title: Aurora Borealis
-image: leroux_voirex_1000x500px.jpg
+thumbnail: leroux_voirex_1000x500px.jpg
 ---
 
 More information and tickets available here: <a href="https://www.facebook.com/events/128894384477637/" target="blank">https://www.facebook.com/events/128894384477637/ </a>
