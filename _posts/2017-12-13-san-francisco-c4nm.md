@@ -2,7 +2,6 @@
 layout: concert
 categories: performance
 date: 2017-12-13
-event: SF C4NM Concert
 location:
   institution:
   building:
