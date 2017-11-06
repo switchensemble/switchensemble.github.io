@@ -1,7 +1,7 @@
 ---
 composer:
   first: Santiago
-  last: Diez-Fischer
+  last: Díez Fischer
 title: "Loop's Definition"
 duration:
 yearComposed: 2010
