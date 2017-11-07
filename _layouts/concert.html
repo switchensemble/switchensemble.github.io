@@ -59,7 +59,7 @@ layout: default
 					<ul>
 						<li>
 							<h5>Date:</h5>
-              {{ page.date | date_to_long_string }}
+              {{ page.date | date: "%B %d, %Y" }}
 						</li>
             {%- if page.event -%}
               <li>

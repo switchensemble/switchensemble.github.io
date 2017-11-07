@@ -49,7 +49,7 @@ layout: page
 							</div>
 				      {%- endif -%}
 							<div class="col-sm-8 mb-3 location-details">
-								{{ performance.date | date_to_long_string }} <br />
+								{{ performance.date | date: "%B %d, %Y" }} <br />
 								{%- if performance.event -%}{{ performance.event }}<br />{%- endif -%}
 								{%- if performance.location.institution -%}{{ performance.location.institution }}{%- endif -%}{%- if performance.location.building -%}, {{ performance.location.building }}<br />{%- endif -%}
 								{%- if performance.location.venue -%}{{ performance.location.venue }}<br />{%- endif -%}

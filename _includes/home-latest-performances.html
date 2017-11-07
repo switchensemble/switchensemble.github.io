@@ -2,9 +2,8 @@
 	{% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
 	<ul>
 		{%- for post in performancePosts limit:3 -%}
-			{% comment %}<span><strong>{{ post.date | date_to_long_string }}, {{ post.location.venue }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span>{% endcomment %}
 				<li>
-					<span class="post-date">{{ post.date | date_to_long_string }}</span>
+					<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
 						{%- if post.country -%}
 							<a href="{{ post.url }}">{%- if post.event -%}{{ post.event }}<br />{%- endif -%}{%- if post.location.venue -%}{{ post.location.venue }}<br />{%- endif -%}{{ post.location.city }}, {{ post.location.country }}</a>
 						{%- else -%}
