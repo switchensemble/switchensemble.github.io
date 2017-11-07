@@ -10,17 +10,17 @@ title: Audio and Video
     {%- unless item.url == nil -%}
 
     <!-- Media entry-->
-    <div class="row mb-3">
-      <div class="col-md-8">
+    <div class="row">
+      <div class="col-md-8 py-3">
         {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
-          <div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen></iframe></div>
+          <div><iframe class="embed-responsive-item" src="{{ item.url }}" allowfullscreen></iframe></div>
         {%- elsif item.url contains 'soundcloud' -%}
-          <div class="mb-3">{% include soundcloud_player.html trackID=item.ID %}</div>
+          <div>{% include soundcloud_player.html trackID=item.ID %}</div>
         {%- else -%}
           <a href="#"><img src="{{site.images}}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
         {%- endif -%}
       </div>
-      <div class="col-md-4 pb-4">
+      <div class="col-md-4 py-3">
         <div class="portfolio-details border-left">
           <h3 class="text-left">About:</h3>
           <p class="mb-1">
