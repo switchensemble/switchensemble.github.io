@@ -3,6 +3,7 @@ layout: concert
 categories: performance
 date: 2016-07-09
 time: "7:30 PM"
+event: VIPA Residency
 location:
   institution:
   building:
