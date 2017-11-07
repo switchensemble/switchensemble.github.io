@@ -17,7 +17,7 @@ headerImage: header-vipa-ensemble.jpg
     </div>
     <div class="col-12 col-md-7">
       <h3 class="text-left mb-2">{{ concert.date | date_to_long_string }}</h3>
-      {%- if concert.country -%}
+      {%- if concert.location.country -%}
         <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.country }}</h3>
       {%- else -%}
         <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.state }}</h3>
