@@ -48,7 +48,7 @@ title: Repertoire
 <div class="row row-portfolio" date-portfolio-type="standard" data-columns="3">
 	<div class="grid-sizer"></div>
   {%- for work in sortedRep -%}
-		<div class="portfolio-item px-1 {% for item in work.tags %}{{-item }} {% endfor %}{{ work.size -}}">
+		<div class="portfolio-item repertoire-item px-1 {% for item in work.tags %}{{-item }} {% endfor %}{{ work.size -}}">
 			<div class="portfolio-wrapper">
         {%- if work.headerImage -%}
           <img src="{{ site.images }}/{{ work.headerImage }}" alt="">
