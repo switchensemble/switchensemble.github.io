@@ -1,0 +1,76 @@
+<div class="row">
+	<div class="col-md-12">
+		<h4 class="text-uppercase text-center m-b-50">More Performances</h4>
+	</div>
+</div>
+
+<div class="row blog-magazine">
+	<div class="col-6">
+		{%- if page.previous and page.previous.categories contains 'performance' -%}
+			<!-- Post-->
+			<article class="post">
+				<div class="post-background" data-background="{%- if page.previous.thumbnail -%}{{ site.images }}/concert-thumbnails/{{ page.previous.thumbnail }}{%- else -%}{{ site.images }}/repertoire-images/switch_misc_1000x500px.jpg{%- endif -%}">
+					<div class="post-header">
+							<h2 class="post-title">
+								<a href="{{ page.previous.url }}">
+									{%- if page.previous.event -%}
+										{{ page.previous.event }}
+									{%- elsif page.previous.location.venue -%}
+										{{ page.previous.location.venue }}
+									{%- endif -%}
+								</a>
+							</h2>
+						<ul class="post-meta h5 text-center">
+							<li>{{ page.previous.date | date: "%B %d, %Y" }}</li>
+							<li>
+								{{ page.previous.location.city }},
+								{% if page.previous.location.country %}
+									{{ page.previous.location.country }}
+								{% else %}
+									{{ page.previous.location.state }}
+								{% endif %}
+							</li>
+						</ul>
+					</div>
+					<a class="post-background-link" href="{{ page.previous.url }}"></a>
+				</div>
+			</article>
+			<!-- Post end-->
+		{% else %}
+		{%- endif -%}
+	</div>
+	<div class="col-6">
+		{%- if page.next and page.next.categories contains 'performance' -%}
+			<!-- Post-->
+			<article class="post">
+				<div class="post-background" data-background="{%- if page.next.thumbnail -%}{{ site.images }}/concert-thumbnails/{{ page.next.thumbnail }}{%- else -%}{{ site.images }}/repertoire-images/switch_misc_1000x500px.jpg{%- endif -%}">
+					<div class="post-header">
+							<h2 class="post-title">
+								<a href="{{ page.next.url }}">
+									{%- if page.next.event -%}
+										{{ page.next.event }}
+									{%- elsif page.next.location.venue -%}
+										{{ page.next.location.venue }}
+									{%- endif -%}
+								</a>
+							</h2>
+						<ul class="post-meta h5 text-center">
+							<li>{{ page.next.date | date: "%B %d, %Y" }}</li>
+							<li>
+								{{ page.next.location.city }},
+								{% if page.next.location.country %}
+									{{ page.next.location.country }}
+								{% else %}
+									{{ page.next.location.state }}
+								{% endif %}
+							</li>
+						</ul>
+					</div>
+					<a class="post-background-link" href="{{ page.next.url }}"></a>
+				</div>
+			</article>
+			<!-- Post end-->
+		{% else %}
+		{%- endif -%}
+	</div>
+</div>
