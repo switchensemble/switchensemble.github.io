@@ -6,7 +6,7 @@
 		<div class="grid-sizer"></div>
 		{%- for image in imageFiles -%}
 			{%- if image.path contains include.folderName -%}
-				<div class="portfolio-item p-1">
+				<div class="portfolio-item">
 					<div class="portfolio-wrapper">
 						<img src="{{ image.path }}" alt="{{ image.basename }}">
 						<!-- <div class="portfolio-overlay"></div> -->
