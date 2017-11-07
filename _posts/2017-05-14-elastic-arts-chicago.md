@@ -12,7 +12,7 @@ location:
   zip: 60647
 program:
   - composer: Pierce Gradone
-    title: Network
+    title: Net(work)
   - composer: Katherine Young
     title: The Life You Save May Be Your Own
   - composer: Will Myers
