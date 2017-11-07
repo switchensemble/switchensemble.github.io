@@ -22,4 +22,5 @@ program:
   - composer: Anna Walton
     title: Jökulsárlón
 thumbnail: camci_landscape_1000x500.jpg     
+photosFolder: uchicago/
 ---

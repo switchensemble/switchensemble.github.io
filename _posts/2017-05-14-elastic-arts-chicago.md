@@ -21,5 +21,6 @@ program:
     title: pa-an
   - composer: Elvira Garifzyanova
     title: Aurora Borealis
-thumbnail: myers_aquinnah_1000x500px.jpg    
+thumbnail: myers_aquinnah_1000x500px.jpg
+photosFolder: uchicago/
 ---
