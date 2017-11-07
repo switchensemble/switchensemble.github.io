@@ -39,6 +39,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
+.h4 {
+    font-weight: 600;
+}
 h2.single-portfolio-title {
     text-align: left;
 }
