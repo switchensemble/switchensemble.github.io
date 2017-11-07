@@ -62,35 +62,6 @@ title: Audio and Video
     </div>
     <!-- Media entry end-->
 
-    {% comment %}
-    <div class="col-md-6 col-lg-4 post-item">
-			<article class="post">
-				<div class="post-preview">
-          {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
-            <div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen></iframe></div>
-          {%- elsif item.url contains 'soundcloud' -%}
-    				<div class="col-12 mb-3">{% include soundcloud_player.html trackID=item.ID %}</div>
-    			{%- else -%}
-            <a href="#"><img src="{{site.images}}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
-          {%- endif -%}
-        </div>
-				<div class="post-wrapper">
-					<div class="post-header">
-						<h2 class="post-title">
-              <a href="blog-single.html">{{ piece.composer.first }} {{ piece.composer.last }}</a>
-            </h2>
-							<p class="h5 text-center">{{ piece.title }}</p>
-              <p class="h5 text-center">{{ piece.size }}</p>
-					</div>
-					<div class="post-content"></div>
-					<div class="post-more text-center">
-            <a class="btn btn-round btn-sm btn-gray" href="{{ piece.url }}" role="button">More Info</a>
-          </div>
-				</div>
-			</article>
-    </div>
-    {% endcomment %}
-
     {%- endunless -%}
   {%- endfor -%}
 {%- endfor -%}
