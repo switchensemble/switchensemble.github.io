@@ -1,10 +1,10 @@
-- name: Jason Thorpe Buchanan
-  title: Artistic Director
-  role: Composer and Sound Engineer
-  headshot: jason.jpg
+- name: Megan Arns
+  title:
+  role: Percussion
+  headshot: megan.jpg
   links:
-    - email: jasontbuchanan@gmail.com
-    - website: http://www.jasonthorpebuchanan.com/
+    - email: megan.arns@gmail.com
+    - website: http://www.meganarns.com/
     - facebook:
     - twitter:
 
@@ -35,6 +35,16 @@
   links:
     - email: zachsheets91@gmail.com
     - website: https://www.zachsheetsmusic.com/
+    - facebook:
+    - twitter:
+
+- name: Jason Thorpe Buchanan
+  title: Artistic Director
+  role: Composer and Sound Engineer
+  headshot: jason.jpg
+  links:
+    - email: jasontbuchanan@gmail.com
+    - website: http://www.jasonthorpebuchanan.com/
     - facebook:
     - twitter:
 
@@ -85,15 +95,5 @@
   links:
     - email: foreigncoffee@hotmail.com
     - website:
-    - facebook:
-    - twitter:
-
-- name: Megan Arns
-  title:
-  role: Percussion
-  headshot: megan.jpg
-  links:
-    - email: megan.arns@gmail.com
-    - website: http://www.meganarns.com/
     - facebook:
     - twitter:
