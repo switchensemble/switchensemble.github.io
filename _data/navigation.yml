@@ -24,7 +24,7 @@
     - page: Audio and Video
       url: /media/media.html
     - page: Photos
-      url: /media/photos.html
+      url: /media/photos/
     # - page: Resources
     #   url: /media/resources.html
 
