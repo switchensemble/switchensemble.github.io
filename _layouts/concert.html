@@ -45,8 +45,8 @@ layout: default
         <div class="concert-program mb-3">
           {%- for work in page.program -%}
             <div class="row">
-              <div class="col-4 font-weight-bold text-uppercase">{{ work.composer }}</div>
-              <div class="col-8 font-italic">{{ work.title }}</div>
+              <div class="col-6 col-sm-4 font-weight-bold text-uppercase">{{ work.composer }}</div>
+              <div class="col-6 col-sm-8 font-italic">{{ work.title }}</div>
             </div>
           {%- endfor -%}
         </div>
@@ -55,7 +55,7 @@ layout: default
 
       </div>
 			<div class="col-lg-4">
-				<div class="portfolio-details border-left">
+				<div class="portfolio-details text-center text-md-left border-left">
 					<ul>
 						<li>
 							<h5>Date:</h5>

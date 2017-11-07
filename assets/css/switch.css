@@ -46,8 +46,14 @@ h2.single-portfolio-title {
     text-align: left;
 }
 .portfolio-details li>h5 {
-    text-align: left;
+    text-align: center;
 }
+@media (min-width: 991px) {
+  .portfolio-details li>h5 {
+      text-align: left;
+  }
+}
+
 footer aside .fa {
   font-size: 20px;
   padding: 0rem 0.5rem;
