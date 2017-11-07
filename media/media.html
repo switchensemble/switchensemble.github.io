@@ -1,4 +1,58 @@
 ---
 layout: page
-title: Media
+title: Audio and Video
 ---
+
+{% comment %}
+{%- for piece in site.repertoire -%}
+  {%- for item in piece.media -%}
+    {%- unless item.url == nil -%}
+      <h3>{{ piece.composer.first }} {{ piece.composer.last }} - {{ piece.title }}</h3>
+      <p>{{ item.url }}</p>
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endfor -%}
+{% endcomment %}
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="row blog-masonry">
+        {%- for piece in site.repertoire -%}
+          {%- for item in piece.media -%}
+            {%- unless item.url == nil -%}
+
+            <div class="col-md-6 col-lg-4 post-item">
+      				<!-- Media entry-->
+      				<article class="post">
+      					<div class="post-preview">
+                  {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
+                    <div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen></iframe></div>
+                  {%- elsif item.url contains 'soundcloud' -%}
+            				<div class="col-12 mb-3">{% include soundcloud_player.html trackID=item.ID %}</div>
+            			{%- else -%}
+                    <a href="#"><img src="{{site.images}}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
+                  {%- endif -%}
+                </div>
+      					<div class="post-wrapper">
+      						<div class="post-header">
+      							<h2 class="post-title">
+                      <a href="blog-single.html">{{ piece.composer.first }} {{ piece.composer.last }}</a>
+                    </h2>
+      								<p class="h5 text-center">{{ piece.title }}</p>
+                      <p class="h5 text-center">{{ piece.size }}</p>
+      						</div>
+      						<div class="post-content"></div>
+      						<div class="post-more text-center">
+                    <a class="btn btn-round btn-sm btn-gray" href="{{ piece.url }}" role="button">More Info</a>
+                  </div>
+      					</div>
+      				</article>
+      				<!-- Media entry end-->
+            </div>
+
+            {%- endunless -%}
+          {%- endfor -%}
+        {%- endfor -%}
+		</div>
+	</div>
+</div>
