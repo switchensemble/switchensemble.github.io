@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 h2.single-portfolio-title {
     text-align: left;
 }
-.portfoli-details li>h5 {
+.portfolio-details li>h5 {
     text-align: left;
 }
 footer aside .fa {
