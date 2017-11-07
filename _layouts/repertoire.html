@@ -41,19 +41,27 @@ layout: page
       {%- for performance in performancePosts -%}
         {%- for piece in performance.program -%}
           {%- if piece.title == page.title -%}
-					<div class="performacne">
-						<p class="location-details">
-							{{ performance.date | date_to_long_string }} <br />
-			        {%- if performance.event -%}{{ performance.event }}<br />{%- endif -%}
-			        {%- if performance.location.institution -%}{{ performance.location.institution }}{%- endif -%}{%- if performance.location.building -%}, {{ performance.location.building }}<br />{%- endif -%}
-			        {%- if performance.location.venue -%}{{ performance.location.venue }}<br />{%- endif -%}
-			        {%- if performance.location.address -%}{{ performance.location.address }}<br />{%- endif -%}
-			        {%- if performance.location.country -%}
-			          {{ performance.location.city }}, {{ performance.location.country }}
-			        {%- else -%}
-			          {{ performance.location.city }}, {{ performance.location.state }} {{ performance.location.zip }}
-			        {%- endif -%}
-			      </p>
+					<div class="performance">
+						<div class="row">
+							{%- if performance.thumbnail -%}
+							<div class="col-sm-4">
+				        <a href="{{ performance.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/concert-thumbnails/{{ performance.thumbnail }}" alt=""></a>
+							</div>
+				      {%- endif -%}
+							<div class="col-sm-8 location-details">
+								{{ performance.date | date_to_long_string }} <br />
+								{%- if performance.event -%}{{ performance.event }}<br />{%- endif -%}
+								{%- if performance.location.institution -%}{{ performance.location.institution }}{%- endif -%}{%- if performance.location.building -%}, {{ performance.location.building }}<br />{%- endif -%}
+								{%- if performance.location.venue -%}{{ performance.location.venue }}<br />{%- endif -%}
+								{%- if performance.location.address -%}{{ performance.location.address }}<br />{%- endif -%}
+								{%- if performance.location.country -%}
+								{{ performance.location.city }}, {{ performance.location.country }}
+								{%- else -%}
+								{{ performance.location.city }}, {{ performance.location.state }} {{ performance.location.zip }}
+								{%- endif -%}
+							</div>
+
+						</div>
 					</div>
 					{% else %}
 					<!-- Piece Title: {{ piece.title }} -->
