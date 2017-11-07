@@ -4,6 +4,9 @@ composer:
   last: Giang
 title: I want you to be
 duration:
+movements:
+  - Lento
+  - Agitato
 yearComposed: 2016
 commissionedOrWrittenFor:
 size: solo
