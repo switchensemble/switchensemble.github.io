@@ -18,6 +18,6 @@ tags:
   -
 media:
   - title: fragile thread, suspended; unquiet surface (2016) by Jeremy Corren
-    url: https://www.youtube.com/watch?v=KU3b4e4hFHE
+    url: https://www.youtube.com/embed/KU3b4e4hFHE
 headerImage: repertoire-images/corren_fragilethread_1000x500px.jpg
 ---

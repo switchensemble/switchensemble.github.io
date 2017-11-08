@@ -15,5 +15,5 @@ tags:
   -
 media:
   - title: Light on Water by Rand Steiger - the [Switch~ Ensemble]
-    url: https://www.youtube.com/watch?v=wkRoWju29AI
+    url: https://www.youtube.com/embed/wkRoWju29AI
 ---

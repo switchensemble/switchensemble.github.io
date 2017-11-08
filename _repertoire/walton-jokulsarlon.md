@@ -17,5 +17,5 @@ tags:
   -
 media:
   - title: Jökulsárlón (2016) by Anna-Louise Walton
-    url: https://youtu.be/BP9b-C1nprs
+    url: https://www.youtube.com/embed/BP9b-C1nprs
 ---

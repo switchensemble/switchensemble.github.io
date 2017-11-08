@@ -15,7 +15,8 @@ tags:
   -
   -
 media:
-  - title: Second Study for Alto Saxophone, Video, and Electronics: pulp (2015) by Jason Thorpe Buchanan
+  - title: "Second Study for Alto Saxophone, Video, and Electronics: pulp (2015) by Jason Thorpe Buchanan"
     url: https://soundcloud.com/jasontbuchanan/second-study-for-alto-saxophone-video-electronics-pulp
+    ID: 235369830
 headerImage: repertoire-images/thorpebuchanan_pulp_1000x500px.jpg
 ---

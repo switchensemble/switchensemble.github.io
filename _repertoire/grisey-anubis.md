@@ -13,5 +13,5 @@ tags:
   -
 media:
   - title: Anubis from Deux Pieces pour Clarinette Contrebasse en Si Bémol by Gérard Grisey
-    url: https://www.youtube.com/watch?v=IcqTBepvmek
+    url: https://www.youtube.com/embed/IcqTBepvmek
 ---
