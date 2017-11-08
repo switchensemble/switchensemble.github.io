@@ -25,4 +25,6 @@ media:
     ID: 305160988
   - title: "Apologies, I am Here Now (2016) by Samuel Gillies - VIPA Festival"
     url: https://www.youtube.com/embed/Q0NmxQvgtws
+headerImage: repertoire-images/gillies-apologies_1000x500.jpg
+
 ---

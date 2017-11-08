@@ -20,4 +20,6 @@ media:
   - title: Morphallaxis (2008) by Panayiotis Kokoras
     url: https://soundcloud.com/theswitchensemble/morphallaxis_kokoras
     ID: 235823513
+headerImage: repertoire-images/kokoras-morphallaxis_1000x500.jpg
+
 ---
