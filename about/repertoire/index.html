@@ -21,7 +21,7 @@ title: Repertoire
 <!-- split the list of tags, remove duplicates, and sort by alpha -->
 {%- assign tagArray = listOfTags | split: ' ' | uniq | sort -%}
 <!-- sort repertoire by alpha -->
-{%- assign sortedRep = site.repertoire | sort: 'composer.last' -%}
+{%- assign sortedRep = site.repertoire | sort: 'yearComposed' | reverse -%}
 
 <!-- Portfolio-->
 <div class="row row-portfolio-filter">
