@@ -1,0 +1,50 @@
+---
+layout: default
+---
+{%- if page.headerImage -%}
+  <!-- Page Header-->
+  <section class="module-header parallax bg-dark bg-dark-60" data-background="{{ site.images }}/{{ page.headerImage }}">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+  				<h1 class="h1 m-b-20">{{ page.title }}</h1>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+  <!-- Page Header end-->
+{%- elsif page.title -%}
+  <!-- Page Header-->
+  <section class="module-page-title">
+    <div class="container">
+      <div class="row-page-title">
+        <h1 class="h5 text-center">{{ page.title }}</h1>
+      </div>
+    </div>
+  </section>
+  <!-- Page Header end-->
+{%- endif -%}
+
+<!-- Module -->
+{%- if page.moduleSize == 'small' -%}
+<section class="module-sm module-divider-bottom">
+{%- else -%}
+<section class="module module-divider-bottom">
+{%- endif -%}
+  {%- if page.container == 'fluid' -%}
+    <div class="container-fluid">
+  {%- else -%}
+    <div class="container">
+  {%- endif -%}
+    <div class="row">
+      <div class="col-md-10 order-2 order-md-1">
+        {{ content }}
+      </div>
+      <div class="col-md-2 order-1 order-md-2">
+        {%- include {{ page.sidebarName }} -%}
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Module end-->

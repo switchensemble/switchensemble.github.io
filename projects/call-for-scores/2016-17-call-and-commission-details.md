@@ -1,6 +1,8 @@
 ---
-layout: page
-title: 2016-2017 International Commissioning Prize
+layout: sidebar
+title: Call for Scores
+sidebarName: call-for-scores-sidebar.html
+headerImage: header-blurry-vipa.jpg
 ---
 
 The [Switch~ Ensemble] is happy to announce its 2016-2017 commissioning prize. The winning composer will be commissioned to write a new work for the [Switch~ Ensemble] for our 2017-2018 season. Additionally, pending the instrumentation of submitted works, we hope to choose several existing works to include in our repertoire for upcoming seasons.
