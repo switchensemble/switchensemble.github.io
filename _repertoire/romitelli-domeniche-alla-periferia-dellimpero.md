@@ -4,7 +4,7 @@ composer:
   last: Romitelli
 title: Domeniche alla periferia dell'impero
 duration:
-yearComposed: "1995-96, 2000"
+yearComposed: 1996
 size:
 instrumentation:
   - amplified bass flute
