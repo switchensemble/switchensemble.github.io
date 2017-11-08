@@ -22,7 +22,7 @@ tags:
   - microtonal
 media:
   - title:
-    type: link
-    url: http://igor-santos.com/lamento-2016
+    type:
+    url:
 headerImage: repertoire-images/santos_lamento_1000x500px.jpg
 ---
