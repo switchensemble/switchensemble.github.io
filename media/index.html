@@ -1,66 +1,73 @@
 ---
 layout: page
 title: Audio and Video
+moduleSize: small
 ---
 
-{%- assign sortedRep = site.repertoire | sort: 'yearComposed' -%}
+{%- include media-navigation.html -%}
+
+{%- assign sortedRep = site.repertoire | sort: 'yearComposed' | reverse -%}
 
 {%- for piece in sortedRep -%}
-  {%- for item in piece.media -%}
-    {%- unless item.url == nil -%}
 
-    <!-- Media entry-->
-    <div class="row mb-3">
-      <div class="col-md-8 py-3">
-        {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
-          <div><iframe class="embed-responsive-item" src="{{ item.url }}" allowfullscreen></iframe></div>
-        {%- elsif item.url contains 'soundcloud' -%}
-          <div>{% include soundcloud_player.html trackID=item.ID %}</div>
-        {%- else -%}
-          <a href="#"><img src="{{site.images}}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
-        {%- endif -%}
-      </div>
-      <div class="col-md-4 py-3">
-        <div class="portfolio-details border-left">
-          <p class="mb-1">
-            <span class="h4">Composer: </span>
-            <span class="text-secondary">{{ piece.composer.first }} {{ piece.composer.last }}</span>
-          </p>
-          <p class="mb-1">
-            <span class="h4">Title: </span>
-            <span class="text-secondary">{{ piece.title }}</span>
-          </p>
-          {%- if piece.yearComposed -%}
-            <p class="mb-1">
-              <span class="h4">Year Composed: </span>
-              <span class="text-secondary">{{ piece.yearComposed }}</span>
-            </p>
-          {%- endif -%}
-          {%- if piece.instrumentation -%}
-          <p class="mb-1">
-            <span class="h4">Instrumentation: </span>
-            <span class="text-secondary">
-              {%- for instrument in piece.instrumentation -%}
-                {%- if forloop.last == true -%}
-                  and {{ instrument -}}
-                {% else %}
-                  {{ instrument | append: ', ' }}
-                {%- endif -%}
-              {%- endfor -%}
-            </span>
-          </p>
-          {%- endif -%}
-          {%- if piece.composer.website -%}
-            <p class="mb-1">
-              <span class="h4">Composer's Website: </span>
-              <a href="{{ piece.composer.website }}">{{ piece.composer.website }}</a>
-            </p>
+  {%- if piece.composer.last contains 'Leroux' or piece.composer.last contains 'Steiger' or piece.composer.last contains 'Walton' or piece.composer.last contains 'Chandler' or piece.composer.last contains 'McCormack' or piece.composer.last contains 'Thorpe Buchanan' -%}
+
+    {%- for item in piece.media -%}
+      {%- unless item.url == nil -%}
+
+      <!-- Media entry-->
+      <div class="row mb-3">
+        <div class="col-md-8 py-3">
+          {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
+            <div><iframe class="embed-responsive-item" src="{{ item.url }}" allowfullscreen></iframe></div>
+          {%- elsif item.url contains 'soundcloud' -%}
+            <div>{% include soundcloud_player.html trackID=item.ID %}</div>
+          {%- else -%}
+            <a href="#"><img src="{{site.images}}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
           {%- endif -%}
         </div>
+        <div class="col-md-4 py-3">
+          <div class="portfolio-details border-left">
+            <p class="mb-1">
+              <span class="h4">Composer: </span>
+              <span class="text-secondary">{{ piece.composer.first }} {{ piece.composer.last }}</span>
+            </p>
+            <p class="mb-1">
+              <span class="h4">Title: </span>
+              <span class="text-secondary">{{ piece.title }}</span>
+            </p>
+            {%- if piece.yearComposed -%}
+              <p class="mb-1">
+                <span class="h4">Year Composed: </span>
+                <span class="text-secondary">{{ piece.yearComposed }}</span>
+              </p>
+            {%- endif -%}
+            {%- if piece.instrumentation -%}
+            <p class="mb-1">
+              <span class="h4">Instrumentation: </span>
+              <span class="text-secondary">
+                {%- for instrument in piece.instrumentation -%}
+                  {%- if forloop.last == true -%}
+                    and {{ instrument -}}
+                  {% else %}
+                    {{ instrument | append: ', ' }}
+                  {%- endif -%}
+                {%- endfor -%}
+              </span>
+            </p>
+            {%- endif -%}
+            {%- if piece.composer.website -%}
+              <p class="mb-1">
+                <span class="h4">Composer's Website: </span>
+                <a href="{{ piece.composer.website }}">{{ piece.composer.website }}</a>
+              </p>
+            {%- endif -%}
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- Media entry end-->
+      <!-- Media entry end-->
 
-    {%- endunless -%}
-  {%- endfor -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
 {%- endfor -%}
