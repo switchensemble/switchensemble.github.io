@@ -18,7 +18,11 @@ moduleSize: small
         {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
           <div><iframe class="embed-responsive-item" src="{{ item.url }}" allowfullscreen></iframe></div>
         {%- elsif item.url contains 'soundcloud' -%}
-          <div>{% include soundcloud_player.html trackID=item.ID %}</div>
+          {%- if item.url contains 'sets' -%}
+            <div>{% include soundcloud_player.html type="playlists" trackID=item.ID %}</div>
+          {%- else -%}
+            <div>{% include soundcloud_player.html type="tracks" trackID=item.ID %}</div>
+          {%- endif -%}
         {%- else -%}
           <a href="#"><img src="{{site.images}}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
         {%- endif -%}

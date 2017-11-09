@@ -23,7 +23,11 @@ layout: page
 					<h2 class="text-left">Media</h2>
 					{% assign printHeader = nil %}
 				{%- endif -%}
-				<div class="col-12 mb-3">{% include soundcloud_player.html trackID=item.ID %}</div>
+				{%- if item.url contains 'sets' -%}
+					<div class="col-12 mb-3">{% include soundcloud_player.html type="playlists" trackID=item.ID %}</div>
+				{%- else -%}
+					<div class="col-12 mb-3">{% include soundcloud_player.html type="tracks" trackID=item.ID %}</div>
+				{%- endif -%}
 			{%- else -%}
 			{% comment %}
 				<div class="col-12 mb-3">

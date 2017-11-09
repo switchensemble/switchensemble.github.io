@@ -22,5 +22,5 @@ program:
   - composer: Wojtek Blecharz
     title: "Transcryptum: The map of tenderness for cello solo"
   - composer: Jason Thorpe Buchanan
-    title: "Hunger: A Multimedia Opera in Four Parts (Part III)"
+    title: "HUNGER (Part III)"
 ---
