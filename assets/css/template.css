@@ -20,7 +20,7 @@ html {
 
 body {
     background-color: #fff;
-    font-family: "Hind", Arial, serif;
+    font-family: "Roboto", Arial, serif;
     line-height: 1.85;
     font-weight: 400;
     font-size: 15px;
@@ -252,8 +252,8 @@ ol > li {
 }
 
 em {
-    font-style: normal;
-    opacity: .7;
+    font-style: italic;
+    /*opacity: .7;*/
 }
 
 hr {
