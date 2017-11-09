@@ -3,7 +3,7 @@ layout: page
 title: Audio and Video
 ---
 
-{%- assign sortedRep = site.repertoire | sort: 'composer.last' -%}
+{%- assign sortedRep = site.repertoire | sort: 'yearComposed' -%}
 
 {%- for piece in sortedRep -%}
   {%- for item in piece.media -%}

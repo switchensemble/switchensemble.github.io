@@ -20,9 +20,10 @@
       url: /projects/events/
 
 - title: Media
+  url: /media/
   sublinks:
     - page: Audio and Video
-      url: /media/media.html
+      url: /media/
     - page: Photos
       url: /media/photos/
     # - page: Resources
