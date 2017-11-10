@@ -16,5 +16,5 @@ tags:
 media:
   - title:
     url:
-headerImage: repertoire-images/giang_iwantyoutobe_1000x500px
+headerImage: repertoire-images/giang_iwantyoutobe_1000x500px.jpg
 ---
