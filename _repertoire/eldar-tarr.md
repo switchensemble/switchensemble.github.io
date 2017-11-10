@@ -21,5 +21,5 @@ media:
   - title:
     url:
     ID:
-headerImage: repertoire-images/myers-aquinnah_1000x500px.jpg
+headerImage: repertoire-images/myers_aquinnah_1000x500px.jpg
 ---
