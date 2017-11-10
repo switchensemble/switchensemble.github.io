@@ -11,7 +11,7 @@ The [Switch~ Ensemble] seeks support for our 2017-18 season during which we will
 Please consider making a donation to our campaign today.
 
 <div class="d-flex justify-content-center mb-5">
-  <iframe class="embed-responsive-item" src="https://youtu.be/Sc6gn-AZd3E" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Sc6gn-AZd3E" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="d-flex justify-content-center mb-5">
