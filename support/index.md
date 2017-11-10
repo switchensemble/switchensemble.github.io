@@ -15,7 +15,7 @@ Please consider making a donation to our campaign today.
 </div>
 
 <div class="d-flex justify-content-center mb-5">
-  <a class="btn btn-round btn-primary" href="#" role="button">Donate</a>
+  <a class="btn btn-lg btn-round btn-primary" href="#" role="button">Donate</a>
 </div>
 
 ### About Our Campaign
@@ -25,14 +25,14 @@ Please consider making a donation to our campaign today.
   <p class="h4">December 2017</p>
 </div>
 
-The [Switch~ Ensemble] presents two concerts at the San Francisco Center for New Music (C4NM) and UC Berkeley's Center for New Music and Audio Technology (CNMAT). We will also read new works and offer consultations to composers as part of a workshop hosted by C4NM. Our repertoire includes Fausto Romitelli's *Domeniche alla periferia dell'impero* for amplified quartet, Tonia Ko's *Tribute \| Axis II* for violin and piano, Santiago Díez Fischer's *Loop's Definition* for solo violin and electronics, Elvira Garifzyanova's *Aurora Borealis* for solo flute and electronics, Sivan Eldar's *Tarr* and more.
+The [Switch~ Ensemble] presents two concerts at the San Francisco Center for New Music (C4NM) and UC Berkeley’s Center for New Music and Audio Technology (CNMAT). We will also read new works and offer consultations to composers as part of a workshop hosted by C4NM. Our repertoire includes Fausto Romitelli's *Domeniche alla periferia dell'impero* for amplified quartet, Tonia Ko's *Tribute \| Axis II* for violin and piano, Santiago Díez Fischer's *Loop's Definition* for solo violin and electronics, Elvira Garifzyanova's *Aurora Borealis* for solo flute and electronics, Sivan Eldar's *Tarr* and more.
 
 <div class="d-flex justify-content-between">
   <p class="h4">Upstate New York Tour: [Switch~ Ensemble] Commissions Matt Sargent</p>
   <p class="h4">February-March 2018</p>
 </div>
 
-Our tour of Upstate New York represents a kind of homecoming for [Switch~], which formed at the Eastman School of Music's Computer Music Center in 2012. The tour will include residencies at Bard College, Ithaca College, Cornell University, and Buffalo State University. In addition to premiering a commissioned work by Matt Sargent, the Switch Ensemble will also be performing or reading new works by student composers at each of these institutions. We also will be playing works by faculty composers Kevin Ernste, Marianthi Papalexandri-Alexandri, and Roberto Sierra at Cornell University and revisiting 20th century classics by two pioneering experimental composers with ties to the region: Earle Brown and Morton Feldman.
+Our tour of Upstate New York is a homecoming for [Switch~], which formed at the Eastman School of Music’s Computer Music Center in 2012. The tour will include residencies at Bard College, Ithaca College, Cornell University, and Buffalo State University. In addition to premiering a commissioned work by Matt Sargent, the [Switch~ Ensemble] will also be performing or reading new works by student composers at each of these institutions. We also will be playing works by faculty composers Kevin Ernste, Marianthi Papalexandri-Alexandri, and Roberto Sierra at Cornell University and revisiting 20th century classics by two pioneering experimental composers with ties to the region: Earle Brown and Morton Feldman.
 
 <div class="d-flex justify-content-between">
   <p class="h4">New York City Premieres: Commissioning Competition Winners</p>
@@ -41,7 +41,7 @@ Our tour of Upstate New York represents a kind of homecoming for [Switch~], whic
 
 The [Switch~ Ensemble] premieres two newly-commissioned works by our 2016-17 International Commissioning Competition Winners, Adrien Trybucki and Esaias Järnegard. Adrien and Esaias describe their works in progress:
 
-"My approach to sound in electronics influences my instrumental writing and vice versa. This very stimulating double influence is especially evident in works combining the two, and that's why I'm always very excited about writing electroacoustic music. In my new piece for the [Switch~ Ensemble], I want to explore both how electronics can prolong instrumental gestures and how the sound of the ensemble can blend into the electronics. I would like to create a universe where the ambiguity between these two worlds is constant, causing the listener to constantly question what comes from the human instrumentalists and what comes from the machine." - Adrien Trybucki
+“My approach to electronic sound influences my instrumental writing and vice versa. This is especially evident in works combining the two, and that is what excites me about writing electroacoustic music. In my new work for the [Switch~ Ensemble], I want to explore both how electronics can prolong instrumental gestures and how the sound of the ensemble can blend into the electronics. I would like to create a universe where the ambiguity between these two worlds is constant, causing the listener to question what comes from the human instrumentalists and what comes from the machine.” - Adrien Trybucki
 
 "The sonic expansion of my palette which the project implies has forced me to revisit my past and propelled me into uncharted waters. In the center stands one of Antonin Artaud's final ‘radio-plays,' *pour finir avec le jugement de dieu*, a haunting, dark exposé. The title on my work desk, *Songs for Antonin*, becomes more and more fixed. These are songs which will take place in the ensemble, in both active and "passive" instruments through acoustic and electronic means, blurring the edges of their distinction." - Esaias Järnegard
 
