@@ -6,13 +6,14 @@ title: Things Fall Apart
 duration:
 yearComposed: 2013
 commissionedOrWrittenFor:
-size: solo
+size: solo, video
 instrumentation:
   - solo percussion
   - electronics
+  - video
 tags:
   - electronics
-  -
+  - video
 media:
   - title:
     url:

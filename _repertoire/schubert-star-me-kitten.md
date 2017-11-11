@@ -11,9 +11,11 @@ size: variable
 instrumentation:
   - singer
   - flexible ensemble
+  - video
+  - electronics
 tags:
   - multimedia
-  - Electronics
+  - electronics
   - video
 media:
   - title:

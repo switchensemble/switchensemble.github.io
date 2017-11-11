@@ -18,6 +18,7 @@ instrumentation:
 tags:
   - quintet
   - electronics
+  - conducted
 media:
   - title:
     type:

@@ -20,6 +20,7 @@ instrumentation:
   - electronics
 tags:
   - electronics
+  - conducted
 media:
   - title: Nov 12, 2012 at Hatch Recital Hall
     url: https://soundcloud.com/theswitchensemble/amok-koma-by-fausto-romitelli-nov-12-2012

@@ -16,12 +16,14 @@ instrumentation:
   - piano
   - percussion
   - multimedia
+  - video
 tags:
   - electronics
   - ensemble
   - sextet
   - uchicago
   - conducted
+  - video
 media:
   - title:
     type:

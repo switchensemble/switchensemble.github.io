@@ -7,7 +7,7 @@ title: "HUNGER (Part III)"
 duration:
 yearComposed: 2015
 commissionedOrWrittenFor:
-size: octet and three singers
+size: octet, three singers,
 instrumentation:
   - baritone
   - 2 sopranos
@@ -24,6 +24,7 @@ instrumentation:
 tags:
   - electronics
   - video
+  - conducted
 media:
   - title: HUNGER (Part III, Scene 2)
     url: https://soundcloud.com/jasontbuchanan/sets/hunger-part-iii-scene-2

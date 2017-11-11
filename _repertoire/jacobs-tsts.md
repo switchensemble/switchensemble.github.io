@@ -20,6 +20,7 @@ instrumentation:
 tags:
   - electronics
   - septet
+  - conducted
 media:
   - title: TsTs (2010) by Bryan Jacobs
     url: https://www.youtube.com/embed/TZPGeIO4478

@@ -27,6 +27,7 @@ tags:
   - electronics
   - ensemble
   - vocal
+  - conducted
 media:
   - title: Voi(REX) by Philippe Leroux (Mvts. 1-2)
     url: https://www.youtube.com/embed/H0YE5RGodfk
