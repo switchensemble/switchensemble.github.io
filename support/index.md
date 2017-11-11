@@ -4,7 +4,7 @@ title: Support
 headerImage: header-qnmf-reh.jpg
 ---
 
-### Crowdfunding Campaign
+## Crowdfunding Campaign
 
 The [Switch~ Ensemble] seeks support for our 2017-18 season during which we will share our cutting-edge blend of chamber music and electronics or multimedia with performers, composers, and audiences across the United States. Our events include concerts and workshops for community members in San Francisco at the Center for New Music and Berkeley's CNMAT in California; an upstate New York tour where we will be premiering a dozen new works for chamber ensemble and electronics; and a CD release including some of our most exciting repertoire written for or premiered nationally by [Switch~], including Timothy McCormack's *karst survey*, Elvira Garifzyanova's *Aurora Borealis*, Alican Çamci's *landscape with inscription*, and Anna-Louise Walton's *Jökulsárlon*. Our season will culminate in the NYC premiere of two new commissions from Esaias Järnegard and Adrien Trybucki, our 2016-17 International Commissioning Competition Winners, and more exciting new repertoire for ensemble and technology. [Switch~] is committed to supporting the work of emerging composers and each event will highlight different aspects of this mission.
 
@@ -70,5 +70,3 @@ T.J. Borden, cello
 Wei-Han Wu, piano  
 Megan Arns, percussion
 -->
-
-{% include donor-scroller.html %}
