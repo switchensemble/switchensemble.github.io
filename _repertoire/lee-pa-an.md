@@ -21,6 +21,7 @@ tags:
   - ensemble
   - sextet
   - uchicago
+  - conducted
 media:
   - title:
     type:

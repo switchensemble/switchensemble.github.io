@@ -11,7 +11,7 @@ instrumentation:
   - solo flute
   - electronics
 tags:
-  -
+  - electronics
   -
 media:
   - title:

@@ -7,14 +7,14 @@ title: "fragile thread, suspended; unquiet surface"
 duration:
 yearComposed: 2016
 commissionedOrWrittenFor: written
-size:
+size: quartet
 instrumentation:
   - soprano saxophone
   - percussion
   - piano
   - cello
 tags:
-  -
+  - quartet
   -
 media:
   - title: fragile thread, suspended; unquiet surface (2016) by Jeremy Corren

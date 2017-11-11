@@ -11,8 +11,8 @@ instrumentation:
   - solo voice
   - electronics
 tags:
-  -
-  -
+  - solo
+  - electronics
 media:
   - title:
     url:

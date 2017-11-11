@@ -13,7 +13,7 @@ instrumentation:
   - cello
   - piano
 tags:
-  -
+  - trio
   -
 media:
   - title:

@@ -14,6 +14,8 @@ instrumentation:
   - percussion
   - electronics
 tags:
+  - electronics
+  - trio
 media:
   - title:
     type:

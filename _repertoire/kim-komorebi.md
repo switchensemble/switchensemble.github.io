@@ -6,14 +6,14 @@ title: Komorebi
 duration:
 yearComposed: 2016
 commissionedOrWrittenFor: written
-size:
+size: quartet
 instrumentation:
   - flute
   - clarinet
   - piano
   - percussion
 tags:
-  -
+  - quartet
   -
 media:
   - title: Komorebi (2016) by NamHoon “Matthew” Kim

@@ -11,7 +11,7 @@ instrumentation:
   - solo clarinet
   - electronics
 tags:
-  -
+  - electronics
   -
 media:
   - title:

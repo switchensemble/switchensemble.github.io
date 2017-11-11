@@ -20,6 +20,8 @@ instrumentation:
   - electronics
 tags:
   - microtonal
+  - electronics
+  - sextet
 media:
   - title:
     type:

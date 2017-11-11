@@ -11,8 +11,8 @@ instrumentation:
   - bass clarinet
   - electronics
 tags:
-  -
-  -
+  - electronics
+  - solo 
 media:
   - title:
     url:

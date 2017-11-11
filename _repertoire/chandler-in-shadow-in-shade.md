@@ -12,8 +12,8 @@ instrumentation:
   - solo piano
   - electronics
 tags:
-  -
-  -
+  - electronics
+  - solo 
 media:
   - title:
     url:

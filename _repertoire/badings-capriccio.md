@@ -11,8 +11,8 @@ instrumentation:
   - solo violin
   - electronics
 tags:
-  -
-  -
+  - electronics
+  - solo
 media:
   - title:
     url:

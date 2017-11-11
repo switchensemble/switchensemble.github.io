@@ -15,8 +15,8 @@ instrumentation:
   - electronics
 commissionedOrWrittenFor: written
 tags:
-  -
-  -
+  - electronics
+  - solo 
 media:
   - title:
     url:

@@ -19,6 +19,7 @@ tags:
   - quartet
   - unconducted
   - stopwatch
+  - electronics
 media:
   - title: "Apologies, I am Here Now (2016) by Samuel Gillies - VIPA Festival World Premiere"
     url: https://soundcloud.com/theswitchensemble/apologies-i-am-here-now-2016-by-samuel-gillies

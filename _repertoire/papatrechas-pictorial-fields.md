@@ -14,6 +14,9 @@ instrumentation:
   - bass clarinet
   - electronics
 tags:
+  - electronics
+  - trio
+  - click track
 media:
   - title: "Pictorial Fields: Traces in 1A (2016) - for bass clarinet, violin, cello, and live electronics"
     url: https://soundcloud.com/theocharis-papatrechas/pictorial-fields

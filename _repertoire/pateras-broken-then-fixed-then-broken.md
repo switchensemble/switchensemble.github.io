@@ -11,7 +11,7 @@ instrumentation:
   - bass clarinet
   - prepared piano
 tags:
-  -
+  - trio
   -
 media:
   - title: Broken Then Fixed Then Broken (2009) by Anthony Pateras

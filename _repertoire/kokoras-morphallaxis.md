@@ -14,6 +14,8 @@ instrumentation:
   - frame drum
   - electronics
 tags:
+  - electronics
+  - trio 
 media:
   - title: Morphallaxis by Panayiotis Kokoras - the [Switch~ Ensemble]
     url: https://www.youtube.com/embed/4jcJhyt4TuY

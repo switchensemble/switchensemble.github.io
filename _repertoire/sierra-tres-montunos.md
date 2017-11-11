@@ -11,7 +11,7 @@ instrumentation:
   - cello
   - piano
 tags:
-  -
+  - prepared
   -
 media:
   - title:

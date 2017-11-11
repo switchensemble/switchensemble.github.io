@@ -19,6 +19,7 @@ instrumentation:
   - cello
   - electronics
 tags:
+  - electronics 
 media:
   - title:
     type:

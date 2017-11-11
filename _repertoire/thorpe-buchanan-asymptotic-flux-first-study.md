@@ -15,7 +15,7 @@ instrumentation:
   - cello
   - electronics
 tags:
-  -
+  - electronics
   -
 media:
   - title: "Asymptotic Flux: First Study in Entropy (2012) by Jason Thorpe Buchanan"

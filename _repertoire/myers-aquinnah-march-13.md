@@ -17,6 +17,9 @@ instrumentation:
   - percussion
   - fixed media
 tags:
+  - electronics
+  - sextet
+  - unconducted
 media:
   - title:
     type:

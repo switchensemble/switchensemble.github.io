@@ -11,7 +11,7 @@ instrumentation:
   - solo percussion
   - electronics
 tags:
-  -
+  - electronics
   -
 media:
   - title:

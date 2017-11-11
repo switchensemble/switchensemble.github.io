@@ -15,6 +15,7 @@ instrumentation:
   - piano
   - electronics
 tags:
+  - electronics 
 media:
   - title:
     type:

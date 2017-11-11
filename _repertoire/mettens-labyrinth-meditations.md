@@ -12,7 +12,7 @@ instrumentation:
   - solo oboe
   - electronics
 tags:
-  -
+  - electronics
   -
 media:
   - title:

@@ -13,6 +13,8 @@ instrumentation:
   - flexible ensemble
 tags:
   - multimedia
+  - Electronics
+  - video
 media:
   - title:
     type:
