@@ -47,7 +47,9 @@ The [Switch~ Ensemble] premieres two newly-commissioned works by our 2016-17 Int
 
 100% of the funds raised will go to the musicians, production, and travel-related costs for these performances.
 
-<img src="switch-featured-composers-1600px" width="1600">
+<div class="d-flex justify-content-center mb-5">
+  <iframe src="switch-featured-composers-1600px.jpg" width="800"></iframe>
+</div>
 
 {% include donors.html %}
 
