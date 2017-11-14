@@ -15,7 +15,7 @@ Please consider making a donation to our campaign today.
 </div>
 
 <div class="d-flex justify-content-center mb-5">
-  <a class="btn btn-lg btn-round btn-primary" href="https://fundraising.fracturedatlas.org/the-switch-ensemble/campaigns/1516" role="button">Donate</a>
+  <a class="btn btn-lg btn-round btn-primary" href="https://fundraising.fracturedatlas.org/the-switch-ensemble/campaigns/1516" role="button">Donate Now!</a>
 </div>
 
 ### About Our Campaign
@@ -46,6 +46,8 @@ The [Switch~ Ensemble] premieres two newly-commissioned works by our 2016-17 Int
 "The sonic expansion of my palette which the project implies has forced me to revisit my past and propelled me into uncharted waters. In the center stands one of Antonin Artaud's final ‘radio-plays,' *pour finir avec le jugement de dieu*, a haunting, dark exposé. The title on my work desk, *Songs for Antonin*, becomes more and more fixed. These are songs which will take place in the ensemble, in both active and "passive" instruments through acoustic and electronic means, blurring the edges of their distinction." - Esaias Järnegard
 
 100% of the funds raised will go to the musicians, production, and travel-related costs for these performances.
+
+<img src="switch-featured-composers-1600px" width="1600">
 
 {% include donors.html %}
 
