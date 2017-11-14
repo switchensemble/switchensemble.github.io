@@ -49,7 +49,7 @@ The [Switch~ Ensemble] premieres two newly-commissioned works by our 2016-17 Int
 
 <!--<div class="d-flex justify-content-center mb-5"> -->
   <img src="switch-featured-composers-1200px.jpg">
-</div>
+<!-- </div> -->
 
 {% include donors.html %}
 
