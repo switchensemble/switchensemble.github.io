@@ -20,6 +20,10 @@ program:
     title: Loop's Definition
   - composer: Elvira Garifzyanova
     title: Aurora Borealis
+  - composer: Sivan Eldar
+    title: Tarr
+  - composer: Victor Ibarra
+    title: Química del agua
 thumbnail: pateras_brokenthenfixed_1000x500px.jpg
 ---
 
