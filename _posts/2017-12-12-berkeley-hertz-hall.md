@@ -16,7 +16,7 @@ program:
     title: Domeniche alla periferia dell'impero
   - composer: Tonia Ko
     title: Tribute | Axis II
-  - composer: Josh Levine's
+  - composer: Josh Levine
     title: Sixty cycles
   - composer: Max Murray
     title: Ad Marginem des Versuchs
