@@ -3,4 +3,5 @@ _site
 .jekyll-metadata
 core-index.html
 assets/images/core-index
+assets/images/favicons/switch-favicon.docx
 _includes/off-canvas-sidebar.html
