@@ -24,7 +24,15 @@ While submitted works need not include a technological component, the newly-comm
 For existing works with electronics you would like to have considered for performance, please include a comprehensive description of technical requirements.
 
 ### Core Instrumentation:
-flute (dbl. picc/alto), clarinet (dbl. bass/contra/E-flat), saxophone (dbl. sop/alt/ten/bar), soprano voice, piano, percussion, violin, cello
+
+- flute (dbl. picc/alto)
+- clarinet (dbl. bass/contra/E-flat)
+- saxophone (dbl. sop/alt/ten/bar)
+- soprano voice
+- piano
+- percussion
+- violin
+- cello
 
 ### Eligibility
 
