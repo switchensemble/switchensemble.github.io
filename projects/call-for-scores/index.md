@@ -7,7 +7,10 @@ headerImage: header-blurry-vipa.jpg
 
 
 <img src="switch-c4nm-workshop-dec-2017_1800px.jpg">
-Congratulations to the five composers selected for our Center for New Music Workshop! **Danny Clay**, **Aida Shirazi**, **Andrew Harlan**, **Julie Herndon**, and **Daniel Meyer O'Keeffe**. Their submissions illustrated both strong imagination and technical ability. Furthermore, thank you to all of the talented composers who submitted to participate! The quality was very high, and ultimately we selected projects that we felt would most benefit from the workshop environment. This workshop is open to the public, and we encourage other composers to attend! Location: San Francisco Center for New Music, 55 Taylor Street, San Francisco, CA 94102. Time: 2pm, December 13th.
+
+Congratulations to the five composers selected for our Center for New Music Workshop! **Danny Clay**, **Aida Shirazi**, **Andrew Harlan**, **Julie Herndon**, and **Daniel Meyer O'Keeffe**. Their submissions each illustrated both strong imagination and technical ability, and we look forward to collaborating with them soon! Thank you to the many talented composers who submitted! The quality was very high, and ultimately we selected projects that we felt would most benefit from the workshop environment. This event is open to the public, and we encourage other composers to attend!
+**Location:** San Francisco Center for New Music, 55 Taylor Street, San Francisco, CA 94102.
+**Time:** 2pm, December 13th.
 
 **Danny Clay** is a composer based in San Francisco. His work is deeply rooted in collaboration, building new works with curious minds from many different backgrounds and levels of artistic experience. Recent projects have involved Kronos Quartet, Eighth Blackbird, Third Coast Percussion, pianist Sarah Cahill, and his elementary school music students at Zion Lutheran School in SF. https://www.dclaymusic.com/
 
@@ -19,7 +22,7 @@ Born and raised in Tehran, Iran, **Aida Shirazi** is a Ph.D. student of composit
 
 **Daniel Meyer-O'Keeffe** is a composer and performer based in Joshua Tree, California. His music has been featured at June in Buffalo, the Atlantic Music Festival and performed across the east and west coasts of the United States and Canada. Recent projects include participation in the Crab Bear Lab at the Donaueschinger Musiktage 2017, a commission for a new work by Pronto Musica, a Performance/Installation for solo percussion at the Eastern Bloc Gallery in Montreal, QC, and a tour across California with percussionist Rob Cosgrove. Daniel Received his BA in music composition from Bard College, where he studied with Matt Sargent and Joan Tower. After completing a year of an MM degree at McGill university, he left Montreal for the California desert to work and study (remotely) with Hanna Eimermacher. http://danielmeyerokeeffe.com/
 
-
+___
 
 ## Workshop at San Francisco Center for New Music
 
