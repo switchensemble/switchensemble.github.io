@@ -8,7 +8,7 @@ headerImage: header-blurry-vipa.jpg
 
 <img src="switch-c4nm-workshop-dec-2017_1800px.jpg">
 
-Congratulations to the five composers selected for our Center for New Music Workshop! **Danny Clay**, **Andrew Harlan**, **Julie Herndon**, **Daniel Meyer O'Keeffe**, and **Aida Shirazi**. Their submissions each illustrated both strong imagination and technical ability, and we look forward to collaborating with them soon! Thank you to the many talented composers who submitted! The quality was very high, and ultimately we selected projects that we felt would most benefit from the workshop environment. This event is open to the public, and we encourage other composers to attend!
+Congratulations to the five composers selected for our Center for New Music Workshop! **Danny Clay**, **Andrew Harlan**, **Julie Herndon**, **Daniel Meyer O'Keeffe**, and **Aida Shirazi**. Their submissions each illustrated both strong imagination and technical ability, and we look forward to collaborating with them soon! Thank you to the many talented composers who submitted! The quality was very high, and ultimately we selected projects that we felt would benefit most from the workshop setting. This event is open to the public, and we encourage other composers to attend!
 **Location:** San Francisco Center for New Music, 55 Taylor Street, San Francisco, CA 94102.
 **Time:** 2pm, December 13th.
 
