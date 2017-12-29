@@ -20,7 +20,6 @@
   amountStart: 1,000
   amountEnd: 2,499
   individuals:
-    - Anonymous (2)
     - "​Avaloch Farm Music Institute (in-kind)"
     - "Conservatorio Superior de Música de Valencia (in-kind)"
     - Harvard University
@@ -30,7 +29,8 @@
     - ​University of Missouri
     - "University of California, San Diego"
     - "Eastman School of Music, Paul R. Judy Grant"
-
+    - Anonymous (2)
+    
 - name: Toggle Switch
   amountStart: 500
   amountEnd: 999
@@ -42,16 +42,15 @@
   amountStart: 200
   amountEnd: 499
   individuals:
-    - ​Anonymous (5)
     - Eastman School of Music
     - ​Mary Collins (x2)
     - Steven Takasugi
+    - ​Anonymous (5)
 
 - name: Three-Pole
   amountStart: 100
   amountEnd: 199
   individuals:
-    - Anonymous (13)
     - ​David Arns
     - B Canniffe
     - Michaela & Warren Donohue
@@ -64,13 +63,13 @@
     - Elizabeth Simkin
     - Rand Steiger
     - Ann & Jeff Swain
+    - Anonymous (13)
 
 
 - name: Two-Pole
   amountStart: 50
   amountEnd: 99
   individuals:
-    - Anonymous (4)
     - James Bean
     - Jennifer Bellor
     - Louise Borden
@@ -83,6 +82,7 @@
     - Alex Stephenson
     - Richard Thorpe
     - Nancy Walton
+    - Anonymous (4)
 
 - name: Single-Pole
   amountStart: 25
@@ -105,7 +105,6 @@
   amountStart: 1
   amountEnd: 24
   individuals:
-    - Anonymous (10)
     - David Carpenter
     - Danny Clay
     - Owen Davis
@@ -123,3 +122,4 @@
     - Anna-Louise Walton
     - Kathryn Williams
     - Jon Yu
+    - Anonymous (10)
