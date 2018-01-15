@@ -20,7 +20,6 @@
   amountStart: 1,000
   amountEnd: 2,499
   individuals:
-    - Anonymous (2)
     - "​Avaloch Farm Music Institute (in-kind)"
     - "Conservatorio Superior de Música de Valencia (in-kind)"
     - Harvard University
@@ -30,58 +29,97 @@
     - ​University of Missouri
     - "University of California, San Diego"
     - "Eastman School of Music, Paul R. Judy Grant"
-
+    - Anonymous (2)
+    
 - name: Toggle Switch
   amountStart: 500
   amountEnd: 999
   individuals:
     - University of Chicago
+    - Anonymous (1)
 
 - name: Pushbutton Switch
   amountStart: 200
   amountEnd: 499
   individuals:
-    - ​Anonymous (1)
     - Eastman School of Music
-    - ​Mary Collins
+    - ​Mary Collins (x2)
     - Steven Takasugi
+    - ​Anonymous (5)
 
 - name: Three-Pole
   amountStart: 100
   amountEnd: 199
   individuals:
-    - Anonymous (5)
     - ​David Arns
     - B Canniffe
     - Michaela & Warren Donohue
+    - Richard Evans
+    - Catherine Gaston
     - Richard Greenstone and Ramsey Moureau
-    - ​Richard J. Greenstone
+    - ​Richard J. Greenstone (x2)
+    - Lisa Mettens
+    - Kathy Sherman
+    - Elizabeth Simkin
+    - Rand Steiger
     - Ann & Jeff Swain
+    - Anonymous (13)
+
 
 - name: Two-Pole
   amountStart: 50
   amountEnd: 99
   individuals:
-    - Anonymous (4)
+    - James Bean
+    - Jennifer Bellor
+    - Louise Borden
     - ​The Glassey Family
     - Peter Kalal
+    - Tonia Ko
+    - Ryan MacGavin
+    - Sam Pluta
     - Rand Steiger and Rebecca Plant
+    - Alex Stephenson
     - Richard Thorpe
+    - Nancy Walton
+    - Anonymous (4)
 
 - name: Single-Pole
   amountStart: 25
   amountEnd: 49
   individuals:
+    - Katherine Balch
     - Jennifer Bellor
     - Robert Dillon
-    - ​Louis Goldford
+    - ​Louis Goldford (x2)
+    - Boon Hua Lien
+    - Peter Kalal
     - Zane Merritt
     - Jan Opalach
+    - Adam Roberts
+    - Connor Stevens
     - Penni Thorpe
-    - Anonymous
+    - Anonymous (5)
 
 - name: Light Switch
   amountStart: 1
   amountEnd: 24
   individuals:
-    - Anonymous (2)
+    - David Carpenter
+    - Danny Clay
+    - Owen Davis
+    - Jacob Gotlib
+    - Shane Griffin
+    - Tyler Kline
+    - Panayiotis Kokoras
+    - John Liberatore
+    - E Diane Manley
+    - Sky Macklay
+    - Daniel Meyer-O'Keeffe
+    - Travers Rhodes
+    - Igor Santos
+    - Miggy Torres
+    - Anna-Louise Walton
+    - Kathryn Williams
+    - Jon Yu
+    - Anonymous (10)

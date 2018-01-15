@@ -15,7 +15,7 @@ Please consider making a donation to our campaign today.
 </div>
 
 <div class="d-flex justify-content-center mb-5">
-  <a class="btn btn-lg btn-round btn-primary" href="https://fundraising.fracturedatlas.org/the-switch-ensemble/campaigns/1516" role="button">Donate Now!</a>
+  <a class="btn btn-lg btn-round btn-primary" href="https://www.fracturedatlas.org/site/fiscal/profile?id=14815" role="button">Donate Now!</a>
 </div>
 
 ### About Our Campaign
