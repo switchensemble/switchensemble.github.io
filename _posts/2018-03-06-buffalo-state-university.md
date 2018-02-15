@@ -21,7 +21,7 @@ program:
   - composer: Victoria Cheah
     title: we drank wine from the bottle on a rooftop next to god.
   - composer: Tomas Henriques
-    title: Circles
+    title: Circle
 thumbnail: ibarra_berkeley_1000x500.jpg
 ---
 
