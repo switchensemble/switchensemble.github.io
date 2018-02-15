@@ -1,15 +1,15 @@
 ---
 composer:
-  first: Tomas
-  last: Henriques
+  first: Morton
+  last: Feldman
   url:
-title: Silence
+title: Intersection 4
 duration:
-yearComposed: "1986/rev.2005"
+yearComposed: 1952
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
-  - solo piano
+  - solo cello
 tags:
   - solo
 media:

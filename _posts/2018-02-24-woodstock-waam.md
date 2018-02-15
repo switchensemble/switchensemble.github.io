@@ -15,11 +15,11 @@ program:
   - composer: Matt Sargent
     title: Tide
   - composer: Henry Birdsey
-    title: scaffold cane
+    title: scaffold cane (2018)
   - composer: Clara Allison
-    title: Quartet for a lonely performer
+    title: Quartet for a lonely performer (2018)
   - composer: Telo Hoy
-    title: new work
+    title: Borderline (2018)
   - composer: Matt Sargent
     title: Second Illumination
 thumbnail: ibarra_berkeley_1000x500.jpg

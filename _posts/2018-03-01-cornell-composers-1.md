@@ -13,13 +13,13 @@ location:
   zip: 14853
 program:
   - composer: Piyawat Louilarpprasert
-    title: silhouette
+    title: silhouette (2018)
   - composer: Daniel Reza Sabzghabaei
-    title: At any rate
+    title: At any rate (2018)
   - composer: Barry Sharp
-    title: Recitations
+    title: Recitations (2018)
   - composer: Tonia Ko
-    title: Tribute | Axis II
+    title: Tribute | Axis II (2017)
   - composer: Roberto Sierra
     title: Tres Montunos
 thumbnail: ibarra_berkeley_1000x500.jpg

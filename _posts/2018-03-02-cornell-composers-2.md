@@ -13,15 +13,15 @@ location:
   zip: 14853
 program:
   - composer: Marianthi Papalexandri-Alexandri
-    title: Duo for motors and sound panels
+    title: Duo for motors and sound panels (2016)
   - composer: Kevin Ernste
     title: Almatira
   - composer: Sergio Cote
-    title: La Sed Es Tierra
+    title: La Sed Es Tierra (2017)
   - composer: Matt Sargent
-    title: Unwound Path
+    title: Unwound Path (2018)
   - composer: Jihyun Kim
-    title: Once Upon a Time...
+    title: Once Upon a Time... (2018)
 thumbnail: ibarra_berkeley_1000x500.jpg
 ---
 
