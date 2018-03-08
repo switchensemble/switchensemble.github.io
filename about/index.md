@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-headerImage: header-switch-CMC.jpg
+headerImage: header-switch-copper.jpg
 ---
 
 ## Artistic Statement

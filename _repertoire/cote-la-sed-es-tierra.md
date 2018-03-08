@@ -12,6 +12,7 @@ instrumentation:
   - 4 amplified surfaces
 tags:
   - solo
+  - Cornell
 media:
   - title:
     url:
