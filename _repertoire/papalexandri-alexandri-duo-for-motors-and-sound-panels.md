@@ -17,4 +17,5 @@ tags:
   media:
   - title:
     url:
-headerImage:
+headerImage: repertoire-images/papalexandri-duo_1000x500.jpg
+---

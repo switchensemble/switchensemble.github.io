@@ -12,10 +12,10 @@ instrumentation:
   - electronics
 tags:
   - electronics
-  - solo 
+  - solo
 media:
   - title:
     url:
-    headerImage: repertoire-images/murray-ad-marginem_1000x500.jpg
+headerImage: repertoire-images/murray-ad-marginem_1000x500.jpg
 
 ---
