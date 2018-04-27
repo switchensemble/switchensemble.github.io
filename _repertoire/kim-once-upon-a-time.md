@@ -21,4 +21,6 @@ media:
   - title:
     url:
 headerImage: repertoire-images/kim-once_1000x500.jpg
+thumbnailImage: repertoire-images/kim-once_400x200-30per.jpg
+
 ---
