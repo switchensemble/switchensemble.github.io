@@ -21,12 +21,16 @@ title: Repertoire
 <!-- split the list of tags, remove duplicates, and sort by alpha -->
 {%- assign tagArray = listOfTags | split: ' ' | uniq | sort -%}
 <!-- sort repertoire by alpha -->
-{%- assign sortedRep = site.repertoire | sort: 'yearComposed' | reverse -%}
+{%- assign sortedRepYear = site.repertoire | sort: 'yearComposed' | reverse -%}
 
 <!-- Portfolio-->
 <div class="row row-portfolio-filter">
 	<div class="col-sm-12">
-		<ul class="filters h5" id="filters">
+    <ul class="filters h5">
+      <li><a href="./index.html" class="{%- unless page.url contains 'list' -%}current{%- endunless -%}">Portfolio View</a></li>
+      <li><a href="./list-view.html" class="{%- if page.url contains 'list' -%}current{%- endif -%}">List View</a></li>
+    </ul>
+    <ul class="filters h5" id="filters">
 			<li><a class="current" href="#" data-filter="*">All</a></li>
       <li><a href="#" data-filter=".solo">Solo</a></li>
       <li><a href="#" data-filter=".duo">Duo</a></li>
@@ -47,7 +51,7 @@ title: Repertoire
 </div>
 <div class="row row-portfolio" data-columns="3">
 	<div class="grid-sizer"></div>
-  {%- for work in sortedRep -%}
+  {%- for work in sortedRepYear -%}
 		<div class="portfolio-item repertoire-item p-2 {% for item in work.tags %}{{-item }} {% endfor %}{{ work.size -}}">
 			<div class="portfolio-wrapper">
         {%- if work.headerImage -%}

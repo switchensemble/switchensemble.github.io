@@ -1,0 +1,45 @@
+---
+layout: page
+moduleSize: small
+title: Repertoire
+---
+
+<!-- create empty string to append tags -->
+{% assign tagString = '' %}
+<!-- capture the process of appending tags in a list -->
+<!-- append current tag to tagString, strip all whitespace, but retain space between words -->
+{% capture listOfTags %}
+  {%- for work in site.repertoire -%}
+    {%- if work.tags -%}
+      {%- for tag in work.tags -%}
+        {{ tagString | append: tag | append: ' ' }}
+      {%- endfor -%}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+<!-- split the list of tags, remove duplicates, and sort by alpha -->
+{%- assign tagArray = listOfTags | split: ' ' | uniq | sort -%}
+<!-- sort repertoire by alpha -->
+{%- assign sortedRepYear = site.repertoire | sort: 'yearComposed' | reverse -%}
+{%- assign sortedRepLast = site.repertoire | sort: 'last' -%}
+
+<!-- Portfolio-->
+<div class="row">
+	<div class="col-sm-12">
+    <ul class="filters h5">
+      <li><a href="./index.html" class="{%- unless page.url contains 'list' -%}current{%- endunless -%}">Portfolio View</a></li>
+      <li><a href="./list-view.html" class="{%- if page.url contains 'list' -%}current{%- endif -%}">List View</a></li>
+    </ul>
+	</div>
+</div>
+{%- for work in sortedRepYear -%}
+<div class="row rep">
+  <div class="col-2 col-sm-1"><a href="{{ work.url }}">{{ work.yearComposed }}</a></div>
+  <div class="col-10 ml-auto ml-sm-0 col-sm-3"><a href="{{ work.url }}">{{ work.composer.first }} {{ work.composer.last }}</a></div>
+  <div class="col-10 ml-auto ml-sm-0 col-sm-5"><a href="{{ work.url }}"><em>{{ work.title }}</em></a></div>
+  <div class="col-10 ml-auto ml-sm-0 col-sm-3"><a href="{{ work.url }}">{{ work.size }} {% for tag in work.tags %}{% if tag == 'electronics' %}and electronics{% endif %}{% endfor %}</a></div>
+</div>
+<hr class="my-2">
+{%- endfor -%}
+<!-- Portfolio end-->

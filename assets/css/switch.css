@@ -54,6 +54,10 @@ h2.single-portfolio-title {
   }
 }
 
+.rep a {
+    color: #999;
+}
+
 footer aside .fa {
   font-size: 20px;
   padding: 0rem 0.5rem;
