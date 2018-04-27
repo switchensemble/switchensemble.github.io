@@ -10,7 +10,7 @@ moduleSize: small
 
 {%- for piece in sortedRep -%}
 
-  {%- if piece.composer.last contains 'Leroux' or piece.composer.last contains 'Steiger' or piece.composer.last contains 'Walton' or piece.composer.last contains 'Chandler' or piece.composer.last contains 'McCormack' piece.composer.last contains 'Cote' piece.composer.last contains 'Louilarpprasert' or piece.composer.last contains 'Thorpe Buchanan' -%}
+  {%- if piece.composer.last contains 'Leroux' or piece.composer.last contains 'Steiger' or piece.composer.last contains 'Walton' or piece.composer.last contains 'Chandler' or piece.composer.last contains 'McCormack' or piece.composer.last contains 'Cote' piece.composer.last contains 'Louilarpprasert' or piece.composer.last contains 'Thorpe Buchanan' -%}
 
     {%- for item in piece.media -%}
       {%- unless item.url == nil -%}
