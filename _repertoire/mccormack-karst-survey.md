@@ -27,4 +27,5 @@ media:
     url: https://soundcloud.com/timothy-mccormack/karst-survey-2016-the-switch-ensemble
     ID: 286316126
 headerImage: repertoire-images/mccormack-karst-survey-1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/mccormack-karst-survey_400x200.jpg
 ---

@@ -21,4 +21,5 @@ media:
   - title:
     type:
 headerImage: repertoire-images/gradone-network_1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/gradone-network_400x200.jpg
 ---

@@ -16,9 +16,10 @@ instrumentation:
 commissionedOrWrittenFor: written
 tags:
   - electronics
-  - solo 
+  - solo
 media:
   - title:
     url:
 headerImage: repertoire-images/giang_iwantyoutobe_1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/giang_iwantyoutobe_400x200.jpg
 ---

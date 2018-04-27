@@ -19,4 +19,5 @@ media:
     url:
     ID:
 headerImage: repertoire-images/ko-tribute_1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/ko-tribute_400x200.jpg
 ---

@@ -18,4 +18,5 @@ media:
   - title:
     url:
 headerImage: repertoire-images/vine_thingsfallapart_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/vine_thingsfallapart_400x200.jpg
 ---

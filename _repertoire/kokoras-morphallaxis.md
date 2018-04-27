@@ -15,7 +15,7 @@ instrumentation:
   - electronics
 tags:
   - electronics
-  - trio 
+  - trio
 media:
   - title: Morphallaxis by Panayiotis Kokoras - the [Switch~ Ensemble]
     url: https://www.youtube.com/embed/4jcJhyt4TuY
@@ -23,5 +23,6 @@ media:
     url: https://soundcloud.com/theswitchensemble/morphallaxis_kokoras
     ID: 235823513
 headerImage: repertoire-images/kokoras-morphallaxis_1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/kokoras-morphallaxis_400x200.jpg
 
 ---

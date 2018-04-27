@@ -23,4 +23,5 @@ media:
   - title:
     url:
 headerImage: repertoire-images/mettens_hedreamsamother_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/mettens_hedreamsamother_400x200.jpg
 ---

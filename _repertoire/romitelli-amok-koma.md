@@ -27,4 +27,5 @@ media:
     ID: 158258802
     notes: live
 headerImage: repertoire-images/romitelli_amok_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/romitelli_amok_400x200.jpg
 ---

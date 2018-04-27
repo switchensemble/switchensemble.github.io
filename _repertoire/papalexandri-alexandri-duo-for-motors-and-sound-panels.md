@@ -18,4 +18,5 @@ tags:
   - title:
     url:
 headerImage: repertoire-images/papalexandri-duo_1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/papalexandri-duo_400x200.jpg
 ---

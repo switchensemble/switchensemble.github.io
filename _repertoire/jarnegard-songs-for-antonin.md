@@ -28,4 +28,5 @@ media:
     url:
     ID:
 headerImage: repertoire-images/mccormack-karst-survey-1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/mccormack-karst-survey_400x200.jpg
 ---

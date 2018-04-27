@@ -15,10 +15,11 @@ instrumentation:
   - piano
   - electronics
 tags:
-  - electronics 
+  - electronics
 media:
   - title:
     type:
     url:
 headerImage: repertoire-images/prins_fleshprosthesis_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/prins_fleshprosthesis_400x200.jpg
 ---

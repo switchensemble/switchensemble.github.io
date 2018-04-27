@@ -22,4 +22,5 @@ media:
   - title:
     url:
 headerImage: repertoire-images/sargent-unwound-path_1000x500.jpg
+thumbnailImage: repertoire-images/thumbnails/sargent-unwound-path_400x200.jpg
 ---

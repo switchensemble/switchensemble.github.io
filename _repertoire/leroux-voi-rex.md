@@ -35,4 +35,5 @@ media:
     url: https://soundcloud.com/theswitchensemble/voirex-by-philippe-leroux-mvts-1-2
     ID: 176118045
 headerImage: repertoire-images/leroux_voirex_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/leroux_voirex_400x200.jpg
 ---

@@ -31,4 +31,5 @@ media:
     type: playlist
     ID: 160763124
 headerImage: repertoire-images/thorpebuchanan_hungerpart3_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/thorpebuchanan_hungerpart3_400x200.jpg
 ---

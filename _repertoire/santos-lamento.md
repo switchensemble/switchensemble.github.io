@@ -27,4 +27,5 @@ media:
     type:
     url:
 headerImage: repertoire-images/santos_lamento_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/santos_lamento_400x200.jpg
 ---

@@ -19,4 +19,5 @@ media:
   - title: Komorebi (2016) by NamHoon “Matthew” Kim
     url: https://www.youtube.com/embed/1VOjrRp7S6w
 headerImage: repertoire-images/kim_komorebi_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/kim_komorebi_400x200.jpg
 ---
