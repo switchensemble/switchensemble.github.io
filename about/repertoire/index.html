@@ -54,10 +54,10 @@ title: Repertoire
   {%- for work in sortedRepYear -%}
 		<div class="portfolio-item repertoire-item p-2 {% for item in work.tags %}{{-item }} {% endfor %}{{ work.size -}}">
 			<div class="portfolio-wrapper">
-        {%- if work.headerImage -%}
-          <img src="{{ site.images }}/{{ work.headerImage }}" alt="">
+        {%- if work.thumbnailImage -%}
+          <img src="{{ site.images }}/{{ work.thumbnailImage }}" alt="">
         {% else %}
-          <img src="{{ site.images }}/repertoire-images/switch_misc_1000x500px.jpg" alt="">
+          <img src="{{ site.images }}/repertoire-images/thumbnails/switch_misc_400x200.jpg" alt="">
         {%- endif -%}
 				<div class="portfolio-overlay"></div>
         <div class="portfolio-caption">
