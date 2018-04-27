@@ -2,7 +2,7 @@
 composer:
   first: Marianthi
   last: Papalexandri-alexandri
-title: Duo for motos and sound panels
+title: Duo for motor and sound panels
 duration:
 yearComposed: 2016
 size: duo
