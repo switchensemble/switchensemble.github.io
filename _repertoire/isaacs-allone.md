@@ -7,7 +7,7 @@ title: "allone"
 duration:
 yearComposed: 2009
 commissionedOrWrittenFor:
-size:
+size: trio
 instrumentation:
   - clarinet
   - cello
