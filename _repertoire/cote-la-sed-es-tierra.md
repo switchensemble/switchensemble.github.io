@@ -16,5 +16,5 @@ tags:
 media:
   - title: La Sed Es Tierra (2018) for solo percussionist and four amplified surfaces by Sergio Cote
     url: https://www.youtube.com/watch?v=DkVZ9rSVSZ8
-  headerImage: repertoire-images/Louilarpprasert_silhouette-1000x500.jpg
+headerImage: repertoire-images/Louilarpprasert_silhouette-1000x500.jpg
 ---

@@ -5,7 +5,8 @@ composer:
   url:
 title: Silence
 duration:
-yearComposed: "1986/rev.2005"
+yearComposed: 1986
+revised: 2005
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
