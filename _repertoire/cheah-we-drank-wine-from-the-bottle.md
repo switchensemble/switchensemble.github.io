@@ -16,6 +16,7 @@ tags:
   - quartet
   - electronics
   - open instrumentation
+  - sine tones
 media:
   - title:
     url:

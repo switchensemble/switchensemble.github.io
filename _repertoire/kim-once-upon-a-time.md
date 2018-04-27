@@ -16,6 +16,7 @@ instrumentation:
   - percussion
 tags:
   - sextet
+  - acoustic
 media:
   - title:
     url:

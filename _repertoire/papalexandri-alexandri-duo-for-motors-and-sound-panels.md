@@ -12,7 +12,9 @@ instrumentation:
   - sound panels
 tags:
   - electronics
-media:
+  - motor
+  - two performers
+  media:
   - title:
     url:
 headerImage:
