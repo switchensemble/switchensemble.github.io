@@ -19,6 +19,6 @@ tags:
   - sine tones
 media:
   - title: We drank wine from the bottle on a rooftop next to god (2017) by Victoria Cheah
-    url: https://www.youtube.com/watch?v=V4bu6xW4nFU&t=301s
+    url: https://www.youtube.com/embed/V4bu6xW4nFU
 headerImage: assets/images/repertoire-images/cheah-we-drank-wine_1000x500.jpg
 ---

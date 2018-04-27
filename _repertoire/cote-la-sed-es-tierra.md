@@ -15,6 +15,6 @@ tags:
   - Cornell
 media:
   - title: La Sed Es Tierra (2018) for solo percussionist and four amplified surfaces by Sergio Cote
-    url: https://www.youtube.com/watch?v=DkVZ9rSVSZ8
+    url: https://www.youtube.com/embed/DkVZ9rSVSZ8
 headerImage: repertoire-images/cote-la-sed_1000x500.jpg
 ---
