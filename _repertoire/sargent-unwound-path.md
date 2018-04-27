@@ -15,7 +15,9 @@ instrumentation:
   - piano
   - percussion
 tags:
-  -
+  - sextet
+  - acoustic
+  - commission
 media:
   - title:
     url:
