@@ -3686,7 +3686,7 @@ body.off-canvas-sidebar-open .layout {
 .portfolio-overlay {
     position: absolute;
     background: rgba(49, 49, 49, .95);
-    opacity: 0.75;
+    opacity: 0.65;
     z-index: 1;
     left: 0;
     top: 0;
