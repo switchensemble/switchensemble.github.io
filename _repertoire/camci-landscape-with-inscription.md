@@ -21,4 +21,6 @@ media:
   - title:
     type:
     url:
+headerImage: repertoire-images/camci_landscape_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/camci_landscape_400x200.jpg
 ---

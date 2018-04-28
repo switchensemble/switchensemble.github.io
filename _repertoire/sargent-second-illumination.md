@@ -16,4 +16,6 @@ tags:
 media:
   - title:
     url:
+headerImage: repertoire-images/sargent-second-illumination_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/sargent-second-illumination_400x200.jpg
 ---

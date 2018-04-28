@@ -15,4 +15,6 @@ tags:
 media:
   - title:
     url:
+headerImage: repertoire-images/romitelli-domeniche_1000x500px.jpg
+thumbnailImage: repertoire-images/thumbnails/romitelli-domeniche_400x200.jpg
 ---
