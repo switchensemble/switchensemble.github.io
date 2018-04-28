@@ -3615,7 +3615,7 @@ body.off-canvas-sidebar-open .layout {
 
 .filters > li a {
     color: #111;
-    opacity: .5;
+    opacity: .4;
 }
 
 .filters > li a:hover,
@@ -3686,7 +3686,7 @@ body.off-canvas-sidebar-open .layout {
 .portfolio-overlay {
     position: absolute;
     background: rgba(49, 49, 49, .95);
-    opacity: 0.58;
+    opacity: 0.55;
     z-index: 1;
     left: 0;
     top: 0;
