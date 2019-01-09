@@ -2,7 +2,7 @@
 layout: concert
 categories: performance
 date: 2019-03-28
-time: "8:00 pm"
+time: 
 location:
   institution: Eastman School of Music
   building:
