@@ -2,7 +2,7 @@
 layout: concert
 categories: performance
 date: 2019-03-28
-time: 
+time:
 location:
   institution: Eastman School of Music
   building:
@@ -24,8 +24,6 @@ thumbnail: ibarra_berkeley_1000x500.jpg
 ---
 
 [Switch~] plays works by Alican Camci, Anna-Louise Walton, and Eastman/EARS Student Composers.
-
-<img src="http://switchensemble.github.io/assets/images/arete-poster-1242x1920.jpg" height="960" width="621">
 
 Thursday, March 28:
 the [Switch~ Ensemble]
