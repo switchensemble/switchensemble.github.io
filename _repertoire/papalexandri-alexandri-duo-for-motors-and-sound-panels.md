@@ -1,7 +1,7 @@
 ---
 composer:
   first: Marianthi
-  last: Papalexandri-alexandri
+  last: Papalexandri-Alexandri
 title: Duo for motor and sound panels
 duration:
 yearComposed: 2016
@@ -14,7 +14,7 @@ tags:
   - electronics
   - motor
   - two performers
-  media:
+media:
   - title:
     url:
 headerImage: repertoire-images/papalexandri-duo_1000x500.jpg
