@@ -16,8 +16,8 @@
   sublinks:
     - page: Call for Scores
       url: /projects/call-for-scores/
-    - page: Events
-      url: /projects/events/
+    # - page: Events
+      # url: /projects/events/
 
 - title: Media
   url: /media/
