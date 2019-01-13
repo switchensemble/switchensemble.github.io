@@ -8,7 +8,7 @@ location:
   building:
   venue: Image/Sound Festival
   address: 26 Gibbs Street
-  city: Rochester, New York
+  city: Rochester
   state: NY
   zip: 14604
 program:
