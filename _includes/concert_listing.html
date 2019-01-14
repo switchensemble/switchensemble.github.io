@@ -1,0 +1,39 @@
+<div class="row mb-5">
+  <div class="col-12 col-md-5">
+    {%- if concert.thumbnail -%}
+      <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/repertoire-images/{{ concert.thumbnail }}" alt=""></a>
+    {% else %}
+      <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
+    {%- endif -%}
+  </div>
+  <div class="col-12 col-md-7">
+    <h3 class="text-left mb-2">{{ concert.date | date: "%B %d, %Y" }}</h3>
+    {%- if concert.location.country -%}
+      <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.country }}</h3>
+    {%- else -%}
+      <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.state }}</h3>
+    {%- endif -%}
+
+    <p class="location-details">
+      {%- if concert.event -%}{{ concert.event }}<br />{%- endif -%}
+      {%- if concert.location.institution -%}{{ concert.location.institution }}<br />{%- endif -%}
+      {%- if concert.location.building -%}{{ concert.location.building }}<br />{%- endif -%}
+      {%- if concert.location.venue -%}{{ concert.location.venue }}<br />{%- endif -%}
+      {%- if concert.location.address -%}{{ concert.location.address }}<br />{%- endif -%}
+      {%- if concert.location.country -%}
+        {{ concert.location.city }}, {{ concert.location.country }}
+      {%- else -%}
+        {{ concert.location.city }}, {{ concert.location.state }} {{ concert.location.zip }}
+      {%- endif -%}
+    </p>
+    {%- for work in concert.program -%}
+      <div class="row">
+        <div class="col-5 font-weight-bold text-uppercase">{{ work.composer }}</div>
+        <div class="col-7 font-italic">{{ work.title }}</div>
+      </div>
+    {%- endfor -%}
+    <p class="mt-3">
+      <a class="btn btn-round btn-sm btn-gray" href="{{ concert.url }}" role="button">Details</a>
+    </p>
+  </div>
+</div>
