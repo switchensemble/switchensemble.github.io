@@ -4,6 +4,8 @@ title: Support
 headerImage: header-qnmf-reh.jpg
 ---
 
+<!--
+
 ## Crowdfunding Campaign
 
 The [Switch~ Ensemble] seeks support for our 2017-18 season during which we will share our cutting-edge blend of chamber music and electronics or multimedia with performers, composers, and audiences across the United States. Our events include concerts and workshops for community members in San Francisco at the Center for New Music and Berkeley's CNMAT in California; an upstate New York tour where we will be premiering a dozen new works for chamber ensemble and electronics; and a CD release including some of our most exciting repertoire written for or premiered nationally by [Switch~], including Timothy McCormack's *karst survey*, Elvira Garifzyanova's *Aurora Borealis*, Alican Çamci's *landscape with inscription*, and Anna-Louise Walton's *Jökulsárlon*. Our season will culminate in the NYC premiere of two new commissions from Esaias Järnegard and Adrien Trybucki, our 2016-17 International Commissioning Competition Winners, and more exciting new repertoire for ensemble and technology. [Switch~] is committed to supporting the work of emerging composers and each event will highlight different aspects of this mission.
@@ -47,30 +49,8 @@ The [Switch~ Ensemble] premieres two newly-commissioned works by our 2016-17 Int
 
 100% of the funds raised will go to the musicians, production, and travel-related costs for these performances.
 
-<!--<div class="d-flex justify-content-center mb-5"> -->
   <img src="switch-featured-composers-1200px.jpg">
-<!-- </div> -->
+
+-->
 
 {% include donors.html %}
-
-<!--
-### Help commission an innovative new work!
-
-We have already generated a great deal of momentum as we plan our 2017-18 season! We are excited for collaborations with Swiss composer Katharina Rosenberger, American composer Matt Sargent, and Switch~'s Artistic Director Jason Thorpe Buchanan.
-
-We are raising commissioning fees for the creation of each new work to support the commissioning fee and remaining production expenses. Plans for next season include premieres and residencies in New York, Chicago, San Diego, San Francisco, and Europe.
-
-Many thanks for your support,
-Switch~ Ensemble
-
-Jason Thorpe Buchanan, composer (Artistic Director)  
-Christopher Chandler, composer (Executive Director)  
-Clay Mettens, composer (Director of Development)  
-Zach Sheets, flute  
-Madison Greenstone, clarinet  
-Matt Evans, saxophone  
-Lauren Cauley, violin  
-T.J. Borden, cello  
-Wei-Han Wu, piano  
-Megan Arns, percussion
--->
