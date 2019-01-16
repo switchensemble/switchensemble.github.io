@@ -85,6 +85,11 @@ layout: default
                 {{ page.location.city }}, {{ page.location.state }} {{ page.location.zip }}
               {%- endif -%}
 						</li>
+            {%- if page.tickets.url -%}
+              <li>
+                <a class="btn btn-round btn-sm btn-success my-2" href="{{ page.tickets.url }}" role="button">Tickets</a>
+              </li>
+            {%- endif -%}
 						<li>
 							<h5>Share:</h5>
 							<ul class="social-icons">

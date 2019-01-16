@@ -32,8 +32,12 @@
         <div class="col-7 font-italic">{{ work.title }}</div>
       </div>
     {%- endfor -%}
-    <p class="mt-3">
+    <div class="mt-3">
       <a class="btn btn-round btn-sm btn-gray" href="{{ concert.url }}" role="button">Details</a>
-    </p>
+      {%- if concert.tickets.url -%}
+      <!-- add if for testing if concert time has passed -->
+      <a class="btn btn-round btn-sm btn-success" href="{{ concert.tickets.url }}" role="button">Tickets</a>
+      {%- endif -%}
+    </div>
   </div>
 </div>
