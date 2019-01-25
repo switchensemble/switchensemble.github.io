@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Zach Sheets
+title: Alican Çamci's <em>landscape with inscription</em>
 categories: blog
 image: camci-images/Camci-Bard-Dress.jpg
 headerImage: camci-images/Camci-Bard-Dress.jpg
