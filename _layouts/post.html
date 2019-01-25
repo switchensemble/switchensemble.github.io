@@ -12,8 +12,8 @@ layout: default
             <p>{{ page.author }}</p>
           {%- endif -%}
           {%- if page.categories contains 'blog' -%}
-            {%- if page.manual-date -%}
-              <p>{{ page.manual-date }}</p>
+            {%- if page.manualDate -%}
+              <p>{{ page.manualDate }}</p>
             {%- else -%}
               <p>{{ page.date | date: "%B %d, %Y" }}</p>
             {%- endif -%}

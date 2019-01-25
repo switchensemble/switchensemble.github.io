@@ -24,8 +24,8 @@ headerImage: header-vipa-ensemble.jpg
   				<div class="post-header">
   					<h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
   					<ul class="post-meta h5 text-center">
-							{%- if post.manual-date -%}
-	            <li>{{ post.manual-date }}</li>
+							{%- if post.manualDate -%}
+	            <li>{{ post.manualDate }}</li>
 	            {%- else -%}
 							<li>{{ post.date | date: "%B %d, %Y" }}</li>
 	            {%- endif -%}
@@ -34,7 +34,7 @@ headerImage: header-vipa-ensemble.jpg
   					</ul>
   				</div>
   				<div class="post-content">
-  					<p>{{ post.excerpt }}</p>
+  					<p>{{ post.postDescription }}</p>
   				</div>
   				<div class="post-more"><a href="{{ post.url }}">Read more →</a></div>
   			</div>
