@@ -6,7 +6,7 @@ categories: blog
 image: vipa-images/Avaloch-June-28-03645.jpg
 headerImage: vipa-images/Avaloch-June-28-03645.jpg
 date: 2019-01-24
-manualDate: Fall 2018
+manualDate: Fall 2017
 postDescription: Summer 2016 brought to life some of the biggest projects we had tackled as an ensemble. [Switch~] completed a residency at Avaloch Farm Music Institute and performed a dozen world premieres as an ensemble-in-residence at the Valencia International Performance Academy and Festival.
 tags:
 ---

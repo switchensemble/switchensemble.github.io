@@ -5,8 +5,8 @@ title: Alican Çamci's <em>landscape with inscription</em>
 categories: blog
 image: camci-images/Camci-Bard-Dress.jpg
 headerImage: camci-images/Camci-Bard-Dress.jpg
-date: 2019-01-25
-manualDate: Spring 2019
+date: 2019-01-26
+manualDate: Fall 2018
 postDescription: In the time since its premiere in 2017, we have come to know Alican Çamcı's "landscape, with inscription" in a more sophisticated and intimate way with each performance. There is something beguiling about the work; although its concept is clear from a first reading, its intricacies bloom with each renewed encounter.
 tags:
 ---

@@ -5,8 +5,8 @@ author: Clay Mettens
 categories: blog
 image: /upstate-ny-images/cornell-reh.jpeg
 headerImage: /upstate-ny-images/cornell-reh.jpeg
-date: 2019-01-26
-manualDate: Spring 2019
+date: 2019-01-25
+manualDate: Spring 2018
 postDescription: From February 21 - March 6 2018, the [Switch~ Ensemble] embarked on a tour across upstate and western New York to celebrate the ensemble's five-year anniversary by returning to the region where we began our musical journey.
 tags:
 ---
