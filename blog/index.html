@@ -1,0 +1,46 @@
+---
+layout: page
+title: Blog~
+tagline: A blog at the audio rate
+headerImage: header-vipa-ensemble.jpg
+---
+
+{% assign blogPosts = site.posts | where_exp:"item", "item.categories contains 'blog'" %}
+
+<div class="row">
+	<!-- Content-->
+	<div class="col-lg-8 m-auto">
+    {%- for post in blogPosts -%}
+  		<!-- Post-->
+  		<article class="post">
+  			<div class="post-preview">
+          {%- if post.image -%}
+            <a href="{{ post.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/{{ post.image }}" alt=""></a>
+          {% else %}
+            <a href="{{ post.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/repertoire-images/switch_misc_1000x500px.jpg" alt=""></a>
+          {%- endif -%}
+        </div>
+  			<div class="post-wrapper">
+  				<div class="post-header">
+  					<h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  					<ul class="post-meta h5 text-center">
+							{%- if post.manual-date -%}
+	            <li>{{ post.manual-date }}</li>
+	            {%- else -%}
+							<li>{{ post.date | date: "%B %d, %Y" }}</li>
+	            {%- endif -%}
+              <li>{{ post.author }}</li>
+  						<!-- <li><a href="#">3 Comments</a></li> -->
+  					</ul>
+  				</div>
+  				<div class="post-content">
+  					<p>{{ post.excerpt }}</p>
+  				</div>
+  				<div class="post-more"><a href="{{ post.url }}">Read more →</a></div>
+  			</div>
+  		</article>
+  		<!-- Post end-->
+    {%- endfor -%}
+	</div>
+	<!-- Content end-->
+</div>
