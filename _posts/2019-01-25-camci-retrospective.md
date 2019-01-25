@@ -5,19 +5,17 @@ categories: blog
 image: camci-images/Camci-Bard-Dress.jpg
 headerImage: camci-images/Camci-Bard-Dress.jpg
 date: 2019-01-25
-manual-date: Fall 2018
+manualDate: Fall 2018
+postDescription: In the time since its premiere in 2017, we have come to know Alican Çamcı's "landscape, with inscription" in a more sophisticated and intimate way with each performance. There is something beguiling about the work; although its concept is clear from a first reading, its intricacies bloom with each renewed encounter.
 tags:
 ---
 
-<div class="row pb-3">
-  <div class="{% if page.categories contains 'blog' -%}col-sm-8{%- endif -%} pl-0">
-    <p>In the time since its premiere in 2017, we have come to know Alican Çamcı's "landscape, with inscription" in a more sophisticated and intimate way with each performance. There is something beguiling about the work; although its concept is clear from a first reading, its intricacies bloom with each renewed encounter.</p>
+<img class="float-sm-right col-sm-5 col-lg-4 p4-0 pb-3" src="{{ site.images }}/camci-images/Switch-Chicago-300dpi_2800px-1090133.jpg">
 
-    <p>Alican is a composer living in Chicago. We premiered "landscape, with inscription" in May 2017 in our residency with University of Chicago and the CHIME Studio, with subsequent performances in our upstate New York tour in February 2018.</p>
-  </div>
-  <div class="col-sm-4">
-    <img class="pb-3" src="{{ site.images }}/camci-images/Switch-Chicago-300dpi_2800px-1090133.jpg">
-  </div>
+In the time since its premiere in 2017, we have come to know Alican Çamcı's "landscape, with inscription" in a more sophisticated and intimate way with each performance. There is something beguiling about the work; although its concept is clear from a first reading, its intricacies bloom with each renewed encounter.
+
+Alican is a composer living in Chicago. We premiered "landscape, with inscription" in May 2017 in our residency with University of Chicago and the CHIME Studio, with subsequent performances in our upstate New York tour in February 2018.
+
 
 I first met Ali through the FORUM Internationale des Jeunes Compositeurs in Montréal in Fall of 2016, and was struck by his relationship to sound and musical thinking. As he puts it, "[my] recent works feature an investigation of sound as a potentially documentary medium. [I seek] to explore this aspect through the use of field and speech recordings, found sounds, everyday materials in relation to the performative dimension introduced by the musicians in a live situation."
 
