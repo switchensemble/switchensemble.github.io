@@ -49,6 +49,15 @@ layout: default
 
     {{ content }}
 
+  {%- if page.categories contains 'blog' -%}
+      <ul class="social-icons">
+        <li class="h4">Share: </li>
+        <li class=""><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li> |
+        <li class="ml-2"><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li> |
+        <li class="ml-2"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i></a></li>
+      </ul>
+  {%- endif -%}
+
   </div>
 </section>
 <!-- Module end-->
