@@ -7,13 +7,13 @@ image: camci-images/Camci-Bard-Dress.jpg
 headerImage: camci-images/Camci-Bard-Dress.jpg
 date: 2019-01-26
 manualDate: Fall 2018
-postDescription: In the time since its premiere in 2017, we have come to know Alican Çamcı's "landscape, with inscription" in a more sophisticated and intimate way with each performance. There is something beguiling about the work; although its concept is clear from a first reading, its intricacies bloom with each renewed encounter.
+postDescription: In the time since its premiere in 2017, we have come to know Alican Çamcı's <em>landscape, with inscription</em> in a more sophisticated and intimate way with each performance. There is something beguiling about the work; although its concept is clear from a first reading, its intricacies bloom with each renewed encounter.
 tags:
 ---
 
 In the time since its premiere in 2017, we have come to know Alican Çamcı's *landscape, with inscription* in a more sophisticated and intimate way with each performance. There is something beguiling about the work; although its concept is clear from a first reading, its intricacies bloom with each renewed encounter.
 
-Alican is a composer living in Chicago. We premiered *landscape, with inscription* in May 2017 in our residency with University of Chicago and the CHIME Studio, with subsequent performances in our upstate New York tour in February 2018.
+Alican is a composer living in Chicago. We premiered *landscape, with inscription* in May 2017 in [our residency with University of Chicago]({{ site.url }}/blog/2019/01/24/uchicago-retrospective.html) and the CHIME Studio, with subsequent performances in our upstate New York tour in February 2018.
 
 I first met Ali through the FORUM Internationale des Jeunes Compositeurs in Montréal in Fall of 2016, and was struck by his relationship to sound and musical thinking. As he puts it, "[my] recent works feature an investigation of sound as a potentially documentary medium. [I seek] to explore this aspect through the use of field and speech recordings, found sounds, everyday materials in relation to the performative dimension introduced by the musicians in a live situation."
 
