@@ -11,9 +11,9 @@ postDescription: Summer 2016 brought to life some of the biggest projects we had
 tags:
 ---
 
-<img class="float-sm-left col-sm-4 col-lg-3 pl-0" src="{{ site.images }}/vipa-images/Avaloch-June-28-03611.jpg">
+<img class="float-sm-left col-sm-4 col-lg-3 pl-0 pb-sm-5 pb-md-3" src="{{ site.images }}/vipa-images/Avaloch-June-28-03611.jpg">
 
-Summer 2016 brought to life some of the biggest projects we had tackled as an ensemble. [Switch~] completed a residency at Avaloch Farm Music Institute and performed a dozen world premieres as an ensemble-in-residence at the Valencia International Performance Academy and Festival.
+Summer 2016 brought to life some of the biggest projects we had tackled as an ensemble to-date. [Switch~] completed a residency at Avaloch Farm Music Institute and performed a dozen world premieres as an ensemble-in-residence at the Valencia International Performance Academy and Festival.
 
 Avaloch provides a supportive and generous framework for directed musical development. A range of ensembles rotate in-residence throughout the summer, with rehearsal space, lodging, and food provided in beautiful Boscawen, NH. It was the ensemble's first residency of this nature, and the time proved transformative for our series of concerts.
 
@@ -33,7 +33,7 @@ In addition to performances of works by faculty composer [Stefano Gervasoni](htt
 
 <img class="float-sm-right col-sm-4 col-lg-3 p4-0" src="{{ site.images }}/vipa-images/Avaloch-June-28-03631.jpg">
 
-Tim's work, *karst survey*, is inspired by his fascination with geology. (If, like us, you didn't know what a karst was, you can go [here](https://en.wikipedia.org/wiki/Karst\). Tim's work required a decisive commitment to mastery of every aspect of its construction: instead of conventional rhythms and metrical structures, the work unfolds in "elastic time," with a system of cues precipitating the succession of events. With every performer fixated on the sounds around themselves and the intricate physical nature of Tim's musical language, *karst survey* achieves a lift-off from the customary obligations of keeping time. Instead of governing time through beats, pulse, or meters, Tim's sinuous, threadbare lyricism stretches time to a geological scale that transcends the familiar and yields a spectacular 18 minutes of music.
+Tim's work, *karst survey*, is inspired by his fascination with geology. (If, like us, you didn't know what a karst was, you can go [here](https://en.wikipedia.org/wiki/Karst\).) Tim's work required a decisive commitment to mastery of every aspect of its construction: instead of conventional rhythms and metrical structures, the work unfolds in "elastic time," with a system of cues precipitating the succession of events. With every performer fixated on the sounds around themselves and the intricate physical nature of Tim's musical language, *karst survey* achieves a lift-off from the customary obligations of keeping time. Instead of governing time through beats, pulse, or meters, Tim's sinuous, threadbare lyricism stretches time to a geological scale that transcends the familiar and yields a spectacular 18 minutes of music.
 
 
 On *karst survey*, Tim writes: *An on-the-ground traversal through a weathered and disconnected terrain; a crawl way suddenly opening up into a cavern; a disappearing river; a compulsive urge for movement; a pushing forward, even if that leads straight down the dark maw of a sinkhole.*
@@ -44,11 +44,14 @@ We invite you to listen to our world premiere performance here:
 
 But, one of the most vibrant aspects of \[Switch\~\]'s work together is, honestly, that the ensemble is such a supportive and caring workplace to make music. Days at VIPA and Avaloch were long and breaks hard-earned, but we certainly found plenty of time to eat, sightsee, and enjoy each other's company:
 
-<div class="d-flex bd-highlight">
-  <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/Avaloch-June-28-2-2.jpg"></div>
-  <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/Avaloch-June-28-2-4.jpg"></div>
-</div>
-<div class="d-flex bd-highlight">
-  <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/Avaloch-June-28-2-6.jpg"></div>
-  <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/IMG_2912.jpg"></div>
+<div class="row">
+  <div class="col-sm-6 px-1">
+    <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/IMG_2912.jpg"></div>
+    <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/avaloch-fun.jpg"></div>
+  </div>
+  <div class="col-sm-6 px-1">
+    <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/Avaloch-June-28-2-2.jpg"></div>
+    <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/Avaloch-June-28-2-4.jpg"></div>
+    <div class="p-2 flex-fill bd-highlight"><img src="{{ site.images }}/vipa-images/Avaloch-June-28-2-6.jpg"></div>
+  </div>
 </div>
