@@ -15,7 +15,7 @@
   <meta property="og:description" content="{{ page.excerpt }}" />
 {% endif %}
 
-<title>{{ page.title }}</title>
+<title>{{ page.title | strip_html }}</title>
 
 <!-- Favicons and app icons-->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ site.images }}/favicon/apple-touch-icon.png">
