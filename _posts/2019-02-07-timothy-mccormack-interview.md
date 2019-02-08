@@ -63,6 +63,13 @@ I'm also working on some new works for Curious Chamber Players, following an old
 
 **ZS:** Who happened to be a Forsythe dancer.
 
+<div class="col-sm-6 mx-auto">
+  <figure class="figure">
+    <a href="https://vimeo.com/41151136"><img src="{{ site.images }}/tim-interview/forsythe.png"></a>
+    <figcaption class="figure-caption text-center">Click <a href="https://vimeo.com/41151136">here</a> or the image above to view a production of William Forsythe's <em>One Flat Thing, Reproduced</em></figcaption>
+  </figure>
+</div>
+
 **TM:** Who happened to be a dancer from the very company that all of my research was about. When I say that dance is significant for me, it really is the work of William Forsythe and his company that's most relevant to my compositional project. So, I took dance classes, and I think because I had been studying their technique from a distance for so many years, it was lying dormant in my body. Once I was actually doing it, it came really naturally to me. It was feeding and energizing my own compositional work---but it also became its own independent thing.
 
 **ZS:** I'm curious both about the history and about right now when it comes to a few aspects of your musical thinking. I'm trying to find a way to wrangle this question... it's sort of like, summarize your entire aesthetic position, which is not a very good question.
@@ -80,6 +87,8 @@ Put it this way: I came to dance because my music was extremely physical. By whi
 **TM:** Yeah, notating the action of the player, and the sound follows from that. That's why I initially came to dance. But then, having this experience within dance has inverted that physicality in my music. Now, the physicality that was the shimmering surface of my music has been so much more deeply embedded into the music, such that it's not this wild display of physical gesture. It's a much more internal thing. The way that I've been thinking about it is that over the past however-many years my music has gone from being an enactment of physicality to an embodiment of the physicality.
 
 {% include soundcloud_player.html type="tracks" trackID=291930141 %}
+
+<div class="text-center mb-2"><small>The piece was written for and recorded by <a href="https://soundcloud.com/rage-thormbones">rage thormbones</a> (Weston Olencki and Matt Barbier).</small></div>
 
 *WORLDEATER* requires really fine control over physical action, like embouchure control. But the range of movement is so delimited, because the actual sounds that are being aimed for are so much more specific. The physicality is pointed toward the sound instead of the sound springing from the physicality.
 
@@ -125,7 +134,7 @@ I'm not saying that it's not challenging. But I have had experiences where the f
 
 <div class="special-heading"><h2>About Karst Survey</h2></div>
 
-**ZS:** I was writing about [Switch~]'s tour from 2016 and about its threadbare lyricism, which I think is so beautiful and so striking. It's interesting to me that there's this incongruity with the *content* of the music---that's so carefully etched and every detail fits just in its right place---and the container of the entire piece, which has this giant monolith in the latter two-thirds that is the most abrupt thing you could imagine.
+**ZS:** I was [writing recently]({{ site.url }}/blog/2019/01/23/vipa-and-avaloch-retrospective.html) about [Switch~]'s tour from 2016 and about *karst survey's* threadbare lyricism, which I think is so beautiful and so striking. It's interesting to me that there's this incongruity with the *content* of the music---that's so carefully etched and every detail fits just in its right place---and the container of the entire piece, which has this giant monolith in the latter two-thirds that is the most abrupt thing you could imagine.
 
 **TM:** Yeah. One of the reasons why I love this piece is because I felt like I was really taking different types of risks than I usually take. Another reason why I love this piece is because I feel like it was the first piece where I attained what I think you're calling this really fine lyricism---which was something I had been trying to achieve for a long time.
 
