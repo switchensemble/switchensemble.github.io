@@ -23,16 +23,18 @@ But how much we learn when we come back a second time, or at intervals over the 
 
 About two-thirds of the way through, where *A Thousand Tongues* emerges in mercurial massiveness and the orchestration of each crescendo evaporates ever upwards, *Tarr* re-imagines this ascent as a wispy flute line, rocking between breath and tone. At the end of the ascent, a listener with an ear tuned to the past hears a quotation from Charles Ives's song *Serenity* in twice-iterated falling chords in the piano. This is where *Tarr* begins to point outside of itself. The text of *Serenity* (a setting of Whittier) generally implores the reader to recognize peace at the close of one's life, implying a move away from language and mundane matters towards beauty in the peace of presumably accepting death.
 
-*O, Sabbath rest of Galilee!*<br>
-*O, calm of hills above,*<br>
-*Where Jesus knelt to share with Thee,*<br>
-*The silence of eternity*<br>
-*Interpreted by love.*<br>
-*Drop Thy still dews of quietness,*<br>
-*Till all our strivings cease:*<br>
-*Take from our souls the strain and stress,*<br>
-*And let our ordered lives confess,*<br>
-*The beauty of Thy peace.*
+<div class="col-sm-6 text-center mx-auto mb-3">
+<em>O, Sabbath rest of Galilee!</em><br>
+<em>O, calm of hills above,</em><br>
+<em>Where Jesus knelt to share with Thee,</em><br>
+<em>The silence of eternity</em><br>
+<em>Interpreted by love.</em><br>
+<em>Drop Thy still dews of quietness,</em><br>
+<em>Till all our strivings cease:</em><br>
+<em>Take from our souls the strain and stress,</em><br>
+<em>And let our ordered lives confess,</em><br>
+<em>The beauty of Thy peace.</em>
+</div>
 
 When one listens to Sivan's music for long enough, one starts to hear voices. Not voices of psychological incertitude, but voices borne from the shores of memory. It would be reckless in a consideration of Sivan's work to overlook her exploration of the sensual qualities of the voice and its language, which form one of the main gravitational centers around which orbits her musical thought. *Tarr* among other instrumental writing is pulled into this orbit. The initial bass clarinet solo is a transcription of the speaking voice in her radio work for theater *On Air \| Behind Glass*, commissioned by Czech Radio's rAdioCUSTICA Program, and featured in the 2013 play *Antiwords.*
 
