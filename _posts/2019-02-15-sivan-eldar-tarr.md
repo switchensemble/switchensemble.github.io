@@ -5,7 +5,7 @@ title: Sivan Eldar's <em>Tarr</em>
 categories: blog
 image: sivan-post/sivan.jpg
 headerImage: sivan-post/sivan.jpg
-date: 2019-02-07
+date: 2019-02-15
 manualDate: February 2019
 postDescription: <em>Tarr</em> is a piece that continues to teach and continues to expand an understanding of Sivan's musical interreferrentiality, exploding one precisely drawn frame with a seemingly smaller one.
 tags:
