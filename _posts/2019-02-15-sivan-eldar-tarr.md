@@ -11,9 +11,9 @@ postDescription: <em>Tarr</em> is a piece that continues to teach and continues 
 tags:
 ---
 
-In a recent phone conversation with Sivan Eldar, she remarked how she thought it strange that [Switch~] had chosen to program *Tarr* back in 2017, and again for our upcoming concert February 28th. Because it's considered older now (the piece was written for and premiered by the Divertimento Ensemble in 2014), its short (approximately 5 and a half minutes), without electronics, and not often performed. Concerning its scope, *Tarr* is somewhat of an outlier when compared to Sivan's other ongoing collaborations at IRCAM, her work in making opera, and her deep explorations of the voice in monodramas such as *You'll Drown, Dear* and *Heave*.
-
 <img class="float-sm-right col-sm-6 col-lg-5 p4-0 pb-3" src="{{ site.images }}/sivan-post/DSC_2705.jpg">
+
+In a recent phone conversation with Sivan Eldar, she remarked how she thought it strange that [Switch~] had chosen to program *Tarr* back in 2017, and again for our upcoming concert February 28th. Because it's considered older now (the piece was written for and premiered by the Divertimento Ensemble in 2014), its short (approximately 5 and a half minutes), without electronics, and not often performed. Concerning its scope, *Tarr* is somewhat of an outlier when compared to Sivan's other ongoing collaborations at IRCAM, her work in making opera, and her deep explorations of the voice in monodramas such as *You'll Drown, Dear* and *Heave*.
 
 But how much we learn when we come back a second time, or at intervals over the course of months or years. *Tarr* is one such piece that continues to teach and continues to expand an understanding of Sivan's musical interreferrentiality, exploding one precisely drawn frame with a seemingly smaller one. And one doesn't have to dig very far to uncover sedimentations of broader musical and artistic reference. In *Tarr* one finds intersections and distillations of consciously unresolved ideas present in larger works. They crystallize in these minor forms and take on the quality of pearls, drawn deep from the sediments of thought, effort and happy irritation.
 
