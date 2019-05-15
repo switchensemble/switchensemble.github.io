@@ -22,7 +22,7 @@ program:
     title: A city's pounding heart
   - composer: Igor C Silva
     title: Smart-alienation
-thumbnail: ibarra_berkeley_1000x500.jpg
+thumbnail: diels_filament-1000x500.jpg
 ---
 
 The [Switch~ Ensemble] is in residence at the Eastman Audio Research Studio (EARS) this week! We'll be performing a concert of audiovisual works for at Image/Sound Festival and giving two presentations for students.
