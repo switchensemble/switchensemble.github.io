@@ -1,35 +1,33 @@
 ---
 layout: concert
 categories: performance
-date: 2020-02-18
-time:
+date: 2010-10-05
+time: 8:00pm
 location:
-  institution: Frost School of Music,  University of Miami
+  institution: Harvard Group for New Music Residency
   building:
-  venue: Frost School of Music, University of Miami
-  address: 1314 Miller Dr
-  city: Coral Gables
-  state: FL
-  zip: 33146
+  venue: Harvard University, Paine Hall
+  address: 3 Oxford St.
+  city: Cambridge
+  state: MA
+  zip: 02138
 program:
-  - composer: George Lewis
+  - composer: James Bean
     title:
-  - composer: Charles Norman Mason
+  - composer: Julie Zúñiga
     title:
-  - composer: Dorothy Hindman
+  - composer: Lauren Marshall
     title:
-  - composer: Lansing D McLoskey
+  - composer: Zeynep Toraman
     title:
-  - composer: Juan Chattah
+  - composer: Caleb Fried
     title:
-  - composer: Shawn Crouch
-    title:
-  - composer: Juraj Kojs
-    title:
-thumbnail: diels_filament-1000x500.jpg 
+thumbnail: diels_filament-1000x500.jpg
 ---
 
-The [Switch~ Ensemble] is ensemble-in-residence for the Frost School of Music, alongside distinguished composer in residence George Lewis! We'll be performing a concert of works by faculty and a reading session with student composers.
+The [Switch~ Ensemble] is ensemble-in-residence for the Harvard Group for New Music at Harvard University for the annual Thelma E. Goldberg Concert.
+
+http://hgnm.org/concert/switch-ensemble/
 
 
 <h3 class="text-left">Program</h3>
