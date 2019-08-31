@@ -14,7 +14,7 @@ location:
 program:
   - composer: James Bean
     title:
-  - composer: Julie Zúñiga
+  - composer: Julio Zúñiga
     title:
   - composer: Lauren Marshall
     title:
