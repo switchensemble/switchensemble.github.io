@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-date: 2010-10-05
+date: 2019-10-05
 time: 8:00pm
 location:
   institution: Harvard Group for New Music Residency
