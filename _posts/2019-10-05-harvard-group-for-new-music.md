@@ -13,15 +13,15 @@ location:
   zip: 02138
 program:
   - composer: James Bean
-    title:
+    title: Dyad Study (2019)
   - composer: Julio Zúñiga
-    title:
+    title: stars from the earth stars from the stars (2019)
   - composer: Lauren Marshall
-    title:
+    title: Blue-Eyed Lover (2019)
   - composer: Zeynep Toraman
-    title:
+    title: new work (2019)
   - composer: Caleb Fried
-    title:
+    title: walk over; hot coals (2019)
 thumbnail: diels_filament-1000x500.jpg
 ---
 

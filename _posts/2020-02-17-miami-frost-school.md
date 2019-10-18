@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-date: 2020-02-18
+date: 2020-02-17
 time:
 location:
   institution: Frost School of Music,  University of Miami
@@ -13,20 +13,20 @@ location:
   zip: 33146
 program:
   - composer: George Lewis
-    title:
+    title: Emergent (2014)
   - composer: Charles Norman Mason
-    title:
+    title: new work (2020)
   - composer: Dorothy Hindman
-    title:
+    title: new work (2020)
   - composer: Lansing D McLoskey
-    title:
-  - composer: Juan Chattah
-    title:
+    title: new work (2020)
+  - composer: Donald Scott Stinson
+    title: new work (2020)
   - composer: Shawn Crouch
-    title:
+    title: new work (2020)
   - composer: Juraj Kojs
-    title:
+    title: new work (2020)
 thumbnail: diels_filament-1000x500.jpg
 ---
 
-The [Switch~ Ensemble] is ensemble-in-residence for the Frost School of Music, alongside distinguished composer in residence George Lewis! We'll be performing a concert of works by faculty and a reading session with student composers.
+The [Switch~ Ensemble] is ensemble-in-residence for the Frost School of Music, alongside distinguished composer in residence George Lewis! We'll be performing a concert of new works by faculty and a reading session with student composers.
