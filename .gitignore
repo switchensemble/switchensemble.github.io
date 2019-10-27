@@ -1,6 +1,8 @@
 _site
+.DS_Store
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 core-index.html
 assets/images/core-index
 assets/images/favicons/switch-favicon.docx
