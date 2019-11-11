@@ -32,6 +32,9 @@
         <div class="col-7 font-italic">{{ work.title }}</div>
       </div>
     {%- endfor -%}
+    {%- if concert.text.below -%}
+      <p class="my-3 font-italic">{{ concert.text.below }}</p>
+    {%- endif -%}
     <div class="mt-3">
       <a class="btn btn-round btn-sm btn-gray" href="{{ concert.url }}" role="button">Details</a>
       {%- if concert.tickets.url -%}
