@@ -2,7 +2,7 @@
 layout: concert
 categories: performance
 describe: "Workshop premiere of <em>Up-Close</em> with support from Guggenheim and New Music USA."
-date: 2019-10-05
+date: 2019-12-05
 time: 8:00pm
 location:
   institution: University of California, San Diego
