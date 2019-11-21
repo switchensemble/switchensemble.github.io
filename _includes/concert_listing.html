@@ -1,5 +1,5 @@
 <div class="row mb-5">
-  <div class="col-12 col-md-5">
+  <div class="col-12 col-md-4">
     {%- if concert.thumbnail -%}
       <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/repertoire-images/{{ concert.thumbnail }}" alt=""></a>
     {% else %}
@@ -8,6 +8,8 @@
     {%- if concert.describe -%}{{ concert.describe }}<br />{%- endif -%}
 
   </div>
+  <div class="col-12 col-md-1">
+
   <div class="col-12 col-md-7">
     <h3 class="text-left mb-2">{{ concert.date | date: "%B %d, %Y" }}</h3>
     {%- if concert.location.country -%}
