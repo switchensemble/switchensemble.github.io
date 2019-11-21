@@ -1,8 +1,7 @@
 ---
 layout: concert
 categories: performance
-describe: "The [Switch~ Ensemble] is ensemble-in-residence for the Eastman Audio Research Studio."
-
+describe: "Ensemble-in-residence for the Eastman Audio Research Studio."
 date: 2019-03-28
 time:
 location:

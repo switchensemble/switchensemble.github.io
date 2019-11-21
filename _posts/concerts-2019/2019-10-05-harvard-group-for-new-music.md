@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-describe: "The [Switch~ Ensemble] is ensemble-in-residence for the Harvard Group for New Music at Harvard University."
+describe: "Ensemble-in-residence for the Harvard Group for New Music at Harvard University."
 date: 2019-10-05
 time: 8:00pm
 location:

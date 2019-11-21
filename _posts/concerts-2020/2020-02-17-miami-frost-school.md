@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-describe: "[Switch~] is ensemble-in-residence for the Frost School of Music."
+describe: "Ensemble-in-residence for the Frost School of Music."
 date: 2020-02-17
 time:
 location:

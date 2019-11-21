@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-describe: "[Switch~] premieres <em>Up-Close</em> with support from Guggenheim and New Music USA."
+describe: "Workshop premiere of <em>Up-Close</em> with support from Guggenheim and New Music USA."
 date: 2019-10-05
 time: 8:00pm
 location:
