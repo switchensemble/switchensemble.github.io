@@ -25,8 +25,7 @@ program:
   - composer: Katharina Rosenberger
     title: surge
     year: 2018
-
-thumbnail: diels_filament-1000x500.jpg
+thumbnail: events/rosenberger_1200x700.jpg
 ---
 
 The [Switch~ Ensemble] performs a new commission from Katharina Rosenberger titled <em>Up-Close</em> at UCSD with support from Guggenheim and New Music USA alongside music by Ashley Fure, Anna-Louise Walton, and Katharina Rosenberger's trio <em>surge</em> (2018).
