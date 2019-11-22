@@ -6,6 +6,7 @@
       <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/switch_misc_1000x500px.jpg" alt=""></a>
     {%- endif -%}
   </div>
+  <br>
   <div class="col-12 col-md-7">
     <h3 class="text-left mb-2">{{ concert.date | date: "%B %d, %Y" }}</h3>
     {%- if concert.location.country -%}
@@ -13,9 +14,8 @@
     {%- else -%}
       <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.state }}</h3>
     {%- endif -%}
-    <br>
     {%- if concert.describe -%}{{ concert.describe }}<br />{%- endif -%}
-
+<br>
     <p class="location-details">
       {%- if concert.event -%}{{ concert.event }}<br />{%- endif -%}
       {%- if concert.location.institution -%}{{ concert.location.institution }}<br />{%- endif -%}
