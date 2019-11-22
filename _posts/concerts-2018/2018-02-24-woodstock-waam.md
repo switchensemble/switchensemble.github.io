@@ -22,7 +22,7 @@ program:
     title: Borderline (2018)
   - composer: Matt Sargent
     title: Second Illumination
-thumbnail: ibarra_berkeley_1000x500.jpg
+thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
 ---
 
 

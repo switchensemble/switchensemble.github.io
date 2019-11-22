@@ -22,7 +22,7 @@ program:
     title: Tribute | Axis II (2017)
   - composer: Roberto Sierra
     title: Tres Montunos
-thumbnail: ibarra_berkeley_1000x500.jpg
+thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
 ---
 
 More information available here: <a href="https://www.facebook.com/events/581154722246512/" target="blank">https://www.facebook.com/events/581154722246512/ </a>

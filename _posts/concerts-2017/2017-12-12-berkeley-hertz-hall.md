@@ -24,7 +24,7 @@ program:
     title: Tarr
   - composer: Víctor Ibarra
     title: Química del agua
-thumbnail: mccormack-karst-survey-1000x500.jpg
+thumbnail: repertoire-images/mccormack-karst-survey-1000x500.jpg
 ---
 
 More information and tickets available here: <a href="https://www.facebook.com/events/263121080880704/" target="blank">https://www.facebook.com/events/263121080880704/ </a>
