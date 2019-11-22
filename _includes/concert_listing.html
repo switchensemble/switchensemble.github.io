@@ -8,15 +8,13 @@
   </div>
   <div class="col-12 col-md-7">
     <h3 class="text-left mb-2">{{ concert.date | date: "%B %d, %Y" }}</h3>
-    <br>
-    {%- if concert.describe -%}{{ concert.describe }}<br />{%- endif -%}
-    <br>
-
     {%- if concert.location.country -%}
       <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.country }}</h3>
     {%- else -%}
       <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.state }}</h3>
     {%- endif -%}
+    <br>
+    {%- if concert.describe -%}{{ concert.describe }}<br />{%- endif -%}
 
     <p class="location-details">
       {%- if concert.event -%}{{ concert.event }}<br />{%- endif -%}
