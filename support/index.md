@@ -9,7 +9,7 @@ headerImage: header-qnmf-reh.jpg
 We believe in vivid, memorable concerts and invest in collaboration and innovation. Will you join us in helping us bring new work to life? Please consider making a tax-deductible donation today.
 
 <div class="d-flex justify-content-center mb-5">
-  <a class="btn btn-lg btn-round btn-primary" href="https://www.fracturedatlas.org/site/fiscal/profile?id=14815" role="button">Donate Now</a>
+  <a class="btn btn-lg btn-round btn-primary" href="https://www.fracturedatlas.org/site/fiscal/profile?id=14815" role="button">Donate Now!</a>
 </div>
 
 
