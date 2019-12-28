@@ -39,6 +39,49 @@
             <h5>Contact</h5>
           </div>
             <p class="text-center">Get in touch. We would love to hear from you.</p>
+
+
+            To sign up for our mailing list, <button onclick="showMailingPopUp(); return false;" id="open-popup" class="btn btn-link btn-sm">click here.</button>
+
+            <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+    <!--        <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"193ef51b6e3ed72a827210ea8","lid":"a945776cae","uniqueMethods":true}) })</script>
+-->
+
+          <script>
+            function showMailingPopUp() {
+            require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"193ef51b6e3ed72a827210ea8","lid":"a945776cae","uniqueMethods":true}) })
+            document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+            document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+            };
+            document.getElementById(“open-popup”).onclick = function() {showMailingPopUp()};
+            </script>
+
+
+
+          <!--
+         To sign up for our mailing list, <button onclick="showMailingPopUp(); return false;" id="open-popup">click here.</button>
+
+            <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+            <script>
+            function showMailingPopUp() {
+              require(
+                ["mojo/signup-forms/Loader"],
+                function(L) {
+                  L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"193ef51b6e3ed72a827210ea8","lid":"a945776cae"})
+                }
+              );
+
+              document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+              document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+            }
+
+            document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+            </script>
+
+STUFF -->
+
+
             <div class="col-md-6 mx-auto">
               <div class="d-flex justify-content-between">
                 <a href="mailto:switchensemble@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
