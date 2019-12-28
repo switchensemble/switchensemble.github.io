@@ -475,6 +475,23 @@ select.form-control-sm:not([size]):not([multiple]) {
     font-size: .625rem;
 }
 
+.btn-subscribe {
+  background-color: #1f1f1f;
+      border-width: .001rem;
+      border-radius: .001rem;
+      border-color: #222;
+      font-family: "Roboto", Arial, serif;
+      line-height: 1.85;
+      font-weight: 400;
+      font-size: 15px;
+      box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
+      text-transform: none;
+      padding: .025rem 0.525rem .005rem 0.625rem;
+      color: #2275d7;
+      -webkit-transition: all .5s ease-out;
+              transition: all .5s ease-out;
+  }
+
 .btn-xs {
     padding: .625rem 1.25rem .625rem 1.25rem;
     font-size: .625rem;
