@@ -66,8 +66,7 @@
               function showPopup() {
                   window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"193ef51b6e3ed72a827210ea8","lid":"a945776cae","uniqueMethods":true}) });
             //unsetting the cookie
-              document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-              document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+      
               }
 
               document.getElementById("show-popup").onclick = function() { showPopup(); }
