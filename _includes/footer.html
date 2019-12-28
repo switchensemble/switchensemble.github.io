@@ -41,7 +41,7 @@
             <p class="text-center">Get in touch. We would love to hear from you.</p>
 
 
-            <center>    To sign up for our mailing list, <button onclick="showPopup(); return false;" id="show-popup" class="btn-subscribe"><font color="#2275d7">click here.</font></button></center>
+            <div class="text-center">    To sign up for our mailing list, <button onclick="showPopup(); return false;" id="show-popup" class="btn-subscribe"><font color="#2275d7">click here.</font></button></center>
 <!--
             <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 
@@ -66,14 +66,15 @@
               function showPopup() {
                   window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"193ef51b6e3ed72a827210ea8","lid":"a945776cae","uniqueMethods":true}) });
             //unsetting the cookie
-      
+              document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+              document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
               }
 
               document.getElementById("show-popup").onclick = function() { showPopup(); }
 
 
 </script>
-
+</div>
 
         <!--
          To sign up for our mailing list, <button onclick="showMailingPopUp(); return false;" id="open-popup">click here.</button>
