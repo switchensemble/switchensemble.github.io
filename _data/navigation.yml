@@ -3,19 +3,18 @@
 
 - title: About
   url: /about/
-  sublinks:
-    - page: Musicians
-      url: /about/index.html#musicians
-    - page: Repertoire
-      url: /about/repertoire/
 
 - title: Concerts
   url: /concerts/
 
-- title: Projects
-  sublinks:
-    - page: Call for Scores
-      url: /projects/call-for-scores/
+
+    - page: Repertoire
+      url:
+- title: Repertoire
+  url: /about/repertoire/
+
+#    - page: Call for Scores
+#      url: /projects/call-for-scores/
     # - page: Events
       # url: /projects/events/
 
