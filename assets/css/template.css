@@ -487,10 +487,27 @@ select.form-control-sm:not([size]):not([multiple]) {
       font-size: 15px;
       box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
       text-transform: none;
-      padding: .025rem 0.525rem .0rem 0.625rem;
+      padding: .125rem 0.525rem .0rem 0.625rem;
       -webkit-transition: all .5s ease-out;
               transition: all .5s ease-out;
   }
+
+.text-center.btn-subscribe {
+    background-color: #1f1f1f;
+        border-width: .001rem;
+        border-radius: .001rem;
+        border-color: #222;
+        color: #2275d7;
+        font-family: "Roboto", Arial, serif;
+        line-height: 1.85;
+        font-weight: 400;
+        font-size: 15px;
+        box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
+        text-transform: none;
+        padding: .125rem 0.525rem .0rem 0.625rem;
+        -webkit-transition: all .5s ease-out;
+                transition: all .5s ease-out;
+    }
 
 .btn-xs {
     padding: .625rem 1.25rem .625rem 1.25rem;
