@@ -480,14 +480,14 @@ select.form-control-sm:not([size]):not([multiple]) {
       border-width: .001rem;
       border-radius: .001rem;
       border-color: #222;
+      color: #2275d7;
       font-family: "Roboto", Arial, serif;
       line-height: 1.85;
       font-weight: 400;
       font-size: 15px;
       box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
       text-transform: none;
-      padding: .025rem 0.525rem .005rem 0.625rem;
-      color: #2275d7;
+      padding: .025rem 0.525rem .0rem 0.625rem;
       -webkit-transition: all .5s ease-out;
               transition: all .5s ease-out;
   }
