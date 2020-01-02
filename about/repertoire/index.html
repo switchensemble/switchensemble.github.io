@@ -75,6 +75,15 @@ title: Repertoire
             {%- endfor -%}
             {% endcomment %}
           </div>
+          <div class="portfolio-subtitle">
+            {%- for item in work.media -%}
+              {% if item.url == nil %}
+              {% else %}
+                <i class="fa fa-volume-up"></i>
+              {% endif %}
+              {%- break -%}
+            {%- endfor -%}
+          </div>
         </div>
         <a class="portfolio-link" href="{{ work.url }}"></a>
 			</div>

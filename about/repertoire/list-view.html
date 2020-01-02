@@ -37,8 +37,9 @@ title: Repertoire
 <div class="row rep">
   <div class="col-2 col-sm-1"><a href="{{ work.url }}">{{ work.yearComposed }}</a></div>
   <div class="col-10 ml-auto ml-sm-0 col-sm-3"><a href="{{ work.url }}">{{ work.composer.first }} {{ work.composer.last }}</a></div>
-  <div class="col-10 ml-auto ml-sm-0 col-sm-5"><a href="{{ work.url }}"><em>{{ work.title }}</em></a></div>
+  <div class="col-10 ml-auto ml-sm-0 col-sm-4"><a href="{{ work.url }}"><em>{{ work.title }}</em></a></div>
   <div class="col-10 ml-auto ml-sm-0 col-sm-3"><a href="{{ work.url }}">{{ work.size }} {% for tag in work.tags %}{% if tag == 'electronics' %}and electronics{% endif %}{% endfor %}</a></div>
+  <div class="col-10 ml-auto ml-sm-0 col-sm-1"><a href="{{ work.url }}">{%- for item in work.media -%}{% if item.url == nil %}{% else %}<i class="fa fa-volume-up"></i>{% endif %}{%- break -%}{%- endfor -%}</a></div>
 </div>
 <hr class="my-2">
 {%- endfor -%}
