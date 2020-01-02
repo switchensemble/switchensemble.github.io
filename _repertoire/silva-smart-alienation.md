@@ -19,6 +19,6 @@ tags:
 media:
   - title: Smart-alienation (2016) for small, flexible ensemble by Igor C Silva
     url: https://www.youtube.com/embed/lspDg8r0FVQ
-headerImage: repertoire-images/silva_smart-alienation-1000x500.jpg
+headerImage: repertoire-images/silva_smart-alienation_1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/silva_smart-alienation_400x200.jpg
 ---
