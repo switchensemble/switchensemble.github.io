@@ -19,8 +19,8 @@ tags:
   - acoustic
   - commission
 media:
-  - title:
-    url:
+  - title: Unwound Path (2018) for mixed sextet by Matt Sargent
+    url: https://www.youtube.com/embed/MBC-1Qb4NFI
 headerImage: repertoire-images/sargent-unwound-path_1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/sargent-unwound-path_400x200.jpg
 ---
