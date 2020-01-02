@@ -1,8 +1,14 @@
 ---
-layout: sidebar
-title: Call for Scores
-sidebarName: call-for-scores-sidebar.html
+layout: post
+author: "[Switch~ Ensemble]"
+title: 2016-17 Commissioning Prize Winners
+categories: blog
+image: header-blurry-vipa.jpg
 headerImage: header-blurry-vipa.jpg
+date: 2017-01-15
+manualDate: January 2017
+sidebarName: call-for-scores-sidebar.html
+postDescription: "After weeks of listening, discussing, questioning, and voting, we are very pleased to announce the [Switch~ Ensemble]'s 2016-17 International Commissioning Prize Winners."
 ---
 
 ## 2016-17 International Commissioning Prize Winners

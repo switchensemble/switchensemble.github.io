@@ -1,8 +1,14 @@
 ---
-layout: sidebar
-title: Call for Scores
-sidebarName: call-for-scores-sidebar.html
+layout: post
+author: "[Switch~ Ensemble]"
+title: 2017-18 Call for Workshop Participation
+categories: blog
+image: header-blurry-vipa.jpg
 headerImage: header-blurry-vipa.jpg
+date: 2017-10-01
+manualDate: Fall 2017
+sidebarName: call-for-scores-sidebar.html
+postDescription: "<strong>San Francisco Bay Area Composers:</strong> The [Switch~ Ensemble] is happy to announce a call for scores and proposals to participate in a workshop at the San Francisco Center for New Music on December 13th, 2017 at 2pm."
 ---
 
 ## Workshop at San Francisco Center for New Music

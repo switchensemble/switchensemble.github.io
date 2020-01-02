@@ -1,8 +1,14 @@
 ---
-layout: sidebar
-title: Call for Scores
-sidebarName: call-for-scores-sidebar.html
+layout: post
+author: "[Switch~ Ensemble]"
+title: 2016-17 Commissioning Prize
+categories: blog
+image: header-blurry-vipa.jpg
 headerImage: header-blurry-vipa.jpg
+date: 2016-10-01
+manualDate: Fall 2016
+sidebarName: call-for-scores-sidebar.html
+postDescription: "The [Switch~ Ensemble] is happy to announce its 2016-2017 commissioning prize. The winning composer will be commissioned to write a new work for the [Switch~ Ensemble] for our 2017-2018 season."
 ---
 
 The [Switch~ Ensemble] is happy to announce its 2016-2017 commissioning prize. The winning composer will be commissioned to write a new work for the [Switch~ Ensemble] for our 2017-2018 season. Additionally, pending the instrumentation of submitted works, we hope to choose several existing works to include in our repertoire for upcoming seasons.
