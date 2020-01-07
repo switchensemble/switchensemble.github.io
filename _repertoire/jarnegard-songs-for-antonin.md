@@ -23,10 +23,11 @@ tags:
   - electronics
   - ensemble
   - video
-media:
-  - title:
-    url:
-    ID:
+  media:
+    - title: "Songs for Antonin (2019) by Esaias Järnegard - the [Switch~ Ensemble]"
+      url: https://soundcloud.com/theswitchensemble/songs-for-antonin-by-esaias-jarnegard
+      ID: 739506796
+      notes: live
 headerImage: repertoire-images/mccormack-karst-survey-1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/mccormack-karst-survey_400x200.jpg
 ---
