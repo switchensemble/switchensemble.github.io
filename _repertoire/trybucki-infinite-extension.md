@@ -21,6 +21,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/trybucki-infinite-extension_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/trybucki-infinite-extension_400x200.jpg
 ---
