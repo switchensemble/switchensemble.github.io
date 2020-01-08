@@ -16,6 +16,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/toraman-damaged_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/toraman-damaged_400x200.jpg
 ---

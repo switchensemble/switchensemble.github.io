@@ -5,7 +5,7 @@ composer:
 title: "November White II"
 duration:
 yearComposed: 2019
-commissionedOrWrittenFor: written
+commissionedOrWrittenFor:
 size: sextet
 instrumentation:
   - flute
@@ -19,6 +19,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/yip-november_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/yip-november_400x200.jpg
 ---

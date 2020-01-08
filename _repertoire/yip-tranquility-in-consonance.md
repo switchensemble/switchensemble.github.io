@@ -19,6 +19,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/yip-tranquility_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/yip-tranquility_400x200.jpg
 ---
