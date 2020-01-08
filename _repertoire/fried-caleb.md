@@ -5,7 +5,7 @@ composer:
 title: "walk over; hot coals"
 duration:
 yearComposed: 2019
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: written
 size: sextet
 instrumentation:
   - flute

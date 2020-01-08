@@ -5,7 +5,7 @@ composer:
 title: new work
 duration:
 yearComposed: 2020
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: written
 size: sextet
 instrumentation:
   - flute
