@@ -3720,7 +3720,7 @@ body.off-canvas-sidebar-open .layout {
 .portfolio-overlay {
     position: absolute;
     background: rgba(49, 49, 49, .95);
-    opacity: 0.49;
+    opacity: 0.45;
     z-index: 1;
     left: 0;
     top: 0;
@@ -3771,8 +3771,8 @@ body.off-canvas-sidebar-open .layout {
 }
 
 .portfolio-item:hover .portfolio-wrapper img {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .portfolio-item:hover .portfolio-overlay {
