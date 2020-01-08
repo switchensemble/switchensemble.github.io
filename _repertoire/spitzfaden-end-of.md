@@ -21,6 +21,7 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/spitzfaden-end-of_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/spitzfaden-end-of_400x200.jpg
+---
 ---
