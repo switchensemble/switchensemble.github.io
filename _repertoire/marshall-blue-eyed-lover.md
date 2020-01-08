@@ -1,0 +1,22 @@
+---
+composer:
+  first: Lauren
+  last: Marshall
+title: "Blue-Eyed Lover"
+duration:
+yearComposed: 2019
+commissionedOrWrittenFor: written
+size: flexible
+instrumentation:
+  - violin
+  - cello
+  - singers
+tags:
+  - flexible
+  - voice
+media:
+  - title:
+    url:
+headerImage:
+thumbnailImage:
+---
