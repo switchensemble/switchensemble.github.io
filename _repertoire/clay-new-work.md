@@ -21,7 +21,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
-
+headerImage: repertoire-images/clay-new-work_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/clay-new-work_400x200.jpg
 ---

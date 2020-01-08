@@ -14,7 +14,7 @@ instrumentation:
   - piano
   - percussion
   - electronics
-  -lighting
+  - lighting
 tags:
   - quintet
   - electronics
@@ -22,6 +22,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/rosenberger-up-close_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/rosenberger-up-close_400x200.jpg
 ---

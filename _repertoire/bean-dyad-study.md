@@ -19,6 +19,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/bean-dyad_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/bean-dyad_400x200.jpg
 ---

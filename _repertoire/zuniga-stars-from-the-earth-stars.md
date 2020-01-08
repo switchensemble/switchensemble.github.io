@@ -20,6 +20,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/zuniga-stars_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/zuniga-stars_400x200.jpg
 ---

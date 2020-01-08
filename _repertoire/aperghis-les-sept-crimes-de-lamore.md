@@ -18,4 +18,6 @@ tags:
 media:
   - title:
     url:
+headerImage: repertoire-images/aperghis-les-sept_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/aperghis-les-sept_400x200.jpg
 ---
