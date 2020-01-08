@@ -17,6 +17,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/marshall-blue-eyed_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/marshall-blue-eyed_400x200.jpg
 ---
