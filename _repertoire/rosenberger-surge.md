@@ -1,7 +1,7 @@
 ---
 composer:
   first: Katharina
-  last: "Rosenberger"
+  last: Rosenberger
 title: "surge"
 duration:
 yearComposed: 2018
@@ -16,6 +16,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/rosenberger-surge_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/rosenberger-surge_400x200.jpg
 ---
