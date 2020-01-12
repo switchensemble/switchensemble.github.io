@@ -16,6 +16,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/fried-walk-over_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/fried-walk-over_400x200.jpg
 ---

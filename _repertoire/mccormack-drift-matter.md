@@ -6,7 +6,7 @@ title: "DRIFT MATTER"
 duration:
 yearComposed: 2013
 commissionedOrWrittenFor:
-size: solo
+size: solo cello
 instrumentation:
   - cello
 tags:
@@ -14,6 +14,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/mccormack-drift_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/mccormack-drift_400x200.jpg
 ---

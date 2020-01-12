@@ -20,6 +20,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/young-the-life_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/young-the-life_400x200.jpg
 ---

@@ -5,8 +5,8 @@ composer:
 title: "dead wasps in the jam-jar (i)"
 duration:
 yearComposed: 2015
-commissionedOrWrittenFor: 
-size: solo
+commissionedOrWrittenFor:
+size: solo violin
 instrumentation:
   - violin
 tags:
@@ -14,6 +14,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/iannotta-dead-wasps_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/iannotta-dead-wasps_400x200.jpg
 ---

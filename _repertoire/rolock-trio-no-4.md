@@ -20,4 +20,6 @@ media:
   - title:
     type:
     url:
+headerImage: repertoire-images/rolock-trio_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/rolock-trio_400x200.jpg
 ---
