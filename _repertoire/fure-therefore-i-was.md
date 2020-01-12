@@ -16,6 +16,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/fure-therefore-i-was_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/fure-therefore-i-was_400x200.jpg
 ---

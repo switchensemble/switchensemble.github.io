@@ -16,4 +16,6 @@ tags:
 media:
   - title:
     url:
+headerImage: repertoire-images/allison-lonely_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/allison-lonely_400x200.jpg
 ---
