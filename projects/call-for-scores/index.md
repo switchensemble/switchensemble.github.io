@@ -33,7 +33,7 @@ Entries **do not** have to be anonymous. Demographic information is optional but
 
 Questions? Please write switchensemble@gmail.com
 
-<a class="btn btn-round btn-lg btn-brand" href="https://forms.gle/GoSK2q23rpvFSPDd8">Apply Here</a> <a class="btn btn-round btn-lg btn-brand" href="#">PayPal Link Here</a>
+<a class="btn btn-round btn-lg btn-brand" href="https://forms.gle/GoSK2q23rpvFSPDd8">Apply Here</a> <a class="btn btn-round btn-lg btn-brand" href="https://www.paypal.me/switchensemble/15">PayPal Here</a>
 
 While one composer will win the Commission Prize for a new work in 2020-21, any submitted works that match [Switch~ Ensemble]’s instrumentation will be considered for performance in future seasons. For example, four finalists from our 2016-17 commissioning competition had existing works performed in the subsequent seasons.
 
