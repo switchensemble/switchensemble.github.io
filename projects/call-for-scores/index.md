@@ -21,7 +21,7 @@ The [Switch~ Ensemble] invites entries for our 2020 commissioning prize from com
     </ol>
 </div>
 
-**Entry fee:** $15 [payable by PayPal here.](#)
+**Entry fee:** [$15 payable by PayPal here.](#)
 
 **Eligibility:** Open to anyone, *except* members of [Switch~ Ensemble] and composers with whom [Switch~] has existing commissioning contracts.
 
