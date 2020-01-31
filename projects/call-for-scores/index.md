@@ -9,6 +9,8 @@ headerImage: /repertoire-images/ibarra_berkeley_1000x500.jpg
 
 The [Switch~ Ensemble] invites entries for our 2020 commissioning prize from composers and sound artists of all backgrounds.
 
+**Deadline:** Saturday February 29th 11:59pm PST
+
 **Award:** $1,000 for a new commission, premiered by [Switch~] in our 2020-21 Season.
 
 **The new work:**
