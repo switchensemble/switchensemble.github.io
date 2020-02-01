@@ -8,7 +8,7 @@ yearComposed: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
-  - flute
+  - piccolo
   - violin
   - piano
   - percussion
