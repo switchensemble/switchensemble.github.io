@@ -4,7 +4,7 @@ composer:
   last: Crouch
 title: Burnout
 duration:
-yearComposed: 2019
+yearComposed: 2020
 size: quartet
 commissionedOrWrittenFor: written
 instrumentation:

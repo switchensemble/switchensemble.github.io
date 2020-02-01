@@ -4,7 +4,7 @@ composer:
   last: Mason
 title: "Flashover"
 duration:
-yearComposed: 2019
+yearComposed: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:

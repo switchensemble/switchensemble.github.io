@@ -1,8 +1,8 @@
 ---
 composer:
-  first: Juraj
-  last: Kojs
-title: "new work"
+  first: Donald Scott
+  last: Stinson
+title: "Raised by Wolves"
 duration:
 yearComposed: 2019
 commissionedOrWrittenFor: written

@@ -2,13 +2,13 @@
 composer:
   first: Dorothy
   last: Hindman
-title: "Untitled 1"
+title: "Untitled I"
 duration:
 yearComposed: 2019
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
-  - flute
+  - flute/bass flute
   - violin
   - percussion
   - piano

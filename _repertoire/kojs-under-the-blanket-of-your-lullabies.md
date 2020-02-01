@@ -1,8 +1,8 @@
 ---
 composer:
-  first: Donald Scott
-  last: Stinson
-title: "new work"
+  first: Juraj
+  last: Kojs
+title: "under the blanket of your lullabies"
 duration:
 yearComposed: 2019
 commissionedOrWrittenFor: written
