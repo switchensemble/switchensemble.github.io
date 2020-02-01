@@ -40,7 +40,7 @@
 
               {%- else -%}
 
-                <li><a class="{%- comment -%}{{ current }}{%- endcomment -%}" href="{{ site.url }}{{ entry.url }}" alt="{{ entry.title }}">{{ entry.title }}</a></li>
+                <li><a class="{%- comment -%}{{ current }}{%- endcomment -%}{%- if entry.color -%}{{ entry.color }}{%- endif -%}" href="{{ site.url }}{{ entry.url }}" alt="{{ entry.title }}">{{ entry.title }}</a></li>
 
               {%- endif -%}
 
