@@ -1,22 +1,44 @@
 ---
 layout: sidebar
-title: Call for Scores
+title: 2020 Commissioning Prize
 sidebarName: call-for-scores-sidebar.html
-headerImage: header-blurry-vipa.jpg
+headerImage: /repertoire-images/ibarra_berkeley_1000x500.jpg
 ---
 
-<img src="{{site.images}}/switch-c4nm-workshop-dec-2017_1800px.jpg">
+<h2 class="text-left">[Switch~ Ensemble] 2020 Commissioning Prize</h2>
 
-Congratulations to the five composers selected for our Center for New Music Workshop! **Danny Clay**, **Andrew Harlan**, **Julie Herndon**, **Daniel Meyer O'Keeffe**, and **Aida Shirazi**. Their submissions each illustrated both strong imagination and technical ability, and we look forward to collaborating with them soon! Thank you to the many talented composers who submitted! The quality was very high, and ultimately we selected projects that we felt would benefit most from the workshop setting. This event is open to the public, and we encourage other composers to attend!
-**Location:** San Francisco Center for New Music, 55 Taylor Street, San Francisco, CA 94102.
-**Time:** 2pm, December 13th.
+The [Switch~ Ensemble] invites entries for our 2020 commissioning prize from composers and sound artists of all backgrounds.
 
-**Danny Clay** is a composer based in San Francisco. His work is deeply rooted in collaboration, building new works with curious minds from many different backgrounds and levels of artistic experience. Recent projects have involved Kronos Quartet, Eighth Blackbird, Third Coast Percussion, pianist Sarah Cahill, and his elementary school music students at Zion Lutheran School in SF. <a href="https://www.dclaymusic.com/" target="blank">https://www.dclaymusic.com/</a>
+**Deadline:** Saturday February 29th 11:59pm PST
 
-**Andrew Harlan** is a composer and bassist based in Berkeley, California. His work has been featured in festivals such as the Yellow Barn Young Artists Program, Valencia International Performance Academy, Summer Institute of Contemporary Performance Practice, and the Wellesley Composers Conference. He has previously collaborated with Erik Drescher, The Boston Conservatory Contemporary Music Ensemble, Felicia Chen and Olivia Harris, Sound Icon, The Boston Musica Viva, and Wet Ink Ensemble. He received first prize in the 2017 loadbang Commissioning Competition, the 2015-2016 Boston Conservatory Sinfonietta Composition Competition, and was selected as a finalist for the 2017 BMI student composer awards. <a href="http://music.berkeley.edu/people/andrew-harlan/" target="blank">http://music.berkeley.edu/people/andrew-harlan/</a>
+**Award:** $1,000 for a new commission, premiered by [Switch~] in our 2020-21 Season.
 
-**Julie Herndon** is an Oakland-based composer and performer working with internal/external space through song, electronics, text, graphics, and improvisation. Her electroacoustic work has been described as “striking” and “blended to inhabit a surprisingly expressive space” (San Francisco Classical Voice). Her compositions and have been performed by ensembles including Line Upon Line Percussion, Retro Disco, Elevate Ensemble, Left Coast Chamber Ensemble, and St. Lawrence String Quartet, and included at festivals and venues such as Artistry Space and hotel vagabond in Singapore, soundSCAPE in Italy, Zen Mountain Cloud Center in Santa Fe, Wintergreen Performing Arts Summer Festival in Virginia, Megapolis Audio Art Festival in Oakland, and Hot Air Festival in San Francisco. As a pianist and vocalist, Julie is an active performer and collaborator with H/I Ensemble. She is currently the composer in residence for Voci Women’s Vocal Ensemble and is a doctoral candidate at Stanford University. <a href="http://www.julieherndonmusic.com/" target="blank">http://www.julieherndonmusic.com/</a>
+**The new work:**
 
-**Daniel Meyer-O'Keeffe** is a composer and performer based in Joshua Tree, California. His music has been featured at June in Buffalo, the Atlantic Music Festival and performed across the east and west coasts of the United States and Canada. Recent projects include participation in the Crab Bear Lab at the Donaueschinger Musiktage 2017, a commission for a new work by Pronto Musica, a Performance/Installation for solo percussion at the Eastern Bloc Gallery in Montreal, QC, and a tour across California with percussionist Rob Cosgrove. Daniel Received his BA in music composition from Bard College, where he studied with Matt Sargent and Joan Tower. After completing a year of an MM degree at McGill university, he left Montreal for the California desert to work and study (remotely) with Hanna Eimermacher. <a href="http://danielmeyerokeeffe.com/" target="blank">http://danielmeyerokeeffe.com/</a>
+<div>
+  <ol>
+    <li>1. Must include technology in some way and be scored for [Switch~]’s core ensemble.</li>
+    <li>2. Be at least 8 minutes in length.</li>
+    <li>3. Is expected to be produced collaboratively and in an active working relationship with the ensemble and its members; we expect most of this interaction will take place digitally and remotely, over phone, Skype, etc.</li>
+    </ol>
+</div>
 
-Born and raised in Tehran, Iran, **Aida Shirazi** is a Ph.D. student of composition at the University of California, Davis and works with Pablo Ortiz.  She holds her B.M. in music composition and theory from Bilkent University (Turkey).  Her music is described as “well-made” and “affecting” by The New Yorker. Shirazi is the winner of Diaphonia and XelmYa+, ACIMC and Bilgi New Music Festival calls for scores.  Her music has been featured in MATA, Klasik Keyifler, Sesin Yolculugu, Young Composers, Young Performers festivals in the United States and Europe, and performed by Andrew McIntosh, Lucy Fitz Gibbon, Ryan McCullough, Alexa Renger, Ellen Jewett, Empyrean Ensemble, FOM (The Friends of MATA) and Bilkent Symphony Orchestra. Shirazi’s music is often influenced by literature, language, and Iranian classical music. Shirazi has studied with composers Mika Pelo, Kurt Rohde, Yigit Aydin, Onur Turkmen, Tolga Yayalar, Hooshyar Khayam and Mark Andre. <a href="http://aidashirazi.com/" target="blank">http://aidashirazi.com/</a>
+**Entry fee:** [$15 payable by PayPal here.](#)
+
+**Eligibility:** Open to anyone, *except* members of [Switch~ Ensemble] and composers with whom [Switch~] has existing commissioning contracts.
+
+**Application process:** [Please fill out the following form.](https://forms.gle/GoSK2q23rpvFSPDd8)
+
+Composers are invited to submit two or three work samples. At least two work samples must include some form of audio or video recording. Work samples should be shared via file sharing sites like Dropbox or streaming services like SoundCloud or Youtube. Please ensure links stay active through at least May 2020. If using Google Drive or Dropbox, please be sure to click "share" rather than copying and pasting your browser’s address bar, as that will not work correctly.
+
+Entries **do not** have to be anonymous. Demographic information is optional but we encourage applicants to submit information about how they self-identify in the appropriate fields. There is an optional field at the end to share any other information you feel might be necessary or useful.
+
+Questions? Please write switchensemble@gmail.com
+
+<a class="btn btn-round btn-lg btn-brand" href="https://forms.gle/GoSK2q23rpvFSPDd8">Apply Here</a> <a class="btn btn-round btn-lg btn-brand" href="https://www.paypal.me/switchensemble/15">PayPal Here</a>
+
+While one composer will win the Commission Prize for a new work in 2020-21, any submitted works that match [Switch~ Ensemble]’s instrumentation will be considered for performance in future seasons. For example, four finalists from our 2016-17 commissioning competition had existing works performed in the subsequent seasons.
+
+To read about our last Commission Competition and new works by Adrien Trybucki and Esaias Järnegard, please visit [our website here.](http://www.switchensemble.com/blog/2017/01/15/commissioning-prize-winners.html)
+
+To read about recent [Switch~] commissions of Katharina Rosenberger, Anna-Louise Walton, and other recent repertoire, please visit [our website here.](http://www.switchensemble.com/about/repertoire/)

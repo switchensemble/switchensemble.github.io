@@ -12,7 +12,7 @@ location:
   state: CA
   zip: 94720
 program:
-  - composer: Fausto Romitell
+  - composer: Fausto Romitelli
     title: Domeniche alla periferia dell'impero
   - composer: Tonia Ko
     title: Tribute | Axis II

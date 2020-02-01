@@ -14,17 +14,18 @@ location:
   zip: 14604
 program:
   - composer: Katharina Rosenberger
-    title: new work (2020)
-  - composer:
-    title:
+    title: Up-Close
+    year: 2019
   - composer: Jason Thorpe Buchanan
     title: soliloquios del viento
     year: 2017
   - composer: Clay Mettens
+    title: Into the empty sky
+    year: 2017
+  - composer:
     title:
-    year:     
 text:
-  below: "This project made possible by the kind support of New Music USA and the Ernst von Siemens Musikstiftung"
+  below: "This project made possible by the kind support of New Music USA, Pro Helvetia, the Swiss Arts Council, and the Ernst von Siemens Musikstiftung."
 thumbnail: repertoire-images/diels_filament-1000x500.jpg
 ---
 
