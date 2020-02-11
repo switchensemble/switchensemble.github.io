@@ -17,7 +17,7 @@ The [Switch~ Ensemble] invites entries for our 2020 commissioning prize from com
 
 <div>
   <ol>
-    <li>1. Must include technology in some way and be scored for [Switch~]’s core ensemble.</li>
+    <li>1. Must include technology in some way and be scored for [Switch~]’s core ensemble: Flute, Clarinet, Saxophone, Violin, Cello, Piano, and Percussion.</li>
     <li>2. Is expected to be produced collaboratively and in an active working relationship with the ensemble and its members; we expect most of this interaction will take place digitally and remotely, over phone, Skype, etc.</li>
     <li>3. Should have a mutually agreed upon duration. We'll discuss the length and scope of the new work with the winner, but expect a work of at least 8 minutes.</li>
     </ol>
