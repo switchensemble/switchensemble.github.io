@@ -3,8 +3,8 @@ layout: post
 author: Madison Greenstone
 title: Interview with Katharina Rosenberger
 categories: blog
-image: vipa-images/Avaloch-June-28-03631.jpg
-headerImage: vipa-images/Avaloch-June-28-03631.jpg
+image: repertoire-images/madi-katharina_2400.jpg
+headerImage: repertoire-images/madi-katharina_2400.jpg
 date: 2020-02-21
 manualDate: February 2020
 postDescription: After [Switch~]'s residency at UC San Diego, [Switch~] clarinetist Madison Greenstone sat down with Katharina Rosenberger to talk about her artistic projects, her piece <em>Up Close</em>, and her collaborative time with us. Enjoy part 1 of this 2-part interview!
@@ -20,9 +20,14 @@ tags:
 
 So, that's where the need for amplification comes from. That led to a search for "how do I best amplify the performer?" then, along with that, a further focus on: can I see what is performed, or can I just hear what is performed? There is a certain intensity if you listen to acousmatic music; since you don't see, you yourself have to approach the sounds as much as possible to grasp them. Of course, in the performance of *Up Close*, when at times the ensemble plays in complete darkness, you know that the performers are there. You might see a silhouette, or not: but still, it becomes much more challenging to organize your understanding of the piece or where the sound is coming from, if you don't see it.
 
-[photo of tj on fingerboard w/ light]
+<div class="col-sm-6 mx-auto">
+  <figure class="figure">
+    <img src="{{ site.images }}/repertoire-images/cello-light_2400.jpg" class="figure-img img-fluid">
+    <figcaption class="figure-caption">Light seen through T.J. Borden's cello</figcaption>
+  </figure>
+</div>
 
-With the exposure of the lights, you have an initial "zoom" or focus on the instrument. Then later on in the piece I wanted to be much more playful with it. There's a performer illuminated who's actually not playing, or just turning the page: that's *you* [addressing Madison], for instance. Or is just waiting, or adjusting the instrument… and then at the end of the piece, the light is there to play along with dynamics. So when everybody swells to a forte, the light comes on and goes away. So, it's not about directing the listener to what's happening with one performer, rather it's glued to the music.
+With the exposure of the lights, you have an initial "zoom" or focus on the instrument. Then later on in the piece I wanted to be much more playful with it. There's a performer illuminated who's actually not playing, or just turning the page: that's *you* [addressing Madison], for instance. Or is just waiting, or adjusting the instrument... and then at the end of the piece, the light is there to play along with dynamics. So when everybody swells to a forte, the light comes on and goes away. So, it's not about directing the listener to what's happening with one performer, rather it's glued to the music.
 
 Those are some different modalities for how sound works, with the piece. From there, I began to add in further complex detail in the Experimental Theater, where we had the chance to work for 5 days together.
 
