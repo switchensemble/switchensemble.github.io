@@ -12,13 +12,16 @@ tags:
 ---
 
 > "I think we can't communicate enough to the audience, to give some insight to the work processes—the conversations we have, the difficulties that come up that make us adjust things... It's always my conviction that the result is not the piece; the piece is everything that we find out together: detours we need to take; things we find out don't work so well… it's all part of the piece, so to document this is really vital. Every iteration afterwards bears a mark of the process that went into it. So, even this conversation!"
-> -Katharina Rosenberger
+> 
+> -- Katharina Rosenberger
+
+After [Switch~]'s residency at UC San Diego, [Switch~] clarinetist Madison Greenstone sat down with Katharina Rosenberger to talk about her artistic projects, her piece *Up Close*, and her collaborative time with us. Enjoy part 1 of this 2-part interview!
 
 **Madison Greenstone:** To start, could you give an overview of *Up Close*? A map of the piece, and what it involves in terms of stage settings, lights and amplification?
 
 **Katharina Rosenberger:** I can start with the initial ideas. I really wanted to draw in the audience as closely as possible to the sound: to the sound production of physical gestures when you perform and to physical elements of the instruments—that they become part of the sound and of the music. Not just as an effect, but as material.
 
-So, that's where the need for amplification comes from. That led to a search for "how do I best amplify the performer?" then, along with that, a further focus on: can I see what is performed, or can I just hear what is performed? There is a certain intensity if you listen to acousmatic music; since you don't see, you yourself have to approach the sounds as much as possible to grasp them. Of course, in the performance of *Up Close*, when at times the ensemble plays in complete darkness, you know that the performers are there. You might see a silhouette, or not: but still, it becomes much more challenging to organize your understanding of the piece or where the sound is coming from, if you don't see it.
+So, that’s where the need for amplification comes from. That led to a search for “how do I best amplify the performer?” then, along with that, a further focus on, "can I see what is performed, or can I just hear what is performed?"  There is a certain intensity if you listen to acousmatic music; since you don't see, you yourself have to approach the sounds as much as possible to grasp them. Of course, in the performance of *Up Close*, when at times the ensemble plays in complete darkness, you know that the performers are there. You might see a silhouette, or not: but still, it becomes much more challenging to organize your understanding of the piece or where the sound is coming from, if you don't see it.
 
 <div class="col-sm-6 mx-auto">
   <figure class="figure">
@@ -27,11 +30,11 @@ So, that's where the need for amplification comes from. That led to a search for
   </figure>
 </div>
 
-With the exposure of the lights, you have an initial "zoom" or focus on the instrument. Then later on in the piece I wanted to be much more playful with it. There's a performer illuminated who's actually not playing, or just turning the page: that's *you* [addressing Madison], for instance. Or is just waiting, or adjusting the instrument... and then at the end of the piece, the light is there to play along with dynamics. So when everybody swells to a forte, the light comes on and goes away. So, it's not about directing the listener to what's happening with one performer, rather it's glued to the music.
+With the exposure of the lights, you have an initial "zoom" or focus on the instrument. Then later on in the piece I wanted to be much more playful with it. There's a performer illuminated who's actually not playing, or just turning the page: that's *you* [addressing Madison], for instance. Or is just waiting, or adjusting the instrument... and then at the end of the piece, the light is there to play along with dynamics. So when everybody swells to a *forte*, the light comes on and goes away. So, it's not about directing the listener to what's happening with one performer, rather it's glued to the music.
 
 Those are some different modalities for how sound works, with the piece. From there, I began to add in further complex detail in the Experimental Theater, where we had the chance to work for 5 days together.
 
-**MG:** Wait, 2 days.
+**MG:** Wait, two days.
 
 **KR:** Really?
 
@@ -47,7 +50,7 @@ There are moments where this fluidity is contrasted and there are extreme detail
 
 **KR:** That's right. Of course that does encourage precisely what we were talking about. For a long time this aspect has been a part of my work. If I think about when I was a student, the pieces I was writing, I was always looking for a flexible form that really captures the moment and the people involved in it. Maybe pieces where the individual instruments have their own timelines, so they're not coordinated in time. Or they can pick different movements, or reorganize sections.
 
-{% soundcloud tracks 137437189 %}
+{% include soundcloud_player.html type="tracks" trackID=137437189 %}
 
 Or, in an installation it's the visitor that creates the unfolding of elements… what does it mean? How does a piece need to work formally or structurally to allow that? It's an ongoing process for me, now, over ten years. By the time we're doing *Up Close* I'm not an expert on it, because things always change, or there are new elements I draw in. Playing in darkness, where you orient yourself by your ear, for example. It's always new territory, which I'm scared of ­– but I'm so drawn to it. I think I could not just re-do things I know well.
 
@@ -73,6 +76,6 @@ In a way, what we create is really this enormous offering in the moment, of poss
 
 **MG:** I think that's really typified by the audience, sitting in the middle, all facing different directions. What is physically in front of someone could be perceived as behind someone else. Everyone, in terms of where they're sitting or their position in the space, has this radically personal and different experience of literal orientation within the piece—and orientation of listening.
 
-**KR:** You know, in a way, in time-based media, often what you hear can never be fully complete. It happens in time: you see it just from one perspective. The piece is maybe not notated how the composer is thinking, or what the performers are rendering. It's always also an attempt—or a willingness to get as close to the artistic thought of what the piece could be. But we could never fully promise that that's the complete and full music. And, in a way, potentially, if you think the audience members were sitting: everybody heard it from a different angle. What does that mean overall? Everyone together, maybe, all the listening experiences: we might maybe, potentially think of a completeness of what that piece could be. Hypothetically, maybe!
+**KR:** You know, in a way, in time-based media, often what you hear can never be fully complete. It happens in time: you see it just from one perspective. The piece is maybe not notated how the composer is thinking, or what the performers are rendering. It's always also an attempt—or a willingness to get as close to the artistic thought of what the piece could be. But we could never fully promise that that's the complete and full music. And, in a way, potentially, if you think where the audience members were sitting: everybody heard it from a different angle. What does that mean overall? Everyone together, maybe, all the listening experiences: we might maybe, potentially think of a completeness of what that piece could be. Hypothetically, maybe!
 
 But thinking at least only from the angle of the perception of the piece—that offering that the performers can give—how you can hear it, maybe of a completeness, through the different angles. We don't know, and that's the beauty of it.
