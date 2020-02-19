@@ -47,8 +47,7 @@ There are moments where this fluidity is contrasted and there are extreme detail
 
 **KR:** That's right. Of course that does encourage precisely what we were talking about. For a long time this aspect has been a part of my work. If I think about when I was a student, the pieces I was writing, I was always looking for a flexible form that really captures the moment and the people involved in it. Maybe pieces where the individual instruments have their own timelines, so they're not coordinated in time. Or they can pick different movements, or reorganize sections.
 
-[link to a KR installation]
-https://soundcloud.com/chrrroseberger/gesang-an-das-namelose-land
+{% soundcloud tracks 137437189 %}
 
 Or, in an installation it's the visitor that creates the unfolding of elements… what does it mean? How does a piece need to work formally or structurally to allow that? It's an ongoing process for me, now, over ten years. By the time we're doing *Up Close* I'm not an expert on it, because things always change, or there are new elements I draw in. Playing in darkness, where you orient yourself by your ear, for example. It's always new territory, which I'm scared of ­– but I'm so drawn to it. I think I could not just re-do things I know well.
 
