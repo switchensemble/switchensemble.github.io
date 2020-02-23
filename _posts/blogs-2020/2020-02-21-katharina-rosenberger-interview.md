@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Madison Greenstone
-title: Interview with Katharina Rosenberger
+title: Interview with Katharina Rosenberger - Part I of II
 categories: blog
 image: repertoire-images/madi-katharina_2400.jpg
 headerImage: repertoire-images/madi-katharina_2400.jpg
@@ -12,7 +12,7 @@ tags:
 ---
 
 > "I think we can't communicate enough to the audience, to give some insight to the work processes—the conversations we have, the difficulties that come up that make us adjust things... It's always my conviction that the result is not the piece; the piece is everything that we find out together: detours we need to take; things we find out don't work so well… it's all part of the piece, so to document this is really vital. Every iteration afterwards bears a mark of the process that went into it. So, even this conversation!"
-> 
+>
 > -- Katharina Rosenberger
 
 After [Switch~]'s residency at UC San Diego, [Switch~] clarinetist Madison Greenstone sat down with Katharina Rosenberger to talk about her artistic projects, her piece *Up Close*, and her collaborative time with us. Enjoy part 1 of this 2-part interview!
@@ -26,7 +26,7 @@ So, that’s where the need for amplification comes from. That led to a search f
 <div class="col-sm-6 mx-auto">
   <figure class="figure">
     <img src="{{ site.images }}/repertoire-images/cello-light_2400.jpg" class="figure-img img-fluid">
-    <figcaption class="figure-caption">Light seen through T.J. Borden's cello</figcaption>
+    <figcaption class="figure-caption text-center">Light seen through T.J. Borden's cello</figcaption>
   </figure>
 </div>
 
@@ -70,6 +70,13 @@ This is the difficulty, of course, as well: basically Jason and I would need to 
 
 In a way, what we create is really this enormous offering in the moment, of possibilities—but also of counter-forces. Of sounds that withdraw themselves from this sculpture. I like that idea a lot.
 
+<div class="col-sm-6 mx-auto">
+  <figure class="figure">
+    <img src="{{ site.images }}/repertoire-images/clarinet-light_2400.jpg" class="figure-img img-fluid">
+    <figcaption class="figure-caption text-center">Clarinetist Madison Greenstone illuminated</figcaption>
+  </figure>
+</div>
+
 **MG:** With everything complete, what do you hope the audience takes away? When these things are disappearing and ephemeral, how does one hold on to it?
 
 **KR:** Yeah… I really hope that the piece becomes a very physical and literal experience, not just an event of appreciation—"oh, this is how I hear the music, this is how I understand it and imagine it." There is much more to it, with the audience and the interaction. There is never such a stable moment. It's always a negotiation. The audience is part of it: how they understand it. How they think the sounds are supposed to be there. And also for the audience to let go, as well. And understand, this is an art form we can never fully just grasp and put in our pocket and go home with. It's always, in the end, a memory. Even when you sit there, what happens before, what is happening just now, what comes next—you can never 100% put your finger on it and say "that's what happened". It's its own being—a sculpture, as you call it—that we are involved with.
@@ -79,3 +86,7 @@ In a way, what we create is really this enormous offering in the moment, of poss
 **KR:** You know, in a way, in time-based media, often what you hear can never be fully complete. It happens in time: you see it just from one perspective. The piece is maybe not notated how the composer is thinking, or what the performers are rendering. It's always also an attempt—or a willingness to get as close to the artistic thought of what the piece could be. But we could never fully promise that that's the complete and full music. And, in a way, potentially, if you think where the audience members were sitting: everybody heard it from a different angle. What does that mean overall? Everyone together, maybe, all the listening experiences: we might maybe, potentially think of a completeness of what that piece could be. Hypothetically, maybe!
 
 But thinking at least only from the angle of the perception of the piece—that offering that the performers can give—how you can hear it, maybe of a completeness, through the different angles. We don't know, and that's the beauty of it.
+
+*[Switch~] will be performing Up Close at the Eastman School of Music on March 18 and at the DiMenna Center for Classical Music in New York City on March 21. [To learn more and buy tickets for the NYC performance, please visit the link here.](https://www.eventbrite.com/e/switch-ensemble-presents-up-close-tickets-93374438459) This project made possible by the kind support of New Music USA, Pro Helvetia, the Swiss Arts Council, and the Ernst von Siemens Musikstiftung.*
+
+<a class="btn btn-round btn-sm btn-success my-2" href="https://www.eventbrite.com/e/switch-ensemble-presents-up-close-tickets-93374438459" role="button">NYC Tickets</a>
