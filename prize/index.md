@@ -7,6 +7,8 @@ headerImage: /repertoire-images/ibarra_berkeley_1000x500.jpg
 
 <h2 class="text-left">[Switch~ Ensemble] 2020 Commissioning Prize</h2>
 
+<div class="alert alert-warning"><strong>The deadline has passed!</strong> We are looking forward to reviewing applications and will announce the winner in the coming weeks. Thanks to all for submitting your amazing work!</div>
+
 The [Switch~ Ensemble] invites entries for our 2020 commissioning prize from composers and sound artists of all backgrounds.
 
 **Deadline:** Saturday February 29th 11:59pm PST
@@ -23,11 +25,11 @@ The [Switch~ Ensemble] invites entries for our 2020 commissioning prize from com
     </ol>
 </div>
 
-**Entry fee:** [$15 payable by PayPal here.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72GF29HY3AUJ2)
+**Entry fee:** ~~$15 payable by PayPal here.~~
 
 **Eligibility:** Open to anyone, *except* members of [Switch~ Ensemble] and composers with whom [Switch~] has existing commissioning contracts.
 
-**Application process:** [Please fill out the following form.](https://forms.gle/GoSK2q23rpvFSPDd8)
+**Application process:** ~~Please fill out the following form.~~
 
 Composers are invited to submit two or three work samples. At least two work samples must include some form of audio or video recording. Work samples should be shared via file sharing sites like Dropbox or streaming services like SoundCloud or Youtube. Please ensure links stay active through at least May 2020. If using Google Drive or Dropbox, please be sure to click "share" rather than copying and pasting your browser’s address bar, as that will not work correctly.
 
