@@ -5,7 +5,7 @@ composer:
 title: Songs for Antonin
 movements:
 duration:
-yearComposed: 2017
+yearComposed: 2018
 commissionedOrWrittenFor: commission
 size: septet
 instrumentation:
@@ -17,17 +17,17 @@ instrumentation:
   - violin
   - cello
   - electronics
-  - video
 tags:
   - septet
   - electronics
   - ensemble
-  - video
 media:
-  - title: "Songs for Antonin (2019) by Esaias Järnegard - the [Switch~ Ensemble]"
+  - title: "Songs for Antonin (2018) by Esaias Järnegard - the [Switch~ Ensemble]"
     url: https://soundcloud.com/theswitchensemble/songs-for-antonin-by-esaias-jarnegard
     ID: 739506796
     notes: live
+  - title: Songs for Antonin (2018) by Esaias Järnegard
+    url: https://www.youtube.com/embed/hWkUkK8uVPk
 headerImage: repertoire-images/mccormack-karst-survey-1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/mccormack-karst-survey_400x200.jpg
 ---
