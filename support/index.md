@@ -8,10 +8,13 @@ headerImage: header-qnmf-reh.jpg
 
 We believe in vivid, memorable concerts and invest in collaboration and innovation. Will you join us in helping us bring new work to life? Please consider making a tax-deductible donation today.
 
+[Switch~] has 501(c)3 fiscal sponsorship through an arts service organization called Fractured Atlas. They receive grants and contributions in support of our projects, helping provide tax-deductible status to donations like yours. We pay a small administrative fee to them, your gift supports our work, and we can keep our focus on what we do best: making new music!
+
 <div class="d-flex justify-content-center mb-5">
-  <a class="btn btn-lg btn-round btn-primary" href="https://www.fracturedatlas.org/site/fiscal/profile?id=14815" role="button">Donate Now!</a>
+  <a class="btn btn-lg btn-round btn-primary" href="https://fundraising.fracturedatlas.org/the-switch-ensemble" role="button">Donate now via Fractured Atlas!</a>
 </div>
 
+*The [Switch~ Ensemble] is a sponsored project of Fractured Atlas, a non-profit arts service organization. Contributions for the charitable purposes of [Switch~ Ensemble] must be made payable to “Fractured Atlas” only and are tax-deductible to the extent permitted by law.*
 
 <!--
 
