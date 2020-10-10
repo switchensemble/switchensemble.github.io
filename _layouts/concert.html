@@ -51,6 +51,10 @@ layout: default
           {%- endfor -%}
         </div>
 
+        {%- if page.status-%}
+          <div class="alert alert-warning">{{ page.status }}</div>
+        {%- endif -%}
+
         {{ content }}
 
       </div>

@@ -4,8 +4,7 @@ categories: performance
 describe: "An evening of music from composers Fernanda Aoki Navarro, Chaya Czernowin, and Bongani Ndodana-Breen."
 date: 2020-04-15
 time: "7:00pm"
-tickets:
-  url: https://www.radcliffe.harvard.edu/event/2020-portrait-concert-fellows-performance
+status: "Cancelled due to COVID-19"
 location:
   institution: Harvard University
   building: Radcliffe Institute for Advanced Study

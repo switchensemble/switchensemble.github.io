@@ -3,6 +3,7 @@ layout: concert
 categories: performance
 describe: "Ensemble-in-residence for the Eastman Audio Research Studio."
 date: 2020-03-18
+status: "Cancelled due to COVID-19"
 time:
 location:
   institution: Eastman School of Music

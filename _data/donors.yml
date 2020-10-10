@@ -1,28 +1,30 @@
 - name: Panic Button
   amountStart: 10,000+
   individuals:
-    - Be our first!
+    - MAP Fund
 
 - name: Mercury Tilt Switch
   amountStart: 5,000
   amountEnd: 9,999
   individuals:
-    - Be our first!
+    - New Music USA
 
 - name: Rocker
   amountStart: 2,500
   amountEnd: 4,999
   individuals:
     - Music at the Anthology
-    - New Music USA Project Grant
+    - New Music USA
 
 - name: Rotary Switch
   amountStart: 1,000
   amountEnd: 2,499
   individuals:
+    - Amphion Foundation
+    - Copland Foundation
+    - Harvard University
     - "​Avaloch Farm Music Institute (in-kind)"
     - "Conservatorio Superior de Música de Valencia (in-kind)"
-    - Harvard University
     - "Queens New Music Festival (in-kind)"
     - "Valencia International Performance Academy & Festival (in-kind)"
     - Eastman Computer Music Center
@@ -30,7 +32,7 @@
     - "University of California, San Diego"
     - "Eastman School of Music, Paul R. Judy Grant"
     - Anonymous (2)
-    
+
 - name: Toggle Switch
   amountStart: 500
   amountEnd: 999
@@ -43,7 +45,7 @@
   amountEnd: 499
   individuals:
     - Eastman School of Music
-    - ​Mary Collins (x2)
+    - ​Mary Collins
     - Steven Takasugi
     - ​Anonymous (5)
 
@@ -57,7 +59,7 @@
     - Richard Evans
     - Catherine Gaston
     - Richard Greenstone and Ramsey Moureau
-    - ​Richard J. Greenstone (x2)
+    - ​Richard J. Greenstone
     - Lisa Mettens
     - Kathy Sherman
     - Elizabeth Simkin
@@ -91,7 +93,7 @@
     - Katherine Balch
     - Jennifer Bellor
     - Robert Dillon
-    - ​Louis Goldford (x2)
+    - ​Louis Goldford
     - Boon Hua Lien
     - Peter Kalal
     - Zane Merritt

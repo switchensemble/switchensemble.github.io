@@ -43,6 +43,9 @@
       <!-- add if for testing if concert time has passed -->
       <a class="btn btn-round btn-sm btn-success" href="{{ concert.tickets.url }}" role="button">Tickets</a>
       {%- endif -%}
+      {%- if concert.status -%}
+      <a class="mx-3 btn btn-round btn-sm alert-warning" role="button">{{ concert.status }}</a>
+      {%- endif -%}
     </div>
   </div>
 

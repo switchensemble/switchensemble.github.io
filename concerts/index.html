@@ -7,7 +7,21 @@ headerImage: header-vipa-ensemble.jpg
 {% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
 {% assign revPerfPosts = site.posts | reverse | where_exp:"item", "item.categories contains 'performance'" %}
 
-<h1 class="mb-5">Upcoming Concerts</h1>
+<h1 class="mb-5">Upcoming Concerts: 2020-21 Season</h1>
+
+<p>When we founded [Switch~] in 2012 as an ensemble that looked toward the future—integrating technology and live performances—we never expected we would find ourselves in the middle of a pandemic and a quarantine. But using technology to bring vivid, compelling performances to life is part of [Switch~]'s DNA, and we're excited to use this expertise to get composers and performers back to doing what they do best: bringing new works to life, just for you.</p>
+
+<p>We're raising money for our 2020-21 season today, and hope you'll consider supporting our work. <a href="https://fundly.com/the-switch-ensemble-2020-21-season">Click here to read more about our season and donate.</a></p>
+
+<h3>The [Switch~ Ensemble] presents: Telematic</h3>
+
+<p>In Fall 2020, our performances will be remote and livestreamed, developed collaboratively and telematically.</p>
+
+<p>We're designing new works specifically for this situation, using software tools to help musicians play together across physical distances. We've commissioned a new work by <a href="http://zacharyjameswatkins.com/">Zachary James Watkins</a> and are collaboratively developing works among the players in the ensemble. [Switch~] will present 2 telematic performances in the first half of our season. Plus, we'll be presenting fully remote and telematic performances as part of teaching residencies at Mahidol University, University of Missouri, and UT Austin.</p>
+
+<h3>[Switch~]: Live in 2021</h3>
+<p>We're optimistic we can get back to playing in 2021, and have a long list of extraordinary commissions and premieres to share with you, including Anne Leilehua Lanzilotti's <em>hānau ka ua</em>, Katharina Rosenberger's <em>Up Close</em>, and new works by Kelley Sheehan and Anna-Louise Walton. Your support goes directly to artist fees and composer commissions.</p>
+
 {%- for concert in revPerfPosts -%}
 
   {% capture current_date %}{{ 'now' | date: '%s' }}{% endcapture %}

@@ -6,7 +6,7 @@ headerImage: header-qnmf-reh.jpg
 
 [Switch~] has always relied on a community of friends and supporters to make what we do possible. For all of us—Zach, Madi, Matt, Lauren, TJ, Wei-Han, Megan, Chris, Clay, and Jason—[Switch~] concerts are so meaningful to share with all of you.
 
-We believe in vivid, memorable concerts and invest in collaboration and innovation. Will you join us in helping us bring new work to life? Please consider making a tax-deductible donation today.
+We believe in vivid, memorable concerts and invest in collaboration and innovation. If you're here from our [Fundly Campaign](https://fundly.com/the-switch-ensemble-2020-21-season) to make a tax deductible donation, please click on the button below to donate via Fractured Atlas. Your gift will count toward our campaign and you'll get all the great perks listed on our Fundly page.
 
 [Switch~] has 501(c)3 fiscal sponsorship through an arts service organization called Fractured Atlas. They receive grants and contributions in support of our projects, helping provide tax-deductible status to donations like yours. We pay a small administrative fee to them, your gift supports our work, and we can keep our focus on what we do best: making new music!
 

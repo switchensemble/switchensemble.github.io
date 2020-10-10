@@ -31,6 +31,6 @@
 - title: Blog
   url: /blog/
 
-- title: Prize
-  url: /prize/
+# - title: Prize
+#   url: /prize/
   # color: text-primary
