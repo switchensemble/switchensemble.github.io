@@ -7,6 +7,20 @@ headerImage: header-vipa-ensemble.jpg
 {% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
 {% assign revPerfPosts = site.posts | reverse | where_exp:"item", "item.categories contains 'performance'" %}
 
+<h1 class="mb-5">Next Concert</h1>
+
+<div class="d-flex justify-content-center mb-5">
+  <img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/Switch-March-5-1600x800-for-EventBrite-opt.png" alt="">
+</div>
+
+<p>Please join the [Switch~ Ensemble] for a new commissioned work by <a href="http://zacharyjameswatkins.com/">Zachary James Watkins,</a> a premiere by <a href="http://zachsheetsmusic.com">Zach Sheets,</a> and a previously unreleased recording of <a href="https://marianthi.net/">Marianthi Papalexdri-Alexandri's</a> <em>Duo for Motor and Sound Panels.</em></p>
+
+<div class="d-flex justify-content-center mb-5">
+  <a class="btn btn-lg btn-round btn-success" href="https://www.eventbrite.com/e/switch-presents-singing-through-a-wire-tickets-141072709271" role="button">RSVP to [Switch~]'s broadcast on 3/5/21</a>
+</div>
+
+<!--
+
 <h1 class="mb-5">Upcoming Concerts: 2020-21 Season</h1>
 
 <p>When we founded [Switch~] in 2012 as an ensemble that looked toward the future—integrating technology and live performances—we never expected we would find ourselves in the middle of a pandemic and a quarantine. But using technology to bring vivid, compelling performances to life is part of [Switch~]'s DNA, and we're excited to use this expertise to get composers and performers back to doing what they do best: bringing new works to life, just for you.</p>
@@ -21,6 +35,8 @@ headerImage: header-vipa-ensemble.jpg
 
 <h3>[Switch~]: Live in 2021</h3>
 <p>We're optimistic we can get back to playing in 2021, and have a long list of extraordinary commissions and premieres to share with you, including Anne Leilehua Lanzilotti's <em>hānau ka ua</em>, Katharina Rosenberger's <em>Up Close</em>, and new works by Kelley Sheehan and Anna-Louise Walton. Your support goes directly to artist fees and composer commissions.</p>
+
+-->
 
 {%- for concert in revPerfPosts -%}
 
