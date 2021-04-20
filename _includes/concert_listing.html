@@ -9,10 +9,12 @@
   <br>
   <div class="col-12 col-md-7">
     <h3 class="text-left mb-2">{{ concert.date | date: "%B %d, %Y" }}</h3>
-    {%- if concert.location.country -%}
-      <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.country }}</h3>
-    {%- else -%}
-      <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.state }}</h3>
+    {%- if concert.location.city -%}
+      {%- if concert.location.country -%}
+        <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.country }}</h3>
+      {%- else -%}
+        <h3 class="text-left">{{ concert.location.city }}, {{ concert.location.state }}</h3>
+      {%- endif -%}
     {%- endif -%}
     {%- if concert.describe -%}{{ concert.describe }}<br />{%- endif -%}
 <br>
@@ -22,10 +24,12 @@
       {%- if concert.location.building -%}{{ concert.location.building }}<br />{%- endif -%}
       {%- if concert.location.venue -%}{{ concert.location.venue }}<br />{%- endif -%}
       {%- if concert.location.address -%}{{ concert.location.address }}<br />{%- endif -%}
-      {%- if concert.location.country -%}
-        {{ concert.location.city }}, {{ concert.location.country }}
-      {%- else -%}
-        {{ concert.location.city }}, {{ concert.location.state }} {{ concert.location.zip }}
+      {%- if concert.location.city -%}
+        {%- if concert.location.country -%}
+          {{ concert.location.city }}, {{ concert.location.country }}
+        {%- else -%}
+          {{ concert.location.city }}, {{ concert.location.state }} {{ concert.location.zip }}
+        {%- endif -%}
       {%- endif -%}
     </p>
     {%- for work in concert.program -%}

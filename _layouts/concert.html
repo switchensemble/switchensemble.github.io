@@ -83,10 +83,12 @@ layout: default
               {%- if page.location.building -%}{{ page.location.building }}<br />{%- endif -%}
               {%- if page.location.venue -%}{{ page.location.venue }}<br />{%- endif -%}
               {%- if page.location.address -%}{{ page.location.address }}<br />{%- endif -%}
-              {%- if page.location.country -%}
-                {{ page.location.city }}, {{ page.location.country }}
-              {%- else -%}
-                {{ page.location.city }}, {{ page.location.state }} {{ page.location.zip }}
+              {%- if page.location.city -%}
+                {%- if page.location.country -%}
+                  {{ page.location.city }}, {{ page.location.country }}
+                {%- else -%}
+                  {{ page.location.city }}, {{ page.location.state }} {{ page.location.zip }}
+                {%- endif -%}
               {%- endif -%}
 						</li>
             {%- if page.tickets.url -%}

@@ -7,6 +7,8 @@ headerImage: header-vipa-ensemble.jpg
 {% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
 {% assign revPerfPosts = site.posts | reverse | where_exp:"item", "item.categories contains 'performance'" %}
 
+<!--
+
 <h1 class="mb-5">Next Concert</h1>
 
 <div class="d-flex justify-content-center mb-5">
@@ -19,7 +21,7 @@ headerImage: header-vipa-ensemble.jpg
   <a class="btn btn-lg btn-round btn-success" href="https://www.eventbrite.com/e/switch-presents-singing-through-a-wire-tickets-141072709271" role="button">RSVP to [Switch~]'s broadcast on 3/5/21</a>
 </div>
 
-<!--
+
 
 <h1 class="mb-5">Upcoming Concerts: 2020-21 Season</h1>
 
@@ -38,6 +40,8 @@ headerImage: header-vipa-ensemble.jpg
 
 -->
 
+
+<h1 class="mb-5">Upcoming Concerts</h1>
 {%- for concert in revPerfPosts -%}
 
   {% capture current_date %}{{ 'now' | date: '%s' }}{% endcapture %}
