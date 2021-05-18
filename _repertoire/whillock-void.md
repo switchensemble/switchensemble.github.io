@@ -21,5 +21,5 @@ media:
   - title: void (2020) by Ian Whillock - [Switch~ Ensemble] Telematic Performance
     url: https://www.youtube.com/embed/FCJe8Xpc2ok
 headerImage: repertoire-images/whillock-void_1000.jpg
-thumbnailImage: repertoire-images/thumbnails/whillock-void_400.jpg
+thumbnailImage: repertoire-images/whillock-void_1000.jpg
 ---
