@@ -15,8 +15,8 @@ tags:
   - motor
   - two performers
 media:
-  - title:
-    url:
+  - title: "Duo for Motor and Sound Panels (2016) by Marianthi Papalexandri-Alexandri - [Switch~ Ensemble]"
+    url: https://www.youtube.com/embed/eunEZFvXung
 headerImage: repertoire-images/papalexandri-duo_1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/papalexandri-duo_400x200.jpg
 ---
