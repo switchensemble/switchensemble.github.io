@@ -16,8 +16,8 @@ tags:
   - quartet
   - telematic
 media:
-  - title: "Long Nights (2020) by Geli Li - [Switch~ Ensemble] Telematic Performance"
-    url: https://www.youtube.com/embed/1tu1KJXWv5I
-headerImage: repertoire-images/li-long-nights_1000.jpg
-thumbnailImage: repertoire-images/thumbnails/li-long-nights_400.jpg
+  - title: "Co-Opt" (2020) by Nathan Nokes - [Switch~ Ensemble] Telematic Performance"
+    url: https://www.youtube.com/embed/J5zDPg4DQXE
+headerImage: repertoire-images/nokes-co-opt_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/nokes-co-opt_400.jpg
 ---
