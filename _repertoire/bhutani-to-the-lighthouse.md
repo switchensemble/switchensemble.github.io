@@ -16,6 +16,6 @@ tags:
 media:
   - title: "To The Lighthouse (2019) by Anuj Bhutani - Lauren Cauley, the [Switch~ Ensemble]"
     url: https://www.youtube.com/embed/Xj8I8MQBBXA
-headerImage: repertoire-images/nokes-co-opt_1000.jpg
-thumbnailImage: repertoire-images/thumbnails/nokes-co-opt_400.jpg
+headerImage: repertoire-images/bhutani-lighthouse_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/bhutani-lighthouse_400.jpg
 ---
