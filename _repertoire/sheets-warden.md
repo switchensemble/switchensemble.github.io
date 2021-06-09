@@ -6,7 +6,7 @@ title: Warden
 duration:
 yearComposed: 2021
 commissionedOrWrittenFor: written
-size: solo
+size: quartet
 instrumentation:
   - contrabass clarinet
   - bass flute
