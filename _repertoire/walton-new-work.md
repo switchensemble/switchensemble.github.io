@@ -1,7 +1,7 @@
 ---
 composer:
-  first: Santiago
-  last: Díez Fischer
+  first: Anna-Louise
+  last: Walton
 title: new work
 duration:
 yearComposed: 2021

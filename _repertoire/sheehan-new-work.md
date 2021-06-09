@@ -1,7 +1,7 @@
 ---
 composer:
-  first: Santiago
-  last: Díez Fischer
+  first: Kelley
+  last: Sheehan
 title: new work
 duration:
 yearComposed: 2021
