@@ -13,7 +13,7 @@ location:
   zip: 14853
 program:
   - composer: Marianthi Papalexandri-Alexandri
-    title: Duo for motors and sound panels (2016)
+    title: Duo for motor and sound panels (2016)
   - composer: Kevin Ernste
     title: Almatira
   - composer: Sergio Cote
