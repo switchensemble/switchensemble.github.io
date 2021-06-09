@@ -2,7 +2,8 @@
 composer:
   first: Nathan
   last: Nokes
-title: Co-Opt
+title: "Co-Opt"
+movements:
 duration:
 yearComposed: 2020
 commissionedOrWrittenFor: written
@@ -12,12 +13,15 @@ instrumentation:
   - violin
   - cello
   - percussion
+  - electronics
 tags:
+  - electronics
   - quartet
   - telematic
 media:
-  - title: "Co-Opt" (2020) by Nathan Nokes - [Switch~ Ensemble] Telematic Performance"
-    url: https://www.youtube.com/embed/J5zDPg4DQXE
+  - title:
+    type:
+    url:
 headerImage: repertoire-images/nokes-co-opt_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/nokes-co-opt_400.jpg
 ---

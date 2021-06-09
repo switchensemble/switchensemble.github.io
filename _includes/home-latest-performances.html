@@ -1,7 +1,7 @@
 <div class="latest-performance">
 	{% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
 	<ul>
-		{%- for post in performancePosts limit:6 -%}
+		{%- for post in performancePosts limit:8 -%}
 				<li>
 					<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
 						{%- if post.country -%}

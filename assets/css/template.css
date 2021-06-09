@@ -3669,8 +3669,8 @@ body.off-canvas-sidebar-open .layout {
 
 .row-portfolio .grid-sizer,
 .row-portfolio .portfolio-item {
-    width: 33.333333%;
-    float: left;
+    width: 25%;
+    float: center;
     overflow: hidden;
 }
 
@@ -3736,15 +3736,15 @@ body.off-canvas-sidebar-open .layout {
     width: 100%;
     /*opacity: 0;*/
     z-index: 1;
-    top: 44%; /* - - CHANGED this is the height of the title text! */
+    top: 42%; /* - - CHANGED this is the height of the title text! */
     left: 0;
     text-align: center;
 }
 
 .portfolio-title {
     text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 1.6;
+    letter-spacing: 1.6px;
+    line-height: 1.5;
     font-size: 12px;
     color: #fff;
     margin: 0;
@@ -3754,7 +3754,7 @@ body.off-canvas-sidebar-open .layout {
 
 .portfolio-subtitle {
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.4;
     /*opacity: .7;*/
     color: #fff;
     text-shadow: 1px 1px #2a2b2c;
@@ -3771,8 +3771,8 @@ body.off-canvas-sidebar-open .layout {
 }
 
 .portfolio-item:hover .portfolio-wrapper img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
 }
 
 .portfolio-item:hover .portfolio-overlay {
