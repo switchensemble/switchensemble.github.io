@@ -1,11 +1,12 @@
 ---
 composer:
-  first: Kelley
-  last: Sheehan
-title: new work
+  first: Anna-Louise
+  last: Walton
+title: "Hapax legomenon"
+movements:
 duration:
 yearComposed: 2021
-commissionedOrWrittenFor: written
+commissionedOrWrittenFor: commissioned
 size: sextet
 instrumentation:
   - flute
@@ -14,13 +15,11 @@ instrumentation:
   - cello
   - piano
   - percussion
-  - electronics
 tags:
-  - electronics
+  - ensemble
   - sextet
 media:
   - title:
+    type:
     url:
-headerImage:
-thumbnailImage:
 ---

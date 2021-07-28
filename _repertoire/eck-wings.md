@@ -2,7 +2,7 @@
 composer:
   first: Kathy van
   last: Eck
-title: Winds
+title: Wings
 movements:
 duration:
 yearComposed: 2008
