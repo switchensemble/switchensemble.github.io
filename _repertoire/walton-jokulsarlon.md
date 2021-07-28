@@ -2,7 +2,7 @@
 composer:
   first: Anna-Louise
   last: Walton
-title: Jökulsárlón
+title: "Jökulsárlón"
 duration:
 yearComposed: 2016
 commissionedOrWrittenFor: written
