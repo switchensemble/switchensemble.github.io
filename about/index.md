@@ -16,4 +16,6 @@ Recent engagements include performances and residencies at Cornell, Bard College
 
 Founded in 2012 at the Eastman School of Music, the [Switch~ Ensemble] looks toward the future of contemporary music. We are dedicated to performing high-level chamber music integrated with cutting-edge technology and supporting emerging and early career composers. We are passionate about helping to build a diverse canon of 21st century works that leaves space for all voices—especially those that have historically been excluded from our field.
 
+{% include photos-portfolio-masonry.html folderName='featured/' %}
+
 {%- include ensemble-listing.html -%}
