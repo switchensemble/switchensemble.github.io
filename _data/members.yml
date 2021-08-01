@@ -1,7 +1,7 @@
 - name: Megan Arns
   title: Production Director
   role: Percussion
-  headshot: megan.jpg
+  headshot: megan_1200x800.jpg
   links:
     - email: megan.arns@gmail.com
     - website: http://www.meganarns.com/
@@ -11,7 +11,7 @@
 - name: Christopher Chandler
   title: Finance Director, Co-Founder
   role: Composer and Sound Engineer
-  headshot: chris.jpg
+  headshot: chris_1200x800.jpg
   links:
     - email: christopher.e.chandler@gmail.com
     - website: http://www.christopherchandlermusic.com
@@ -21,32 +21,32 @@
 - name: Clay Mettens
   title: Director of Development
   role: Composer and Sound Engineer
-  headshot: clay.jpg
+  headshot: clay_1200x800.jpg
   links:
     - email: mettensmusic@gmail.com
     - website: https://www.mettensmusic.com/
     - facebook:
-    - twitter:
+    - twitter: https://twitter.com/MettensMusic
 
 - name: Zach Sheets
-  title: Managing Director
+  title:
   role: Composer and Flutes
-  headshot: zach.jpg
+  headshot: zach_1200x800.jpg
   links:
     - email: zachsheets91@gmail.com
     - website: https://www.zachsheetsmusic.com/
     - facebook:
-    - twitter:
+    - twitter: https://twitter.com/ZachSheetsMusic
 
 - name: Jason Thorpe Buchanan
   title: Artistic Director, Co-Founder
   role: Composer and Sound Engineer
-  headshot: jason.jpg
+  headshot: jason_1200x800.jpg
   links:
     - email: jasontbuchanan@gmail.com
     - website: http://www.jasonthorpebuchanan.com/
     - facebook:
-    - twitter:
+    - twitter: https://twitter.com/jasontbuchanan
 
 - name: Madison Greenstone
   title:
@@ -54,14 +54,14 @@
   headshot: madison.jpg
   links:
     - email: madison.greenstone@yahoo.com
-    - website:
+    - website: https://madison-greenstone.com/
     - facebook:
     - twitter:
 
 - name: Matt Evans
   title:
   role: Saxophones
-  headshot: matt.jpg
+  headshot: matt_1200x800.jpg
   links:
     - email: mevanssax@gmail.com
     - website: http://mevanssax.com/
@@ -76,7 +76,7 @@
     - email: cauley.lauren@gmail.com
     - website: http://www.laurencauley.com/
     - facebook:
-    - twitter:
+    - twitter: https://twitter.com/lau_caul
 
 - name: T.J. Borden
   title:
