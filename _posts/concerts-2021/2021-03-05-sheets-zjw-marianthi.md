@@ -7,7 +7,7 @@ time: "8:00pm"
 status:
 location:
   institution: Switch
-  city: The Internet
+  building: The Internet
 program:
   - composer: Zach Sheets
     title: Warden

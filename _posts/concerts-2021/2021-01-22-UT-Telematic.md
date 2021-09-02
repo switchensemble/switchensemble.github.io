@@ -7,7 +7,7 @@ time: "8pm"
 status:
 location:
   institution: UT Austin
-  city: The Internet
+  building: The Internet
 program:
   - composer: Nathan Nokes
     title: Co-Opt
