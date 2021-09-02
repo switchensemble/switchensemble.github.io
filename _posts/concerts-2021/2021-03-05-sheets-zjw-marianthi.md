@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-describe: "A featured concert at the 2021 virtual SEAMUS conference."
+describe: "A self-produced concert featuring a brand new commission from Zachary James Watkins."
 date: 2021-03-05
 time: "8:00pm"
 status:
