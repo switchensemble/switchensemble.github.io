@@ -105,7 +105,7 @@ AddType image/svg+xml .svg
     ExpiresByType text/plain "access plus 1 month"
     ExpiresByType text/x-component "access plus 1 month"
 
-    ExpiresByType text/css "access plus 1 day"
+    ExpiresByType text/css "access plus 1 minute"
     ExpiresByType text/javascript "access plus 1 year"
     ExpiresByType application/javascript "access plus 1 year"
 
