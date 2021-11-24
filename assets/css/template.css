@@ -3503,21 +3503,21 @@ body.off-canvas-sidebar-open .layout {
 }
 
 .bg-dark-30:before {
-    background-color: rgba(34, 34, 34, .3);
+  background-color: rgba(34, 34, 34, .2); /* - - CHANGED 4th number is opacity of header image from 0.3 to 0.2  - - - - ! ! ! ! */
     content: "";
     left: 0;
     top: 0;
 }
 
 .bg-dark-60:before {
-    background: rgba(34, 34, 34, .6);
+    background: rgba(34, 34, 34, .3); /* - - CHANGED 4th number is opacity of header image from 0.6 to 0.3  - - - - ! ! ! ! */
     content: "";
     left: 0;
     top: 0;
 }
 
 .bg-dark-90:before {
-    background: rgba(34, 34, 34, .9);
+    background: rgba(34, 34, 34, .4); /* - - CHANGED 4th number is opacity of header image from 0.9 to 0.4  - - - - ! ! ! ! */
     content: "";
     left: 0;
     top: 0;
