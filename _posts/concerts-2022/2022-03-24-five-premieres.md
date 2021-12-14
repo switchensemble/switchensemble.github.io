@@ -31,7 +31,7 @@ program:
 
 text:
   below: ""
-thumbnail: events/rosenberger_1200x700.jpg
+thumbnail: 
 ---
 
-Our flagship concert of our 2021-22 season, the [Switch~ Ensemble] premieres five new commissions from Leilehua Lanzilotti, Santiago Diez Fischer, Anna-Louise Walton, Forbes Graham, and Kelley Sheehan, with commissioned with support from the MAP Fund, the UCA Foundation (Argentina), New Music USA, the Boston LAB Grant, and our own commissioning prize, respectively. 
+Our flagship concert of our 2021-22 season, the [Switch~ Ensemble] premieres five new commissions from Leilehua Lanzilotti, Santiago Diez Fischer, Anna-Louise Walton, Forbes Graham, and Kelley Sheehan, with commissioned with support from the MAP Fund, the UCA Foundation (Argentina), New Music USA, the Boston LAB Grant, and our own commissioning prize, respectively.
