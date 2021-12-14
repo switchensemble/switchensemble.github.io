@@ -16,5 +16,5 @@ program:
     title: Smoke and Mirrors
   - composer: Philippe Leroux
     title: Voi(rex)
-thumbnail: leroux_voirex_1000x500px.jpg     
+thumbnail: repertoire-images/leroux_voirex_1000x500px.jpg
 ---
