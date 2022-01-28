@@ -1,13 +1,19 @@
 <div class="latest-news">
-	{% assign newsPosts = site.posts | where_exp:"item", "item.categories contains 'news'" %}
+
+	{% assign sortedNewsPosts = site.posts | where_exp:"item", "item.categories contains 'news'" %}
 	<ul>
-		{%- for post in newsPosts limit:6 -%}
+		{%- for post in sortedNewsPosts limit:8 -%}
+
 		{% comment %} <span><strong>{{ post.title }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span> {% endcomment %}
 			<li>
-				<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-				<a href="{{ post.url }}">
-					<strong>{{ post.title }}</strong>. {{ post.content | remove: '<p>' | remove: '</p>' | truncatewords: 20 }}
-				</a>
+				<div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
+				<a data-fancybox data-type="iframe" href="{{ post.url }}" target="_blank">
+					<div class="row justify-content-start">
+							<div class="col-4"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt=""></div>
+
+				<div class="media-body col-8">	<strong>{{ post.title }}</strong>
+					<br> {{ post.content | remove: '<p>' | remove: '</p>' | truncatewords: 20 }}
+			</div></div>	</a>
 			</li>
 		{% endfor %}
 	</ul>
