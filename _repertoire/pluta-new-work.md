@@ -1,23 +1,24 @@
 ---
 composer:
-  first: Anna-Louise
-  last: Walton
-title: "Hapax legomenon"
+  first: Sam
+  last: Pluta
+title: "new work"
 movements:
 duration:
 yearComposed: 2022
 commissionedOrWrittenFor: commissioned
-size: sextet
+size: septet
 instrumentation:
   - flute
   - clarinet
+  - saxophone
   - violin
   - cello
   - piano
   - percussion
 tags:
   - ensemble
-  - sextet
+  - septet
 media:
   - title:
     type:

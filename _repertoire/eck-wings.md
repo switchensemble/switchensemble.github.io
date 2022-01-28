@@ -4,7 +4,7 @@ composer:
   last: Eck
 title: Wings
 movements:
-duration:
+duration: 8 minutes
 yearComposed: 2008
 commissionedOrWrittenFor:
 size: trio
@@ -15,6 +15,7 @@ instrumentation:
   - three performers
 tags:
   - trio
+  - electronics
 media:
   - title:
     url:

@@ -1,11 +1,12 @@
 ---
 composer:
-  first: Anna-Louise
-  last: Walton
-title: new work
-duration:
-yearComposed: 2021
-commissionedOrWrittenFor: written
+  first: Jose
+  last: Martinez
+title: "39 inside"
+movements:
+duration: 32 minutes
+yearComposed: 2019
+commissionedOrWrittenFor:
 size: sextet
 instrumentation:
   - flute
@@ -16,11 +17,12 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
+  - ensemble
   - sextet
+  - electronics
+  - video
 media:
   - title:
+    type:
     url:
-headerImage:
-thumbnailImage:
 ---

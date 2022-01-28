@@ -14,20 +14,20 @@ location:
   zip: 10002
 program:
   - composer: Leilehua "Anne" Lanzilotti
-    title: "hānau ka ua"
+    title: "hānau ka ua (born is the rain)"
     year: 2021
   - composer: Santiago Diez Fischer
     title: perpetual green switch
     year: 2021
   - composer: Anna-Louise Walton
     title: Hapax legomenon
-    year: 2021  
+    year: 2022
   - composer: Forbes Graham
     title: new work
     year: 2021     
   - composer: Kelley Sheehan
     title: the bends
-    year: 2020
+    year: 2021
 
 text:
   below: ""
