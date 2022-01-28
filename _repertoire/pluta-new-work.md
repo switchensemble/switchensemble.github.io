@@ -8,7 +8,7 @@ duration:
 yearComposed: 2022
 commissionedOrWrittenFor: commissioned
 size: septet
-instrumentation:
+instrumentation:s
   - flute
   - clarinet
   - saxophone
