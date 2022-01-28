@@ -7,6 +7,7 @@ time: "8:00pm"
 status:
 location:
   institution: Switch
+  building: The Internet
   venue: The Internet
 program:
   - composer: Zach Sheets

@@ -9,6 +9,7 @@ location:
   institution: UT Austin
   building: The Internet
   venue: The Internet
+  city: The Internet
 program:
   - composer: Nathan Nokes
     title: Co-Opt
