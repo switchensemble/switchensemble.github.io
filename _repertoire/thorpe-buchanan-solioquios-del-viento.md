@@ -24,6 +24,9 @@ media:
     url:
     type:
     ID:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/thorpe-buchanan-soliloquios_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/thorpe-buchanan-soliloquios_330.jpg
+
+
 ---
+eck-wings_1000.jpg

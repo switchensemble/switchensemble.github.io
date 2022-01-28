@@ -19,6 +19,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/eck-wings_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/eck-wings_330.jpg
 ---

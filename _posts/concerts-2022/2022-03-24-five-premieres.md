@@ -23,8 +23,8 @@ program:
     title: Hapax legomenon
     year: 2022
   - composer: Forbes Graham
-    title: new work
-    year: 2021     
+    title: Inflection
+    year: 2022
   - composer: Kelley Sheehan
     title: the bends
     year: 2021

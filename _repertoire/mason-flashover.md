@@ -17,6 +17,6 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+headerImage: repertoire-images/mason-flashover_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/mason-flashover_330.jpg
 ---

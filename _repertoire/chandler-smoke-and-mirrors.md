@@ -23,6 +23,8 @@ tags:
   - ensemble
   - percussion
   - conducted
+headerImage: repertoire-images/chandler-smoke_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/chandler-smoke_330.jpg
 media:
   - title: Smoke and Mirrors by Christopher Chandler    
     url: https://www.youtube.com/embed/cKzJI5zQh40

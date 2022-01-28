@@ -27,8 +27,8 @@ program:
     title: new work (2020)
   - composer: Juraj Kojs
     title: new work (2020)
-thumbnail: repertoire-images/diels_filament-1000x500.jpg
-header: repertoire-images/mason-2020-switch-miami.jpg
+thumbnail: repertoire-images/thumbnails/mason-flashover_330.jpg
+header: repertoire-images/mason-flashover_1000.jpg
 
 ---
 

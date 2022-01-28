@@ -21,4 +21,6 @@ media:
   - title:
     type:
     url:
+headerImage: repertoire-images/schubert-star-me-kitten_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/schubert-star-me-kitten_330.jpg
 ---
