@@ -2,28 +2,28 @@
 layout: concert
 categories: performance
 describe: "Five Premieres: New commissions from Leilehua Lanzilotti, Santiago Diez Fischer, Anna-Louise Walton, Forbes Graham, and Kelley Sheehan"
-date: 2022-03-24
-time: "7:00pm CET"
+date: 2022-03-25
+time: "7:00pm"
 location:
   institution:
   building:
-  venue:
-  address:
+  venue: University Settlement
+  address: 184 Eldridge Street
   city: New York
   state: NY
-  zip: 10018
+  zip: 10002
 program:
   - composer: Leilehua "Anne" Lanzilotti
     title: "hānau ka ua"
     year: 2021
   - composer: Santiago Diez Fischer
-    title: New Work
+    title: perpetual green switch
     year: 2021
   - composer: Anna-Louise Walton
     title: Hapax legomenon
     year: 2021  
   - composer: Forbes Graham
-    title: New Work
+    title: new work
     year: 2021     
   - composer: Kelley Sheehan
     title: the bends
@@ -31,7 +31,7 @@ program:
 
 text:
   below: ""
-thumbnail: 
+thumbnail:
 ---
 
 Our flagship concert of our 2021-22 season, the [Switch~ Ensemble] premieres five new commissions from Leilehua Lanzilotti, Santiago Diez Fischer, Anna-Louise Walton, Forbes Graham, and Kelley Sheehan, with commissioned with support from the MAP Fund, the UCA Foundation (Argentina), New Music USA, the Boston LAB Grant, and our own commissioning prize, respectively.
