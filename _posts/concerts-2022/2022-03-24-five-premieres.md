@@ -32,6 +32,7 @@ program:
 text:
   below: ""
 thumbnail: updates/2021-soliloquios-switch-sinuston-330.jpg
+header: auto-add/featured/2021-soliloquios-switch-sinuston.jpg
 ---
 
 Our flagship concert of our 2021-22 season, the [Switch~ Ensemble] premieres five new commissions from Leilehua Lanzilotti, Santiago Diez Fischer, Anna-Louise Walton, Forbes Graham, and Kelley Sheehan, with commissioned with support from the MAP Fund, the UCA Foundation (Argentina), New Music USA, the Boston LAB Grant, and our own commissioning prize, respectively.

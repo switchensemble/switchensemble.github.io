@@ -22,6 +22,8 @@ program:
 text:
   below:
 thumbnail:
+header: repertoire-images/watkins-do-your-best_1000.jpg
+
 ---
 
 Please join us for a concert featuring music by Zach Sheets, Marianthi Papalexandri-Alexandri, and the premiere of Zachary James Watkins' [Switch~] commission of *Do Your Best Never Say Can't and Love One Another*.

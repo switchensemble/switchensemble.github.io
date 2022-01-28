@@ -27,4 +27,6 @@ program:
   - composer: Timothy McCormack
     title: karst survey
 thumbnail:
+header: auto-add/featured/2016-santos_lamento_1000x500px.jpg
+
 ---

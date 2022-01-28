@@ -23,6 +23,8 @@ program:
   - composer: Matt Sargent
     title: Second Illumination
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
+header: repertoire-images/hoy-borderline_1000x500.jpg
+
 ---
 
 

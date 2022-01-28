@@ -23,6 +23,8 @@ program:
   - composer: Tomas Henriques
     title: Circle (2000)
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
+header: repertoire-images/cheah-we-drank-wine_1000x500.jpg
+
 ---
 
 More information available here: <a href="https://www.facebook.com/events/2032962806984602/" target="blank">https://www.facebook.com/events/2032962806984602/ </a>

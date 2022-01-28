@@ -28,6 +28,8 @@ program:
 text:
   below: "This project made possible by the kind support of New Music USA, Pro Helvetia, the Swiss Arts Council, and the Ernst von Siemens Musikstiftung."
 thumbnail: repertoire-images/diels_filament-1000x500.jpg
+header: repertoire-images/diels_filament-1000x500.jpg
+
 ---
 
 The [Switch~ Ensemble] is ensemble-in-residence for the Eastman Audio Research Studio at the Eastman School of Music.

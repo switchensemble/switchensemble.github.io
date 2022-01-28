@@ -25,6 +25,8 @@ program:
   - composer: Víctor Ibarra
     title: Química del agua
 thumbnail: repertoire-images/mccormack-karst-survey-1000x500.jpg
+header: auto-add/featured/2017-berkeley-ibarra.jpg
+
 ---
 
 More information and tickets available here: <a href="https://www.facebook.com/events/263121080880704/" target="blank">https://www.facebook.com/events/263121080880704/ </a>

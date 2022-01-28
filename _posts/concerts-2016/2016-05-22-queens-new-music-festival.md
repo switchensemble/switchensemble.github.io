@@ -25,4 +25,7 @@ program:
   - composer: Alexander Schubert
     title: Star Me Kitten
 photosFolder: testing
+thumbnail: 
+header: auto-add/featured/2016-mettens_hedreamsamother_1000x500px.jpg
+
 ---

@@ -21,4 +21,6 @@ program:
     title: Ad Marginem des Versuchs
   - composer: Ben Isaacs
     title: allone
+header: repertoire-images/pateras_brokenthenfixed_1000x500px.jpg
+
 ---

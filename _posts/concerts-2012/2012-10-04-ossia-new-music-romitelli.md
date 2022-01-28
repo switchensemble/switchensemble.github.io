@@ -16,4 +16,9 @@ program:
     title: Amok Koma (2001)
   - composer: Jason Thorpe Buchanan
     title: "Asymptotic Flux: First Study in Entropy"
+thumbnail: auto-add/featured/2012-romitelli_amok_1000x500px.jpg
+header: auto-add/featured/2012-romitelli_amok_1000x500px.jpg
+
 ---
+
+test

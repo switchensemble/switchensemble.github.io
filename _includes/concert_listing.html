@@ -1,7 +1,7 @@
 <div class="row mb-5">
   <div class="col-12 col-md-5">
-    {%- if concert.thumbnail -%}
-      <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/{{ concert.thumbnail }}" alt=""></a>
+    {%- if concert.header -%}
+      <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/{{ concert.header }}" alt=""></a>
     {% else %}
       <a href="{{ concert.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/switch_misc_1000x500px.jpg" alt=""></a>
     {%- endif -%}

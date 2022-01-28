@@ -23,4 +23,7 @@ program:
     title: "Transcryptum: The map of tenderness for cello solo"
   - composer: Jason Thorpe Buchanan
     title: "HUNGER (Part III)"
+thumbnail: 
+header: auto-add/featured/2015-thorpebuchanan_hungerpart3_1000x500px.jpg
+
 ---

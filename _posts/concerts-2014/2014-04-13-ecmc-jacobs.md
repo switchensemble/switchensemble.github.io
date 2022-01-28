@@ -20,4 +20,6 @@ program:
     title: Labyrinth Meditations
   - composer: Zach Sheets
     title: Seer
+header: repertoire-images/jacobs-tsts_1000x500.jpg
+
 ---

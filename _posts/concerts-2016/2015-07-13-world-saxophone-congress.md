@@ -9,4 +9,7 @@ location:
 program:
   - composer: Jason Thorpe Buchanan
     title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
+thumbnail: 
+header: auto-add/featured/2015-thorpebuchanan_pulp_1000x500px.jpg
+
 ---

@@ -23,4 +23,6 @@ program:
     title: Aurora Borealis
 thumbnail: repertoire-images/myers_aquinnah_1000x500px.jpg
 photosFolder: uchicago/
+header: auto-add/featured/2017-myers_aquinnah_1000x500px.jpg
+
 ---

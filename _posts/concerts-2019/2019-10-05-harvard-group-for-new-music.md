@@ -24,6 +24,7 @@ program:
   - composer: Caleb Fried
     title: walk over; hot coals (2019)
 thumbnail: repertoire-images/diels_filament-1000x500.jpg
+header: auto-add/featured/2019-harvard-tj.jpg
 ---
 
 The [Switch~ Ensemble] is ensemble-in-residence for the Harvard Group for New Music at Harvard University for the annual Thelma E. Goldberg Concert.

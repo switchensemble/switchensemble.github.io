@@ -23,6 +23,9 @@ program:
   - composer: Roberto Sierra
     title: Tres Montunos
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
+header: repertoire-images/louilarpprasert_silhouette-1000x500.jpg
+
+
 ---
 
 More information available here: <a href="https://www.facebook.com/events/581154722246512/" target="blank">https://www.facebook.com/events/581154722246512/ </a>

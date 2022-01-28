@@ -17,4 +17,6 @@ program:
   - composer: Philippe Leroux
     title: Voi(rex)
 thumbnail: repertoire-images/leroux_voirex_1000x500px.jpg
+header: auto-add/featured/2013-leroux_voirex_1000x500px.jpg
+
 ---

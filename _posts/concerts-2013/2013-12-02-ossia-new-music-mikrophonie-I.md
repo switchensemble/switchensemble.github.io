@@ -13,4 +13,6 @@ location:
 program:
   - composer: Karlheinz Stockhausen
     title: Mikrophonie I
+header: auto-add/eastman2013/stockhausen-mikrophonie_1000.jpg
+
 ---

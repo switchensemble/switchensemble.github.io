@@ -29,6 +29,8 @@ program:
 text:
   below:
 thumbnail:
+header: repertoire-images/li-long-nights_1000.jpg
+
 ---
 
 Please join us for a concert featuring the world premieres of newly composed Telematic works by UT Austin Graduate Student Composers Nathan Nokes, Ian Whillock, Geli Li, Monte Taylor, and Lydia Wayne Chang.

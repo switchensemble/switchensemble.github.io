@@ -27,4 +27,6 @@ program:
   - composer: Samuel Gillies
     title: Apologies, I Am Here Now
 thumbnail:
+header: auto-add/featured/2016-corren_fragilethread_1000x500px.jpg
+
 ---

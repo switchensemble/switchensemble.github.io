@@ -23,4 +23,6 @@ program:
     title: Jökulsárlón
 thumbnail: repertoire-images/camci_landscape_1000x500.jpg     
 photosFolder: uchicago/
+header: repertoire-images/camci_landscape_1000x500.jpg
+
 ---

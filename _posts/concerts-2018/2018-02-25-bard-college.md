@@ -23,6 +23,8 @@ program:
   - composer: Morton Feldman
     title: Intersection 4 (1952)
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
+header: repertoire-images/sargent-unwound-path_1000x500.jpg
+
 ---
 
 More information available here: <a href="https://www.facebook.com/events/159306914720574/" target="blank">https://www.facebook.com/events/159306914720574/ </a>
