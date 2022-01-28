@@ -6,7 +6,7 @@ title: new work
 duration:
 yearComposed: 2021
 commissionedOrWrittenFor: written
-size: sextet
+size: septet
 instrumentation:
   - flute
   - clarinet
@@ -17,7 +17,7 @@ instrumentation:
   - electronics
 tags:
   - electronics
-  - sextet
+  - septet
 media:
   - title:
     url:

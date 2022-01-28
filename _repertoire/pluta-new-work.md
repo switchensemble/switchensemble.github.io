@@ -16,9 +16,11 @@ instrumentation:
   - cello
   - piano
   - percussion
+  - electronics
 tags:
   - ensemble
   - septet
+  - electronics
 media:
   - title:
     type:

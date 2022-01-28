@@ -16,6 +16,8 @@ instrumentation:
 tags:
   - septet
   - telematic
+  - electronics
+  - video
 media:
   - title: Project Agree- Mission for the Internet Communities by Lydia Wayne Chang - [Switch~ Ensemble]
     url: https://www.youtube.com/embed/94wOoly-7iM

@@ -12,8 +12,12 @@ instrumentation:
   - violin
   - cello
   - percussion
+  - electronics
+
 tags:
   - quartet
+  - electronics
+
 media:
   - title:
     url:

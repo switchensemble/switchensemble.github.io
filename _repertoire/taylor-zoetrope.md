@@ -12,9 +12,13 @@ instrumentation:
   - violin
   - cello
   - percussion
+  - electronics
+
 tags:
   - quartet
   - telematic
+  - electronics
+
 media:
   - title: Zoetrope (2020) by Monte Taylor - [Switch~ Ensemble] Telematic Performance
     url: https://www.youtube.com/embed/knzVaAJ0-jk

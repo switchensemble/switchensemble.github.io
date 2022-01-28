@@ -19,6 +19,8 @@ instrumentation:
 tags:
   - octet
   - telematic
+  - electronics
+
 media:
   - title: "Do Your Best, Never Say Can't, and Love Each Other (2021) by Zachary James Watkins"
     url: https://www.youtube.com/embed/B97iWMYi3Tk
