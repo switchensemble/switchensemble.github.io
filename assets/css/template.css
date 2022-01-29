@@ -1473,7 +1473,7 @@ select.form-control-sm:not([size]):not([multiple]) {
     position: absolute;
     height: 70px;
     width: 70px;
-    top: 50%;
+    top: 51%;
     margin-top: -35px;
     text-align: center;
     font-size: 36px;
@@ -2350,7 +2350,7 @@ body.off-canvas-sidebar-open .layout {
     background: transparent;
     position: fixed;
     z-index: 1040;
-    height: 81px;
+    height: 50px; /* - - CHANGED nav bar menu height from 82 to 50px on Jan 29 2022 ! ! ! ! */
     width: 100%;
     padding: 0 40px;
     left: 0;
@@ -2835,7 +2835,7 @@ body.off-canvas-sidebar-open .layout {
     .header .container,
     .header .container-fluid {
         width: 100%;
-        padding: 0 30px;
+        padding: 0 0px;
     }
 
     .header.header-right .inner-nav,
@@ -3065,11 +3065,12 @@ body.off-canvas-sidebar-open .layout {
 .module-sm,
 .module-header {
     background-color: #f7f7f7;
-    background-position: 50%;
+    background-position: 25%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: transparent
     position: relative;
-    padding: 250px 0;
+    padding: 250px 28vh; /* - - CHECK ME - I AM  CHANGED from 250px to 260px  - - - - - - - - - - - - - - ! ! ! ! */
 }
 
 .module.module-divider-top,
@@ -3087,7 +3088,7 @@ body.off-canvas-sidebar-open .layout {
 .module,
 .module-sm {
     background-color: #fff;
-    padding: 100px 0;
+    padding: 30px 20px; /* - - space between header image and title below it   - - - - - - - - - - - - - - ! ! ! ! */
 }
 
 .module-sm {
@@ -3101,7 +3102,7 @@ body.off-canvas-sidebar-open .layout {
 .flexslider,
 .module-slides,
 .full-height {
-    min-height: 100vh;
+    min-height: 10vh;
     height: 100vh;
     padding: 0;
 }
@@ -3128,7 +3129,7 @@ body.off-canvas-sidebar-open .layout {
 .module-slides .container,
 .module-header .container {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .parallax {
@@ -3281,7 +3282,7 @@ body.off-canvas-sidebar-open .layout {
 
 @media (max-width: 992px) {
     .wrapper {
-        padding-top: 81px;
+        padding-top: 40px;  /* - - CHECK ME - I AM  CHANGED from 79 to 40px  - - - - - - - - - - - - - - ! ! ! ! */
     }
 
     .module-page-title {
