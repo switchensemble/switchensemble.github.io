@@ -2,7 +2,7 @@
 
 	{% assign sortedNewsPosts = site.posts | where_exp:"item", "item.categories contains 'news'" %}
 	<ul>
-		{%- for post in sortedNewsPosts limit:8 -%}
+		{%- for post in sortedNewsPosts limit:10 -%}
 
 		{% comment %} <span><strong>{{ post.title }}</strong>. {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></span> {% endcomment %}
 			<li>
@@ -12,7 +12,7 @@
 							<div class="col-4"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt=""></div>
 
 				<div class="media-body col-8">	<strong>{{ post.title }}</strong>
-					<br> {{ post.content | remove: '<p>' | remove: '</p>' | truncatewords: 20 }}
+					<br> {{ post.content | remove: '<p>' | remove: '</p>' | truncatewords: 24 }}
 			</div></div>	</a>
 			</li>
 		{% endfor %}
