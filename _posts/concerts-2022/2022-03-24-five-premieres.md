@@ -3,15 +3,15 @@ layout: concert
 categories: performance
 describe: "Five Premieres: New commissions from Leilehua Lanzilotti, Santiago Diez Fischer, Anna-Louise Walton, Forbes Graham, and Kelley Sheehan"
 date: 2022-03-25
-time: "7:00pm"
+time: "7:30pm"
 location:
   institution:
   building:
-  venue: University Settlement
-  address: 184 Eldridge Street
-  city: New York
+  venue: Invisible Dog
+  address: 51 Bergen Street
+  city: Brooklyn
   state: NY
-  zip: 10002
+  zip: 11201
 program:
   - composer: Leilehua "Anne" Lanzilotti
     title: "hānau ka ua (born is the rain)"
@@ -20,7 +20,7 @@ program:
     title: perpetual green switch
     year: 2021
   - composer: Anna-Louise Walton
-    title: Hapax legomenon
+    title: new work
     year: 2022
   - composer: Forbes Graham
     title: Inflection
