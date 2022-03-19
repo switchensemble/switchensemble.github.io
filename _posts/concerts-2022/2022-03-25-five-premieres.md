@@ -25,7 +25,7 @@ program:
     title: Crossing
     year: 2022
   - composer: Forbes Graham
-    title: Inflection: Beacon Hill/Roxbury
+    title: "Inflection: Beacon Hill/Roxbury"
     year: 2022
   - composer: Kelley Sheehan
     title: the bends
