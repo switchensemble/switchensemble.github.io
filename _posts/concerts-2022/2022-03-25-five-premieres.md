@@ -20,7 +20,7 @@ program:
     year: 2021
   - composer: Santiago Diez Fischer
     title: perpetual green switch
-    year: 2021
+    year: 2022
   - composer: Anna-Louise Walton
     title: Crossing
     year: 2022

@@ -21,6 +21,7 @@ tags:
 media:
   - title:
     url:
-headerImage:
-thumbnailImage:
+
+headerImage: repertoire-images/sheehan-the-bends_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/sheehan-the-bends_400x200.jpg
 ---

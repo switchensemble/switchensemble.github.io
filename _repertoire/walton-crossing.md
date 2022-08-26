@@ -2,7 +2,7 @@
 composer:
   first: Anna-Louise
   last: Walton
-title: "Hapax legomenon"
+title: "Crossing"
 movements:
 duration:
 yearComposed: 2022
@@ -22,4 +22,7 @@ media:
   - title:
     type:
     url:
+
+headerImage: repertoire-images/walton-crossing_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/walton-crossing_400x200.jpg
 ---
