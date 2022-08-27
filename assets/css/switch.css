@@ -131,32 +131,3 @@ footer aside .fa {
 .footer_width{width: 100%;}
 .footer_full_width{width: 100%; padding-left: 0px; padding-right: 0px;}
 .no-padding{padding-left: 0px; padding-right: 0px;}
-
-
-/*
-  image changer
-*/
-
-body{
-}
-.bgimg{
-
-
-/* The background image used */
-background-image: url("assets/images/switch-home.jpg");
-position:absolute;
-top:0;
-left:0;
-/* Full height */
-height: 100vh;
-width: 100vw;
-
-/* Hide scroll */
-overflow-x: hidden;
-overflow-y: hidden;
-
-/* Center and scale the background image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
