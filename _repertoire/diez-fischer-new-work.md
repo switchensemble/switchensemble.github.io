@@ -2,10 +2,10 @@
 composer:
   first: Santiago
   last: Díez Fischer
-title: new work
+title: perpetual green switch
 duration:
-yearComposed: 2021
-commissionedOrWrittenFor: written
+yearComposed: 2022
+commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:
   - flute
