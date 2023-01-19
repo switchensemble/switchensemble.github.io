@@ -8,7 +8,7 @@ location:
   institution: The Clemente
   building:
   venue: Flamboyan Theater
-  address: 107 Suffolk St. \#312
+  address: 107 Suffolk St., No. 312
   city: New York
   state: NY
   zip: 10002
