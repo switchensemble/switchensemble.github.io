@@ -28,3 +28,5 @@ header: header-switch-copper.jpg
 ---
 
 [Switch~ Ensemble] performs a new commission from Sam Pluta, recent commissions from Victoria Cheah and Zachary James Watkins, and a performance of Julius Eastman's Buddha.
+
+Sam Pluta's commission has been made possible by the Chamber Music America Classical Commissioning Program, with generous funding provided by The Andrew W. Mellon Foundation.
