@@ -4,6 +4,7 @@ categories: performance
 describe: "[Switch~ Ensemble] performs two new commissions from Victoria Cheah and Jen Kutler, alongside works by Sarah Hennies and Julius Eastman"
 date: 2022-11-19
 time: "7:30pm"
+status: "Cancelled due to inclement weather"
 location:
   institution:
   building:
