@@ -4,6 +4,8 @@ categories: performance
 describe: "[Switch~ Ensemble] performs a new commission from Sam Pluta, recent commissions from Victoria Cheah and Zachary James Watkins, and a performance of Julius Eastman's Buddha."
 date: 2023-02-09
 time: "7:30pm"
+tickets:
+  url: https://www.eventbrite.com/e/switch-plays-watkins-cheah-eastman-and-pluta-tickets-525797914717
 location:
   institution: The Clemente
   building:
