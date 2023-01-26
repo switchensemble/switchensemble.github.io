@@ -33,24 +33,31 @@ header: header-switch-copper.jpg
 
 Sam Pluta's commission has been made possible by the Chamber Music America Classical Commissioning Program, with generous funding provided by The Andrew W. Mellon Foundation.
 
-# Program Notes
-*Do Your Best, Never, Say Can’t, and Love One Another* (2020)
+### Program Notes
+***Do Your Best, Never, Say Can’t, and Love One Another*** (2020)
+
 *Do Your Best, Never, Say Can’t, and Love One Another* is a mantra my father would have my sister Tighe and I recite every morning when dropping us of at Elementary School. During the pandemic, I found myself remembering these words and feeling overwhelmed with love. I have written a piece that attempts to resonate my understanding of these words in this specific moment in history. This piece continues to explore a 20 note just intonation tuning that I have been developing for over 10 years. Here, I juxtapose these intervals with the Western Equal Temperament with the intended goal of creating a new sonic tapestry. Tension and release.
+
 -- Zachary James Watkins
 
-*Hard columns you within* (2022)
+***Hard columns you within*** (2022)
+
 Instabilities at the forefront of attention beome features - who is to say what is intentional, when looking at something that is inherently unstable? The romance of instability lies in the search for affirmation. Is this what I thought this was, or could be, and how may I earn you? Hard columns you within (2022) attempts a meditation on the undertow towards stability in identity and meaning, through intense amplification and the residue of resonance. Commissioned by and dedicated to the [Switch~ Ensemble], and written with the utmost gratitude and friendship.
-–- Victoria Cheah
 
-*Buddha* (1984)
+-- Victoria Cheah
+
+***Buddha*** (1984)
+
 Buddha (1984) is a late period open instrumentation and open duration work, a single-page, hand drawn score of a resonating oval encompassing 20 staves of non-durational pitches, without performance instructions. Unlike many of Eastman’s other works, no audio recording of the piece from his lifetime exists. The original score consists of a single page on which notes are notated in an oval on twenty systems one above the other (eleven in treble clef, nine in bass clef). On the paper, the staves vary greatly in length due to the oval that delimits them; on the shortest ones, there is only one note each. Almost always, the last notehead of each line is connected by a horizontal line to the right edge of the oval, suggesting a long holding of the note in question. The conventional arrangement of the staves from top to bottom (or high to low or all G clefs at the top and all F clefs at the bottom) as well as the range of tones that get deeper and deeper from top to bottom suggest the simultaneity of the musical proceedings—and not just a playing of the individual lines one after the other. The coordination of the simultaneous sounding, however, is not organized by any numbers, bar lines, auxiliary lines, or recognizable superimposed notation.
-–- Program note by Philip Bartels
 
-*Tectonics* (2023)
-1. Digital Feedback
-2-(N-2). Feedback Systems
-N-1. Tectonics
-N. Two for Tea (for Alvin Lucier)
+-- Program note by Philip Bartels
+
+***Tectonics*** (2023)
+
+1\. Digital Feedback <br>
+2-(N-2). Feedback Systems <br>
+N-1. Tectonics <br>
+N. Two for Tea (for Alvin Lucier) <br>
 
 This commission has been made possible by the Chamber Music America Classical Commissioning Program, with generous funding provided by The Andrew W. Mellon Foundation. In 2006, while I was a student at the University of Birmingham, our studio performed Nick Collins’s pioneering work Pea Soup in an old factory in downtown Birmingham. This was a seminal experience for me, as it pushed me into a lifelong engagement with feedback systems. Collins’s work, using (originally) pre-computing technologies, allows feedback to develop in a room, and when it detects a buildup of feedback at a certain pitch, uses phase adjustments to reject that pitch from feeding back further. Due to the harmonic nature of a rooms, once one pitch is rejected from the room a new one will inevitably emerge to thusly be squashed again by the software/hardware. The result is an emergent sonic sculpture, where the software, room, and performers interact in an ever evolving system.
 
@@ -68,7 +75,9 @@ filters, they give us predictable outcomes. When set up in other ways, they beco
 cybernetic creation machines. Tectonics is a set of studies of approaches to the latter (though
 the former is of course used in the software as well).
 
-# Biographies
+-- Sam Pluta
+
+### Biographies
 **Zachary James Watkins** studied composition with Janice Giteck, Jarrad Powell, Robin Holcomb and Jovino Santos Neto at Cornish College. In 2006, Zachary received an MFA in Electronic Music and Recording Media from Mills College where he studied with Chris Brown, Fred Frith, Alvin Curran and Pauline Oliveros. Zachary has received commissions from Cornish College of The Arts, The Microscores Project, the Beam Foundation, sfsound, The Living Earth Show, Kronos Quartet and the Seattle Chamber Players among others. His 2006 composition Suite for String Quartet was awarded the Paul Merritt Henry Prize for Composition and has subsequently been performed at the Labs 25th Anniversary Celebration, the Labor Sonor Series at Kule in Berlin Germany and in Seattle, as part of the 2nd Annual Town Hall New Music Marathon featuring violist Eyvind Kang. Zachary has performed in numerous festivals across the United States, Mexico and Europe. Zachary releases music on the labels Sige, Cassauna, Confront (UK), The Tapeworm and Touch (UK). Novembre Magazine (DE), ITCH (ZA), Walrus Press and the New York Miniature Ensemble have published his writings and scores. Zachary has been an artist in resident at the Espy Foundation, Djerassi and the Headlands Center for The Arts.
 
 **Victoria Cheah** (b. 1988, New York, NY) is a multi-disciplinary composer interested in boundaries, sustained energy, and social-performance rituals. Her work has been commissioned and/or featured by ensembles and presenters including Non-Event, [Switch~ Ensemble], Line Upon Line, Han Chen, andPlay, Yarn/Wire, Wavefield Ensemble, MATA Festival, Guerilla Opera, Ensemble Dal Niente, Vertixe Sonora, Marilyn Nonken, PRISM Quartet, and performed by others. Recordings of their music can be found on Dinzu Artefacts, New Focus Recordings, and XAS Records. Cheah currently serves as Assistant Professor at Berklee College of Music and Boston Conservatory, as well as Director of Operations of Talea Ensemble. From 2011-2015, Cheah served as the founding executive director of Boston new music sinfonietta Sound Icon. She has worked with ensembles and festivals including Composers Conference, Manhattan Sinfonietta, Argento Chamber Ensemble, Composit Festival, and Cantata Profana towards the realization of contemporary music events in New York, Boston (USA) and Rieti (IT). Previously, Cheah has taught music, research, and writing related courses as an instructor at Longy School of Music, Brandeis University, and as a teaching fellow at Harvard University. As a composer, she has attended academies including Sommerakademie Schloss Solitude, Darmstadt, Fontainebleau, VIPA, SICPP, The Walden School, and others. Cheah holds a B.A. in music from City University of New York Hunter College & Macaulay Honors College and a Ph.D. in music composition & theory at Brandeis University.
