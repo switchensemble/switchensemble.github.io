@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-describe: "[Switch~ Ensemble] performs two new commissions from Victoria Cheah and Jen Kutler, alongside works by Sarah Hennies and Julius Eastman"
+describe: "[Switch~ Ensemble] performs Resonant Mechanisms: The Experimental Tradition in Upstate New York, which includes two new commissions from Victoria Cheah and Jen Kutler, alongside works by Sarah Hennies and Julius Eastman"
 date: 2022-11-19
 time: "7:30pm"
 status: "Cancelled due to inclement weather"
@@ -36,4 +36,4 @@ Sarah Hennies is a composer based in Upstate NY whose work is concerned with a v
 
 Julius Eastman lived in upstate New York and NYC for much of his career. While his work was under-appreciated during his lifetime it has gained significant recognition in the past decade. NPR has described his music as “challenging, mischievously irreverent, and sometimes ecstatic”. Buddha (1984) is a late period open instrumentation work, a single-page, hand drawn score of a resonating oval encompassing 20 staves of non-durational pitches, without performance instructions.
 
-With support from the New York State Council on the Arts and the Amphion Foundation.
+*Resonant Mechanisms is made possible by the New York State Council on the Arts with the support of the Office of the Governor and the New York State Legislature. Our program is also made possible with support from the Amphion Foundation.*

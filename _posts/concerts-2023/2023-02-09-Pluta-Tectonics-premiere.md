@@ -1,7 +1,7 @@
 ---
 layout: concert
 categories: performance
-describe: "[Switch~ Ensemble] performs a new commission from Sam Pluta, recent commissions from Victoria Cheah and Zachary James Watkins, and a performance of Julius Eastman's Buddha."
+describe: "[Switch~ Ensemble] performs Tectonics a new commission from Sam Pluta, recent commissions from Victoria Cheah and Zachary James Watkins, and a performance of Julius Eastman's Buddha."
 date: 2023-02-09
 time: "7:30pm"
 tickets:
@@ -31,7 +31,9 @@ header: header-switch-copper.jpg
 
 [Switch~ Ensemble] performs a new commission from Sam Pluta, recent commissions from Victoria Cheah and Zachary James Watkins, and a performance of Julius Eastman's Buddha.
 
-Sam Pluta's commission has been made possible by the Chamber Music America Classical Commissioning Program, with generous funding provided by The Andrew W. Mellon Foundation.
+*Sam Pluta's commission has been made possible by the Chamber Music America Classical Commissioning Program, with generous funding provided by The Andrew W. Mellon Foundation.*
+
+*Tori Cheah's commission and performance on the Tectonics program is made possible by the New York State Council on the Arts with the support of the Office of the Governor and the New York State Legislature.*
 
 ### Program Notes
 ***Do Your Best, Never, Say Can’t, and Love One Another*** (2020)
