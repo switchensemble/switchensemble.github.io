@@ -2,7 +2,7 @@
 composer:
   first: Katharina
   last: "Rosenberger"
-title: "Up-Close"
+title: "Up Close"
 duration:
 yearComposed: 2019
 commissionedOrWrittenFor: commissioned
