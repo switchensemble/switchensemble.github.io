@@ -6,17 +6,18 @@ title: "Up-Close"
 duration:
 yearComposed: 2019
 commissionedOrWrittenFor: commissioned
-size: quintet
+size: sextet
 instrumentation:
   - flute
   - clarinet
+  - violin
   - cello
   - piano
   - percussion
   - electronics
   - lighting
 tags:
-  - quintet
+  - sextet
   - electronics
   - lighting
 media:
