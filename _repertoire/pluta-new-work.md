@@ -2,10 +2,10 @@
 composer:
   first: Sam
   last: Pluta
-title: "new work"
+title: "Tectonics"
 movements:
 duration:
-yearComposed: 2022
+yearComposed: 2023
 commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:
