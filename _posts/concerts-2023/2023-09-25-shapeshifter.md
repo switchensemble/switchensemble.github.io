@@ -4,6 +4,8 @@ categories: performance
 describe: "For our first concert of the 2023-24 season, we are thrilled to present 'Sounds from the Periphery,' a concert of four captivating quartets"
 date: 2023-09-25
 time: "8:00pm"
+tickets:
+  url: https://shapeshifterplus.org/product/switch-ensemble/
 location:
   institution:
   building: 
