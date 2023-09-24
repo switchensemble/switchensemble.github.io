@@ -10,7 +10,7 @@ location:
   institution:
   building: 
   venue: ShapeShifter Lab
-  address: 103 Center For The Arts
+  address: 837 Union St.
   city: Brooklyn
   state: NY
   zip: 11215
