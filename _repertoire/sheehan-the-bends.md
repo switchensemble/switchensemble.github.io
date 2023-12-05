@@ -18,10 +18,9 @@ instrumentation:
 tags:
   - electronics
   - nonet
-media:
-  - title:
-    url:
-
 headerImage: repertoire-images/sheehan-the-bends_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/sheehan-the-bends_400x200.jpg
+media:
+  - title: the bends (2021) by Kelley Sheehan
+    url: https://www.youtube.com/embed/YrmHVRDbzYk
 ---
