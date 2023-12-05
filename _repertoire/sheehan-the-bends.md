@@ -2,7 +2,7 @@
 composer:
   first: Kelley
   last: Sheehan
-title: the bends
+title: "the bends"
 duration:
 yearComposed: 2021
 commissionedOrWrittenFor: commissioned
@@ -18,9 +18,9 @@ instrumentation:
 tags:
   - electronics
   - nonet
-headerImage: repertoire-images/sheehan-the-bends_1000.jpg
-thumbnailImage: repertoire-images/thumbnails/sheehan-the-bends_400x200.jpg
 media:
   - title: the bends (2021) by Kelley Sheehan
     url: https://www.youtube.com/embed/YrmHVRDbzYk
+headerImage: repertoire-images/sheehan-the-bends_1000.jpg
+thumbnailImage: repertoire-images/thumbnails/sheehan-the-bends_400x200.jpg
 ---
