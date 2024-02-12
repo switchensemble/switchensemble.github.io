@@ -7,9 +7,9 @@
 				<li>
 					<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
 						{%- if post.country -%}
-						<a data-fancybox data-type="iframe" href="{{ post.url }}" target="_blank"><div class="row justify-content-start"><div class="col-5"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt="thumbnail" height="100%" width="100"></div><div class="media-body col-8">{{ post.describe }}<br />{%- if post.event -%}{{ post.event }}<br />{%- endif -%}{%- if post.location.venue -%}{{ post.location.venue }},&nbsp;{%- endif -%}{{ post.location.city }}, {{ post.location.country }}<br /></div></div></a>
+						<a data-fancybox data-type="iframe" href="{{ post.url }}" target="_blank"><div class="row justify-content-start"><div class="col-5"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt="thumbnail" height="100%" width="100"></div><div class="media-body col-7">{{ post.describe }}<br />{%- if post.event -%}{{ post.event }}<br />{%- endif -%}{%- if post.location.venue -%}{{ post.location.venue }},&nbsp;{%- endif -%}{{ post.location.city }}, {{ post.location.country }}<br /></div></div></a>
 						{%- else -%}
-						<a data-fancybox data-type="iframe" href="{{ post.url }}" target="_blank"><div class="row justify-content-start"><div class="col-5"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt="thumbnail" height="100%" width="100"></div><div class="media-body col-8">{{ post.describe }}<br />{%- if post.event -%}{{ post.event }}<br />{%- endif -%}{%- if post.location.venue -%}{{ post.location.venue }},&nbsp;{%- endif -%}{{ post.location.city }}, {{ post.location.state }}</div></div></a>
+						<a data-fancybox data-type="iframe" href="{{ post.url }}" target="_blank"><div class="row justify-content-start"><div class="col-5"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt="thumbnail" height="100%" width="100"></div><div class="media-body col-7">{{ post.describe }}<br />{%- if post.event -%}{{ post.event }}<br />{%- endif -%}{%- if post.location.venue -%}{{ post.location.venue }},&nbsp;{%- endif -%}{{ post.location.city }}, {{ post.location.state }}</div></div></a>
 						{%- endif -%}
 				</li>
 		{% endfor %}
