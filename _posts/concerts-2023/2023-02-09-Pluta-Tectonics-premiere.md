@@ -26,7 +26,7 @@ program:
 text:
   below: ""
 thumbnail: updates/switch-press_330.jpg
-header: header-switch-copper.jpg
+header: headers/2023/1000px/Switch-Feb.9-Watkins-Cheah-Eastman-Pluta_Clemente_1000px.jpg
 ---
 
 [Switch~ Ensemble] performs a new commission from Sam Pluta, recent commissions from Victoria Cheah and Zachary James Watkins, and a performance of Julius Eastman's Buddha.
