@@ -99,6 +99,15 @@ footer aside .fa {
   }
 }
 
+.score-vid-header {
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 49px;
+  position: relative;
+  padding: 20px 20px; /* - - CHANGED  - first number padding before content on index - this is the height of the header image-  second number is image position in relation to the bottom- - ! ! ! ! */
+}
+
 .breakout {
     margin-left:-100%;
     margin-right:-100%;
@@ -131,3 +140,4 @@ footer aside .fa {
 .footer_width{width: 100%;}
 .footer_full_width{width: 100%; padding-left: 0px; padding-right: 0px;}
 .no-padding{padding-left: 0px; padding-right: 0px;}
+
