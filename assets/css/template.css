@@ -3099,6 +3099,10 @@ body.off-canvas-sidebar-open .layout {
     background-color: #f7f7f7;
 }
 
+.module-black {
+    background-color: #616161;
+}
+
 .flexslider,
 .module-slides,
 .full-height {
