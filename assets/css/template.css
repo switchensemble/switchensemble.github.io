@@ -3433,6 +3433,7 @@ body.off-canvas-sidebar-open .layout {
 .bg-dark,
 .bg-gradient {
     color: #fff;
+    background-color: #222;
 }
 
 .bg-dark h1,
