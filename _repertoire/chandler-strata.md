@@ -13,11 +13,9 @@ instrumentation:
   - cello
   - percussion
   - electronics
-
 tags:
   - quartet
-  - electronics
-
+  - electroacoustic
 media:
   - title:
     url:

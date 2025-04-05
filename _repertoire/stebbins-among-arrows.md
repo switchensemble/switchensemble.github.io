@@ -17,7 +17,7 @@ instrumentation:
 tags:
   - ensemble
   - sextet
-  - electronics
+  - electroacoustic
 media:
   - title:
     type:
