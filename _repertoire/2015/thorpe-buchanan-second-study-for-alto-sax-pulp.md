@@ -5,6 +5,7 @@ composer:
 title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
 duration:
 yearComposed: 2015
+performedBySwitch: 2015
 commissionedOrWrittenFor: written
 size: solo
 instrumentation:
@@ -12,7 +13,7 @@ instrumentation:
   - video
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - video
 media:
   - title: "Second Study for Alto Saxophone, Video, and Electronics: pulp (2015) by Jason Thorpe Buchanan"

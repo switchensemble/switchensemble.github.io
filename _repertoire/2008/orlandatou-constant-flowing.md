@@ -5,13 +5,14 @@ composer:
 title: Constant Flowing
 duration:
 yearComposed: 2008
+performedBySwitch: 2014
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
   - solo vibraphone
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - solo
 media:
   - title:

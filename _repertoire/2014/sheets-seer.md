@@ -5,13 +5,14 @@ composer:
 title: Seer
 duration:
 yearComposed: 2014
+performedBySwitch: 2014, 2015
 commissionedOrWrittenFor: written
 size: solo
 instrumentation:
   - solo bass clarinet
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - solo
 media:
   - title:

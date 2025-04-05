@@ -6,14 +6,14 @@ composer:
 title: Labyrinth Meditations
 duration:
 yearComposed: 2014
+performedBySwitch: 2014
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
   - solo oboe
   - electronics
 tags:
-  - electronics
-  -
+  - electroacoustic
 media:
   - title:
     url:

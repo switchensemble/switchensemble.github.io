@@ -6,6 +6,7 @@ title: A Menacing Plume
 movements:
 duration: "16:30"
 yearComposed: 2011
+performedBySwitch: 2014
 commissionedOrWrittenFor:
 size: nonet
 instrumentation:
@@ -19,7 +20,7 @@ instrumentation:
   - cello
   - electronics
 tags:
-  - electronics 
+  - electroacoustic 
 media:
   - title:
     type:

@@ -6,6 +6,7 @@ title: Amok Koma
 movements:
 duration: 10
 yearComposed: 2001
+performedBySwitch: 2012
 commissionedOrWrittenFor:
 size: octet
 instrumentation:
@@ -19,7 +20,7 @@ instrumentation:
   - synthesizer
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - conducted
 media:
   - title: Nov 12, 2012 at Hatch Recital Hall

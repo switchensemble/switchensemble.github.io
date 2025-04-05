@@ -6,6 +6,7 @@ title: UR
 movements:
 duration: "13:30"
 yearComposed: 1986
+performedBySwitch: 2013
 commissionedOrWrittenFor:
 size: quintet
 instrumentation:
@@ -17,7 +18,7 @@ instrumentation:
   - electronics
 tags:
   - quintet
-  - electronics
+  - electroacoustic
   - conducted
 media:
   - title:

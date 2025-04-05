@@ -6,6 +6,7 @@ composer:
 title: "HUNGER (Part III)"
 duration:
 yearComposed: 2015
+performedBySwitch: 2015
 commissionedOrWrittenFor:
 size: octet, three singers,
 instrumentation:
@@ -22,7 +23,7 @@ instrumentation:
   - electronics
   - video
 tags:
-  - electronics
+  - electroacoustic
   - video
   - conducted
 media:

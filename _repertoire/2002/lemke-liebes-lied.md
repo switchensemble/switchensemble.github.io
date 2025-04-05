@@ -5,6 +5,7 @@ composer:
 title: Liebes-Lied
 duration:
 yearComposed: 2002
+performedBySwitch: 2012
 commissionedOrWrittenFor:
 size: solo
 instrumentation:

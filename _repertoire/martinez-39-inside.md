@@ -19,7 +19,7 @@ instrumentation:
 tags:
   - ensemble
   - sextet
-  - electronics
+  - electroacoustic
   - video
 media:
   - title:

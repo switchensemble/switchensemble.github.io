@@ -5,11 +5,12 @@ composer:
 title: "Transcryptum: The map of tenderness"
 duration:
 yearComposed: 2013
+performedBySwitch: 2015
 size: solo
 instrumentation:
   - solo cello
 tags:
-  -
+  - acoustic
 media:
   - title:
     url:

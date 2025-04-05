@@ -6,6 +6,7 @@ title: TsTs
 movements:
 duration: 10
 yearComposed: 2010
+performedBySwitch: 2014
 commissionedOrWrittenFor:
 size: septet
 instrumentation:
@@ -18,7 +19,7 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - septet
   - conducted
 media:

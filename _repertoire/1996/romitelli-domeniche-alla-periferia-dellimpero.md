@@ -5,6 +5,7 @@ composer:
 title: Domeniche alla periferia dell'impero
 duration:
 yearComposed: 1996
+performedBySwitch: 2014, 2017
 size: quartet
 instrumentation:
   - bass flute
@@ -12,6 +13,7 @@ instrumentation:
   - violin
   - cello
 tags:
+  - acoustic
 media:
   - title:
     url:

@@ -12,6 +12,7 @@ instrumentation:
   - violin
   - piano
 tags:
+  - acoustic
 media:
   - title:
     url:

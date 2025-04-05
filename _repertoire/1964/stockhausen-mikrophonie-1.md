@@ -5,14 +5,14 @@ composer:
 title: "Mikrophonie I"
 duration:
 yearComposed: 1964
+performedBySwitch: 2013
 commissionedOrWrittenFor:
 size: sextet
 instrumentation:
   - four percussionists
   - two sound projectionists
 tags:
-  - electronics
-  -
+  - electroacoustic
 media:
   - title: Mikrophonie 1 (1964) by Karlheinz Stockhausen
     url: https://www.youtube.com/embed/8hw8AIKz1LE

@@ -5,13 +5,14 @@ composer:
 title: Ad Marginem des Versuchs
 duration:
 yearComposed: 2015
+performedBySwitch: 2017
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
   - bass clarinet
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - solo
 media:
   - title:

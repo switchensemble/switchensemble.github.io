@@ -14,7 +14,7 @@ instrumentation:
   - bass clarinet
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - trio
   - click track
 media:

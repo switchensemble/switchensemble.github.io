@@ -12,7 +12,7 @@ instrumentation:
   - electronics
 tags:
   - solo
-  - electronics
+  - electroacoustic
 media:
   - title:
     url:

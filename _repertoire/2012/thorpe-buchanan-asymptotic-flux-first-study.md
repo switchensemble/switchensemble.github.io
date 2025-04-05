@@ -6,6 +6,7 @@ composer:
 title: "Asymptotic Flux: First Study in Entropy"
 duration:
 yearComposed: 2012
+performedBySwitch: 2012, 2014
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
@@ -15,7 +16,7 @@ instrumentation:
   - cello
   - electronics
 tags:
-  - electronics
+  - electroacoustic
 media:
   - title: "Asymptotic Flux: First Study in Entropy (2012) by Jason Thorpe Buchanan"
     url: https://www.youtube.com/embed/UMel9NUt30s

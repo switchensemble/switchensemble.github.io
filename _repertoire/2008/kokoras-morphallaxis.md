@@ -6,6 +6,7 @@ title: Morphallaxis
 movements:
 duration: "9:42"
 yearComposed: 2008
+performedBySwitch: 2014
 commissionedOrWrittenFor:
 size: trio
 instrumentation:

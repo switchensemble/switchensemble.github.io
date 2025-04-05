@@ -5,13 +5,14 @@ composer:
 title: Tombeau de Messiaen
 duration:
 yearComposed: 1994
+performedBySwitch: 2014
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
   - piano
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - solo
 media:
   - title:
