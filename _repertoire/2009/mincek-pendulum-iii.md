@@ -5,7 +5,7 @@ composer:
 title: Pendulum III
 duration: "10:00"
 yearComposed: 2009
-performedBySwitch: 2024
+performedBySwitch: 2016, 2017, 2024
 size: duo
 instrumentation:
   - alto saxophone

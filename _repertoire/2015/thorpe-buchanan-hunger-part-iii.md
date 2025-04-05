@@ -26,6 +26,7 @@ tags:
   - electroacoustic
   - video
   - conducted
+  - NYC
 media:
   - title: HUNGER (Part III, Scene 2)
     url: https://soundcloud.com/jasontbuchanan/sets/hunger-part-iii-scene-2

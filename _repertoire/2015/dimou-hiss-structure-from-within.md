@@ -18,5 +18,6 @@ tags:
   - trio
   - electroacoustic
   - clicktrack
+  - NYC
 media:
 ---

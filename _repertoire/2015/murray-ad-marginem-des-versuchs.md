@@ -5,7 +5,7 @@ composer:
 title: Ad Marginem des Versuchs
 duration:
 yearComposed: 2015
-performedBySwitch: 2017
+performedBySwitch: 2016, 2017
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
@@ -14,6 +14,9 @@ instrumentation:
 tags:
   - electroacoustic
   - solo
+  - chicago
+  - berkeley
+  - san francisco
 media:
   - title:
     url:

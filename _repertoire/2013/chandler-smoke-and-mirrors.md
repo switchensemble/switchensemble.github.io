@@ -7,7 +7,7 @@ title: Smoke and Mirrors
 movements:
 duration: "7:20"
 yearComposed: 2013
-performedBySwitch: 2013, 2014
+performedBySwitch: 2013, 2014, 2016
 commissionedOrWrittenFor:
 size: sextet
 instrumentation:

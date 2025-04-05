@@ -5,7 +5,7 @@ composer:
 title: "Jökulsárlón"
 duration:
 yearComposed: 2016
-performedBySwitch: 2016
+performedBySwitch: 2016, 2017
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:

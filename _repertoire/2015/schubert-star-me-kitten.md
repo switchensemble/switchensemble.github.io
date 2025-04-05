@@ -18,6 +18,7 @@ tags:
   - multimedia
   - electroacoustic
   - video
+  - NYC
 media:
   - title:
     type:

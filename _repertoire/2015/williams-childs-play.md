@@ -14,6 +14,7 @@ instrumentation:
 tags:
   - duo
   - acoustic
+  - buffalo
 media:
   - title:
     url:

@@ -14,6 +14,9 @@ instrumentation:
   - cello
 tags:
   - acoustic
+  - berkeley
+  - buffalo
+  - san francisco
 media:
   - title:
     url:

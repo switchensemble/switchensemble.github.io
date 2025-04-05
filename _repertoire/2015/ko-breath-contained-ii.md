@@ -13,6 +13,7 @@ instrumentation:
   - 5 performers
 tags:
   - electroacoustic
+  - buffalo
 media:
   - title:
     url:
