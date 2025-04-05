@@ -5,7 +5,7 @@ composer:
 title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
 duration:
 yearComposed: 2015
-performedBySwitch: 2015, 2016, 2017
+performedBySwitch: "2015, 2016, 2017"
 commissionedOrWrittenFor: written
 size: solo
 instrumentation:
