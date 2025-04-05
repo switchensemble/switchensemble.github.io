@@ -15,7 +15,7 @@ instrumentation:
 tags:
   - electroacoustic
   - chicago
-  - san francisco
+  - "san francisco"
 media:
   - title:
     type:

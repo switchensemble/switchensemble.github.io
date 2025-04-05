@@ -20,7 +20,7 @@ tags:
   - ensemble
   - acoustic
   - berkeley
-  - san francisco
+  - "san francisco"
 media:
   - title: Tarr (2014) for quintet by Sivan Eldar
     url: https://www.youtube.com/embed/myKCXKuCn9o

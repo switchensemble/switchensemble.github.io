@@ -20,7 +20,7 @@ tags:
   - ensemble
   - acoustic
   - berkeley
-  - san francisco
+  - "san francisco"
 media:
   - title:
     url:

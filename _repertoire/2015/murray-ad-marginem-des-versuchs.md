@@ -16,7 +16,7 @@ tags:
   - solo
   - chicago
   - berkeley
-  - san francisco
+  - "san francisco"
 media:
   - title:
     url:

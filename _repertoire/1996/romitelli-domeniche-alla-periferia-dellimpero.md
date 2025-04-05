@@ -16,7 +16,7 @@ tags:
   - acoustic
   - berkeley
   - buffalo
-  - san francisco
+  - "san francisco"
 media:
   - title:
     url:

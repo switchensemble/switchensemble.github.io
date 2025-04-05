@@ -14,7 +14,7 @@ instrumentation:
 tags:
   - electroacoustic
   - solo
-  - san francisco
+  - "san francisco"
   - NYC
 media:
   - title:

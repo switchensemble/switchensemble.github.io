@@ -15,7 +15,7 @@ instrumentation:
 tags:
   - acoustic
   - berkeley
-  - san francisco
+  - "san francisco"
 media:
   - title:
     url:
