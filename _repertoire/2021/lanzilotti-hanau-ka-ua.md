@@ -19,7 +19,7 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - ensemble
   - septet
 media:

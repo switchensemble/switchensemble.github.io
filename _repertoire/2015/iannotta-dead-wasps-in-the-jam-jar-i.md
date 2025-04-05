@@ -12,7 +12,7 @@ instrumentation:
   - violin
 tags:
   - solo
-  - amplified
+  - acoustic
 media:
   - title:
     url:

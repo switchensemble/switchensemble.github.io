@@ -19,7 +19,7 @@ instrumentation:
   - electric guitar
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - conducted
 media:
   - title:

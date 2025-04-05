@@ -20,7 +20,7 @@ instrumentation:
   - electronics
 tags:
   - microtonal
-  - electronics
+  - electroacoustic
   - video
   - septet
 media:

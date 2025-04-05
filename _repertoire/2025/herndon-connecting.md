@@ -19,7 +19,8 @@ instrumentation:
   - electronics
 tags:
   - septet
-  - electronics
+  - electroacoustic
+  - video
 media:
   - title:
     url:

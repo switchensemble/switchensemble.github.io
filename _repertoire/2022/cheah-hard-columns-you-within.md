@@ -16,7 +16,7 @@ instrumentation:
   - electronics
 tags:
   - quintet
-  - electronics
+  - electroacoustic
   - sine tones
 media:
   - title: Hard columns you within (2022) by Victoria Cheah

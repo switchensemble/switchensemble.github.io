@@ -12,7 +12,7 @@ size: quintet
 instrumentation:
   - 5 performers
 tags:
-  - electronics
+  - electroacoustic
 media:
   - title:
     url:

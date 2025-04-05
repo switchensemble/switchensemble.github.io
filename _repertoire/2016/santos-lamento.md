@@ -21,7 +21,7 @@ instrumentation:
   - electronics
 tags:
   - microtonal
-  - electronics
+  - electroacoustic
   - sextet
 media:
   - title:

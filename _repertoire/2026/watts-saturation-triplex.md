@@ -17,7 +17,7 @@ instrumentation:
   - electronics
 tags:
   - quintet
-  - electronics
+  - electroacoustic
 media:
   - title:
     url:

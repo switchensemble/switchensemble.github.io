@@ -19,7 +19,7 @@ instrumentation:
   - lighting
 tags:
   - sextet
-  - electronics
+  - electroacoustic
   - lighting
 media:
   - title: "Up Close (2019) by Katharina Rosenberger - [Switch~ Ensemble]"

@@ -17,7 +17,7 @@ instrumentation:
   - electronics
 tags:
   - quintet
-  - electronics
+  - electroacoustic
 media:
   - title: stars from the earth stars from the stars (2019) by Julio Zúñiga
     url: https://soundcloud.com/julio-zuniga/stars-from-the-earth-stars-from-the-stars

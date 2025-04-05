@@ -21,7 +21,7 @@ instrumentation:
 tags:
   - ensemble
   - septet
-  - electronics
+  - electroacoustic
 media:
   - title:
     type:

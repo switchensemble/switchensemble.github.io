@@ -16,7 +16,7 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - quartet
   - telematic
 media:

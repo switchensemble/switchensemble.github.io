@@ -20,7 +20,7 @@ instrumentation:
   - electronics
 tags:
   - septet
-  - electronics
+  - electroacoustic
   - ensemble
 media:
   - title: "Songs for Antonin (2018) by Esaias Järnegard - the [Switch~ Ensemble]"
