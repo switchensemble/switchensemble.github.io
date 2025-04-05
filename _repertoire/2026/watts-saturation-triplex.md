@@ -5,6 +5,7 @@ composer:
 title: Saturation Triplex
 duration: 
 yearComposed: 2026
+performedBySwitch: 2026
 commissionedOrWrittenFor: commissioned
 size: quintet
 instrumentation:

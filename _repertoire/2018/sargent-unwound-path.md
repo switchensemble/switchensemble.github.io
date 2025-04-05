@@ -5,6 +5,7 @@ composer:
 title: Unwound Path
 duration:
 yearComposed: 2018
+performedBySwitch: 2018
 commissionedOrWrittenFor: commission
 size: sextet
 instrumentation:

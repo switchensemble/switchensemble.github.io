@@ -3,8 +3,9 @@ composer:
   first: Piyawat
   last: Louilarpprasert
 title: silhouette
-duration:
+duration: "15:00"
 yearComposed: 2018
+performedBySwitch: 2018
 size: trio
 commissionedOrWrittenFor: written
 instrumentation:
@@ -13,6 +14,7 @@ instrumentation:
   - piano
 tags:
   - trio
+  - acoustic
 media:
   - title: silhouette (2018) for piano trio by Piyawat Louilarpprasert
     url: https://www.youtube.com/embed/CP0r3PXeMwI

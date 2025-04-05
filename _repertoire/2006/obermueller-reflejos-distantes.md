@@ -5,15 +5,17 @@ composer:
 title: Reflejos Distantes
 duration: "5:00"
 yearComposed: 2006
+performedBySwitch: 2024
 commissionedOrWrittenFor:
 size: quartet
 instrumentation:
-  - flute
-  - clarinet
+  - bass flute
+  - bass clarinet
   - violin
   - cello
 tags:
   - quartet
+  - acoustic
 media:
   - title:
     url:

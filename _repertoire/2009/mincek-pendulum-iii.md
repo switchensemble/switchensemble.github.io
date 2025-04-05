@@ -3,15 +3,15 @@ composer:
   first: Alex
   last: Mincek
 title: Pendulum III
-duration:
+duration: "10:00"
 yearComposed: 2009
+performedBySwitch: 2024
 size: duo
 instrumentation:
   - alto saxophone
   - piano
 tags:
-  -
-  -
+  - acoustic
 media:
   - title:
     url:

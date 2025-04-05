@@ -4,8 +4,9 @@ composer:
   last: Järnegard
 title: Songs for Antonin
 movements:
-duration:
+duration: "17:00"
 yearComposed: 2018
+performedBySwitch: 2018
 commissionedOrWrittenFor: commission
 size: septet
 instrumentation:

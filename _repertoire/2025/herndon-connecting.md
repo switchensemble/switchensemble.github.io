@@ -1,11 +1,11 @@
 ---
 composer:
-  first: Leilehua "Anne"
-  last: Lanzilotti
-title: "hānau ka ua"
-movements:
-duration: 27 minutes
-yearComposed: 2021
+  first: Julie
+  last: "Herndon"
+title: "Connecting"
+duration: "18:00"
+yearComposed: 2025
+performedBySwitch: 2025, 2026
 commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:
@@ -18,11 +18,11 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
-  - ensemble
   - septet
+  - electronics
 media:
   - title:
-    type:
     url:
+headerImage:
+thumbnailImage: 
 ---

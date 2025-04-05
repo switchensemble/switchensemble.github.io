@@ -5,6 +5,7 @@ composer:
 title: Blindsight
 duration: 
 yearComposed: 2024
+performedBySwitch: 
 commissionedOrWrittenFor: commissioned
 size: quintet
 instrumentation:
@@ -15,6 +16,7 @@ instrumentation:
   - percussion
 tags:
   - quintet
+  - acoustic
 media:
   - title:
     url:

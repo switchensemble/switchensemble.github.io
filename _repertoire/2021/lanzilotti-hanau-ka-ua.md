@@ -1,12 +1,12 @@
 ---
 composer:
-  first: Sam
-  last: Pluta
-title: "Tectonics"
+  first: Leilehua "Anne"
+  last: Lanzilotti
+title: "hānau ka ua"
 movements:
-duration: "25:00"
-yearComposed: 2023
-performedBySwitch: 2023
+duration: 27 minutes
+yearComposed: 2021
+performedBySwitch: 2021
 commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:
@@ -19,9 +19,9 @@ instrumentation:
   - percussion
   - electronics
 tags:
+  - electronics
   - ensemble
   - septet
-  - electronics
 media:
   - title:
     type:

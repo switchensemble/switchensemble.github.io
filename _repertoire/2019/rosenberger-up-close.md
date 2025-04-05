@@ -5,6 +5,7 @@ composer:
 title: "Up Close"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: commissioned
 size: sextet
 instrumentation:

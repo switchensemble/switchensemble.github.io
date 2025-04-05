@@ -8,6 +8,7 @@ movements:
   - lamento II
 duration: "10:00"
 yearComposed: 2016
+performedBySwitch: 2016
 commissionedOrWrittenFor: written
 size: sextet
 instrumentation:

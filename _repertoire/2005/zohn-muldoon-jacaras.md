@@ -5,6 +5,7 @@ composer:
 title: Jácaras
 duration: "9:00"
 yearComposed: 2005
+performedBySwitch: 2024
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -13,6 +14,7 @@ instrumentation:
   - piano
 tags:
   - trio
+  - acoustic
 media:
   - title:
     url:

@@ -1,12 +1,12 @@
 ---
 composer:
-  first: Sam
-  last: Pluta
-title: "Tectonics"
+  first: Igor
+  last: Santos
+title: "Imaginary Traces"
 movements:
-duration: "25:00"
-yearComposed: 2023
-performedBySwitch: 2023
+duration: "12:00"
+yearComposed: 2025
+performedBySwitch: 2025, 2026
 commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:
@@ -15,15 +15,18 @@ instrumentation:
   - saxophone
   - violin
   - cello
-  - piano
+  - piano/keyboard
   - percussion
   - electronics
 tags:
-  - ensemble
-  - septet
+  - microtonal
   - electronics
+  - video
+  - septet
 media:
   - title:
     type:
     url:
+headerImage: 
+thumbnailImage: 
 ---

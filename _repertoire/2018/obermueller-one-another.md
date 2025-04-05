@@ -5,6 +5,7 @@ composer:
 title: One Another
 duration: "7:00"
 yearComposed: 2018
+performedBySwitch: 2024
 commissionedOrWrittenFor:
 size: duo
 instrumentation:
@@ -12,6 +13,7 @@ instrumentation:
   - alto sax
 tags:
   - duo
+  - acoustic
 media:
   - title:
     url:

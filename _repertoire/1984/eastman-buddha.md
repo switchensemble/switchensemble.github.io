@@ -4,14 +4,16 @@ composer:
   last: Eastman
 title: Buddha
 movements:
-duration:
+duration: open
 yearComposed: 1984
+performedBySwitch: 2022, 2024
 commissionedOrWrittenFor:
 size: open
 instrumentation:
   - "open instrumentation"
 tags:
   - "open instrumentation"
+  - acoustic
 media:
   - title:
     type:

@@ -5,6 +5,7 @@ composer:
 title: Juegos Prohobidos
 duration: "12:00"
 yearComposed: 2019
+performedBySwitch: 2024
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -13,6 +14,7 @@ instrumentation:
   - piano
 tags:
   - trio
+  - acoustic
 media:
   - title:
     url:

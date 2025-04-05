@@ -6,6 +6,7 @@ title: "Co-Opt"
 movements:
 duration:
 yearComposed: 2020
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:

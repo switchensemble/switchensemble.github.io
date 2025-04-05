@@ -1,16 +1,17 @@
 ---
 composer:
-  first: Karola
-  last: Obermüller
-title: "reflejos distantes"
+  first: Gerard
+  last: Pesson
+title: "Nocturnes en quatuor"
 duration:
-yearComposed: 2006
+yearComposed: 1987
+performedBySwitch: 2024
 commissionedOrWrittenFor: 
 size: quartet
 instrumentation:
-  - bass flute
-  - bass clarinet
+  - clarinet
   - violin
+  - piano
   - cello
 tags:
   - quartet

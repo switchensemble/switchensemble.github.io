@@ -6,6 +6,7 @@ composer:
 title: "all-forgetting-is-retrieval"
 duration: 8 minutes
 yearComposed: 2019
+performedBySwitch: 2022
 commissionedOrWrittenFor:
 size: septet
 instrumentation:
@@ -26,7 +27,7 @@ media:
     type:
     ID:
 headerImage: headers/2023/1000px/AFIR-reh22-1_1000px.jpg
-thumbnailImage: assets/images/headers/2023/1000px/AFIR-reh22-1_1000px.jpg
+thumbnailImage: headers/2023/1000px/AFIR-reh22-1_1000px.jpg
 
 
 ---

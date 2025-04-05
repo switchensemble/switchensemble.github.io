@@ -5,6 +5,7 @@ composer:
 title: "stars from the earth stars from the stars"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: quintet
 instrumentation:

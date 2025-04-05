@@ -5,6 +5,7 @@ composer:
 title: Child's Play
 duration: "10:00"
 yearComposed: 2015
+performedBySwitch: 2024
 commissionedOrWrittenFor:
 size: duo
 instrumentation:
@@ -12,6 +13,7 @@ instrumentation:
   - percussion
 tags:
   - duo
+  - acoustic
 media:
   - title:
     url:
