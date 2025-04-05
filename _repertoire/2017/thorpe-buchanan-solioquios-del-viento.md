@@ -6,6 +6,7 @@ composer:
 title: "soliloquios del viento"
 duration: 16 minutes
 yearComposed: 2017
+performedBySwitch: 2021
 commissionedOrWrittenFor:
 size: sextet
 instrumentation:
@@ -17,7 +18,7 @@ instrumentation:
   - cello
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - conducted
 media:
   - title:

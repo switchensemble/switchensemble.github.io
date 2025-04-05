@@ -13,7 +13,7 @@ instrumentation:
   - clarinet
   - percussion
 tags:
-  -
+  - acoustic
   -
 media:
   - title:

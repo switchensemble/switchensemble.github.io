@@ -17,6 +17,7 @@ instrumentation:
 tags:
   - quintet
   - ensemble
+  - aoustic
 media:
   - title:
     url:

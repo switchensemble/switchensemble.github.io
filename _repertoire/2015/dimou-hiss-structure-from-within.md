@@ -6,6 +6,7 @@ title: "[Hiss] structure...from {with[in} - g] v_1.2"
 movements:
 duration:
 yearComposed: 2015
+performedBySwitch: 2015
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -15,7 +16,7 @@ instrumentation:
   - electronics
 tags:
   - trio
-  - electronics
+  - electroacoustic
   - clicktrack
 media:
 ---

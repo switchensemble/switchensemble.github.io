@@ -5,6 +5,7 @@ composer:
 title: void
 duration:
 yearComposed: 2020
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: trio
 instrumentation:
@@ -13,7 +14,7 @@ instrumentation:
   - cello
   - open
 tags:
-  - electronics
+  - electroacoustic
   - trio
   - telematic
   - generative

@@ -5,13 +5,14 @@ composer:
 title: "Loop's Definition"
 duration:
 yearComposed: 2010
+performedBySwitch: 2016, 2017
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
   - violin
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - solo
 media:
   - title:

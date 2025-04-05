@@ -6,6 +6,7 @@ title: Star Me Kitten
 movements:
 duration: "13:30"
 yearComposed: 2015
+performedBySwitch: 2016
 commissionedOrWrittenFor:
 size: variable
 instrumentation:
@@ -15,7 +16,7 @@ instrumentation:
   - electronics
 tags:
   - multimedia
-  - electronics
+  - electroacoustic
   - video
 media:
   - title:

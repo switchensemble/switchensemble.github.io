@@ -11,6 +11,7 @@ movements:
   - L'inachevé à son faîte
 duration: 23
 yearComposed: 2002
+performedBySwitch: 2013
 commissionedOrWrittenFor:
 size: septet
 instrumentation:
@@ -24,7 +25,7 @@ instrumentation:
   - electronics
 tags:
   - septet
-  - electronics
+  - electroacoustic
   - ensemble
   - vocal
   - conducted

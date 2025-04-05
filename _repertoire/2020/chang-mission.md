@@ -5,6 +5,7 @@ composer:
 title: Project Agree- Mission for the Internet Communities
 duration:
 yearComposed: 2020
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: septet
 instrumentation:
@@ -16,7 +17,7 @@ instrumentation:
 tags:
   - septet
   - telematic
-  - electronics
+  - electroacoustic
   - video
 media:
   - title: Project Agree- Mission for the Internet Communities by Lydia Wayne Chang - [Switch~ Ensemble]

@@ -5,7 +5,8 @@ composer:
 title: Smart-alienation
 duration:
 yearComposed: 2016
-size: quartet
+performedBySwitch: 2019, 2021
+size: "open instrumentation"
 commissionedOrWrittenFor:
 instrumentation:
   - flute
@@ -15,7 +16,9 @@ instrumentation:
   - electronics
   - open
 tags:
-  - quartet
+  - "open instrumentation"
+  - electroacoustic
+  - video
 media:
   - title: Smart-alienation (2016) for small, flexible ensemble by Igor C Silva
     url: https://www.youtube.com/embed/lspDg8r0FVQ

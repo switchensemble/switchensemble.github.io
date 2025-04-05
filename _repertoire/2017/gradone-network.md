@@ -6,6 +6,7 @@ title: Net(work)
 movements:
 duration:
 yearComposed: 2017
+performedBySwitch: 2017
 commissionedOrWrittenFor: written
 size: trio
 instrumentation:
@@ -14,7 +15,7 @@ instrumentation:
   - piano
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - trio
   - uchicago
 media:

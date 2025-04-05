@@ -5,6 +5,7 @@ composer:
 title: "Jökulsárlón"
 duration:
 yearComposed: 2016
+performedBySwitch: 2016
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
@@ -13,7 +14,7 @@ instrumentation:
   - cello
   - percussion
 tags:
-  - electronics
+  - acoustic
   - quartet
 media:
   - title: Jökulsárlón (2016) by Anna-Louise Walton

@@ -6,6 +6,7 @@ title: Wings
 movements:
 duration: 8 minutes
 yearComposed: 2008
+performedBySwitch: 2021, 2022
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -15,7 +16,7 @@ instrumentation:
   - three performers
 tags:
   - trio
-  - electronics
+  - electroacoustic
 media:
   - title:
     url:

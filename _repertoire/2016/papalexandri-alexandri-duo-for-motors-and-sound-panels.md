@@ -5,13 +5,14 @@ composer:
 title: Duo for motor and sound panels
 duration:
 yearComposed: 2016
+performedBySwitch: 2018
 size: duo
 instrumentation:
   - two performers
   - motors
   - sound panels
 tags:
-  - electronics
+  - electroacoustic
   - motor
   - two performers
 media:

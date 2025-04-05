@@ -11,8 +11,7 @@ instrumentation:
   - solo cello
   - electronics
 tags:
-  - electronics
-  -
+  - electroacoustic
 media:
   - title:
     url:

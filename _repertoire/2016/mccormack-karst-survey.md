@@ -6,6 +6,7 @@ title: karst survey
 movements:
 duration: 18.5
 yearComposed: 2016
+performedBySwitch: 2016
 commissionedOrWrittenFor: commission
 size: septet
 instrumentation:
@@ -19,7 +20,7 @@ instrumentation:
   - electronics
 tags:
   - septet
-  - electronics
+  - electroacoustic
   - ensemble
   - unconducted
 media:

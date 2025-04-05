@@ -5,6 +5,7 @@ composer:
 title: "the bends"
 duration:
 yearComposed: 2021
+performedBySwitch: 2022
 commissionedOrWrittenFor: commissioned
 size: nonet
 instrumentation:
@@ -16,7 +17,7 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - nonet
 media:
   - title: the bends (2021) by Kelley Sheehan

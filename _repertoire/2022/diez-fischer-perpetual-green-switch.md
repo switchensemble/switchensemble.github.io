@@ -5,6 +5,7 @@ composer:
 title: perpetual green switch
 duration:
 yearComposed: 2022
+performedBySwitch: 2022
 commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:
@@ -16,7 +17,7 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - septet
 media:
   - title:

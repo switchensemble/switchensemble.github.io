@@ -6,6 +6,7 @@ title: "Inflection"
 movements:
 duration:
 yearComposed: 2021
+performedBySwitch: 2022
 commissionedOrWrittenFor: commissioned
 size: sextet
 instrumentation:
@@ -17,7 +18,7 @@ instrumentation:
   - percussion
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - ensemble
   - sextet
 media:
