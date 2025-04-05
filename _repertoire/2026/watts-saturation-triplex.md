@@ -1,28 +1,25 @@
 ---
 composer:
-  first: Sam
-  last: Pluta
-title: "Tectonics"
-movements:
-duration:
-yearComposed: 2023
+  first: Andrew
+  last: Watts
+title: Saturation Triplex
+duration: 
+yearComposed: 2026
 commissionedOrWrittenFor: commissioned
-size: septet
+size: quintet
 instrumentation:
   - flute
-  - clarinet
-  - saxophone
+  - bass clarinet
   - violin
   - cello
-  - piano
   - percussion
   - electronics
 tags:
-  - ensemble
-  - septet
+  - quintet
   - electronics
 media:
   - title:
-    type:
     url:
+headerImage: 
+thumbnailImage: 
 ---

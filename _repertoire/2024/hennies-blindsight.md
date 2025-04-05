@@ -1,10 +1,10 @@
 ---
 composer:
-  first: Andrew
-  last: Watts
-title: Saturation Triplex
+  first: Sarah
+  last: Hennies
+title: Blindsight
 duration: 
-yearComposed: 2026
+yearComposed: 2024
 commissionedOrWrittenFor: commissioned
 size: quintet
 instrumentation:
@@ -13,12 +13,8 @@ instrumentation:
   - violin
   - cello
   - percussion
-  - electronics
-
 tags:
   - quintet
-  - electronics
-
 media:
   - title:
     url:
