@@ -2,18 +2,15 @@
 composer:
   first: Matt
   last: Sargent
-title: Tide
+title: soft song
 duration:
-yearComposed: 2011
+yearComposed: 2016
 performedBySwitch: 2016
-commissionedOrWrittenFor:
 size: solo
 instrumentation:
   - solo cello
-  - electronics
 tags:
-  - electroacoustic
-  - solo 
+  - acoustic
 media:
   - title:
     url:
