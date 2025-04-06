@@ -13,17 +13,17 @@ location:
   zip: 94102
 program:
   - composer: Fausto Romitell
-    title: Domeniche alla periferia dell'impero
+    title: Domeniche alla periferia dell'impero (1996)
   - composer: Tonia Ko
-    title: Tribute | Axis II
+    title: Tribute | Axis II (2017)
   - composer: Santiago Diez Fischer
-    title: Loop's Definition
+    title: Loop's Definition (2010)
   - composer: Elvira Garifzyanova
-    title: Aurora Borealis
+    title: Aurora Borealis (2012)
   - composer: Sivan Eldar
-    title: Tarr
+    title: Tarr (2014)
   - composer: Victor Ibarra
-    title: Química del agua
+    title: Química del agua (2015)
 thumbnail: repertoire-images/pateras_brokenthenfixed_1000x500px.jpg
 header: auto-add/featured/2017-pateras_brokenthenfixed_1000x500px.jpg
 

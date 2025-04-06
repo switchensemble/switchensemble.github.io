@@ -12,15 +12,15 @@ location:
   zip: 60608
 program:
   - composer: Alican Camci
-    title: landscape, with inscription
+    title: landscape, with inscription (2017)
   - composer: Max Murray
-    title: ad marginem des versuchs
+    title: ad marginem des versuchs (2015)
   - composer: Tim Page
-    title: New Work
+    title: Study for Timpani-Enhanced Cello and (2017)
   - composer: Reiny Rolock
-    title: "Trio #4"
+    title: "Trio #4 (2017)"
   - composer: Anna Walton
-    title: Jökulsárlón
+    title: Jökulsárlón (2016)
 thumbnail: repertoire-images/camci_landscape_1000x500.jpg     
 photosFolder: uchicago/
 header: repertoire-images/camci_landscape_1000x500.jpg

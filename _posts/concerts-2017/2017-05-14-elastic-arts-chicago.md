@@ -12,15 +12,15 @@ location:
   zip: 60647
 program:
   - composer: Pierce Gradone
-    title: Net(work)
+    title: Net(work) (2017)
   - composer: Katherine Young
-    title: The Life You Save May Be Your Own
+    title: The Life You Save May Be Your Own (2012)
   - composer: Will Myers
-    title: Aquinnah
-  - composer: Joungbum
-    title: pa-an
+    title: "Aquinnah, March 13 (2017)"
+  - composer: Joungbum Lee
+    title: pa-an (2017)
   - composer: Elvira Garifzyanova
-    title: Aurora Borealis
+    title: Aurora Borealis (2012)
 thumbnail: repertoire-images/myers_aquinnah_1000x500px.jpg
 photosFolder: uchicago/
 header: auto-add/featured/2017-myers_aquinnah_1000x500px.jpg

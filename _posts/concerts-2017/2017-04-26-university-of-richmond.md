@@ -12,13 +12,13 @@ location:
   zip: 23173
 program:
   - composer: Alex Mincek
-    title: Pendulum III
+    title: Pendulum III (2009)
   - composer: Jonathan Harvey
-    title: Tombeau de Messiaen
+    title: Tombeau de Messiaen (1994)
   - composer: Christopher Chandler
-    title: "in shadow, in shade"
+    title: "in shadow, in shade (2016)"
   - composer: Jason Thorpe Buchanan
-    title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
+    title: "Second Study for Alto Saxophone, Video, and Electronics: pulp (2015)"
   - composer: Eric Wubbels
-    title: this is this is this is
+    title: this is this is this is (2010)
 ---
