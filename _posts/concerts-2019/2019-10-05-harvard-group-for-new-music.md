@@ -20,7 +20,7 @@ program:
   - composer: Lauren Marshall
     title: Blue-Eyed Lover (2019)
   - composer: Zeynep Toraman
-    title: new work (2019)
+    title: "Damaged Equally: everyone spoke too fast (2019)"
   - composer: Caleb Fried
     title: walk over; hot coals (2019)
 thumbnail: repertoire-images/diels_filament-1000x500.jpg

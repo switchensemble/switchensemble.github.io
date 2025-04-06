@@ -5,6 +5,7 @@ composer:
 title: "end of"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: quintet
 instrumentation:
@@ -16,8 +17,9 @@ instrumentation:
   - live video
 tags:
   - quintet
-  - electronics
-  - live video
+  - electroacoustic
+  - video
+  - rochester
 media:
   - title:
     url:

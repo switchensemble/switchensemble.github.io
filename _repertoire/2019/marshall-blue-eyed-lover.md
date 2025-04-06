@@ -5,6 +5,7 @@ composer:
 title: "Blue-Eyed Lover"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: flexible
 instrumentation:
@@ -14,6 +15,8 @@ instrumentation:
 tags:
   - flexible
   - voice
+  - boston
+  - acoustic
 media:
   - title:
     url:

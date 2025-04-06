@@ -5,6 +5,7 @@ composer:
 title: "Damaged Equally; everyone spoke too fast"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: solo
 instrumentation:
@@ -12,7 +13,8 @@ instrumentation:
   - electronics
 tags:
   - solo
-  - electronics
+  - electroacoustic
+  - boston
 media:
   - title:
     url:

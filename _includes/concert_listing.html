@@ -35,7 +35,7 @@
     {%- for work in concert.program -%}
       <div class="row">
         <div class="col-5 font-weight-bold text-uppercase">{{ work.composer }}</div>
-        <div class="col-7 font-italic">{{ work.title }}</div>
+        <div class="col-7 font-italic">{{ work.title }} {{ work.year }}</div>
       </div>
     {%- endfor -%}
     {%- if concert.text.below -%}

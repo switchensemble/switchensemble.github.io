@@ -5,6 +5,7 @@ composer:
 title: "A city's pounding heart"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
@@ -16,8 +17,9 @@ instrumentation:
   - video
 tags:
   - quartet
-  - electronics
+  - electroacoustic
   - video
+  - rochester
 media:
   - title:
     url:

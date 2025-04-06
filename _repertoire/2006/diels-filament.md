@@ -5,6 +5,7 @@ composer:
 title: filament
 duration:
 yearComposed: 2006
+performedBySwitch: 2019
 size: quartet
 commissionedOrWrittenFor:
 instrumentation:
@@ -15,6 +16,7 @@ instrumentation:
   - electronics
 tags:
   - quartet
+  - electroacoustic
 media:
   - title: filament (2006) for quartet and sine waves by Natacha Diels
     url: https://www.youtube.com/embed/4uGIgQmY3ok

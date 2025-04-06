@@ -5,6 +5,7 @@ composer:
 title: "walk over; hot coals"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: sextet
 instrumentation:
@@ -13,6 +14,8 @@ instrumentation:
   - two performers
 tags:
   - quartet
+  - acoustic
+  - boston
 media:
   - title:
     url:

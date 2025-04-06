@@ -5,6 +5,7 @@ composer:
 title: "Dyad Study"
 duration:
 yearComposed: 2019
+performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: sextet
 instrumentation:
@@ -16,6 +17,8 @@ instrumentation:
   - percussion
 tags:
   - sextet
+  - acoustic
+  - boston
 media:
   - title:
     url:

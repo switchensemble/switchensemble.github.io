@@ -5,6 +5,7 @@ composer:
 title: "Fluid Calligraphy"
 duration:
 yearComposed: 2010
+performedBySwitch: 2019
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
@@ -13,8 +14,9 @@ instrumentation:
   - video
 tags:
   - solo
-  - electronics
+  - electroacoustic
   - video
+  - rochester
 media:
   - title:
     url:
