@@ -5,6 +5,7 @@ composer:
 title: Ina
 duration:
 yearComposed: 1988
+performedBySwitch: 2018
 size: solo
 commissionedOrWrittenFor:
 instrumentation:
@@ -13,6 +14,8 @@ instrumentation:
 tags:
   - solo
   - tape
+  - NYC
+  - electroacoustic
 media:
   - title:
     url:

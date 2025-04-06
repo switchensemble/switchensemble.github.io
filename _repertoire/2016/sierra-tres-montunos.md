@@ -5,6 +5,7 @@ composer:
 title: Tres Montunos
 duration:
 yearComposed: 2016
+performedBySwitch: 2018
 commissionedOrWrittenFor:
 size: duo
 instrumentation:
@@ -12,7 +13,8 @@ instrumentation:
   - piano
 tags:
   - prepared
-  -
+  - acoustic
+  - ithaca
 media:
   - title:
     url:

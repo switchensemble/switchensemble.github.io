@@ -6,6 +6,7 @@ title: "broad call"
 movements:
 duration:
 yearComposed: 2016
+performedBySwitch: 2018
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -16,7 +17,9 @@ instrumentation:
   - electronics
 tags:
   - trio
-  - electronics
+  - electroacoustic
+  - annendale-on-hudson
+  - buffalo
 media:
   - title: broad call (2016) by D. Edward Davis
     url: https://www.youtube.com/embed/eAP1t-kQJDE

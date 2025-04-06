@@ -3,16 +3,18 @@ composer:
   first: Tomas
   last: Henriques
   url:
-title: Silence
+title: Circle
 duration:
-yearComposed: 1986
-revised: 2005
+yearComposed: 2000
+performedBySwitch: 2018
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
-  - solo piano
+  - solo flute
 tags:
   - solo
+  - acoustic
+  - buffalo
 media:
   - title:
     url:

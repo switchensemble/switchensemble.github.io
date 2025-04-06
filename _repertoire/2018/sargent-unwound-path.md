@@ -19,6 +19,8 @@ tags:
   - sextet
   - acoustic
   - commission
+  - annendale-on-hudson
+  - ithaca
 media:
   - title: Unwound Path (2018) for mixed sextet by Matt Sargent
     url: https://www.youtube.com/embed/MBC-1Qb4NFI

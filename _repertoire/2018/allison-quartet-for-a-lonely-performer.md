@@ -5,6 +5,7 @@ composer:
 title: Quartet for a lonely performer
 duration:
 yearComposed: 2018
+performedBySwitch: 2018
 size: solo
 commissionedOrWrittenFor: written
 instrumentation:
@@ -12,7 +13,8 @@ instrumentation:
   - electronics
 tags:
   - solo
-  - electronics
+  - electroacoustic
+  - woodstock
 media:
   - title:
     url:

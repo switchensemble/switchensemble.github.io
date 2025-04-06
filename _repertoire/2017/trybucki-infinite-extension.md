@@ -5,6 +5,7 @@ composer:
 title: "Infinite Extension"
 duration:
 yearComposed: 2017
+performedBySwitch: 2019
 commissionedOrWrittenFor: commissioned
 size: sextet
 instrumentation:
@@ -17,7 +18,7 @@ instrumentation:
   - electronics
 tags:
   - sextet
-  - electronics
+  - electroacoustic
 media:
   - title:
     url:

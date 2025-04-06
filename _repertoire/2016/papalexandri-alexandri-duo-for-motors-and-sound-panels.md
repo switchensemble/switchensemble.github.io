@@ -15,6 +15,7 @@ tags:
   - electroacoustic
   - motor
   - two performers
+  - ithaca
 media:
   - title: "Duo for Motor and Sound Panels (2016) by Marianthi Papalexandri-Alexandri - [Switch~ Ensemble]"
     url: https://www.youtube.com/embed/eunEZFvXung

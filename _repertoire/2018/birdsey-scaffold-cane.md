@@ -1,20 +1,20 @@
 ---
 composer:
-  first: Barry
-  last: Sharp
-title: Recitations
+  first: Henry
+  last: Birdsey
+title: scaffold cane
 duration:
 yearComposed: 2018
-size: trio
+performedBySwitch: 2018
+size: solo
 commissionedOrWrittenFor: written
 instrumentation:
-  - flute
-  - cello
-  - percussion
+  - solo cello
   - electronics
 tags:
-  - trio
-  - electronics
+  - solo
+  - electroacoustic
+  - woodstock
 media:
   - title:
     url:

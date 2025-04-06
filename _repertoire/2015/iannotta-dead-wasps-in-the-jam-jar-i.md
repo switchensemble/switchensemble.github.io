@@ -5,7 +5,7 @@ composer:
 title: "dead wasps in the jam-jar (i)"
 duration: "3:00"
 yearComposed: 2015
-performedBySwitch: 2024
+performedBySwitch: 2018, 2024
 commissionedOrWrittenFor:
 size: solo violin
 instrumentation:

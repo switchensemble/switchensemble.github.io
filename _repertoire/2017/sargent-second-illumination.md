@@ -5,14 +5,17 @@ composer:
 title: Second Illumination
 duration:
 yearComposed: 2017
+performedBySwitch: 2018
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
   - solo glockenspiel
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - solo
+  - woodstock
+
 media:
   - title:
     url:

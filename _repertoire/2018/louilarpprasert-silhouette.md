@@ -15,6 +15,8 @@ instrumentation:
 tags:
   - trio
   - acoustic
+  - ithaca
+  - NYC
 media:
   - title: silhouette (2018) for piano trio by Piyawat Louilarpprasert
     url: https://www.youtube.com/embed/CP0r3PXeMwI

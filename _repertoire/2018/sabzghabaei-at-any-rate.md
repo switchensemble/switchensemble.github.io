@@ -5,6 +5,7 @@ composer:
 title: At any rate
 duration:
 yearComposed: 2018
+performedBySwitch: 2018
 size: sextet
 commissionedOrWrittenFor: written
 instrumentation:
@@ -17,7 +18,8 @@ instrumentation:
   - electronics
 tags:
   - sextet
-  - electronics
+  - electroacoustic
+  - ithaca
 media:
   - title:
     url:

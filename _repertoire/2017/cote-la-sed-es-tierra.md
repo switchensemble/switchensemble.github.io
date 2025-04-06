@@ -4,7 +4,8 @@ composer:
   last: Cote
 title: "La Sed Es Tierra"
 duration:
-yearComposed: 2017
+yearComposed: 2018
+performedBySwitch: 2018
 size: solo
 commissionedOrWrittenFor: written
 instrumentation:
@@ -13,6 +14,8 @@ instrumentation:
 tags:
   - solo
   - Cornell
+  - acoustic
+  - ithaca
 media:
   - title: La Sed Es Tierra (2018) for solo percussionist and four amplified surfaces by Sergio Cote
     url: https://www.youtube.com/embed/DkVZ9rSVSZ8

@@ -6,7 +6,7 @@ title: landscape with inscription
 movements:
 duration:
 yearComposed: 2017
-performedBySwitch: 2017
+performedBySwitch: 2017, 2018
 commissionedOrWrittenFor: written
 size: trio
 instrumentation:
@@ -18,6 +18,8 @@ tags:
   - trio
   - ensemble
   - electroacoustic
+  - chicago
+  - annendale-on-hudson
 media:
   - title:
     type:

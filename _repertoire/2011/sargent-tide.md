@@ -5,7 +5,7 @@ composer:
 title: Tide
 duration:
 yearComposed: 2011
-performedBySwitch: 2016
+performedBySwitch: "2016, 2018"
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
@@ -14,6 +14,7 @@ instrumentation:
 tags:
   - electroacoustic
   - solo 
+  - woodstock
 media:
   - title:
     url:

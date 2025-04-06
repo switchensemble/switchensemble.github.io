@@ -6,7 +6,7 @@ title: Tribute | Axis II
 movements:
 duration: "11:00"
 yearComposed: 2017
-performedBySwitch: 2017
+performedBySwitch: 2017, 2018
 commissionedOrWrittenFor:
 size: duo
 instrumentation:
@@ -16,6 +16,8 @@ tags:
   - acoustic
   - berkeley
   - "san francisco"
+  - annendale-on-hudson
+  - ithaca
 media:
   - title:
     url:

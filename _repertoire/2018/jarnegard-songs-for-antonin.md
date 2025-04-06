@@ -6,7 +6,7 @@ title: Songs for Antonin
 movements:
 duration: "17:00"
 yearComposed: 2018
-performedBySwitch: 2018
+performedBySwitch: 2019
 commissionedOrWrittenFor: commission
 size: septet
 instrumentation:

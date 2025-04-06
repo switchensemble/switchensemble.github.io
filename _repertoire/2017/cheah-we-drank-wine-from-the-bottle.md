@@ -18,6 +18,7 @@ tags:
   - electroacoustic
   - open instrumentation
   - sine tones
+  - buffalo
 media:
   - title: We drank wine from the bottle on a rooftop next to god (2017) by Victoria Cheah
     url: https://www.youtube.com/embed/V4bu6xW4nFU

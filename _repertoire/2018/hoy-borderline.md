@@ -5,6 +5,7 @@ composer:
 title: Borderline
 duration:
 yearComposed: 2018
+performedBySwitch: 2018
 size: quartet
 commissionedOrWrittenFor: written
 instrumentation:
@@ -14,6 +15,8 @@ instrumentation:
   - percussion
 tags:
   - quartet
+  - acoustic
+  - woodstock
 media:
   - title:
     url:

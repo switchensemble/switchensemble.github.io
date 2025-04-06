@@ -6,7 +6,7 @@ title: karst survey
 movements:
 duration: 18.5
 yearComposed: 2016
-performedBySwitch: 2016
+performedBySwitch: 2016, 2019
 commissionedOrWrittenFor: commission
 size: septet
 instrumentation:

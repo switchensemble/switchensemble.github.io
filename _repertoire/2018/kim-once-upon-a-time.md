@@ -5,6 +5,7 @@ composer:
 title: "Once Upon a Time..."
 duration:
 yearComposed: 2018
+performedBySwitch: 2018
 size: sextet
 commissionedOrWrittenFor: written
 instrumentation:
@@ -17,6 +18,7 @@ instrumentation:
 tags:
   - sextet
   - acoustic
+  - ithaca
 media:
   - title:
     url:
