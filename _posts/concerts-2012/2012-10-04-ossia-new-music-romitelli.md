@@ -13,9 +13,11 @@ location:
   zip: 14604
 program:
   - composer: Fausto Romitelli
-    title: Amok Koma (2001)
+    title: Amok Koma 
+    year: 2001
   - composer: Jason Thorpe Buchanan
-    title: "Asymptotic Flux: First Study in Entropy (2012)"
+    title: "Asymptotic Flux: First Study in Entropy"
+    year: 2012
 thumbnail: auto-add/featured/2012-romitelli_amok_1000x500px.jpg
 header: auto-add/featured/2012-romitelli_amok_1000x500px.jpg
 

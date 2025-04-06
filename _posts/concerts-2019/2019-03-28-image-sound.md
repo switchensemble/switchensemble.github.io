@@ -14,15 +14,20 @@ location:
   zip: 14604
 program:
   - composer: Dai Fujikura
-    title: Fluid Calligraphy (2010)
+    title: Fluid Calligraphy
+    year: 2010
   - composer: Natacha Diels
-    title: filament (2006)
+    title: filament
+    year: 2006
   - composer: Reilly Spitzfaden
-    title: end of (2019)
+    title: end of
+    year: 2019
   - composer: Kitty Xiao
-    title: A city's pounding heart (2019)
+    title: A city's pounding heart
+    year: 2019
   - composer: Igor C Silva
-    title: Smart-alienation (2016)
+    title: Smart-alienation
+    year: 2016
 thumbnail: repertoire-images/diels_filament-1000x500.jpg
 ---
 

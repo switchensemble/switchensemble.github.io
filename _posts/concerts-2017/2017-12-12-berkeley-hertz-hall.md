@@ -13,17 +13,23 @@ location:
   zip: 94720
 program:
   - composer: Fausto Romitelli
-    title: Domeniche alla periferia dell'impero (1996)
+    title: Domeniche alla periferia dell'impero
+    year: 1996
   - composer: Tonia Ko
-    title: Tribute | Axis II (2017)
+    title: Tribute | Axis II
+    year: 2017
   - composer: Josh Levine
-    title: Sixty cycles (2015)
+    title: Sixty cycles
+    year: 2015
   - composer: Max Murray
-    title: Ad Marginem des Versuchs (2015)
+    title: Ad Marginem des Versuchs
+    year: 2015
   - composer: Sivan Eldar
-    title: Tarr (2014)
+    title: Tarr
+    year: 2014
   - composer: Víctor Ibarra
-    title: Química del agua (2015)
+    title: Química del agua
+    year: 2015
 thumbnail: repertoire-images/mccormack-karst-survey-1000x500.jpg
 header: auto-add/featured/2017-berkeley-ibarra.jpg
 

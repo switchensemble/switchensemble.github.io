@@ -13,19 +13,26 @@ location:
   country: Spain
 program:
   - composer: Anna Walton
-    title: Jökulsárlón (2016)
+    title: Jökulsárlón
+    year: 2016
   - composer: Rand Steiger
-    title: Cyclone (2013)
+    title: Cyclone
+    year: 2013
   - composer: Jeremy Corren
-    title: fragile thread, suspended; unquiet surface (2016)
+    title: fragile thread, suspended; unquiet surface
+    year: 2016
   - composer: Matthew Arrellin
-    title: Vertigo (2015)
+    title: Vertigo
+    year: 2015
   - composer: NamHoon Kim
-    title: Komorebi (2016)
+    title: Komorebi
+    year: 2016
   - composer: Baldwin Giang
-    title: I want you to be (2016)
+    title: I want you to be
+    year: 2016
   - composer: Samuel Gillies
-    title: Apologies, I Am Here Now (2016)
+    title: Apologies, I Am Here Now
+    year: 2016
 thumbnail:
 header: auto-add/featured/2016-corren_fragilethread_1000x500px.jpg
 

@@ -17,13 +17,17 @@ program:
     title: Dyad Study 
     year: 2019
   - composer: Julio Zúñiga
-    title: stars from the earth stars from the stars (2019)
+    title: stars from the earth stars from the stars
+    year: 2019
   - composer: Lauren Marshall
-    title: Blue-Eyed Lover (2019)
+    title: Blue-Eyed Lover 
+    year: 2019
   - composer: Zeynep Toraman
-    title: "Damaged Equally: everyone spoke too fast (2019)"
+    title: "Damaged Equally: everyone spoke too fast"
+    year: 2019
   - composer: Caleb Fried
-    title: walk over; hot coals (2019)
+    title: walk over; hot coals
+    year: 2019
 thumbnail: repertoire-images/diels_filament-1000x500.jpg
 header: auto-add/featured/2019-harvard-tj.jpg
 ---

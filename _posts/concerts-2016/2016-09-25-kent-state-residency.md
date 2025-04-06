@@ -13,11 +13,15 @@ location:
   zip: 44243
 program:
   - composer: Alex Mincek
-    title: Pendulum III (2009)
+    title: Pendulum III
+    year: 2009
   - composer: Jonathan Harvey
-    title: Tombeau de Messiaen (1994)
+    title: Tombeau de Messiaen
+    year: 1994
   - composer: Jason Thorpe Buchanan
-    title: "Second Study for Alto Saxophone, Video, and Electronics: pulp (2015)"
+    title: "Second Study for Alto Saxophone, Video, and Electronics: pulp"
+    year: 2015
   - composer: Eric Wubbels
-    title: this is this is this is (2010)
+    title: this is this is this is
+    year: 2010
 ---

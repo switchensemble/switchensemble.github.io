@@ -13,17 +13,23 @@ location:
   longitude: "-73.944731"
 program:
   - composer: Chris Chandler
-    title: Smoke and Mirrors (2013)
+    title: Smoke and Mirrors
+    year: 2013
   - composer: Lisa Streich
-    title: Asche (2012)
+    title: Asche
+    year: 2012
   - composer: Clay Mettens
-    title: He Dreams a Mother (2016)
+    title: He Dreams a Mother
+    year: 2016
   - composer: Santiago Diez-Fischer
-    title: Loop's Definition (2010)
+    title: Loop's Definition
+    year: 2010
   - composer: Anthony Vine
-    title: Things Fall Apart (2013)
+    title: Things Fall Apart
+    year: 2013
   - composer: Alexander Schubert
-    title: Star Me Kitten (2015)
+    title: Star Me Kitten
+    year: 2015
 photosFolder: testing
 thumbnail: 
 header: auto-add/featured/2016-mettens_hedreamsamother_1000x500px.jpg

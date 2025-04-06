@@ -13,15 +13,20 @@ location:
   zip: 12498
 program:
   - composer: Matt Sargent
-    title: Tide (2011)
+    title: Tide
+    year: 2011
   - composer: Henry Birdsey
-    title: scaffold cane (2018)
+    title: scaffold cane
+    year: 2018
   - composer: Clara Allison
-    title: Quartet for a lonely performer (2018)
+    title: Quartet for a lonely performer
+    year: 2018
   - composer: Telo Hoy
-    title: Borderline (2018)
+    title: Borderline
+    year: 2018
   - composer: Matt Sargent
-    title: Second Illumination (2017)
+    title: Second Illumination
+    year: 2017
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
 header: repertoire-images/hoy-borderline_1000x500.jpg
 

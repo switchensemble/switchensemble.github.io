@@ -12,7 +12,8 @@ location:
   zip: 14604
 program:
   - composer: Karlheinz Stockhausen
-    title: Mikrophonie I (1964)
+    title: Mikrophonie I
+    year: 1964
 header: auto-add/eastman2013/stockhausen-mikrophonie_1000.jpg
 
 ---

@@ -13,15 +13,20 @@ location:
   zip: 12504
 program:
   - composer: Matt Sargent
-    title: Unwound Path (2018)
+    title: Unwound Path
+    year: 2018
   - composer: Tonia Ko
-    title: Tribute | Axis II (2017)
+    title: Tribute | Axis II
+    year: 2017
   - composer: D. Edward Davis
-    title: broad call (2016)
+    title: broad call
+    year: 2016
   - composer: Alican Çamcı
-    title: landscape with inscription (2017)
+    title: landscape with inscription
+    year: 2017
   - composer: Morton Feldman
-    title: Intersection 4 (1952)
+    title: Intersection 4
+    year: 1952
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
 header: repertoire-images/sargent-unwound-path_1000x500.jpg
 

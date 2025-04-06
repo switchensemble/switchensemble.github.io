@@ -10,17 +10,23 @@ location:
   zip: 94102
 program:
   - composer: Anthony Pateras
-    title: Broken Then Fixed Then Broken (2009)
+    title: Broken Then Fixed Then Broken
+    year: 2009
   - composer: Matt Sargent
-    title: Tide (2011)
+    title: Tide
+    year: 2011
   - composer: ​Lisa Streich
-    title: Asche (2012)
+    title: Asche
+    year: 2012
   - composer: Chris Chandler
-    title: in shadow, in shade (2016)
-  - composer: Max Murray (2015)
+    title: "in shadow, in shade"
+    year: 2016
+  - composer: Max Murray
+    year: 2015
     title: Ad Marginem des Versuchs
   - composer: Ben Isaacs
-    title: allone (2009)
+    title: allone
+    year: 2009
 header: repertoire-images/pateras_brokenthenfixed_1000x500px.jpg
 
 ---

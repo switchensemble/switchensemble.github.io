@@ -13,15 +13,20 @@ location:
   zip: 14853
 program:
   - composer: Marianthi Papalexandri-Alexandri
-    title: Duo for motor and sound panels (2016)
+    title: Duo for motor and sound panels
+    year: 2016
   - composer: Kevin Ernste
-    title: Almatira (2015)
+    title: Almatira
+    year: 2015
   - composer: Sergio Cote
-    title: La Sed Es Tierra (2017)
+    title: La Sed Es Tierra
+    year: 2017
   - composer: Matt Sargent
-    title: Unwound Path (2018)
+    title: Unwound Path
+    year: 2018
   - composer: Jihyun Kim
-    title: Once Upon a Time... (2018)
+    title: Once Upon a Time...
+    year: 2018
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
 header: auto-add/featured/2018-cornell.jpg
 

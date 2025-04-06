@@ -10,15 +10,21 @@ location:
   zip: 14202
 program:
   - composer: Panayiotis Kokoras
-    title: Morphallaxis (2008)
+    title: Morphallaxis
+    year: 2008
   - composer: Konstantina Orlandatou
-    title: Constant Flowing (2008)
+    title: Constant Flowing
+    year: 2008
   - composer: Fausto Romitelli
-    title: Domenica alla periferia dell'impero (1996)
+    title: Domenica alla periferia dell'impero
+    year: 1996
   - composer: Zach Sheets
-    title: Seer (2014)
+    title: Seer
+    year: 2014
   - composer: Bruno Maderna
-    title: Piece pour Ivry (1971)
+    title: Piece pour Ivry
+    year: 1971
   - composer: Christopher Chandler
-    title: Smoke and Mirrors (2013)
+    title: Smoke and Mirrors
+    year: 2013
 ---
