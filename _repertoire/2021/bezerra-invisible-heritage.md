@@ -5,6 +5,7 @@ composer:
 title: Invisible Heritage
 duration:
 yearComposed: 2021
+performedBySwitch: 2021
 commissionedOrWrittenFor: written
 size: quintet
 instrumentation:
@@ -15,6 +16,7 @@ instrumentation:
   - percussion
 tags:
   - quintet
+  - acoustic
 media:
   - title:
     url:

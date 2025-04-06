@@ -19,6 +19,8 @@ tags:
   - "open instrumentation"
   - electroacoustic
   - video
+  - magdeburg
+  - rochester
 media:
   - title: Smart-alienation (2016) for small, flexible ensemble by Igor C Silva
     url: https://www.youtube.com/embed/lspDg8r0FVQ

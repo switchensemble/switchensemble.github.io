@@ -5,6 +5,7 @@ composer:
 title: Long Nights
 duration:
 yearComposed: 2020
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:

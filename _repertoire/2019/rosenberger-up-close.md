@@ -5,7 +5,7 @@ composer:
 title: "Up Close"
 duration:
 yearComposed: 2019
-performedBySwitch: 2019
+performedBySwitch: 2019, 2021
 commissionedOrWrittenFor: commissioned
 size: sextet
 instrumentation:
@@ -21,6 +21,8 @@ tags:
   - sextet
   - electroacoustic
   - lighting
+  - magdeburg
+  - NYC
 media:
   - title: "Up Close (2019) by Katharina Rosenberger - [Switch~ Ensemble]"
     url: https://www.youtube.com/embed/Cw6twkr-Hk4

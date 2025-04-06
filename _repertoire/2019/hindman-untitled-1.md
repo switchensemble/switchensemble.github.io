@@ -1,19 +1,21 @@
 ---
 composer:
-  first: Donald Scott
-  last: Stinson
-title: "Raised by Wolves"
+  first: Dorothy
+  last: Hindman
+title: "Untitled I"
 duration:
 yearComposed: 2019
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
-  - flute
+  - flute/bass flute
   - violin
-  - piano
   - percussion
+  - piano
 tags:
   - quartet
+  - acoustic
 media:
   - title:
     url:

@@ -5,6 +5,7 @@ composer:
 title: Zoetrope
 duration:
 yearComposed: 2020
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
@@ -13,12 +14,10 @@ instrumentation:
   - cello
   - percussion
   - electronics
-
 tags:
   - quartet
   - telematic
-  - electronics
-
+  - electroacoustic
 media:
   - title: Zoetrope (2020) by Monte Taylor - [Switch~ Ensemble] Telematic Performance
     url: https://www.youtube.com/embed/knzVaAJ0-jk

@@ -5,6 +5,7 @@ composer:
 title: Tangram
 duration:
 yearComposed: 2021
+performedBySwitch: 2021
 commissionedOrWrittenFor: written
 size: trio
 instrumentation:
@@ -15,6 +16,7 @@ tags:
   - trio
   - telematic
   - generative
+  - electroacoustic
 media:
   - title:
     url:

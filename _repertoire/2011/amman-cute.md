@@ -5,6 +5,7 @@ composer:
 title: CUTE
 duration:
 yearComposed: 2011
+performedBySwitch: 2021
 commissionedOrWrittenFor:
 size: duo
 instrumentation:
@@ -12,6 +13,8 @@ instrumentation:
   - clarinet
 tags:
   - duo
+  - acoustic
+  - NYC
 media:
   - title:
     url: 

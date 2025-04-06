@@ -17,6 +17,7 @@ instrumentation:
 tags:
   - trio
   - electroacoustic
+  - NYC
 media:
   - title:
     url:

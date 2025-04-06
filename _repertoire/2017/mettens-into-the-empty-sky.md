@@ -6,6 +6,7 @@ composer:
 title: Into the empty sky
 duration:
 yearComposed: 2017
+performedBySwitch: 2021
 size: sextet
 instrumentation:
   - flute
@@ -14,9 +15,9 @@ instrumentation:
   - cello
   - piano
   - percussion
+  - electronics
 tags:
-  -
-  -
+  - electroacoustic
 media:
   - title:
     url:

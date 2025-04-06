@@ -1,10 +1,11 @@
 ---
 composer:
-  first: Juraj
-  last: Kojs
-title: "under the blanket of your lullabies"
+  first: Donald Scott
+  last: Stinson
+title: "Raised by Wolves"
 duration:
-yearComposed: 2020
+yearComposed: 2019
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
@@ -14,6 +15,7 @@ instrumentation:
   - percussion
 tags:
   - quartet
+  - acoustic
 media:
   - title:
     url:

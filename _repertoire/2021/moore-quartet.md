@@ -5,6 +5,7 @@ composer:
 title: quartet
 duration:
 yearComposed: 2021
+performedBySwitch: 2021
 size: quartet
 instrumentation:
   - flute
@@ -14,6 +15,8 @@ instrumentation:
 tags:
   - ensemble
   - telematic
+  - video
+  - electroacoustic
 media:
   - title: "quartet (2021) by Ted Moore - [Switch~ Ensemble]"
     url: https://www.youtube.com/embed/bG22tn2lP2M

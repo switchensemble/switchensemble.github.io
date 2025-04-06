@@ -5,6 +5,7 @@ composer:
 title: "Flashover"
 duration:
 yearComposed: 2020
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
@@ -14,6 +15,8 @@ instrumentation:
   - percussion
 tags:
   - quartet
+  - acoustic
+  - miami
 media:
   - title:
     url:

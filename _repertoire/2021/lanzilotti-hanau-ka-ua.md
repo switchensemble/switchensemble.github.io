@@ -22,6 +22,8 @@ tags:
   - electroacoustic
   - ensemble
   - septet
+  - magdeburg
+  - NYC
 media:
   - title:
     type:

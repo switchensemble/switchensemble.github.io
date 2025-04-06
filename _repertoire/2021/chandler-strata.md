@@ -1,24 +1,25 @@
 ---
 composer:
-  first: Oswald
-  last: Huynh
-title: Black Petal
-duration:
+  first: Christopher
+  last: Chandler
+title: Strata
+duration: 10 minutes
 yearComposed: 2021
+performedBySwitch: 2021
 commissionedOrWrittenFor: written
-size: quintet
+size: quartet
 instrumentation:
-  - flute
-  - saxophone
+  - contrabass clarinet
   - violin
   - cello
   - percussion
+  - electronics
 tags:
-  - quintet
-  - telematic
+  - quartet
+  - electroacoustic
 media:
-  - title: "Black Petal (2021) by Oswald Huynh - the [Switch~ Ensemble]"
-    url: https://www.youtube.com/embed/f8uHC2BKkIA
+  - title:
+    url:
 headerImage: repertoire-images/nokes-co-opt_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/nokes-co-opt_400.jpg
 ---

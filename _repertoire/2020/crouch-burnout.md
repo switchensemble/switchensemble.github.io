@@ -1,22 +1,26 @@
 ---
 composer:
-  first: Lansing D.
-  last: McLoskey
-title: "The Task Ahead is Enormous, and There Is Not Much Time"
+  first: Shawn  
+  last: Crouch
+title: Burnout
 duration:
 yearComposed: 2020
-commissionedOrWrittenFor: written
+performedBySwitch: 2020
 size: quartet
+commissionedOrWrittenFor: written
 instrumentation:
-  - piccolo
+  - flute
   - violin
   - piano
   - percussion
 tags:
   - quartet
+  - acoustic
+  - miami
 media:
   - title:
     url:
 headerImage:
 thumbnailImage:
+
 ---

@@ -1,19 +1,22 @@
 ---
 composer:
-  first: Dorothy
-  last: Hindman
-title: "Untitled I"
+  first: Juraj
+  last: Kojs
+title: "under the blanket of your lullabies"
 duration:
-yearComposed: 2019
+yearComposed: 2020
+performedBySwitch: 2020
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
-  - flute/bass flute
+  - flute
   - violin
-  - percussion
   - piano
+  - percussion
 tags:
   - quartet
+  - acoustic
+  - miami
 media:
   - title:
     url:

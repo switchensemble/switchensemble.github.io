@@ -5,6 +5,7 @@ composer:
 title: To The Lighthouse
 duration:
 yearComposed: 2019
+performedBySwitch: 2021
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
@@ -12,7 +13,7 @@ instrumentation:
   - electronics
 tags:
   - solo
-  - electronics
+  - electroacoustic
 media:
   - title: "To The Lighthouse (2019) by Anuj Bhutani - Lauren Cauley, the [Switch~ Ensemble]"
     url: https://www.youtube.com/embed/Xj8I8MQBBXA

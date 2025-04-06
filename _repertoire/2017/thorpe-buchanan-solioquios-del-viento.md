@@ -5,7 +5,7 @@ composer:
   url: http://www.jasonthorpebuchanan.com
 title: "soliloquios del viento"
 duration: 16 minutes
-yearComposed: 2017
+yearComposed: "2016/rev.2017"
 performedBySwitch: 2021
 commissionedOrWrittenFor:
 size: sextet
@@ -20,6 +20,9 @@ instrumentation:
 tags:
   - electroacoustic
   - conducted
+  - NYC
+  - mizzou
+  - magdeburg
 media:
   - title:
     url:

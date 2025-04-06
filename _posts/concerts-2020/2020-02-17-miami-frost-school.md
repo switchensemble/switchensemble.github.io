@@ -14,19 +14,26 @@ location:
   zip: 33146
 program:
   - composer: George Lewis
-    title: Emergent (2014)
+    title: Emergent
+    year: 2014
   - composer: Charles Norman Mason
-    title: new work (2020)
+    title: Flashover
+    year: 2020
   - composer: Dorothy Hindman
-    title: new work (2020)
+    title: Untitled I
+    year: 2019
   - composer: Lansing D McLoskey
-    title: new work (2020)
+    title: "The Task Ahead is Enormous, and There Is Not Much Time"
+    year: 2020
   - composer: Donald Scott Stinson
-    title: new work (2020)
+    title: Raised by Wolves
+    year: 2019
   - composer: Shawn Crouch
-    title: new work (2020)
+    title: Burnout
+    year: 2020
   - composer: Juraj Kojs
-    title: new work (2020)
+    title: "under the blanket of your lullabies"
+    year: 2020
 thumbnail: repertoire-images/thumbnails/mason-flashover_330.jpg
 header: repertoire-images/mason-flashover_1000.jpg
 

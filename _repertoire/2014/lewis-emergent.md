@@ -5,6 +5,7 @@ composer:
 title: "Emergent"
 duration:
 yearComposed: 2014
+performedBySwitch: 2020
 commissionedOrWrittenFor:
 size: solo
 instrumentation:
@@ -13,6 +14,7 @@ instrumentation:
 tags:
   - solo
   - electroacoustic
+  - miami
 media:
   - title:
     url:
