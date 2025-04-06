@@ -13,9 +13,9 @@ location:
   zip: 14604
 program:
   - composer: Fausto Romitelli
-    title: Amok Koma
+    title: Amok Koma (2001)
   - composer: Jason Thorpe Buchanan
-    title: "Asymptotic Flux: First Study in Entropy"
+    title: "Asymptotic Flux: First Study in Entropy (2012)"
   - composer: Sascha Lino Lemke
     title: Liebes-Lied
 ---

@@ -9,13 +9,13 @@ location:
   zip: 94610
 program:
   - composer: Ben Isaacs
-    title: allone
+    title: allone (2009)
   - composer: Chris Chandler
-    title: in shadow, in shade
+    title: in shadow, in shade (2016)
   - composer: Max Murray
-    title: Ad Marginem des Versuchs
+    title: Ad Marginem des Versuchs (2015)
   - composer: Matt Sargent
-    title: soft song
+    title: soft song (2016)
   - composer: Anthony Pateras
-    title: Broken Then Fixed Then Broken
+    title: Broken Then Fixed Then Broken (2009)
 ---

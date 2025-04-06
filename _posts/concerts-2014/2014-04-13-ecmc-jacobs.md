@@ -13,13 +13,13 @@ location:
   zip: 14604
 program:
   - composer: Bryan Jacobs
-    title: TsTs
+    title: TsTs (2010)
   - composer: Panayiotis Kokoras
-    title: Morphallaxis
+    title: Morphallaxis (2008)
   - composer: Clay Mettens
-    title: Labyrinth Meditations
+    title: Labyrinth Meditations (2014)
   - composer: Zach Sheets
-    title: Seer
+    title: Seer (2014)
 header: repertoire-images/jacobs-tsts_1000x500.jpg
 
 ---

@@ -12,9 +12,9 @@ location:
   state: NY
 program:
   - composer: Rand Steiger
-    title: A Menacing Plume
+    title: A Menacing Plume (2011)
   - composer: Henk Badings
-    title: Capriccio
+    title: Capriccio (1959)
   - composer: Jonathan Harvey
-    title: Tombeau de Messiaen
+    title: Tombeau de Messiaen (1994)
 ---

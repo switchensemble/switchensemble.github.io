@@ -13,9 +13,9 @@ location:
   zip: 14604
 program:
   - composer: Christopher Chandler
-    title: Smoke and Mirrors
-  - composer: Philippe Leroux
-    title: Voi(rex)
+    title: Smoke and Mirrors (2013)
+  - composer: Philippe Leroux 
+    title: Voi(rex) (2002)
 thumbnail: repertoire-images/leroux_voirex_1000x500px.jpg
 header: auto-add/featured/2013-leroux_voirex_1000x500px.jpg
 

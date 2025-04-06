@@ -12,5 +12,5 @@ location:
   zip: 14604
 program:
   - composer: Magnus Lindberg
-    title: UR
+    title: UR (1986)
 ---
