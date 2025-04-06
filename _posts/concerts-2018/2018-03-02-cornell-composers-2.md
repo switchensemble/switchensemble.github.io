@@ -15,7 +15,7 @@ program:
   - composer: Marianthi Papalexandri-Alexandri
     title: Duo for motor and sound panels (2016)
   - composer: Kevin Ernste
-    title: Almatira
+    title: Almatira (2015)
   - composer: Sergio Cote
     title: La Sed Es Tierra (2017)
   - composer: Matt Sargent

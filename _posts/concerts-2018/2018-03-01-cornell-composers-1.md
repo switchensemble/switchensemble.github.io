@@ -21,7 +21,7 @@ program:
   - composer: Tonia Ko
     title: Tribute | Axis II (2017)
   - composer: Roberto Sierra
-    title: Tres Montunos
+    title: Tres Montunos (2016)
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
 header: repertoire-images/louilarpprasert_silhouette-1000x500.jpg
 

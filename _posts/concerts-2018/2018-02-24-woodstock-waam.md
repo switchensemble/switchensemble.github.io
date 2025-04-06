@@ -13,7 +13,7 @@ location:
   zip: 12498
 program:
   - composer: Matt Sargent
-    title: Tide
+    title: Tide (2011)
   - composer: Henry Birdsey
     title: scaffold cane (2018)
   - composer: Clara Allison
@@ -21,7 +21,7 @@ program:
   - composer: Telo Hoy
     title: Borderline (2018)
   - composer: Matt Sargent
-    title: Second Illumination
+    title: Second Illumination (2017)
 thumbnail: repertoire-images/ibarra_berkeley_1000x500.jpg
 header: repertoire-images/hoy-borderline_1000x500.jpg
 
