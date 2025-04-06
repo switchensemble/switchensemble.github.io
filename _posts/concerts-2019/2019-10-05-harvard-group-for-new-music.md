@@ -14,7 +14,8 @@ location:
   zip: 02138
 program:
   - composer: James Bean
-    title: Dyad Study (2019)
+    title: Dyad Study 
+    year: 2019
   - composer: Julio Zúñiga
     title: stars from the earth stars from the stars (2019)
   - composer: Lauren Marshall
