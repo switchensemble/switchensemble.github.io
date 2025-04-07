@@ -5,7 +5,7 @@ composer:
 title: we drank wine from the bottle on a rooftop next to god.
 duration:
 yearComposed: 2017
-performedBySwitch: 2018
+performedBySwitch: 2018, 2023
 size: quartet
 instrumentation:
   - flute

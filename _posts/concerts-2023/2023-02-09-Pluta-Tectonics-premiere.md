@@ -16,13 +16,17 @@ location:
   zip: 10002
 program:
 - composer: Zachary James Watkins
-  title: Do Your Best, Never Say Can’t, and Love One Another (2020)
+  title: Do Your Best, Never Say Can’t, and Love One Another
+  year: 2021
 - composer: Victoria Cheah
-  title: Hard columns you within (2022)
+  title: Hard columns you within
+  year: 2022
 - composer: Julius Eastman
-  title: Buddha (1984)
+  title: Buddha
+  year: 1984
 - composer: Sam Pluta
-  title: Tectonics (2023)
+  title: Tectonics
+  year: 2023
 text:
   below: ""
 thumbnail: updates/switch-press_330.jpg

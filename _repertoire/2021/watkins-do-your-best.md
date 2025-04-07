@@ -5,7 +5,7 @@ composer:
 title: "Do Your Best, Never Say Can't, and Love One Another"
 duration:
 yearComposed: 2021
-performedBySwitch: 2021
+performedBySwitch: 2021, 2023
 commissionedOrWrittenFor: commissioned
 size: octet
 instrumentation:
@@ -21,6 +21,7 @@ tags:
   - octet
   - telematic
   - electroacoustic
+  - NYC
 media:
   - title: "Do Your Best, Never Say Can't, and Love Each Other (2021) by Zachary James Watkins"
     url: https://www.youtube.com/embed/B97iWMYi3Tk

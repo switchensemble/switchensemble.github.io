@@ -16,13 +16,17 @@ location:
   zip: 11215
 program:
 - composer: Christopher Chandler
-  title: still life (2022)
+  title: still life
+  year: 2022
 - composer: Victoria Cheah
-  title: We drank wine from the bottle on a rooftop next to god (2017)
+  title: We drank wine from the bottle on a rooftop next to god
+  year: 2017
 - composer: Heather Stebbins
-  title: Among Arrows (2021)
+  title: Among Arrows
+  year: 2021
 - composer: Fausto Romitelli
-  title: Domeniche alla periferia dell'impero (1996-2000)
+  title: Domeniche alla periferia dell'impero
+  year: "1996-2000"
 text:
   below: ""
 thumbnail: updates/ibarra_berkeley_250x125.jpg

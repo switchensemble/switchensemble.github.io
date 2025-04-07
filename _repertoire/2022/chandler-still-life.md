@@ -6,7 +6,7 @@ composer:
 title: "still life"
 duration:
 yearComposed: 2022
-performedBySwitch: 2022
+performedBySwitch: 2022, 2023
 commissionedOrWrittenFor:
 size: quartet
 instrumentation:

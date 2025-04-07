@@ -6,7 +6,7 @@ title: "Among Arrows"
 movements:
 duration: 13 minutes
 yearComposed: 2021
-performedBySwitch: 2022
+performedBySwitch: 2022, 2023
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
