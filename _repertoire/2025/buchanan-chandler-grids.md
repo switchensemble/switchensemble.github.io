@@ -20,6 +20,7 @@ instrumentation:
 tags:
   - septet
   - electroacoustic
+  - video
 media:
   - title:
     url:

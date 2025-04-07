@@ -5,6 +5,7 @@ composer:
 title: new work
 duration:
 yearComposed: 2017
+performedBySwitch: 2017
 size: quintet
 commissionedOrWrittenFor: written
 instrumentation:
@@ -16,8 +17,10 @@ instrumentation:
   - multimedia
 tags:
   - quintet
-  - multimedia
-  - electronics
+  - video
+  - electroacoustic
+  - "san francisco"
+  - "reading session"
 media:
   - title:
     url:

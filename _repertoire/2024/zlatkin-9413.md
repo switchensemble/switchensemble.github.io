@@ -2,7 +2,7 @@
 composer:
   first: Daniel
   last: Zlatkin
-title: The Life and Death of 9413-a Hollywood Extra
+title: 9413
 duration: 
 yearComposed: 2024
 performedBySwitch: 2024

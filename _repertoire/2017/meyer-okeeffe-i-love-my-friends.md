@@ -5,6 +5,7 @@ composer:
 title: "I Love My Friends But They Live Far Away"
 duration:
 yearComposed: 2017
+performedBySwitch: 2017
 commissionedOrWrittenFor: written
 size: quintet
 instrumentation:
@@ -16,7 +17,9 @@ instrumentation:
   - electronics
 tags:
   - quintet
-  - electronics
+  - electroacoustic
+  - "san francisco"
+  - "reading session"
 media:
   - title:
     url:

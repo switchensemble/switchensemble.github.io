@@ -5,6 +5,7 @@ composer:
 title: "Tranquility in Consonance III"
 duration:
 yearComposed: 2016
+performedBySwitch: 2019
 commissionedOrWrittenFor:
 size: sextet
 instrumentation:
@@ -16,6 +17,8 @@ instrumentation:
   - piano
 tags:
   - sextet
+  - "recording session"
+  - acoustic
 media:
   - title:
     url:

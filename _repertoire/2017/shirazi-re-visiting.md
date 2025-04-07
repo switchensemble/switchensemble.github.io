@@ -5,6 +5,7 @@ composer:
 title: "(Re)Visiting The Land of (Un)Known"
 duration:
 yearComposed: 2017
+performedBySwitch: 2017
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -13,6 +14,9 @@ instrumentation:
   - piano
 tags:
   - trio
+  - "reading session"
+  - "san francisco"
+  - acoustic
 media:
   - title:
     url:

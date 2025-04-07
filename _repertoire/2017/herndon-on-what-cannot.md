@@ -5,6 +5,7 @@ composer:
 title: "On What Cannot"
 duration:
 yearComposed: 2017
+performedBySwitch: 2017
 commissionedOrWrittenFor:
 size: quartet
 instrumentation:
@@ -15,7 +16,9 @@ instrumentation:
   - electronics
 tags:
   - quartet
-  - electronics
+  - electroacoustic
+  - "san francisco"
+  - "reading session"
 media:
   - title:
     url:

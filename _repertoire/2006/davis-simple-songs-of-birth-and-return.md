@@ -5,6 +5,7 @@ composer:
 title: Simple Songs of Birth and Return
 duration:
 yearComposed: 2006
+performedBySwitch: 2019
 size: solo mbira
 commissionedOrWrittenFor:
 instrumentation:
@@ -12,7 +13,7 @@ instrumentation:
   - electronics
 tags:
   - solo
-  - electronics
+  - electroacoustic
 media:
   - title:
     url:
