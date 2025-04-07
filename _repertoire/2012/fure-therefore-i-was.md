@@ -5,6 +5,7 @@ composer:
 title: "Therefore I Was"
 duration:
 yearComposed: 2012
+performedBySwitch: 2019
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -13,6 +14,7 @@ instrumentation:
   - percussion
 tags:
   - trio
+  - acoustic
 media:
   - title:
     url:

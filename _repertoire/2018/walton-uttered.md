@@ -5,7 +5,7 @@ composer:
 title: "Uttered"
 duration:
 yearComposed: 2018
-performedBySwitch: 2022
+performedBySwitch: "2019, 2022"
 commissionedOrWrittenFor:
 size: trio
 instrumentation:

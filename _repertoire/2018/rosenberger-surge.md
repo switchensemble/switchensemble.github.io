@@ -15,6 +15,7 @@ instrumentation:
 tags:
   - trio
   - acoustic
+  - "san diego"
 media:
   - title:
     url:

@@ -14,7 +14,7 @@ location:
   zip: 92037
 program:
   - composer: Katharina Rosenberger
-    title: Up-Close
+    title: Up Close
     year: 2019
   - composer: Ashley Fure
     title: Therefore I Was
