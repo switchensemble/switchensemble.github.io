@@ -5,7 +5,7 @@ composer:
 title: Blindsight
 duration: 
 yearComposed: 2024
-performedBySwitch: 
+performedBySwitch: 2025
 commissionedOrWrittenFor: commissioned
 size: quintet
 instrumentation:

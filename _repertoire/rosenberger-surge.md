@@ -5,6 +5,7 @@ composer:
 title: "surge"
 duration:
 yearComposed: 2018
+performedBySwitch: 2019
 commissionedOrWrittenFor:
 size: trio
 instrumentation:
@@ -13,6 +14,7 @@ instrumentation:
   - piano
 tags:
   - trio
+  - acoustic
 media:
   - title:
     url:
