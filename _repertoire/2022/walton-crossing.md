@@ -6,6 +6,7 @@ title: "Crossing"
 movements:
 duration:
 yearComposed: 2022
+performedBySwitch: 2022
 commissionedOrWrittenFor: commissioned
 size: sextet
 instrumentation:
@@ -18,6 +19,9 @@ instrumentation:
 tags:
   - ensemble
   - sextet
+  - acoustic
+  - NYC
+  - buffalo
 media:
   - title:
     type:

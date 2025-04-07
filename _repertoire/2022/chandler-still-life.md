@@ -6,13 +6,14 @@ composer:
 title: "still life"
 duration:
 yearComposed: 2022
+performedBySwitch: 2022
 commissionedOrWrittenFor:
-size: 
+size: quartet
 instrumentation:
   - quartet
   - electronics
 tags:
-  - electronics
+  - electroacoustic
   - quartet 
 media:
   - title:

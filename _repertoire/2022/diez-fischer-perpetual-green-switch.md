@@ -19,6 +19,8 @@ instrumentation:
 tags:
   - electroacoustic
   - septet
+  - NYC
+  - buffalo
 media:
   - title:
     url:

@@ -6,7 +6,7 @@ title: "hānau ka ua"
 movements:
 duration: 27 minutes
 yearComposed: 2021
-performedBySwitch: 2021
+performedBySwitch: "2021, 2022"
 commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:

@@ -2,7 +2,7 @@
 composer:
   first: Forbes
   last: Graham
-title: "Inflection"
+title: "Inflection: Beacon Hill/Roxbury"
 movements:
 duration:
 yearComposed: 2021
@@ -21,6 +21,7 @@ tags:
   - electroacoustic
   - ensemble
   - sextet
+  - buffalo
 media:
   - title:
     type:

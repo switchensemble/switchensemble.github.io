@@ -1,26 +1,26 @@
 ---
 composer:
-  first: Jose
-  last: Martinez
-title: "39 inside"
+  first: Heather
+  last: Stebbins
+title: "Among Arrows"
 movements:
-duration: 32 minutes
-yearComposed: 2019
-commissionedOrWrittenFor:
-size: sextet
+duration: 13 minutes
+yearComposed: 2021
+performedBySwitch: 2022
+commissionedOrWrittenFor: written
+size: quartet
 instrumentation:
   - flute
   - clarinet
   - violin
   - cello
-  - piano
-  - percussion
   - electronics
 tags:
   - ensemble
   - sextet
   - electroacoustic
-  - video
+  - mizzou
+  - buffalo
 media:
   - title:
     type:
