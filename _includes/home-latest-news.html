@@ -9,9 +9,9 @@
 				<div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
 				<a data-fancybox data-type="iframe" href="{{ post.url }}" target="_blank">
 					<div class="row justify-content-start">
-							<div class="col-3"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt="thumbnail" height="100%" width="100%"></div>
+							<div class="col-4"><img src="{{ site.images }}/{{ post.thumbnail }}" class="rounded media-left img-fluid" alt="thumbnail" height="100%" width="100%"></div>
 
-				<div class="media-body col-9">	<strong>{{ post.title }}</strong>
+				<div class="media-body col-8">	<strong>{{ post.title }}</strong>
 					<br> {{ post.content | remove: '<p>' | remove: '</p>' | truncatewords: 24 }}
 			</div></div>	</a>
 			</li>
