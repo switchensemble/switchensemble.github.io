@@ -7,4 +7,4 @@ author: "Jason Thorpe Buchanan"
 thumbnail: updates/2023/hennies.jpg
 header: updates/2023/hennies.jpg
 ---
-We are thrilled that Sarah Hennies has been awarded a commission for the [Switch~ Ensemble] from Harvard University's Fromm Music Foundation! Press Release: <html><a href="https://www.bard.edu/news/composer-and-percussionist-sarah-hennies-receives-commissioning-and-performance-awards-from-fromm-music-foundation-and-usartists-international-2023-04-04">Bard College</a></html>
+We are thrilled that Sarah Hennies has been awarded a commission for the [Switch~ Ensemble] from Harvard University's Fromm Music Foundation! Press Release: https://www.bard.edu/news/composer-and-percussionist-sarah-hennies-receives-commissioning-and-performance-awards-from-fromm-music-foundation-and-usartists-international-2023-04-04
