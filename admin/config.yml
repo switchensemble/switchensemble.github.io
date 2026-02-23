@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow  # creates PR-style drafts; safer for non-coders
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "https://switchensemble.com"
+display_url: "https://switchensemble.com"
+
+collections:
+  # 1) NEWS (Jekyll posts)
+  - name: "news"
+    label: "News"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Category", name: "category", widget: "hidden", default: "news" }
+      - { label: "Featured image", name: "image", widget: "image", required: false }
+      - { label: "Excerpt / Summary", name: "excerpt", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # 2) CONCERTS / PERFORMANCES (your repo has /concerts)
+  - name: "concerts"
+    label: "Concerts / Performances"
+    folder: "concerts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Concert date/time", name: "event_datetime", widget: "datetime" }
+      - { label: "Venue", name: "venue", widget: "string", required: false }
+      - { label: "City", name: "city", widget: "string", required: false }
+      - { label: "Country", name: "country", widget: "string", required: false }
+      - { label: "Poster / image", name: "image", widget: "image", required: false }
+      - { label: "Ticket / info URL", name: "link", widget: "string", required: false }
+      - label: "Program (repertoire links)"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Work title", name: "work_title", widget: "string" }
+          - { label: "Composer", name: "composer", widget: "string", required: false }
+          - { label: "Repertoire page slug (optional)", name: "repertoire_ref", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  # 3) REPERTOIRE / WORKS (your repo has /_repertoire)
+  - name: "repertoire"
+    label: "Repertoire / Works"
+    folder: "_repertoire"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Work title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "number", required: false, value_type: "int" }
+      - { label: "Duration (e.g. 12:30)", name: "duration", widget: "string", required: false }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Audio URL", name: "audio_url", widget: "string", required: false }
+      - { label: "Video URL", name: "video_url", widget: "string", required: false }
+      - { label: "Publisher / Score URL", name: "score_url", widget: "string", required: false }
+      - { label: "Body (notes/program text)", name: "body", widget: "markdown", required: false }
