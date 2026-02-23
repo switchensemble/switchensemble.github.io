@@ -1,0 +1,1 @@
+/admin/*  /admin/index.html  200

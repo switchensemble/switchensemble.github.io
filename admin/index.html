@@ -12,4 +12,24 @@
     <!-- Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
   </body>
+
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      // If an invite token is present, open the login modal automatically
+      const hash = window.location.hash || "";
+      if (hash.includes("invite_token") || hash.includes("confirmation_token") || hash.includes("recovery_token")) {
+        window.netlifyIdentity.open();
+      }
+    });
+
+    window.netlifyIdentity.on("login", () => {
+      // Always stay inside /admin after login
+      if (!window.location.pathname.startsWith("/admin")) {
+        window.location.href = "/admin/";
+      }
+    });
+  }
+</script>
+
 </html>
