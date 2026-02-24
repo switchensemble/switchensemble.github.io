@@ -10,8 +10,8 @@ publish_mode: editorial_workflow
 media_folder: "assets/images/auto-add"
 public_folder: "/assets/images/auto-add"
 
-site_url: "https://switchensemble.github.io"
-display_url: "https://switchensemble.github.io"
+site_url: "https://www.switchensemble.com"
+display_url: "https://www.switchensemble.com"
 
 collections:
   - name: "quick_announcement_2026"
