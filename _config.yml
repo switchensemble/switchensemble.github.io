@@ -31,8 +31,6 @@ theme: minima
 plugins:
   - jekyll-paginate
 
-  
-
 include:
   - _headers
   - _redirects
@@ -56,9 +54,6 @@ defaults:
       type: repertoire
     values:
       layout: repertoire
-
-collections:
-  - repertoire
 
 collections:
   repertoire:
