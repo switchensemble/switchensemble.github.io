@@ -2,73 +2,1936 @@ backend:
   name: git-gateway
   branch: master
 
-publish_mode: editorial_workflow  # creates PR-style drafts; safer for non-coders
+publish_mode: editorial_workflow
 
-media_folder: "assets/uploads"
-public_folder: "/assets/uploads"
+media_folder: "assets/images/auto-add"
+public_folder: "assets/images/auto-add"
 
 site_url: "https://switchensemble.com"
 display_url: "https://switchensemble.com"
 
 collections:
-  # 1) NEWS (Jekyll posts)
-  - name: "news"
-    label: "News"
-    folder: "_posts"
+  - name: "announcements_2029"
+    label: "News / Announcements (2029)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2029"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "md"
     format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Category", name: "category", widget: "hidden", default: "news" }
-      - { label: "Featured image", name: "image", widget: "image", required: false }
-      - { label: "Excerpt / Summary", name: "excerpt", widget: "text", required: false }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  # 2) CONCERTS / PERFORMANCES (your repo has /concerts)
-  - name: "concerts"
-    label: "Concerts / Performances"
-    folder: "concerts"
+  - name: "announcements_2028"
+    label: "News / Announcements (2028)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2028"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "md"
     format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Concert date/time", name: "event_datetime", widget: "datetime" }
-      - { label: "Venue", name: "venue", widget: "string", required: false }
-      - { label: "City", name: "city", widget: "string", required: false }
-      - { label: "Country", name: "country", widget: "string", required: false }
-      - { label: "Poster / image", name: "image", widget: "image", required: false }
-      - { label: "Ticket / info URL", name: "link", widget: "string", required: false }
-      - label: "Program (repertoire links)"
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2027"
+    label: "News / Announcements (2027)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2027"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2026"
+    label: "News / Announcements (2026)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2026"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2025"
+    label: "News / Announcements (2025)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2025"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2024"
+    label: "News / Announcements (2024)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2024"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2023"
+    label: "News / Announcements (2023)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2023"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2022"
+    label: "News / Announcements (2022)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2022"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2021"
+    label: "News / Announcements (2021)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2021"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2019"
+    label: "News / Announcements (2019)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2019"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2018"
+    label: "News / Announcements (2018)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2018"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "announcements_2017"
+    label: "News / Announcements (2017)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2017"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "concerts_2029"
+    label: "Concerts / Performances (2029)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2029"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
         name: "program"
         widget: "list"
         required: false
         fields:
-          - { label: "Work title", name: "work_title", widget: "string" }
-          - { label: "Composer", name: "composer", widget: "string", required: false }
-          - { label: "Repertoire page slug (optional)", name: "repertoire_ref", widget: "string", required: false }
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
-  # 3) REPERTOIRE / WORKS (your repo has /_repertoire)
-  - name: "repertoire"
-    label: "Repertoire / Works"
-    folder: "_repertoire"
+  - name: "concerts_2028"
+    label: "Concerts / Performances (2028)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2028"
     create: true
-    slug: "{{slug}}"
     extension: "md"
     format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
     fields:
-      - { label: "Work title", name: "title", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2027"
+    label: "Concerts / Performances (2027)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2027"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2026"
+    label: "Concerts / Performances (2026)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2026"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2025"
+    label: "Concerts / Performances (2025)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2025"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2024"
+    label: "Concerts / Performances (2024)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2024"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2023"
+    label: "Concerts / Performances (2023)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2023"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2022"
+    label: "Concerts / Performances (2022)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2022"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2021"
+    label: "Concerts / Performances (2021)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2021"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2020"
+    label: "Concerts / Performances (2020)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2020"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2019"
+    label: "Concerts / Performances (2019)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2019"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2018"
+    label: "Concerts / Performances (2018)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2018"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2017"
+    label: "Concerts / Performances (2017)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2017"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2016"
+    label: "Concerts / Performances (2016)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2016"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2014"
+    label: "Concerts / Performances (2014)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2014"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2013"
+    label: "Concerts / Performances (2013)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2013"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "concerts_2012"
+    label: "Concerts / Performances (2012)"
+    label_singular: "Concert / Performance"
+    folder: "_posts/concerts-2012"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} — {{describe}}"
+    sortable_fields: ["date", "describe"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Short description (describe)", name: "describe", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Time (optional)", name: "time", widget: "string", required: false }
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: false }
+          - { label: "State", name: "state", widget: "string", required: false }
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Composer", name: "composer", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+
+      - { label: "Header image (headerImage)", name: "headerImage", widget: "image", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header (optional)", name: "header", widget: "image", required: false }
+      - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+      - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2027"
+    label: "Repertoire / Works (2027)"
+    label_singular: "Work"
+    folder: "_repertoire/2027"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2027 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "number", required: false, value_type: "int" }
-      - { label: "Duration (e.g. 12:30)", name: "duration", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2027 }
       - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Audio URL", name: "audio_url", widget: "string", required: false }
-      - { label: "Video URL", name: "video_url", widget: "string", required: false }
-      - { label: "Publisher / Score URL", name: "score_url", widget: "string", required: false }
-      - { label: "Body (notes/program text)", name: "body", widget: "markdown", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2026"
+    label: "Repertoire / Works (2026)"
+    label_singular: "Work"
+    folder: "_repertoire/2026"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2026 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2026 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2025"
+    label: "Repertoire / Works (2025)"
+    label_singular: "Work"
+    folder: "_repertoire/2025"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2025 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2025 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2024"
+    label: "Repertoire / Works (2024)"
+    label_singular: "Work"
+    folder: "_repertoire/2024"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2024 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2024 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2023"
+    label: "Repertoire / Works (2023)"
+    label_singular: "Work"
+    folder: "_repertoire/2023"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2023 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2023 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2022"
+    label: "Repertoire / Works (2022)"
+    label_singular: "Work"
+    folder: "_repertoire/2022"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2022 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2022 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2021"
+    label: "Repertoire / Works (2021)"
+    label_singular: "Work"
+    folder: "_repertoire/2021"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2021 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2021 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2020"
+    label: "Repertoire / Works (2020)"
+    label_singular: "Work"
+    folder: "_repertoire/2020"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2020 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2020 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2019"
+    label: "Repertoire / Works (2019)"
+    label_singular: "Work"
+    folder: "_repertoire/2019"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2019 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2019 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2018"
+    label: "Repertoire / Works (2018)"
+    label_singular: "Work"
+    folder: "_repertoire/2018"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2018 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2018 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2017"
+    label: "Repertoire / Works (2017)"
+    label_singular: "Work"
+    folder: "_repertoire/2017"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2017 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2017 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2016"
+    label: "Repertoire / Works (2016)"
+    label_singular: "Work"
+    folder: "_repertoire/2016"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2016 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2016 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2015"
+    label: "Repertoire / Works (2015)"
+    label_singular: "Work"
+    folder: "_repertoire/2015"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2015 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2015 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2014"
+    label: "Repertoire / Works (2014)"
+    label_singular: "Work"
+    folder: "_repertoire/2014"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2014 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2014 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2013"
+    label: "Repertoire / Works (2013)"
+    label_singular: "Work"
+    folder: "_repertoire/2013"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2013 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2013 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2012"
+    label: "Repertoire / Works (2012)"
+    label_singular: "Work"
+    folder: "_repertoire/2012"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2012 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2012 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2011"
+    label: "Repertoire / Works (2011)"
+    label_singular: "Work"
+    folder: "_repertoire/2011"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2011 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2011 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2010"
+    label: "Repertoire / Works (2010)"
+    label_singular: "Work"
+    folder: "_repertoire/2010"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2010 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2010 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2009"
+    label: "Repertoire / Works (2009)"
+    label_singular: "Work"
+    folder: "_repertoire/2009"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2009 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2009 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2008"
+    label: "Repertoire / Works (2008)"
+    label_singular: "Work"
+    folder: "_repertoire/2008"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2008 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2008 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2007"
+    label: "Repertoire / Works (2007)"
+    label_singular: "Work"
+    folder: "_repertoire/2007"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2007 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2007 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2006"
+    label: "Repertoire / Works (2006)"
+    label_singular: "Work"
+    folder: "_repertoire/2006"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2006 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2006 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2005"
+    label: "Repertoire / Works (2005)"
+    label_singular: "Work"
+    folder: "_repertoire/2005"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2005 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2005 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2002"
+    label: "Repertoire / Works (2002)"
+    label_singular: "Work"
+    folder: "_repertoire/2002"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2002 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2002 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2001"
+    label: "Repertoire / Works (2001)"
+    label_singular: "Work"
+    folder: "_repertoire/2001"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2001 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2001 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_2000"
+    label: "Repertoire / Works (2000)"
+    label_singular: "Work"
+    folder: "_repertoire/2000"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "2000 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 2000 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1996"
+    label: "Repertoire / Works (1996)"
+    label_singular: "Work"
+    folder: "_repertoire/1996"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1996 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1996 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1994"
+    label: "Repertoire / Works (1994)"
+    label_singular: "Work"
+    folder: "_repertoire/1994"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1994 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1994 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1989"
+    label: "Repertoire / Works (1989)"
+    label_singular: "Work"
+    folder: "_repertoire/1989"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1989 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1989 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1988"
+    label: "Repertoire / Works (1988)"
+    label_singular: "Work"
+    folder: "_repertoire/1988"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1988 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1988 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1987"
+    label: "Repertoire / Works (1987)"
+    label_singular: "Work"
+    folder: "_repertoire/1987"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1987 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1987 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1986"
+    label: "Repertoire / Works (1986)"
+    label_singular: "Work"
+    folder: "_repertoire/1986"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1986 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1986 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1985"
+    label: "Repertoire / Works (1985)"
+    label_singular: "Work"
+    folder: "_repertoire/1985"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1985 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1985 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1984"
+    label: "Repertoire / Works (1984)"
+    label_singular: "Work"
+    folder: "_repertoire/1984"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1984 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1984 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1982"
+    label: "Repertoire / Works (1982)"
+    label_singular: "Work"
+    folder: "_repertoire/1982"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1982 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1982 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1979"
+    label: "Repertoire / Works (1979)"
+    label_singular: "Work"
+    folder: "_repertoire/1979"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1979 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1979 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1971"
+    label: "Repertoire / Works (1971)"
+    label_singular: "Work"
+    folder: "_repertoire/1971"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1971 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1971 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1964"
+    label: "Repertoire / Works (1964)"
+    label_singular: "Work"
+    folder: "_repertoire/1964"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1964 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1964 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1959"
+    label: "Repertoire / Works (1959)"
+    label_singular: "Work"
+    folder: "_repertoire/1959"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1959 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1959 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "repertoire_1952"
+    label: "Repertoire / Works (1952)"
+    label_singular: "Work"
+    folder: "_repertoire/1952"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "1952 — {{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "hidden", default: 1952 }
+      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
+      - { label: "Duration", name: "duration", widget: "string", required: false }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
+      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
