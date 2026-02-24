@@ -2,7 +2,7 @@ backend:
   name: github
   repo: switchensemble/switchensemble.github.io
   branch: master
-  auth_type: oauth
+  auth_type: pkce
   app_id: Ov23liWfrNRFEBYQFhAW
 
 publish_mode: editorial_workflow
