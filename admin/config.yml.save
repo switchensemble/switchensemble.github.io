@@ -1,7 +1,4 @@
-include:
-  - _headers
-
-backend:
+ls | grep _headersbackend:
   name: git-gateway
   branch: master
 
