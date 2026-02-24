@@ -62,3 +62,17 @@ assets/images/sheehan-the-bends_bg.jpg
 	</div>
 </section> 
 <!-- Page Header end-->
+
+<script>
+  (function () {
+    var h = window.location.hash || "";
+    if (
+      h.indexOf("invite_token=") !== -1 ||
+      h.indexOf("confirmation_token=") !== -1 ||
+      h.indexOf("recovery_token=") !== -1
+    ) {
+      // Send identity tokens for Netlify to the admin app
+      window.location.replace("/admin/" + h);
+    }
+  })();
+</script>
