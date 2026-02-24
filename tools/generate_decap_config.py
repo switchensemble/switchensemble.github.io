@@ -1,208 +1,254 @@
 #!/usr/bin/env python3
 """
-Generate Decap CMS admin/config.yml for switchensemble.com
+Generate Decap CMS admin/config.yml for a GitHub Pages Jekyll repo.
 
-- GitHub backend (PKCE)
-- Curated collections 2021–2032
-- Quick add collections for current year
+Key goals:
+- NEVER emit invalid YAML (uses PyYAML safe_dump).
+- Keep your year-folder structure:
+    _posts/announcements-YYYY
+    _posts/concerts-YYYY
+    _repertoire/YYYY
+- Create "Quick add" collections for CURRENT_YEAR first.
+- Create full collections for 2021–2032 (newest first).
+
+Requires: PyYAML
+    python3 -m pip install pyyaml
 """
 
+from __future__ import annotations
+
+from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
+from typing import Any, Dict, List
 
-# -----------------------------
-# CONFIGURATION
-# -----------------------------
-REPO = Path(__file__).resolve().parents[1]
-ADMIN_DIR = REPO / "admin"
+import yaml
+
+
+# -------------------------
+# USER CONFIG
+# -------------------------
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+OWNER_REPO = "switchensemble/switchensemble.github.io"
+BRANCH = "master"
+
+# Decap GitHub backend
+AUTH_TYPE = "pkce"  # "oauth" or "pkce"
+APP_ID = "Ov23liWfrNRFEBYQFhAW"
+
+# URLs used by Decap (doesn't affect auth provider selection)
+SITE_URL = "https://www.switchensemble.com"
+DISPLAY_URL = "https://www.switchensemble.com"
 
 MEDIA_FOLDER = "assets/images/auto-add"
 PUBLIC_FOLDER = "/assets/images/auto-add"
-
-SITE_URL = "https://www.switchensemble.com"
 
 START_YEAR = 2021
 END_YEAR = 2032
 CURRENT_YEAR = date.today().year
 
-GITHUB_REPO = "switchensemble/switchensemble.github.io"
-GITHUB_BRANCH = "master"
-GITHUB_APP_ID = "Ov23liWfrNRFEBYQFhAW"
+
+# -------------------------
+# HELPERS
+# -------------------------
+def ensure_dir(path: Path) -> None:
+    path.mkdir(parents=True, exist_ok=True)
 
 
-# -----------------------------
-# HEADER
-# -----------------------------
-def header_yaml() -> str:
-    return f"""backend:
-  name: github
-  repo: {GITHUB_REPO}
-  branch: {GITHUB_BRANCH}
-  auth_type: pkce
-  app_id: {GITHUB_APP_ID}
-
-publish_mode: editorial_workflow
-
-media_folder: "{MEDIA_FOLDER}"
-public_folder: "{PUBLIC_FOLDER}"
-
-site_url: "{SITE_URL}"
-display_url: "{SITE_URL}"
-
-collections:
-"""
+def field(label: str, name: str, widget: str, **kwargs: Any) -> Dict[str, Any]:
+    d: Dict[str, Any] = {"label": label, "name": name, "widget": widget}
+    d.update(kwargs)
+    return d
 
 
-# -----------------------------
-# GENERIC BLOCK BUILDERS
-# -----------------------------
-def announcement_block(year: int, quick=False) -> str:
-    name = f'quick_announcement_{year}' if quick else f'announcements_{year}'
-    label_prefix = "Quick add: " if quick else ""
-    return f"""  - name: "{name}"
-    label: "{label_prefix}Announcement ({year})"
-    folder: "_posts/announcements-{year}"
-    create: true
-    slug: "{{{{year}}}}-{{{{month}}}}-{{{{day}}}}-{{{{slug}}}}"
-    fields:
-      - {{ label: "Layout", name: "layout", widget: "hidden", default: "post" }}
-      - {{ label: "Category", name: "categories", widget: "hidden", default: "news" }}
-      - {{ label: "Title", name: "title", widget: "string" }}
-      - {{ label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }}
-      - {{ label: "Author", name: "author", widget: "string", required: false }}
-      - {{ label: "Thumbnail", name: "thumbnail", widget: "image", required: false }}
-      - {{ label: "Header", name: "header", widget: "image", required: false }}
-      - {{ label: "Body", name: "body", widget: "markdown" }}
-
-"""
+def hidden(name: str, default: str) -> Dict[str, Any]:
+    return {"label": name.title(), "name": name, "widget": "hidden", "default": default}
 
 
-def concert_block(year: int, quick=False) -> str:
-    name = f'quick_concert_{year}' if quick else f'concerts_{year}'
-    label_prefix = "Quick add: " if quick else ""
-    return f"""  - name: "{name}"
-    label: "{label_prefix}Concert / Performance ({year})"
-    folder: "_posts/concerts-{year}"
-    create: true
-    slug: "{{{{year}}}}-{{{{month}}}}-{{{{day}}}}-{{{{slug}}}}"
-    fields:
-      - {{ label: "Layout", name: "layout", widget: "hidden", default: "concert" }}
-      - {{ label: "Category", name: "categories", widget: "hidden", default: "performance" }}
-      - {{ label: "Describe", name: "describe", widget: "text" }}
-      - {{ label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }}
-      - {{ label: "Time", name: "time", widget: "string", required: false }}
-
-      - label: "Location"
-        name: "location"
-        widget: "object"
-        required: false
-        fields:
-          - {{ label: "Institution", name: "institution", widget: "string", required: false }}
-          - {{ label: "Building", name: "building", widget: "string", required: false }}
-          - {{ label: "Venue", name: "venue", widget: "string", required: false }}
-          - {{ label: "Address", name: "address", widget: "string", required: false }}
-          - {{ label: "City", name: "city", widget: "string", required: false }}
-          - {{ label: "State", name: "state", widget: "string", required: false }}
-
-      - label: "Program"
-        name: "program"
-        widget: "list"
-        required: false
-        fields:
-          - {{ label: "Composer", name: "composer", widget: "string" }}
-          - {{ label: "Title", name: "title", widget: "string" }}
-          - {{ label: "Year", name: "year", widget: "number", required: false }}
-
-      - {{ label: "Header image", name: "headerImage", widget: "image", required: false }}
-      - {{ label: "Thumbnail", name: "thumbnail", widget: "image", required: false }}
-      - {{ label: "Header (optional)", name: "header", widget: "image", required: false }}
-      - {{ label: "500px image", name: "500pxImage", widget: "image", required: false }}
-      - {{ label: "Photos folder", name: "photosFolder", widget: "string", required: false }}
-
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        required: false
-        field: {{ label: "Tag", name: "tag", widget: "string" }}
-
-      - {{ label: "Body", name: "body", widget: "markdown", required: false }}
-
-"""
+def announcement_collection(name: str, label_txt: str, year: int) -> Dict[str, Any]:
+    return {
+        "name": name,
+        "label": label_txt,
+        "label_singular": "Announcement",
+        "folder": f"_posts/announcements-{year}",
+        "create": True,
+        "extension": "md",
+        "format": "frontmatter",
+        "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+        "summary": "{{date}} — {{title}}",
+        "sortable_fields": ["date", "title"],
+        "fields": [
+            {"label": "Layout", "name": "layout", "widget": "hidden", "default": "post"},
+            {"label": "Category", "name": "categories", "widget": "hidden", "default": "news"},
+            field("Title", "title", "string"),
+            field("Date", "date", "datetime", date_format="YYYY-MM-DD", time_format=False, format="YYYY-MM-DD"),
+            field("Author", "author", "string", required=False),
+            field("Thumbnail", "thumbnail", "image", required=False),
+            field("Header", "header", "image", required=False),
+            field("Body", "body", "markdown"),
+        ],
+    }
 
 
-def repertoire_block(year: int, quick=False) -> str:
-    name = f'quick_repertoire_{year}' if quick else f'repertoire_{year}'
-    label_prefix = "Quick add: " if quick else ""
-    return f"""  - name: "{name}"
-    label: "{label_prefix}Repertoire / Work ({year})"
-    folder: "_repertoire/{year}"
-    create: true
-    slug: "{{{{slug}}}}"
-    fields:
-      - label: "Composer"
-        name: "composer"
-        widget: "object"
-        fields:
-          - {{ label: "First", name: "first", widget: "string", required: false }}
-          - {{ label: "Last", name: "last", widget: "string", required: false }}
+def concert_collection(name: str, label_txt: str, year: int) -> Dict[str, Any]:
+    return {
+        "name": name,
+        "label": label_txt,
+        "label_singular": "Concert / Performance",
+        "folder": f"_posts/concerts-{year}",
+        "create": True,
+        "extension": "md",
+        "format": "frontmatter",
+        "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
+        "summary": "{{date}} — {{describe}}",
+        "sortable_fields": ["date", "describe"],
+        "fields": [
+            {"label": "Layout", "name": "layout", "widget": "hidden", "default": "concert"},
+            {"label": "Category", "name": "categories", "widget": "hidden", "default": "performance"},
+            field("Short description (describe)", "describe", "text"),
+            field("Date", "date", "datetime", date_format="YYYY-MM-DD", time_format=False, format="YYYY-MM-DD"),
+            field("Time (optional)", "time", "string", required=False),
+            {
+                "label": "Location",
+                "name": "location",
+                "widget": "object",
+                "required": False,
+                "fields": [
+                    field("Institution", "institution", "string", required=False),
+                    field("Building", "building", "string", required=False),
+                    field("Venue", "venue", "string", required=False),
+                    field("Address", "address", "string", required=False),
+                    field("City", "city", "string", required=False),
+                    field("State", "state", "string", required=False),
+                ],
+            },
+            {
+                "label": "Program",
+                "name": "program",
+                "widget": "list",
+                "required": False,
+                "fields": [
+                    field("Composer", "composer", "string"),
+                    field("Title", "title", "string"),
+                    field("Year", "year", "number", value_type="int", required=False),
+                ],
+            },
+            field("Header image (headerImage)", "headerImage", "image", required=False),
+            field("Thumbnail", "thumbnail", "image", required=False),
+            field("Header (optional)", "header", "image", required=False),
+            field("500px image (optional)", "500pxImage", "image", required=False),
+            field("Photos folder (optional)", "photosFolder", "string", required=False),
+            {"label": "Tags", "name": "tags", "widget": "list", "required": False, "field": field("Tag", "tag", "string")},
+            field("Body", "body", "markdown", required=False),
+        ],
+    }
 
-      - {{ label: "Title", name: "title", widget: "string" }}
-      - {{ label: "Movements", name: "movements", widget: "string", required: false }}
-      - {{ label: "Duration", name: "duration", widget: "string", required: false }}
-      - {{ label: "Year composed", name: "yearComposed", widget: "number", default: {year} }}
-      - {{ label: "Performed by Switch", name: "performedBySwitch", widget: "string", required: false }}
-      - {{ label: "Commissioned / Written for", name: "commissionedOrWrittenFor", widget: "string", required: false }}
-      - {{ label: "Size", name: "size", widget: "string", required: false }}
 
-      - label: "Instrumentation"
-        name: "instrumentation"
-        widget: "list"
-        required: false
-        field: {{ label: "Instrument", name: "instrument", widget: "string" }}
+def repertoire_collection(name: str, label_txt: str, year: int) -> Dict[str, Any]:
+    return {
+        "name": name,
+        "label": label_txt,
+        "label_singular": "Work",
+        "folder": f"_repertoire/{year}",
+        "create": True,
+        "extension": "md",
+        "format": "frontmatter",
+        "slug": "{{slug}}",
+        "summary": f"{year} — {{composer.last}}, {{composer.first}} — {{title}}",
+        "sortable_fields": ["title"],
+        "fields": [
+            {
+                "label": "Composer",
+                "name": "composer",
+                "widget": "object",
+                "fields": [
+                    field("First", "first", "string", required=False),
+                    field("Last", "last", "string", required=False),
+                ],
+            },
+            field("Title", "title", "string"),
+            field("Movements", "movements", "string", required=False),
+            field("Duration (e.g. 25:00)", "duration", "string", required=False),
+            field("Year composed", "yearComposed", "number", value_type="int", default=year),
+            field("Performed by Switch (e.g. 2023, 2024)", "performedBySwitch", "string", required=False),
+            {
+                "label": "Commissioned / Written for",
+                "name": "commissionedOrWrittenFor",
+                "widget": "select",
+                "required": False,
+                "options": ["commissioned", "written for", "arrangement", "existing", "unknown"],
+            },
+            field("Size (e.g. septet)", "size", "string", required=False),
+            {"label": "Instrumentation", "name": "instrumentation", "widget": "list", "required": False, "field": field("Instrument", "instrument", "string")},
+            {"label": "Tags", "name": "tags", "widget": "list", "required": False, "field": field("Tag", "tag", "string")},
+            {
+                "label": "Media",
+                "name": "media",
+                "widget": "list",
+                "required": False,
+                "fields": [
+                    field("Title", "title", "string", required=False),
+                    {"label": "Type", "name": "type", "widget": "select", "required": False, "options": ["audio", "video", "score", "website", "other"]},
+                    field("URL", "url", "string", required=False),
+                ],
+            },
+            field("Body", "body", "markdown", required=False),
+        ],
+    }
 
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        required: false
-        field: {{ label: "Tag", name: "tag", widget: "string" }}
 
-      - label: "Media"
-        name: "media"
-        widget: "list"
-        required: false
-        fields:
-          - {{ label: "Title", name: "title", widget: "string", required: false }}
-          - {{ label: "Type", name: "type", widget: "string", required: false }}
-          - {{ label: "URL", name: "url", widget: "string", required: false }}
+def main() -> None:
+    # Ensure year folders exist so Decap can create into future years
+    posts = REPO_ROOT / "_posts"
+    rep = REPO_ROOT / "_repertoire"
+    ensure_dir(posts)
+    ensure_dir(rep)
+    ensure_dir(REPO_ROOT / "admin")
 
-      - {{ label: "Body", name: "body", widget: "markdown", required: false }}
+    for y in range(START_YEAR, END_YEAR + 1):
+        ensure_dir(posts / f"announcements-{y}")
+        ensure_dir(posts / f"concerts-{y}")
+        ensure_dir(rep / f"{y}")
+    ensure_dir(posts / f"announcements-{CURRENT_YEAR}")
+    ensure_dir(posts / f"concerts-{CURRENT_YEAR}")
+    ensure_dir(rep / f"{CURRENT_YEAR}")
 
-"""
+    cfg: Dict[str, Any] = {
+        "backend": {
+            "name": "github",
+            "repo": OWNER_REPO,
+            "branch": BRANCH,
+            "auth_type": AUTH_TYPE,
+            "app_id": APP_ID,
+        },
+        "publish_mode": "editorial_workflow",
+        "media_folder": MEDIA_FOLDER,
+        "public_folder": PUBLIC_FOLDER,
+        "site_url": SITE_URL,
+        "display_url": DISPLAY_URL,
+        "collections": [],
+    }
 
+    # Quick add (top)
+    cfg["collections"].extend([
+        announcement_collection(f"quick_announcement_{CURRENT_YEAR}", f"Quick add: Announcement ({CURRENT_YEAR})", CURRENT_YEAR),
+        concert_collection(f"quick_concert_{CURRENT_YEAR}", f"Quick add: Concert / Performance ({CURRENT_YEAR})", CURRENT_YEAR),
+        repertoire_collection(f"quick_repertoire_{CURRENT_YEAR}", f"Quick add: Repertoire / Work ({CURRENT_YEAR})", CURRENT_YEAR),
+    ])
 
-# -----------------------------
-# MAIN
-# -----------------------------
-def main():
-    ADMIN_DIR.mkdir(exist_ok=True)
-
-    content = [header_yaml()]
-
-    # Quick add current year
-    content.append(announcement_block(CURRENT_YEAR, quick=True))
-    content.append(concert_block(CURRENT_YEAR, quick=True))
-    content.append(repertoire_block(CURRENT_YEAR, quick=True))
-
-    # Curated range
+    # Curated years (newest first)
     for y in range(END_YEAR, START_YEAR - 1, -1):
-        content.append(announcement_block(y))
+        cfg["collections"].append(announcement_collection(f"announcements_{y}", f"News / Announcements ({y})", y))
     for y in range(END_YEAR, START_YEAR - 1, -1):
-        content.append(concert_block(y))
+        cfg["collections"].append(concert_collection(f"concerts_{y}", f"Concerts / Performances ({y})", y))
     for y in range(END_YEAR, START_YEAR - 1, -1):
-        content.append(repertoire_block(y))
+        cfg["collections"].append(repertoire_collection(f"repertoire_{y}", f"Repertoire / Works ({y})", y))
 
-    (ADMIN_DIR / "config.yml").write_text("".join(content), encoding="utf-8")
-    print("✔ Wrote admin/config.yml using GitHub PKCE backend.")
+    out_path = REPO_ROOT / "admin" / "config.yml"
+    out_text = yaml.safe_dump(cfg, sort_keys=False, allow_unicode=True, width=120)
+    out_path.write_text(out_text, encoding="utf-8")
+    print(f"Wrote {out_path}")
 
 
 if __name__ == "__main__":
