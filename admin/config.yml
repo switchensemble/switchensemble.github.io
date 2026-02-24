@@ -2,7 +2,7 @@ backend:
   name: github
   repo: switchensemble/switchensemble.github.io
   branch: master
-  base_url: https://CHANGE-ME.example.com
+  base_url: base_url: "https://decap-oauth.jasontbuchanan.workers.dev"
   auth_endpoint: auth
 
 publish_mode: editorial_workflow
