@@ -1,11 +1,14 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: switchensemble/switchensemble.github.io
   branch: master
+  auth_type: oauth
+  app_id: Ov23liWfrNRFEBYQFhAW
 
 publish_mode: editorial_workflow
 
 media_folder: "assets/images/auto-add"
-public_folder: "assets/images/auto-add"
+public_folder: "/assets/images/auto-add"
 
 site_url: "https://switchensemble.netlify.app"
 display_url: "https://switchensemble.com"
