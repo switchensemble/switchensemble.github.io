@@ -8,3 +8,4 @@ assets/images/core-index
 assets/images/favicons/switch-favicon.docx
 _includes/off-canvas-sidebar.html
 **/.DS_Store
+*.save
