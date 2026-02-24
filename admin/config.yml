@@ -4,8 +4,8 @@ backend:
   branch: master
 
   # OAuth proxy (Cloudflare Worker)
-  base_url: https://decap-oauth.jasontbuchanan.workers.dev
-  auth_endpoint: /auth
+  base_url: https://www.switchensemble.com
+  auth_endpoint: /oauth/auth
 
 publish_mode: editorial_workflow
 media_folder: "assets/images/auto-add"
