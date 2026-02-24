@@ -9,6 +9,14 @@ public_folder: "assets/images/auto-add"
 
 include:
   - _headers
+  - admin
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .jekyll-cache
+  - _site
 
 site_url: "https://switchensemble.netlify.app"
 display_url: "https://switchensemble.com"
