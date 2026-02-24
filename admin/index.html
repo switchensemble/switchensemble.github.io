@@ -1,35 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Switch~ Ensemble CMS</title>
-
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <title>Switch Ensemble CMS</title>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </head>
-
-  <body>
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", () => {
-          const hash = window.location.hash || "";
-
-          // If we land on root with a token, redirect to /admin
-          if (
-            hash.includes("invite_token") ||
-            hash.includes("confirmation_token") ||
-            hash.includes("recovery_token")
-          ) {
-            window.location.replace("/admin/" + hash);
-          }
-        });
-
-        window.netlifyIdentity.on("login", () => {
-          window.location.href = "/admin/";
-        });
-      }
-    </script>
-
-    <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
-  </body>
+  <body></body>
 </html>
