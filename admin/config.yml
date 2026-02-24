@@ -4,8 +4,6 @@ backend:
   branch: master
   auth_type: oauth
   app_id: Ov23liWfrNRFEBYQFhAW
-  base_url: https://github.com
-  auth_endpoint: https://github.com/login/oauth/authorize
 
 publish_mode: editorial_workflow
 
