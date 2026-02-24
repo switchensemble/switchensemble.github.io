@@ -9,26 +9,32 @@ MEDIA_FOLDER = "assets/images/auto-add"
 PUBLIC_FOLDER = "assets/images/auto-add"
 SITE_URL = "https://switchensemble.com"
 
-REPERTOIRE_START = 2021
-REPERTOIRE_END = 2032
+START_YEAR = 2021
+END_YEAR = 2032
 
-def find_year_folders(base: Path, pattern: str):
-    rx = re.compile(pattern)
-    items = []
+def ensure_dir(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
+
+def find_year_folders(base: Path, prefix: str):
+    """
+    Returns dict {year:int -> foldername:str} for folders like f"{prefix}-{YYYY}"
+    """
+    out = {}
     if not base.exists():
-        return items
+        return out
+    rx = re.compile(rf"{re.escape(prefix)}-(\d{{4}})$")
     for p in base.iterdir():
         if p.is_dir():
             m = rx.fullmatch(p.name)
             if m:
-                items.append((int(m.group(1)), p.name))
-    return sorted(items, key=lambda x: x[0], reverse=True)
+                out[int(m.group(1))] = p.name
+    return out
 
-def announcement_block(folder: str, year: int) -> str:
+def announcement_block(year: int) -> str:
     return f"""  - name: "announcements_{year}"
     label: "News / Announcements ({year})"
     label_singular: "Announcement"
-    folder: "_posts/{folder}"
+    folder: "_posts/announcements-{year}"
     create: true
     extension: "md"
     format: "frontmatter"
@@ -47,11 +53,11 @@ def announcement_block(folder: str, year: int) -> str:
 
 """
 
-def concert_block(folder: str, year: int) -> str:
+def concert_block(year: int) -> str:
     return f"""  - name: "concerts_{year}"
     label: "Concerts / Performances ({year})"
     label_singular: "Concert / Performance"
-    folder: "_posts/{folder}"
+    folder: "_posts/concerts-{year}"
     create: true
     extension: "md"
     format: "frontmatter"
@@ -104,7 +110,6 @@ def concert_block(folder: str, year: int) -> str:
 """
 
 def repertoire_block(year: int) -> str:
-    # Folder must exist or Decap will show it but errors when creating.
     return f"""  - name: "repertoire_{year}"
     label: "Repertoire / Works ({year})"
     label_singular: "Work"
@@ -174,13 +179,19 @@ def repertoire_block(year: int) -> str:
               - "other"
           - {{ label: "URL", name: "url", widget: "string", required: false }}
 
-      - {{ label: "Body", name: "body", widget: "markdown", required: false }}
+      - { label: "Body", name: "body", widget: "markdown", required: false }
 
 """
 
 def main():
-    announcements = find_year_folders(POSTS_DIR, r"announcements-(\d{4})")
-    concerts = find_year_folders(POSTS_DIR, r"concerts-(\d{4})")
+    ensure_dir(POSTS_DIR)
+    ensure_dir(REPERTOIRE_DIR)
+
+    # Ensure the curated folders exist so Decap can create new entries in future years.
+    for y in range(START_YEAR, END_YEAR + 1):
+        ensure_dir(POSTS_DIR / f"announcements-{y}")
+        ensure_dir(POSTS_DIR / f"concerts-{y}")
+        ensure_dir(REPERTOIRE_DIR / f"{y}")
 
     header = f"""backend:
   name: git-gateway
@@ -198,19 +209,18 @@ collections:
 """
     out = [header]
 
-    for y, folder in announcements:
-        out.append(announcement_block(folder, y))
+    # Newest first in sidebar
+    for y in range(END_YEAR, START_YEAR - 1, -1):
+        out.append(announcement_block(y))
 
-    for y, folder in concerts:
-        out.append(concert_block(folder, y))
+    for y in range(END_YEAR, START_YEAR - 1, -1):
+        out.append(concert_block(y))
 
-    # curated repertoire years only
-    for year in range(REPERTOIRE_END, REPERTOIRE_START - 1, -1):
-        if (REPERTOIRE_DIR / str(year)).exists():
-            out.append(repertoire_block(year))
+    for y in range(END_YEAR, START_YEAR - 1, -1):
+        out.append(repertoire_block(y))
 
     (REPO / "admin" / "config.yml").write_text("".join(out), encoding="utf-8")
-    print("Wrote admin/config.yml")
+    print("Wrote curated admin/config.yml for 2021–2032 (announcements, concerts, repertoire).")
 
 if __name__ == "__main__":
     main()
