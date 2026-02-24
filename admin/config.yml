@@ -293,6 +293,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -345,6 +346,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -397,6 +399,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -449,6 +452,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -501,6 +505,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -553,6 +558,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -605,6 +611,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -657,6 +664,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -709,6 +717,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -761,6 +770,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -813,6 +823,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -865,6 +876,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -917,6 +929,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -969,6 +982,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -1021,6 +1035,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -1073,6 +1088,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -1125,6 +1141,7 @@ collections:
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
       - { label: "Header (optional)", name: "header", widget: "image", required: false }
       - { label: "500px image (optional)", name: "500pxImage", widget: "image", required: false }
+
       - { label: "Photos folder (optional)", name: "photosFolder", widget: "string", required: false }
 
       - label: "Tags"
@@ -1143,16 +1160,67 @@ collections:
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
-    summary: "2027 — {{title}}"
+    summary: "2027 — {{composer.last}}, {{composer.first}} — {{title}}"
     sortable_fields: ["title"]
     fields:
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string", required: false }
+          - { label: "Last", name: "last", widget: "string", required: false }
+
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2027 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Movements", name: "movements", widget: "string", required: false }
+      - { label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }
+
+      - { label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: 2027 }
+
+      - { label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }
+
+      - label: "Commissioned / Written for"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        required: false
+        options:
+          - "commissioned"
+          - "written for"
+          - "arrangement"
+          - "existing"
+          - "unknown"
+
+      - { label: "Size (e.g. septet)", name: "size", widget: "string", required: false }
+
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+        field: { label: "Instrument", name: "instrument", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            required: false
+            options:
+              - "audio"
+              - "video"
+              - "score"
+              - "website"
+              - "other"
+          - { label: "URL", name: "url", widget: "string", required: false }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "repertoire_2026"
@@ -1163,16 +1231,67 @@ collections:
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
-    summary: "2026 — {{title}}"
+    summary: "2026 — {{composer.last}}, {{composer.first}} — {{title}}"
     sortable_fields: ["title"]
     fields:
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string", required: false }
+          - { label: "Last", name: "last", widget: "string", required: false }
+
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2026 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Movements", name: "movements", widget: "string", required: false }
+      - { label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }
+
+      - { label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: 2026 }
+
+      - { label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }
+
+      - label: "Commissioned / Written for"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        required: false
+        options:
+          - "commissioned"
+          - "written for"
+          - "arrangement"
+          - "existing"
+          - "unknown"
+
+      - { label: "Size (e.g. septet)", name: "size", widget: "string", required: false }
+
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+        field: { label: "Instrument", name: "instrument", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            required: false
+            options:
+              - "audio"
+              - "video"
+              - "score"
+              - "website"
+              - "other"
+          - { label: "URL", name: "url", widget: "string", required: false }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "repertoire_2025"
@@ -1183,16 +1302,67 @@ collections:
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
-    summary: "2025 — {{title}}"
+    summary: "2025 — {{composer.last}}, {{composer.first}} — {{title}}"
     sortable_fields: ["title"]
     fields:
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string", required: false }
+          - { label: "Last", name: "last", widget: "string", required: false }
+
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2025 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Movements", name: "movements", widget: "string", required: false }
+      - { label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }
+
+      - { label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: 2025 }
+
+      - { label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }
+
+      - label: "Commissioned / Written for"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        required: false
+        options:
+          - "commissioned"
+          - "written for"
+          - "arrangement"
+          - "existing"
+          - "unknown"
+
+      - { label: "Size (e.g. septet)", name: "size", widget: "string", required: false }
+
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+        field: { label: "Instrument", name: "instrument", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            required: false
+            options:
+              - "audio"
+              - "video"
+              - "score"
+              - "website"
+              - "other"
+          - { label: "URL", name: "url", widget: "string", required: false }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "repertoire_2024"
@@ -1203,16 +1373,67 @@ collections:
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
-    summary: "2024 — {{title}}"
+    summary: "2024 — {{composer.last}}, {{composer.first}} — {{title}}"
     sortable_fields: ["title"]
     fields:
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string", required: false }
+          - { label: "Last", name: "last", widget: "string", required: false }
+
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2024 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Movements", name: "movements", widget: "string", required: false }
+      - { label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }
+
+      - { label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: 2024 }
+
+      - { label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }
+
+      - label: "Commissioned / Written for"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        required: false
+        options:
+          - "commissioned"
+          - "written for"
+          - "arrangement"
+          - "existing"
+          - "unknown"
+
+      - { label: "Size (e.g. septet)", name: "size", widget: "string", required: false }
+
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+        field: { label: "Instrument", name: "instrument", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            required: false
+            options:
+              - "audio"
+              - "video"
+              - "score"
+              - "website"
+              - "other"
+          - { label: "URL", name: "url", widget: "string", required: false }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "repertoire_2023"
@@ -1223,16 +1444,67 @@ collections:
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
-    summary: "2023 — {{title}}"
+    summary: "2023 — {{composer.last}}, {{composer.first}} — {{title}}"
     sortable_fields: ["title"]
     fields:
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string", required: false }
+          - { label: "Last", name: "last", widget: "string", required: false }
+
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2023 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Movements", name: "movements", widget: "string", required: false }
+      - { label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }
+
+      - { label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: 2023 }
+
+      - { label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }
+
+      - label: "Commissioned / Written for"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        required: false
+        options:
+          - "commissioned"
+          - "written for"
+          - "arrangement"
+          - "existing"
+          - "unknown"
+
+      - { label: "Size (e.g. septet)", name: "size", widget: "string", required: false }
+
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+        field: { label: "Instrument", name: "instrument", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            required: false
+            options:
+              - "audio"
+              - "video"
+              - "score"
+              - "website"
+              - "other"
+          - { label: "URL", name: "url", widget: "string", required: false }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "repertoire_2022"
@@ -1243,16 +1515,67 @@ collections:
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
-    summary: "2022 — {{title}}"
+    summary: "2022 — {{composer.last}}, {{composer.first}} — {{title}}"
     sortable_fields: ["title"]
     fields:
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string", required: false }
+          - { label: "Last", name: "last", widget: "string", required: false }
+
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2022 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
+      - { label: "Movements", name: "movements", widget: "string", required: false }
+      - { label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }
+
+      - { label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: 2022 }
+
+      - { label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }
+
+      - label: "Commissioned / Written for"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        required: false
+        options:
+          - "commissioned"
+          - "written for"
+          - "arrangement"
+          - "existing"
+          - "unknown"
+
+      - { label: "Size (e.g. septet)", name: "size", widget: "string", required: false }
+
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+        field: { label: "Instrument", name: "instrument", widget: "string" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            required: false
+            options:
+              - "audio"
+              - "video"
+              - "score"
+              - "website"
+              - "other"
+          - { label: "URL", name: "url", widget: "string", required: false }
+
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "repertoire_2021"
@@ -1263,675 +1586,66 @@ collections:
     extension: "md"
     format: "frontmatter"
     slug: "{{slug}}"
-    summary: "2021 — {{title}}"
+    summary: "2021 — {{composer.last}}, {{composer.first}} — {{title}}"
     sortable_fields: ["title"]
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2021 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string", required: false }
+          - { label: "Last", name: "last", widget: "string", required: false }
 
-  - name: "repertoire_2020"
-    label: "Repertoire / Works (2020)"
-    label_singular: "Work"
-    folder: "_repertoire/2020"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2020 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2020 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Movements", name: "movements", widget: "string", required: false }
+      - { label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }
 
-  - name: "repertoire_2019"
-    label: "Repertoire / Works (2019)"
-    label_singular: "Work"
-    folder: "_repertoire/2019"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2019 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2019 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: 2021 }
 
-  - name: "repertoire_2018"
-    label: "Repertoire / Works (2018)"
-    label_singular: "Work"
-    folder: "_repertoire/2018"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2018 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2018 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }
 
-  - name: "repertoire_2017"
-    label: "Repertoire / Works (2017)"
-    label_singular: "Work"
-    folder: "_repertoire/2017"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2017 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2017 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - label: "Commissioned / Written for"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        required: false
+        options:
+          - "commissioned"
+          - "written for"
+          - "arrangement"
+          - "existing"
+          - "unknown"
 
-  - name: "repertoire_2016"
-    label: "Repertoire / Works (2016)"
-    label_singular: "Work"
-    folder: "_repertoire/2016"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2016 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2016 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Size (e.g. septet)", name: "size", widget: "string", required: false }
 
-  - name: "repertoire_2015"
-    label: "Repertoire / Works (2015)"
-    label_singular: "Work"
-    folder: "_repertoire/2015"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2015 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2015 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+        field: { label: "Instrument", name: "instrument", widget: "string" }
 
-  - name: "repertoire_2014"
-    label: "Repertoire / Works (2014)"
-    label_singular: "Work"
-    folder: "_repertoire/2014"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2014 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2014 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
 
-  - name: "repertoire_2013"
-    label: "Repertoire / Works (2013)"
-    label_singular: "Work"
-    folder: "_repertoire/2013"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2013 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2013 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            required: false
+            options:
+              - "audio"
+              - "video"
+              - "score"
+              - "website"
+              - "other"
+          - { label: "URL", name: "url", widget: "string", required: false }
 
-  - name: "repertoire_2012"
-    label: "Repertoire / Works (2012)"
-    label_singular: "Work"
-    folder: "_repertoire/2012"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2012 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2012 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2011"
-    label: "Repertoire / Works (2011)"
-    label_singular: "Work"
-    folder: "_repertoire/2011"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2011 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2011 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2010"
-    label: "Repertoire / Works (2010)"
-    label_singular: "Work"
-    folder: "_repertoire/2010"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2010 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2010 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2009"
-    label: "Repertoire / Works (2009)"
-    label_singular: "Work"
-    folder: "_repertoire/2009"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2009 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2009 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2008"
-    label: "Repertoire / Works (2008)"
-    label_singular: "Work"
-    folder: "_repertoire/2008"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2008 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2008 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2007"
-    label: "Repertoire / Works (2007)"
-    label_singular: "Work"
-    folder: "_repertoire/2007"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2007 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2007 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2006"
-    label: "Repertoire / Works (2006)"
-    label_singular: "Work"
-    folder: "_repertoire/2006"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2006 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2006 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2005"
-    label: "Repertoire / Works (2005)"
-    label_singular: "Work"
-    folder: "_repertoire/2005"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2005 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2005 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2002"
-    label: "Repertoire / Works (2002)"
-    label_singular: "Work"
-    folder: "_repertoire/2002"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2002 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2002 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2001"
-    label: "Repertoire / Works (2001)"
-    label_singular: "Work"
-    folder: "_repertoire/2001"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2001 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2001 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_2000"
-    label: "Repertoire / Works (2000)"
-    label_singular: "Work"
-    folder: "_repertoire/2000"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "2000 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 2000 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1996"
-    label: "Repertoire / Works (1996)"
-    label_singular: "Work"
-    folder: "_repertoire/1996"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1996 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1996 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1994"
-    label: "Repertoire / Works (1994)"
-    label_singular: "Work"
-    folder: "_repertoire/1994"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1994 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1994 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1989"
-    label: "Repertoire / Works (1989)"
-    label_singular: "Work"
-    folder: "_repertoire/1989"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1989 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1989 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1988"
-    label: "Repertoire / Works (1988)"
-    label_singular: "Work"
-    folder: "_repertoire/1988"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1988 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1988 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1987"
-    label: "Repertoire / Works (1987)"
-    label_singular: "Work"
-    folder: "_repertoire/1987"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1987 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1987 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1986"
-    label: "Repertoire / Works (1986)"
-    label_singular: "Work"
-    folder: "_repertoire/1986"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1986 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1986 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1985"
-    label: "Repertoire / Works (1985)"
-    label_singular: "Work"
-    folder: "_repertoire/1985"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1985 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1985 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1984"
-    label: "Repertoire / Works (1984)"
-    label_singular: "Work"
-    folder: "_repertoire/1984"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1984 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1984 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1982"
-    label: "Repertoire / Works (1982)"
-    label_singular: "Work"
-    folder: "_repertoire/1982"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1982 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1982 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1979"
-    label: "Repertoire / Works (1979)"
-    label_singular: "Work"
-    folder: "_repertoire/1979"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1979 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1979 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1971"
-    label: "Repertoire / Works (1971)"
-    label_singular: "Work"
-    folder: "_repertoire/1971"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1971 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1971 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1964"
-    label: "Repertoire / Works (1964)"
-    label_singular: "Work"
-    folder: "_repertoire/1964"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1964 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1964 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1959"
-    label: "Repertoire / Works (1959)"
-    label_singular: "Work"
-    folder: "_repertoire/1959"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1959 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1959 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - name: "repertoire_1952"
-    label: "Repertoire / Works (1952)"
-    label_singular: "Work"
-    folder: "_repertoire/1952"
-    create: true
-    extension: "md"
-    format: "frontmatter"
-    slug: "{{slug}}"
-    summary: "1952 — {{title}}"
-    sortable_fields: ["title"]
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Composer", name: "composer", widget: "string", required: false }
-      - { label: "Year", name: "year", widget: "hidden", default: 1952 }
-      - { label: "Instrumentation", name: "instrumentation", widget: "text", required: false }
-      - { label: "Duration", name: "duration", widget: "string", required: false }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: false }
-      - { label: "Header / image", name: "header", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
