@@ -12,8 +12,8 @@ publish_mode: editorial_workflow
 media_folder: "assets/images/auto-add"
 public_folder: "/assets/images/auto-add"
 
-site_url: "https://switchensemble.netlify.app"
-display_url: "https://switchensemble.com"
+site_url: "https://switchensemble.github.io"
+display_url: "https://switchensemble.github.io"
 
 collections:
   - name: "quick_announcement_2026"
