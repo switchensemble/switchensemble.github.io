@@ -2,8 +2,9 @@ backend:
   name: github
   repo: switchensemble/switchensemble.github.io
   branch: master
-  base_url: base_url: "https://decap-oauth.jasontbuchanan.workers.dev"
-  auth_endpoint: auth
+  auth_type: pkce
+  app_id: Ov23lirUQMRzfEh83klb
+  base_url: "https://decap-oauth.jasontbuchanan.workers.dev"
 
 publish_mode: editorial_workflow
 
