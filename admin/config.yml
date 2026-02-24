@@ -5,7 +5,7 @@ backend:
 
   # OAuth proxy (Cloudflare Worker)
   base_url: https://decap-oauth.jasontbuchanan.workers.dev
-  auth_endpoint: auth
+  auth_endpoint: /auth
 
 publish_mode: editorial_workflow
 media_folder: "assets/images/auto-add"
