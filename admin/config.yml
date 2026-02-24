@@ -2,12 +2,12 @@ backend:
   name: github
   repo: switchensemble/switchensemble.github.io
   branch: master
-  auth_type: pkce
-  app_id: Ov23lirUQMRzfEh83klb
-  base_url: "https://decap-oauth.jasontbuchanan.workers.dev"
+
+  # OAuth proxy (Cloudflare Worker)
+  base_url: https://decap-oauth.jasontbuchanan.workers.dev
+  auth_endpoint: auth
 
 publish_mode: editorial_workflow
-
 media_folder: "assets/images/auto-add"
 public_folder: "/assets/images/auto-add"
 

@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """
-Generate Decap CMS admin/config.yml for switchensemble.github.io
+Generate admin/config.yml for Decap CMS using a GitHub backend + external OAuth proxy.
 
-Key points:
-- GitHub backend with PKCE
-- Uses a custom OAuth proxy (Cloudflare Worker / Pages Function) via backend.base_url
-  so Decap DOES NOT redirect to Netlify for auth.
-- Curated collections for announcements, concerts, repertoire: START_YEAR–END_YEAR
+This version is designed for:
+- GitHub Pages site
+- Cloudflare Workers OAuth proxy (no Netlify)
+- Year-based folders:
+    _posts/announcements-YYYY
+    _posts/concerts-YYYY
+    _repertoire/YYYY
 - Adds "Quick add" collections for CURRENT_YEAR at the top
+- Generates curated collections for START_YEAR..END_YEAR (newest first)
+
+Usage:
+  python3 tools/generate_decap_config.py
 """
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
@@ -25,14 +30,10 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 GITHUB_REPO = "switchensemble/switchensemble.github.io"
 GITHUB_BRANCH = "master"
 
-# Your GitHub OAuth App Client ID
-GITHUB_OAUTH_CLIENT_ID = "Ov23liWfrNRFEBYQFhAW"
+# Cloudflare Worker OAuth proxy (workers.dev is fine)
+OAUTH_BASE_URL = "https://decap-oauth.jasontbuchanan.workers.dev"
+AUTH_ENDPOINT = "auth"  # keep "auth" unless your worker uses a different path
 
-# IMPORTANT: Your Cloudflare Worker / Pages Function that implements the Decap OAuth proxy
-# Example: https://decap-oauth.switchensemble.com
-OAUTH_PROXY_BASE_URL = "https://decap-oauth.switchensemble.com"
-
-# Where your public site lives (what you want Decap to show as “View site”)
 SITE_URL = "https://www.switchensemble.com"
 
 MEDIA_FOLDER = "assets/images/auto-add"
@@ -40,30 +41,22 @@ PUBLIC_FOLDER = "/assets/images/auto-add"
 
 START_YEAR = 2021
 END_YEAR = 2032
-
-
-# -------------------------
-# INTERNALS
-# -------------------------
 CURRENT_YEAR = date.today().year
-ADMIN_DIR = REPO_ROOT / "admin"
-POSTS_DIR = REPO_ROOT / "_posts"
-REPERTOIRE_DIR = REPO_ROOT / "_repertoire"
 
 
-def ensure_dir(p: Path) -> None:
-    p.mkdir(parents=True, exist_ok=True)
+def ensure_dir(path: Path) -> None:
+    path.mkdir(parents=True, exist_ok=True)
 
 
-def yml_header() -> str:
-    # NOTE: base_url is what stops the Netlify redirect.
+def header_yaml() -> str:
+    # IMPORTANT: proxy flow => base_url + auth_endpoint
+    # Do NOT include auth_type/app_id here.
     return f"""backend:
   name: github
   repo: {GITHUB_REPO}
   branch: {GITHUB_BRANCH}
-  auth_type: pkce
-  app_id: {GITHUB_OAUTH_CLIENT_ID}
-  base_url: "{OAUTH_PROXY_BASE_URL}"
+  base_url: {OAUTH_BASE_URL}
+  auth_endpoint: {AUTH_ENDPOINT}
 
 publish_mode: editorial_workflow
 
@@ -77,7 +70,7 @@ collections:
 """
 
 
-def quick_announcement(year: int) -> str:
+def quick_announcement_block(year: int) -> str:
     return f"""  - name: "quick_announcement_{year}"
     label: "Quick add: Announcement ({year})"
     label_singular: "Announcement"
@@ -101,7 +94,7 @@ def quick_announcement(year: int) -> str:
 """
 
 
-def quick_concert(year: int) -> str:
+def quick_concert_block(year: int) -> str:
     return f"""  - name: "quick_concert_{year}"
     label: "Quick add: Concert / Performance ({year})"
     label_singular: "Concert / Performance"
@@ -158,7 +151,7 @@ def quick_concert(year: int) -> str:
 """
 
 
-def quick_repertoire(year: int) -> str:
+def quick_repertoire_block(year: int) -> str:
     return f"""  - name: "quick_repertoire_{year}"
     label: "Quick add: Repertoire / Work ({year})"
     label_singular: "Work"
@@ -180,9 +173,7 @@ def quick_repertoire(year: int) -> str:
       - {{ label: "Title", name: "title", widget: "string" }}
       - {{ label: "Movements", name: "movements", widget: "string", required: false }}
       - {{ label: "Duration (e.g. 25:00)", name: "duration", widget: "string", required: false }}
-
       - {{ label: "Year composed", name: "yearComposed", widget: "number", value_type: "int", default: {year} }}
-
       - {{ label: "Performed by Switch (e.g. 2023, 2024)", name: "performedBySwitch", widget: "string", required: false }}
 
       - label: "Commissioned / Written for"
@@ -223,57 +214,88 @@ def quick_repertoire(year: int) -> str:
 """
 
 
-def announcement(year: int) -> str:
-    # same as quick, just different label/name
-    return quick_announcement(year).replace(f'quick_announcement_{year}', f'announcements_{year}').replace(
-        f'Quick add: Announcement ({year})', f'News / Announcements ({year})'
+def announcement_block(year: int) -> str:
+    return f"""  - name: "announcements_{year}"
+    label: "News / Announcements ({year})"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-{year}"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{{{year}}}}-{{{{month}}}}-{{{{day}}}}-{{{{slug}}}}"
+    summary: "{{{{date}}}} — {{{{title}}}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - {{ label: "Layout", name: "layout", widget: "hidden", default: "post" }}
+      - {{ label: "Category", name: "categories", widget: "hidden", default: "news" }}
+      - {{ label: "Title", name: "title", widget: "string" }}
+      - {{ label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }}
+      - {{ label: "Author", name: "author", widget: "string", required: false }}
+      - {{ label: "Thumbnail", name: "thumbnail", widget: "image", required: false }}
+      - {{ label: "Header", name: "header", widget: "image", required: false }}
+      - {{ label: "Body", name: "body", widget: "markdown" }}
+
+"""
+
+
+def concert_block(year: int) -> str:
+    # same as quick_concert but labeled as curated
+    return quick_concert_block(year).replace(
+        f'name: "quick_concert_{year}"',
+        f'name: "concerts_{year}"'
+    ).replace(
+        f'label: "Quick add: Concert / Performance ({year})"',
+        f'label: "Concerts / Performances ({year})"'
     )
 
 
-def concert(year: int) -> str:
-    return quick_concert(year).replace(f'quick_concert_{year}', f'concerts_{year}').replace(
-        f'Quick add: Concert / Performance ({year})', f'Concerts / Performances ({year})'
-    )
-
-
-def repertoire(year: int) -> str:
-    return quick_repertoire(year).replace(f'quick_repertoire_{year}', f'repertoire_{year}').replace(
-        f'Quick add: Repertoire / Work ({year})', f'Repertoire / Works ({year})'
+def repertoire_block(year: int) -> str:
+    return quick_repertoire_block(year).replace(
+        f'name: "quick_repertoire_{year}"',
+        f'name: "repertoire_{year}"'
+    ).replace(
+        f'label: "Quick add: Repertoire / Work ({year})"',
+        f'label: "Repertoire / Works ({year})"'
     )
 
 
 def main() -> None:
-    ensure_dir(ADMIN_DIR)
-    ensure_dir(POSTS_DIR)
-    ensure_dir(REPERTOIRE_DIR)
+    posts_dir = REPO_ROOT / "_posts"
+    rep_dir = REPO_ROOT / "_repertoire"
+    admin_dir = REPO_ROOT / "admin"
 
-    # Make sure year folders exist so Decap can create new entries
+    ensure_dir(posts_dir)
+    ensure_dir(rep_dir)
+    ensure_dir(admin_dir)
+
+    # Ensure folders exist so Decap can create entries
     for y in range(START_YEAR, END_YEAR + 1):
-        ensure_dir(POSTS_DIR / f"announcements-{y}")
-        ensure_dir(POSTS_DIR / f"concerts-{y}")
-        ensure_dir(REPERTOIRE_DIR / f"{y}")
+        ensure_dir(posts_dir / f"announcements-{y}")
+        ensure_dir(posts_dir / f"concerts-{y}")
+        ensure_dir(rep_dir / f"{y}")
 
-    ensure_dir(POSTS_DIR / f"announcements-{CURRENT_YEAR}")
-    ensure_dir(POSTS_DIR / f"concerts-{CURRENT_YEAR}")
-    ensure_dir(REPERTOIRE_DIR / f"{CURRENT_YEAR}")
+    ensure_dir(posts_dir / f"announcements-{CURRENT_YEAR}")
+    ensure_dir(posts_dir / f"concerts-{CURRENT_YEAR}")
+    ensure_dir(rep_dir / f"{CURRENT_YEAR}")
 
-    parts: list[str] = [yml_header()]
+    out: list[str] = [header_yaml()]
 
-    # Quick add at top
-    parts += [quick_announcement(CURRENT_YEAR), quick_concert(CURRENT_YEAR), quick_repertoire(CURRENT_YEAR)]
+    # Quick add
+    out.append(quick_announcement_block(CURRENT_YEAR))
+    out.append(quick_concert_block(CURRENT_YEAR))
+    out.append(quick_repertoire_block(CURRENT_YEAR))
 
-    # Curated years (newest first)
+    # Curated years newest first
     for y in range(END_YEAR, START_YEAR - 1, -1):
-        parts.append(announcement(y))
+        out.append(announcement_block(y))
     for y in range(END_YEAR, START_YEAR - 1, -1):
-        parts.append(concert(y))
+        out.append(concert_block(y))
     for y in range(END_YEAR, START_YEAR - 1, -1):
-        parts.append(repertoire(y))
+        out.append(repertoire_block(y))
 
-    out_path = ADMIN_DIR / "config.yml"
-    out_path.write_text("".join(parts), encoding="utf-8")
-    print(f"Wrote {out_path} (years {START_YEAR}–{END_YEAR} + quick add {CURRENT_YEAR}).")
-    print("IMPORTANT: backend.base_url must point at your OAuth proxy to avoid Netlify auth redirects.")
+    (admin_dir / "config.yml").write_text("".join(out), encoding="utf-8")
+    print(f"✅ Wrote {admin_dir / 'config.yml'}")
+    print(f"   Using OAuth proxy: {OAUTH_BASE_URL}/{AUTH_ENDPOINT}")
 
 
 if __name__ == "__main__":
