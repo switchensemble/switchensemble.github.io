@@ -31,6 +31,14 @@ theme: minima
 plugins:
   - jekyll-paginate
 
+  
+
+include:
+  - _headers
+  - _redirects
+  - admin
+
+
 # shows posts/concerts with a future date
 future: true
 
