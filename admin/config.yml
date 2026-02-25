@@ -5,7 +5,7 @@ backend:
 
   # OAuth proxy (Cloudflare Worker)
   base_url: https://www.switchensemble.com
-  auth_endpoint: auth
+  auth_endpoint: /auth
 
 publish_mode: editorial_workflow
 

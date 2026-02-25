@@ -1,0 +1,133 @@
+DECAPP CMS + CLOUDFLARE WORKER OAUTH PROXY TECHNICAL DEBUG HANDOFF
+DOCUMENT ==================================
+
+GOAL
+
+Enable non-technical contributors to publish to:
+
+switchensemble/switchensemble.github.io
+
+using: - Decap CMS - GitHub backend - Custom OAuth proxy via Cloudflare
+Worker - Hosted at https://www.switchensemble.com/admin/#/
+
+  ------------------------
+  1) SYSTEM ARCHITECTURE
+  ------------------------
+
+Browser (Decap CMS) │ │ GET /auth ▼ Cloudflare Worker (OAuth Proxy) │ │
+302 redirect to ▼ GitHub OAuth authorize │ │ 302 redirect with ?code &
+state ▼ Cloudflare Worker (/callback) │ │ POST exchange code →
+access_token │ │ Return HTML: │
+window.opener.postMessage(“authorization:github:success:TOKEN”) ▼
+Browser (Decap) │ │ Uses TOKEN to call GitHub API ▼ GitHub REST API
+
+  -----------------
+  2) DOMAIN SETUP
+  -----------------
+
+Primary: https://www.switchensemble.com
+
+Non-www: https://switchensemble.com → 301 redirect to www (Cloudflare
+rule)
+
+Worker routes: www.switchensemble.com/auth
+www.switchensemble.com/callback www.switchensemble.com/health*
+
+  -------------------------
+  3) WORKER ENV VARIABLES
+  -------------------------
+
+CMS_ORIGIN = https://www.switchensemble.com CALLBACK_URL =
+https://www.switchensemble.com/callback GITHUB_CLIENT_ID = (set)
+GITHUB_CLIENT_SECRET = (set)
+
+  ------------------------------------
+  4) DECAP CONFIG (admin/config.yml)
+  ------------------------------------
+
+backend: name: github repo: switchensemble/switchensemble.github.io
+branch: master
+
+base_url: https://www.switchensemble.com auth_endpoint: auth
+
+publish_mode: editorial_workflow
+
+media_folder: “assets/images/auto-add” public_folder:
+“/assets/images/auto-add”
+
+site_url: “https://www.switchensemble.com” display_url:
+“https://www.switchensemble.com”
+
+  --------------------------------
+  5) VERIFIED WORKING COMPONENTS
+  --------------------------------
+
+✔ GitHub OAuth App correctly configured ✔ Redirect URI:
+https://www.switchensemble.com/callback ✔ Token has repo scope ✔ Manual
+curl to GitHub repo returns 200 ✔ /auth route returns 302 to GitHub ✔
+state cookie is set ✔ /health returns “ok” ✔ postMessage received in
+admin tab: authorization:github:success: ✔ event.origin =
+https://www.switchensemble.com
+
+  ---------------------
+  6) OBSERVED FAILURE
+  ---------------------
+
+After GitHub authorization: - Popup closes - Admin returns to login
+screen - No visible error - Token is valid - postMessage arrives
+correctly
+
+Decap does NOT transition to authenticated state.
+
+  -----------------------
+  7) DEBUG OBSERVATIONS
+  -----------------------
+
+window.location.origin in admin: https://www.switchensemble.com
+
+postMessage listener confirms: origin matches message format correct
+token valid
+
+Manual GitHub API call with token works.
+
+  --------------------------
+  8) SUSPECTED ROOT CAUSES
+  --------------------------
+
+1.  Decap not consuming postMessage correctly
+2.  Popup opener context lost
+3.  CSP blocking script execution
+4.  Decap backend mode mismatch
+5.  Hash-based routing interfering
+6.  SameSite cookie interaction
+7.  State validation mismatch
+8.  Modern Decap expects JSON instead of postMessage
+9.  Cloudflare redirect affecting opener context
+10. Version-specific change in Decap 3.x auth flow
+
+  ---------------------------------------
+  9) QUESTIONS FOR ARCHITECTURAL REVIEW
+  ---------------------------------------
+
+1.  Is this OAuth implementation correct for Decap v3.x?
+2.  Is “authorization:github:success:” still the correct format?
+3.  Does Decap expect JSON instead of HTML postMessage?
+4.  Is opener-based flow still supported?
+5.  Is strict origin required or should “*” be used?
+6.  Is SameSite=Lax appropriate?
+7.  Could Cloudflare redirect break popup opener?
+8.  Is hash routing (#/) interfering with OAuth?
+9.  Should GitHub App auth be used instead?
+
+  ------------------------
+  10) REPRODUCTION STEPS
+  ------------------------
+
+1.  Open: https://www.switchensemble.com/admin/#/
+2.  Click “Login with GitHub”
+3.  Authorize
+4.  Observe login loop
+
+  -----------------
+  END OF DOCUMENT
+  -----------------
