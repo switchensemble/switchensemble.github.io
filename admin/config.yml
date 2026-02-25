@@ -16,6 +16,9 @@ site_url: "https://www.switchensemble.com"
 display_url: "https://www.switchensemble.com"
 
 collections:
+  # ----------------------------
+  # Posts
+  # ----------------------------
   - name: "quick_announcement_2026"
     label: "Quick add: Announcement (2026)"
     label_singular: "Announcement"
@@ -83,3 +86,180 @@ collections:
       - { label: "Header", name: "header", widget: "image", required: true }
 
       - { label: "Body", name: "body", widget: "markdown" }
+
+  # ----------------------------
+  # Repertoire (one collection per year folder)
+  # Years: 2023–2032
+  # ----------------------------
+  - name: "repertoire_2023"
+    label: "Repertoire (2023)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2023"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: &repertoire_fields
+      - label: "Composer"
+        name: "composer"
+        widget: "object"
+        fields:
+          - { label: "First", name: "first", widget: "string" }
+          - { label: "Last", name: "last", widget: "string" }
+
+      - { label: "Title", name: "title", widget: "string" }
+
+      - label: "Movements"
+        name: "movements"
+        widget: "list"
+        required: false
+
+      - { label: "Duration (mm:ss)", name: "duration", widget: "string", required: false }
+
+      - label: "Year Composed"
+        name: "yearComposed"
+        widget: "number"
+        value_type: "int"
+        min: 0
+
+      - label: "Performed By Switch (years)"
+        name: "performedBySwitch"
+        widget: "string"
+        required: false
+
+      - label: "Commissioned or Written For"
+        name: "commissionedOrWrittenFor"
+        widget: "select"
+        options: ["commissioned", "written for", "unknown"]
+        default: "unknown"
+
+      - { label: "Size", name: "size", widget: "string", required: false }
+
+      - label: "Instrumentation"
+        name: "instrumentation"
+        widget: "list"
+        required: false
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+
+      - label: "Media"
+        name: "media"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Type", name: "type", widget: "select", required: false, options: ["audio", "video", "score", "link", "other"] }
+          - { label: "URL", name: "url", widget: "string", required: false }
+
+  - name: "repertoire_2024"
+    label: "Repertoire (2024)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2024"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2025"
+    label: "Repertoire (2025)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2025"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2026"
+    label: "Repertoire (2026)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2026"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2027"
+    label: "Repertoire (2027)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2027"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2028"
+    label: "Repertoire (2028)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2028"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2029"
+    label: "Repertoire (2029)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2029"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2030"
+    label: "Repertoire (2030)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2030"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2031"
+    label: "Repertoire (2031)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2031"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
+
+  - name: "repertoire_2032"
+    label: "Repertoire (2032)"
+    label_singular: "Repertoire Work"
+    folder: "_repertoire/2032"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
+    sortable_fields: ["title", "yearComposed"]
+    fields: *repertoire_fields
