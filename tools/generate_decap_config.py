@@ -18,8 +18,8 @@ GITHUB_REPO = "switchensemble/switchensemble.github.io"
 BRANCH = "master"
 
 # Cloudflare Worker OAuth proxy (Option B)
-OAUTH_BASE_URL = "https://decap-oauth.switchensemble.workers.dev"
-AUTH_ENDPOINT = "/auth"
+OAUTH_BASE_URL = "https://www.switchensemble.com"
+AUTH_ENDPOINT = "auth"
 
 # Site origin (must match how you open /admin/)
 SITE_ORIGIN = "https://www.switchensemble.com"
