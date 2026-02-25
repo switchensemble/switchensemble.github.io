@@ -3,16 +3,14 @@
 Generate Decap CMS admin/config.yml for switchensemble.com
 
 Includes:
-- Posts collections (announcements/concerts)
-- Repertoire collections split by year folder: _repertoire/<year>/
-  Years: 2023–2032
+- Announcements (forced categories=news, layout=post)
+- Concerts/Performances (forced categories=performance, layout=concert + program/location fields)
+  Years: 2026–2029
+- Repertoire collections split by year folder: _repertoire/<year>/ (2023–2032)
 """
 
 from pathlib import Path
 
-# -------------------------
-# Source-of-truth settings
-# -------------------------
 GITHUB_REPO = "switchensemble/switchensemble.github.io"
 BRANCH = "master"
 
@@ -26,28 +24,31 @@ PUBLIC_FOLDER = "/assets/images/auto-add"
 
 OUTPUT_PATH = Path("admin/config.yml")
 
-POST_CATEGORY_OPTIONS = ["news", "concert", "performance", "updates"]
 REPERTOIRE_MEDIA_TYPES = ["audio", "video", "score", "link", "other"]
 
-# Repertoire folders to generate (inclusive)
 REPERTOIRE_START_YEAR = 2023
 REPERTOIRE_END_YEAR = 2032
 
+CONCERT_START_YEAR = 2026
+CONCERT_END_YEAR = 2029
 
-def posts_collection_block(*, name: str, label: str, label_singular: str, folder: str, default_category: str) -> str:
-    return f"""  - name: "{name}"
-    label: "{label}"
-    label_singular: "{label_singular}"
-    folder: "{folder}"
+
+def announcements_collection_block() -> str:
+    return """  - name: "quick_announcement_2026"
+    label: "Quick add: Announcement (2026)"
+    label_singular: "Announcement"
+    folder: "_posts/announcements-2026"
     create: true
     extension: "md"
     format: "frontmatter"
-    slug: "{{{{year}}}}-{{{{month}}}}-{{{{day}}}}-{{{{slug}}}}"
-    summary: "{{{{date}}}} – {{{{title}}}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} – {{title}}"
     sortable_fields: ["date", "title"]
     fields:
-      - {{ label: "Layout", name: "layout", widget: "hidden", default: "post" }}
-      - {{ label: "Title", name: "title", widget: "string" }}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "news" }
+
+      - { label: "Title", name: "title", widget: "string" }
 
       - label: "Date"
         name: "date"
@@ -56,13 +57,76 @@ def posts_collection_block(*, name: str, label: str, label_singular: str, folder
         time_format: false
         picker_utc: true
 
-      - label: "Category"
-        name: "categories"
-        widget: "select"
-        options: {POST_CATEGORY_OPTIONS}
-        default: "{default_category}"
+      - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
 
-      - {{ label: "Author", name: "author", widget: "string" }}
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
+      - { label: "Header", name: "header", widget: "image", required: true }
+
+      - { label: "Body", name: "body", widget: "markdown" }
+"""
+
+
+def concert_collection_block(year: int) -> str:
+    # Folder changes per year; fields are identical.
+    return f"""  - name: "quick_concert_{year}"
+    label: "Quick add: Concert / Performance ({year})"
+    label_singular: "Concert"
+    folder: "_posts/concerts-{year}"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{{{year}}}}-{{{{month}}}}-{{{{day}}}}-{{{{slug}}}}"
+    summary: "{{{{date}}}} – {{{{location.institution}}}} ({{{{location.city}}}}, {{{{location.state}}}})"
+    sortable_fields: ["date", "title"]
+    fields:
+      - {{ label: "Layout", name: "layout", widget: "hidden", default: "concert" }}
+      - {{ label: "Category", name: "categories", widget: "hidden", default: "performance" }}
+
+      - {{ label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }}
+
+      - label: "Describe"
+        name: "describe"
+        widget: "string"
+        required: true
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+
+      - {{ label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }}
+
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        fields:
+          - {{ label: "Institution", name: "institution", widget: "string", required: true }}
+          - {{ label: "Building", name: "building", widget: "string", required: false }}
+          - {{ label: "Venue", name: "venue", widget: "string", required: false }}
+          - {{ label: "Address", name: "address", widget: "string", required: false }}
+          - {{ label: "City", name: "city", widget: "string", required: true }}
+          - {{ label: "State", name: "state", widget: "string", required: true }}
+          - {{ label: "Zip", name: "zip", widget: "string", required: false }}
+
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        summary: "{{{{fields.composer}}}} — {{{{fields.title}}}} ({{{{fields.year}}}})"
+        fields:
+          - {{ label: "Composer", name: "composer", widget: "string", required: true }}
+          - {{ label: "Title", name: "title", widget: "string", required: true }}
+          - {{ label: "Year", name: "year", widget: "string", required: false }}
+
+      - label: "Text"
+        name: "text"
+        widget: "object"
+        required: false
+        fields:
+          - {{ label: "Below", name: "below", widget: "string", required: false }}
+
+      - {{ label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }}
 
       - {{ label: "Thumbnail", name: "thumbnail", widget: "image", required: true }}
       - {{ label: "Header", name: "header", widget: "image", required: true }}
@@ -80,45 +144,19 @@ def repertoire_fields_block(indent: str = "    ") -> str:
 {indent}    fields:
 {indent}      - {{ label: "First", name: "first", widget: "string" }}
 {indent}      - {{ label: "Last", name: "last", widget: "string" }}
-
 {indent}  - {{ label: "Title", name: "title", widget: "string" }}
-
-{indent}  - label: "Movements"
-{indent}    name: "movements"
-{indent}    widget: "list"
-{indent}    required: false
-
+{indent}  - {{ label: "Movements", name: "movements", widget: "list", required: false }}
 {indent}  - {{ label: "Duration (mm:ss)", name: "duration", widget: "string", required: false }}
-
-{indent}  - label: "Year Composed"
-{indent}    name: "yearComposed"
-{indent}    widget: "number"
-{indent}    value_type: "int"
-{indent}    min: 0
-
-{indent}  - label: "Performed By Switch (years)"
-{indent}    name: "performedBySwitch"
-{indent}    widget: "string"
-{indent}    required: false
-
+{indent}  - {{ label: "Year Composed", name: "yearComposed", widget: "number", value_type: "int", min: 0 }}
+{indent}  - {{ label: "Performed By Switch (years)", name: "performedBySwitch", widget: "string", required: false }}
 {indent}  - label: "Commissioned or Written For"
 {indent}    name: "commissionedOrWrittenFor"
 {indent}    widget: "select"
 {indent}    options: ["commissioned", "written for", "unknown"]
 {indent}    default: "unknown"
-
 {indent}  - {{ label: "Size", name: "size", widget: "string", required: false }}
-
-{indent}  - label: "Instrumentation"
-{indent}    name: "instrumentation"
-{indent}    widget: "list"
-{indent}    required: false
-
-{indent}  - label: "Tags"
-{indent}    name: "tags"
-{indent}    widget: "list"
-{indent}    required: false
-
+{indent}  - {{ label: "Instrumentation", name: "instrumentation", widget: "list", required: false }}
+{indent}  - {{ label: "Tags", name: "tags", widget: "list", required: false }}
 {indent}  - label: "Media"
 {indent}    name: "media"
 {indent}    widget: "list"
@@ -174,27 +212,11 @@ collections:
 """
     )
 
-    # Posts
-    parts.append(
-        posts_collection_block(
-            name="quick_announcement_2026",
-            label="Quick add: Announcement (2026)",
-            label_singular="Announcement",
-            folder="_posts/announcements-2026",
-            default_category="news",
-        )
-    )
-    parts.append(
-        posts_collection_block(
-            name="quick_concert_2026",
-            label="Quick add: Concert / Performance (2026)",
-            label_singular="Concert",
-            folder="_posts/concerts-2026",
-            default_category="concert",
-        )
-    )
+    parts.append(announcements_collection_block())
 
-    # Repertoire (by-year)
+    for y in range(CONCERT_START_YEAR, CONCERT_END_YEAR + 1):
+        parts.append(concert_collection_block(y))
+
     first = True
     for y in range(REPERTOIRE_START_YEAR, REPERTOIRE_END_YEAR + 1):
         parts.append(repertoire_collection_block(y, anchor_first=first))
