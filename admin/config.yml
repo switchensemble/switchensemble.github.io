@@ -29,7 +29,25 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+
+      - label: "Category"
+        name: "categories"
+        widget: "select"
+        options: ["news", "concert", "performance", "updates"]
+        default: "news"
+
+      - { label: "Author", name: "author", widget: "string" }
+
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
+      - { label: "Header", name: "header", widget: "image", required: true }
+
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "quick_concert_2026"
@@ -45,5 +63,23 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+
+      - label: "Category"
+        name: "categories"
+        widget: "select"
+        options: ["news", "concert", "performance", "updates"]
+        default: "concert"
+
+      - { label: "Author", name: "author", widget: "string" }
+
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
+      - { label: "Header", name: "header", widget: "image", required: true }
+
       - { label: "Body", name: "body", widget: "markdown" }
