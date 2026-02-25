@@ -4,7 +4,7 @@ backend:
   branch: master
 
   # OAuth proxy (Cloudflare Worker)
-  base_url: https://decap-oauth.switchensemble.com
+  base_url: https://decap-oauth.switchensemble.workers.dev
   auth_endpoint: /auth
 
 publish_mode: editorial_workflow
