@@ -17,7 +17,7 @@ display_url: "https://www.switchensemble.com"
 
 collections:
   # ----------------------------
-  # Announcements (forced category + layout)
+  # Announcements (2026)
   # ----------------------------
   - name: "quick_announcement_2026"
     label: "Quick add: Announcement (2026)"
@@ -42,7 +42,6 @@ collections:
         time_format: false
         picker_utc: true
 
-      # Not auto-fillable from GitHub login out-of-the-box; commit author will reflect GitHub user.
       - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
 
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
@@ -51,26 +50,25 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   # ----------------------------
-  # Concert / Performance (template)
+  # Concert / Performance (2026)
   # ----------------------------
-  - &concert_collection
+  - name: "quick_concert_2026"
+    label: "Quick add: Concert / Performance (2026)"
     label_singular: "Concert"
+    folder: "_posts/concerts-2026"
     create: true
     extension: "md"
     format: "frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{date}} – {{location.institution}} ({{location.city}}, {{location.state}})"
     sortable_fields: ["date", "title"]
-    fields: &concert_fields
+    fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
       - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
 
       - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
 
-      - label: "Describe"
-        name: "describe"
-        widget: "string"
-        required: true
+      - { label: "Describe", name: "describe", widget: "string", required: true }
 
       - label: "Date"
         name: "date"
@@ -116,26 +114,170 @@ collections:
 
       - { label: "Body", name: "body", widget: "markdown" }
 
-  # Concerts 2026–2029
-  - <<: *concert_collection
-    name: "quick_concert_2026"
-    label: "Quick add: Concert / Performance (2026)"
-    folder: "_posts/concerts-2026"
-
-  - <<: *concert_collection
-    name: "quick_concert_2027"
+  # ----------------------------
+  # Concert / Performance (2027)
+  # ----------------------------
+  - name: "quick_concert_2027"
     label: "Quick add: Concert / Performance (2027)"
+    label_singular: "Concert"
     folder: "_posts/concerts-2027"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} – {{location.institution}} ({{location.city}}, {{location.state}})"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
+      - { label: "Describe", name: "describe", widget: "string", required: true }
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+      - { label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: true }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: true }
+          - { label: "State", name: "state", widget: "string", required: true }
+          - { label: "Zip", name: "zip", widget: "string", required: false }
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        summary: "{{fields.composer}} — {{fields.title}} ({{fields.year}})"
+        fields:
+          - { label: "Composer", name: "composer", widget: "string", required: true }
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - { label: "Year", name: "year", widget: "string", required: false }
+      - label: "Text"
+        name: "text"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Below", name: "below", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
+      - { label: "Header", name: "header", widget: "image", required: true }
+      - { label: "Body", name: "body", widget: "markdown" }
 
-  - <<: *concert_collection
-    name: "quick_concert_2028"
+  # ----------------------------
+  # Concert / Performance (2028)
+  # ----------------------------
+  - name: "quick_concert_2028"
     label: "Quick add: Concert / Performance (2028)"
+    label_singular: "Concert"
     folder: "_posts/concerts-2028"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} – {{location.institution}} ({{location.city}}, {{location.state}})"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
+      - { label: "Describe", name: "describe", widget: "string", required: true }
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+      - { label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: true }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: true }
+          - { label: "State", name: "state", widget: "string", required: true }
+          - { label: "Zip", name: "zip", widget: "string", required: false }
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        summary: "{{fields.composer}} — {{fields.title}} ({{fields.year}})"
+        fields:
+          - { label: "Composer", name: "composer", widget: "string", required: true }
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - { label: "Year", name: "year", widget: "string", required: false }
+      - label: "Text"
+        name: "text"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Below", name: "below", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
+      - { label: "Header", name: "header", widget: "image", required: true }
+      - { label: "Body", name: "body", widget: "markdown" }
 
-  - <<: *concert_collection
-    name: "quick_concert_2029"
+  # ----------------------------
+  # Concert / Performance (2029)
+  # ----------------------------
+  - name: "quick_concert_2029"
     label: "Quick add: Concert / Performance (2029)"
+    label_singular: "Concert"
     folder: "_posts/concerts-2029"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} – {{location.institution}} ({{location.city}}, {{location.state}})"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
+      - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
+      - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
+      - { label: "Describe", name: "describe", widget: "string", required: true }
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
+      - { label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        fields:
+          - { label: "Institution", name: "institution", widget: "string", required: true }
+          - { label: "Building", name: "building", widget: "string", required: false }
+          - { label: "Venue", name: "venue", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "City", name: "city", widget: "string", required: true }
+          - { label: "State", name: "state", widget: "string", required: true }
+          - { label: "Zip", name: "zip", widget: "string", required: false }
+      - label: "Program"
+        name: "program"
+        widget: "list"
+        summary: "{{fields.composer}} — {{fields.title}} ({{fields.year}})"
+        fields:
+          - { label: "Composer", name: "composer", widget: "string", required: true }
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - { label: "Year", name: "year", widget: "string", required: false }
+      - label: "Text"
+        name: "text"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Below", name: "below", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
+      - { label: "Header", name: "header", widget: "image", required: true }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   # ----------------------------
   # Repertoire (2023–2032)

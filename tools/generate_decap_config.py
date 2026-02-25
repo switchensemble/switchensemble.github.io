@@ -2,11 +2,10 @@
 """
 Generate Decap CMS admin/config.yml for switchensemble.com
 
-Includes:
-- Announcements (forced categories=news, layout=post)
-- Concerts/Performances (forced categories=performance, layout=concert + program/location fields)
-  Years: 2026–2029
-- Repertoire collections split by year folder: _repertoire/<year>/ (2023–2032)
+Anchor-free (Decap schema-safe) config:
+- Announcements 2026: layout=post, categories=news
+- Concerts/Performances 2026–2029: layout=concert, categories=performance + program/location fields
+- Repertoire 2023–2032: _repertoire/<year>/
 """
 
 from pathlib import Path
@@ -33,6 +32,28 @@ CONCERT_START_YEAR = 2026
 CONCERT_END_YEAR = 2029
 
 
+def header_block() -> str:
+    return f"""backend:
+  name: github
+  repo: {GITHUB_REPO}
+  branch: {BRANCH}
+
+  # OAuth proxy (Cloudflare Worker)
+  base_url: {OAUTH_BASE_URL}
+  auth_endpoint: {AUTH_ENDPOINT}
+
+publish_mode: editorial_workflow
+
+media_folder: "{MEDIA_FOLDER}"
+public_folder: "{PUBLIC_FOLDER}"
+
+site_url: "{SITE_ORIGIN}"
+display_url: "{SITE_ORIGIN}"
+
+collections:
+"""
+
+
 def announcements_collection_block() -> str:
     return """  - name: "quick_announcement_2026"
     label: "Quick add: Announcement (2026)"
@@ -57,6 +78,7 @@ def announcements_collection_block() -> str:
         time_format: false
         picker_utc: true
 
+      # Decap doesn't auto-fill author from GitHub login; commit author reflects the GitHub user.
       - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
 
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
@@ -67,7 +89,6 @@ def announcements_collection_block() -> str:
 
 
 def concert_collection_block(year: int) -> str:
-    # Folder changes per year; fields are identical.
     return f"""  - name: "quick_concert_{year}"
     label: "Quick add: Concert / Performance ({year})"
     label_singular: "Concert"
@@ -84,10 +105,7 @@ def concert_collection_block(year: int) -> str:
 
       - {{ label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }}
 
-      - label: "Describe"
-        name: "describe"
-        widget: "string"
-        required: true
+      - {{ label: "Describe", name: "describe", widget: "string", required: true }}
 
       - label: "Date"
         name: "date"
@@ -144,19 +162,45 @@ def repertoire_fields_block(indent: str = "    ") -> str:
 {indent}    fields:
 {indent}      - {{ label: "First", name: "first", widget: "string" }}
 {indent}      - {{ label: "Last", name: "last", widget: "string" }}
+
 {indent}  - {{ label: "Title", name: "title", widget: "string" }}
-{indent}  - {{ label: "Movements", name: "movements", widget: "list", required: false }}
+
+{indent}  - label: "Movements"
+{indent}    name: "movements"
+{indent}    widget: "list"
+{indent}    required: false
+
 {indent}  - {{ label: "Duration (mm:ss)", name: "duration", widget: "string", required: false }}
-{indent}  - {{ label: "Year Composed", name: "yearComposed", widget: "number", value_type: "int", min: 0 }}
-{indent}  - {{ label: "Performed By Switch (years)", name: "performedBySwitch", widget: "string", required: false }}
+
+{indent}  - label: "Year Composed"
+{indent}    name: "yearComposed"
+{indent}    widget: "number"
+{indent}    value_type: "int"
+{indent}    min: 0
+
+{indent}  - label: "Performed By Switch (years)"
+{indent}    name: "performedBySwitch"
+{indent}    widget: "string"
+{indent}    required: false
+
 {indent}  - label: "Commissioned or Written For"
 {indent}    name: "commissionedOrWrittenFor"
 {indent}    widget: "select"
 {indent}    options: ["commissioned", "written for", "unknown"]
 {indent}    default: "unknown"
+
 {indent}  - {{ label: "Size", name: "size", widget: "string", required: false }}
-{indent}  - {{ label: "Instrumentation", name: "instrumentation", widget: "list", required: false }}
-{indent}  - {{ label: "Tags", name: "tags", widget: "list", required: false }}
+
+{indent}  - label: "Instrumentation"
+{indent}    name: "instrumentation"
+{indent}    widget: "list"
+{indent}    required: false
+
+{indent}  - label: "Tags"
+{indent}    name: "tags"
+{indent}    widget: "list"
+{indent}    required: false
+
 {indent}  - label: "Media"
 {indent}    name: "media"
 {indent}    widget: "list"
@@ -189,30 +233,7 @@ def repertoire_collection_block(year: int, anchor_first: bool) -> str:
 
 
 def build_yaml() -> str:
-    parts = []
-    parts.append(
-        f"""backend:
-  name: github
-  repo: {GITHUB_REPO}
-  branch: {BRANCH}
-
-  # OAuth proxy (Cloudflare Worker)
-  base_url: {OAUTH_BASE_URL}
-  auth_endpoint: {AUTH_ENDPOINT}
-
-publish_mode: editorial_workflow
-
-media_folder: "{MEDIA_FOLDER}"
-public_folder: "{PUBLIC_FOLDER}"
-
-site_url: "{SITE_ORIGIN}"
-display_url: "{SITE_ORIGIN}"
-
-collections:
-"""
-    )
-
-    parts.append(announcements_collection_block())
+    parts = [header_block(), announcements_collection_block()]
 
     for y in range(CONCERT_START_YEAR, CONCERT_END_YEAR + 1):
         parts.append(concert_collection_block(y))
