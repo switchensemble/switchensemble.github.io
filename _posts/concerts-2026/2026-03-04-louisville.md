@@ -7,7 +7,7 @@ date: 2026-03-05
 time: 7:30pm
 location:
   institution: University of Louisville
-  city: Louisvilly
+  city: Louisville
   state: KY
 program:
   - composer: Jason Thorpe Buchanan
