@@ -22,7 +22,7 @@ program:
 text:
   below: ""
 author: Jason Thorpe Buchanan
-thumbnail: /assets/images/auto-add/switch-final-press-photo_500.jpg
-header: /assets/images/auto-add/switch-final-press-photo_1920x1080.jpg
+thumbnail: auto-add/switch-final-press-photo_500.jpg
+header: auto-add/switch-final-press-photo_1920x1080.jpg
 ---
 Performing works by Sam Pluta, Jason Thorpe Buchanan, a new Fromm Commission from Sarah Hennies, and works by the Frank Abell Young Composers Prize winners: Gabriel Fynsk and Victor Tswei.
