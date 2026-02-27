@@ -3,23 +3,26 @@ composer:
   first: Fausto
   last: Romitelli
 title: Domeniche alla periferia dell'impero
-duration:
+duration: null
 yearComposed: 1996
 performedBySwitch: 2014, 2017, 2023
 size: quartet
 instrumentation:
-  - bass flute
-  - bass clarinet
-  - violin
-  - cello
+- bass flute
+- bass clarinet
+- violin
+- cello
 tags:
-  - acoustic
-  - berkeley
-  - buffalo
-  - "san francisco"
+- acoustic
+- berkeley
+- buffalo
+- san francisco
 media:
-  - title:
-    url:
+- title: null
+  url: null
 headerImage: repertoire-images/romitelli_domeniche_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/romitelli_domeniche_400x200.jpg
+workId: 057625959cc8
+sourceConcert: 2017-12-12-berkeley-hertz-hall
+draft: true
 ---

@@ -3,21 +3,23 @@ composer:
   first: Josh
   last: Levine
 title: Sixty cycles
-duration:
-movements:
+duration: null
+movements: null
 yearComposed: 2015
 performedBySwitch: 2017
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - violoncello
-commissionedOrWrittenFor:
+- violoncello
 tags:
-  - solo
-  - acoustic
-  - berkeley
+- solo
+- acoustic
+- berkeley
 media:
-  - title:
-    url:
+- title: null
+  url: null
 headerImage: repertoire-images/giang_iwantyoutobe_1000x500.jpg
+workId: 86e96037da4b
+sourceConcert: 2017-12-12-berkeley-hertz-hall
+draft: true
 ---

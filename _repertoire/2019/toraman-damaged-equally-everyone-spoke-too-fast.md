@@ -2,7 +2,7 @@
 composer:
   first: Zeynep
   last: Toraman
-title: "Damaged Equally; everyone spoke too fast"
+title: 'Damaged Equally: everyone spoke too fast'
 duration:
 yearComposed: 2019
 performedBySwitch: 2019
@@ -20,4 +20,6 @@ media:
     url:
 headerImage: repertoire-images/toraman-damaged_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/toraman-damaged_400x200.jpg
+workId: 9926df1e7bba
+sourceConcert: 2019-10-05-harvard-group-for-new-music
 ---

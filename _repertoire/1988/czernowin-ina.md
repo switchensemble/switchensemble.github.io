@@ -1,25 +1,27 @@
 ---
 composer:
-  first: Chaya  
+  first: Chaya
   last: Czernowin
 title: Ina
-duration:
+duration: null
 yearComposed: 1988
 performedBySwitch: 2018
 size: solo
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 instrumentation:
-  - bass flute
-  - tape
+- bass flute
+- tape
 tags:
-  - solo
-  - tape
-  - NYC
-  - electroacoustic
+- solo
+- tape
+- NYC
+- electroacoustic
 media:
-  - title:
-    url:
-headerImage:
-thumbnailImage:
-
+- title: null
+  url: null
+headerImage: null
+thumbnailImage: null
+workId: 9fe2fd6951d8
+sourceConcert: 2018-09-14-spectrum
+draft: true
 ---

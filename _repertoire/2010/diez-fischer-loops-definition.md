@@ -1,7 +1,7 @@
 ---
 composer:
   first: Santiago
-  last: Díez Fischer
+  last: Díez-Fischer
 title: "Loop's Definition"
 duration:
 yearComposed: 2010
@@ -21,4 +21,6 @@ media:
     url:
 headerImage: repertoire-images/diez-fischer_loopsdefinition_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/diez-fischer_loopsdefinition_400x200.jpg
+workId: 32315add8d42
+sourceConcert: 2016-05-22-queens-new-music-festival
 ---

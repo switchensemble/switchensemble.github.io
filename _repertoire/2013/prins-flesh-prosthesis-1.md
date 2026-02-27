@@ -2,7 +2,7 @@
 composer:
   first: Stefan
   last: Prins
-title: "Flesh + Prosthesis #1"
+title: 'Flesh+Prosthesis #1'
 movements:
 duration:
 yearComposed: 2013
@@ -23,4 +23,6 @@ media:
     url:
 headerImage: repertoire-images/prins_fleshprosthesis_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/prins_fleshprosthesis_400x200.jpg
+workId: d332f8970fb0
+sourceConcert: 2015-05-15-mata-interval-series-hunger
 ---

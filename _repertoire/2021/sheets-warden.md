@@ -3,22 +3,26 @@ composer:
   first: Zach
   last: Sheets
 title: Warden
-duration:
+duration: null
 yearComposed: 2021
 performedBySwitch: 2021
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
-  - contrabass clarinet
-  - bass flute
-  - cello
-  - percussion
+- contrabass clarinet
+- bass flute
+- cello
+- percussion
 tags:
-  - quartet
-  - telematic
+- quartet
+- telematic
 media:
-  - title: Warden by Zach Sheets - Ft. TJ Borden, Madison Greenstone, and Megan Arns - the [Switch~ Ensemble]
-    url: https://www.youtube.com/embed/zqw3sBVGIoE
+- title: Warden by Zach Sheets - Ft. TJ Borden, Madison Greenstone, and Megan Arns
+    - the [Switch~ Ensemble]
+  url: https://www.youtube.com/embed/zqw3sBVGIoE
 headerImage: repertoire-images/sheets-warden_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/sheets-warden_400.jpg
+workId: a87b185b6b6f
+sourceConcert: 2021-03-05-sheets-zjw-marianthi
+draft: true
 ---

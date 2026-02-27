@@ -3,35 +3,38 @@ composer:
   first: Jason
   last: Thorpe Buchanan
   url: http://www.jasonthorpebuchanan.com
-title: "HUNGER (Part III)"
-duration:
+title: HUNGER (Part III)
+duration: null
 yearComposed: 2015
 performedBySwitch: 2015
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: octet, three singers,
 instrumentation:
-  - baritone
-  - 2 sopranos
-  - alto flute
-  - bass clarinet
-  - baritone sax
-  - electric guitar
-  - percussion
-  - piano
-  - violin
-  - viola
-  - electronics
-  - video
+- baritone
+- 2 sopranos
+- alto flute
+- bass clarinet
+- baritone sax
+- electric guitar
+- percussion
+- piano
+- violin
+- viola
+- electronics
+- video
 tags:
-  - electroacoustic
-  - video
-  - conducted
-  - NYC
+- electroacoustic
+- video
+- conducted
+- NYC
 media:
-  - title: HUNGER (Part III, Scene 2)
-    url: https://soundcloud.com/jasontbuchanan/sets/hunger-part-iii-scene-2
-    type: playlist
-    ID: 160763124
+- title: HUNGER (Part III, Scene 2)
+  url: https://soundcloud.com/jasontbuchanan/sets/hunger-part-iii-scene-2
+  type: playlist
+  ID: 160763124
 headerImage: repertoire-images/thorpebuchanan_hungerpart3_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/thorpebuchanan_hungerpart3_400x200.jpg
+workId: 4870612c33c3
+sourceConcert: 2015-05-15-mata-interval-series-hunger
+draft: true
 ---

@@ -2,7 +2,7 @@
 composer:
   first: Julie
   last: "Herndon"
-title: "Connecting"
+title: Mud
 duration: "18:00"
 yearComposed: 2025
 performedBySwitch: 2025, 2026
@@ -26,4 +26,6 @@ media:
     url:
 headerImage:
 thumbnailImage: 
+workId: 54bcc596f04b
+sourceConcert: 2025-9-12-EMPAC
 ---

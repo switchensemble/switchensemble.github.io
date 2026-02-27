@@ -3,27 +3,30 @@ composer:
   first: James
   last: Bean
 title: givenName
-movements:
-duration:
+movements: null
+duration: null
 yearComposed: 2016
 performedBySwitch: 2016
 commissionedOrWrittenFor: commission
 size: quintet
 instrumentation:
-  - flute
-  - clarinet
-  - saxophone
-  - violin
-  - cello
-  - electronics
+- flute
+- clarinet
+- saxophone
+- violin
+- cello
+- electronics
 tags:
-  - quintet
-  - electroacoustic
-  - ensemble
+- quintet
+- electroacoustic
+- ensemble
 media:
-  - title:
-    type:
-    url:
+- title: null
+  type: null
+  url: null
 headerImage: repertoire-images/bean_givenname_1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/bean_givenname_400x200.jpg
+workId: 2f008416320c
+sourceConcert: 2016-07-13-vipa-concert-2
+draft: true
 ---

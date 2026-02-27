@@ -3,18 +3,21 @@ composer:
   first: Sarah
   last: Hennies
 title: Everything Else
-movements:
+movements: null
 duration: open
 yearComposed: 2016
 performedBySwitch: 2022
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: open
 instrumentation:
-  - "open instrumentation"
+- open instrumentation
 tags:
-  - "open instrumentation"
-  - acoustic
+- open instrumentation
+- acoustic
 media:
-  - title:
-    type:
+- title: null
+  type: null
+workId: 48325f2a8685
+sourceConcert: 2022-11-18-ps21
+draft: true
 ---

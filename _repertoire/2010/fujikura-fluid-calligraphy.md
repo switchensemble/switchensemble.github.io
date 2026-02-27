@@ -2,24 +2,27 @@
 composer:
   first: Dai
   last: Fujikura
-title: "Fluid Calligraphy"
-duration:
+title: Fluid Calligraphy
+duration: null
 yearComposed: 2010
 performedBySwitch: 2019
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - violin
-  - electronics
-  - video
+- violin
+- electronics
+- video
 tags:
-  - solo
-  - electroacoustic
-  - video
-  - rochester
+- solo
+- electroacoustic
+- video
+- rochester
 media:
-  - title:
-    url:
-headerImage:
-thumbnailImage:
+- title: null
+  url: null
+headerImage: null
+thumbnailImage: null
+workId: 7daa9129ce70
+sourceConcert: 2019-03-28-image-sound
+draft: true
 ---

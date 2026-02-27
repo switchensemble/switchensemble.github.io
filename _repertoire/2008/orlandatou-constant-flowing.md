@@ -3,18 +3,21 @@ composer:
   first: Konstantina
   last: Orlandatou
 title: Constant Flowing
-duration:
+duration: null
 yearComposed: 2008
 performedBySwitch: 2014
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - solo vibraphone
-  - electronics
+- solo vibraphone
+- electronics
 tags:
-  - electroacoustic
-  - solo
+- electroacoustic
+- solo
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: efa4d8ba6112
+sourceConcert: 2014-05-12-hallwalls
+draft: true
 ---

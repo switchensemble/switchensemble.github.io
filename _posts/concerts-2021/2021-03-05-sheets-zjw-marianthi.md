@@ -14,7 +14,7 @@ program:
     title: Warden
     year: 2021
   - composer: Zachary James Watkins
-    title: Do Your Best Never Say Can’t and Love One Another
+    title: Do Your Best, Never Say Can’t, and Love One Another
     year: 2021
   - composer: Marianthi Papalexandri-Alexandri
     title: Duo for motor and sound panels

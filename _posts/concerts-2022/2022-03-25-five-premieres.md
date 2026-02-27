@@ -15,10 +15,10 @@ location:
   state: NY
   zip: 11201
 program:
-  - composer: Leilehua "Anne" Lanzilotti
-    title: "hānau ka ua (born is the rain)"
+  - composer: Leilehua Lanzilotti
+    title: hānau ka ua (born is the rain)
     year: 2021
-  - composer: Santiago Diez Fischer
+  - composer: Santiago Díez Fischer
     title: perpetual green switch
     year: 2022
   - composer: Anna-Louise Walton

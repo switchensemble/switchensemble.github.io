@@ -2,7 +2,7 @@
 composer:
   first: Lydia Wayne
   last: Chang
-title: Project Agree- Mission for the Internet Communities
+title: 'Project Agree: Mission for the Internet Communities'
 duration:
 yearComposed: 2020
 performedBySwitch: 2020
@@ -24,4 +24,6 @@ media:
     url: https://www.youtube.com/embed/94wOoly-7iM
 headerImage: repertoire-images/chang-mission_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/chang-mission_400.jpg
+workId: 758bf0b3b5e0
+sourceConcert: 2021-01-22-UT-Telematic
 ---

@@ -1,4 +1,6 @@
 ---
+sourceConcert: 2014-10-27-ecmc-steiger-residency
+workId: 798615ff7c3e
 composer:
   first: Henk
   last: Badings

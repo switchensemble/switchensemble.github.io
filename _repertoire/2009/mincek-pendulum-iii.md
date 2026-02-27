@@ -3,16 +3,19 @@ composer:
   first: Alex
   last: Mincek
 title: Pendulum III
-duration: "10:00"
+duration: '10:00'
 yearComposed: 2009
-performedBySwitch: "2016, 2017, 2024"
+performedBySwitch: 2016, 2017, 2024
 size: duo
 instrumentation:
-  - alto saxophone
-  - piano
+- alto saxophone
+- piano
 tags:
-  - acoustic
+- acoustic
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: 6a1e5133f508
+sourceConcert: 2016-09-25-kent-state-residency
+draft: true
 ---

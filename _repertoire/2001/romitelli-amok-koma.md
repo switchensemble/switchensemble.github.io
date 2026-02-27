@@ -3,30 +3,33 @@ composer:
   first: Fausto
   last: Romitelli
 title: Amok Koma
-movements:
+movements: null
 duration: 10
 yearComposed: 2001
 performedBySwitch: 2012
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: octet
 instrumentation:
-  - flute
-  - clarinet
-  - bass clarinet
-  - violin
-  - viola
-  - cello
-  - piano
-  - synthesizer
-  - electronics
+- flute
+- clarinet
+- bass clarinet
+- violin
+- viola
+- cello
+- piano
+- synthesizer
+- electronics
 tags:
-  - electroacoustic
-  - conducted
+- electroacoustic
+- conducted
 media:
-  - title: Nov 12, 2012 at Hatch Recital Hall
-    url: https://soundcloud.com/theswitchensemble/amok-koma-by-fausto-romitelli-nov-12-2012
-    ID: 158258802
-    notes: live
+- title: Nov 12, 2012 at Hatch Recital Hall
+  url: https://soundcloud.com/theswitchensemble/amok-koma-by-fausto-romitelli-nov-12-2012
+  ID: 158258802
+  notes: live
 headerImage: repertoire-images/romitelli_amok_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/romitelli_amok_400x200.jpg
+workId: cab9d291850e
+sourceConcert: 2012-10-04-ossia-new-music-romitelli
+draft: true
 ---

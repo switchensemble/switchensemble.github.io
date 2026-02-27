@@ -3,15 +3,18 @@ composer:
   first: Bruno
   last: Maderna
 title: Piece pour Ivry
-duration:
+duration: null
 yearComposed: 1971
 performedBySwitch: 2014
 size: solo
 instrumentation:
-  - solo violin
+- solo violin
 tags:
-  - electroacoustic
+- electroacoustic
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: 1b645e57608d
+sourceConcert: 2014-05-12-hallwalls
+draft: true
 ---

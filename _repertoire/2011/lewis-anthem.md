@@ -3,23 +3,26 @@ composer:
   first: George
   last: Lewis
 title: Anthem
-duration: "11:00"
+duration: '11:00'
 yearComposed: 2011
 performedBySwitch: 2025
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: sextet
 instrumentation:
-  - voice
-  - flute
-  - sax
-  - violin
-  - piano
-  - perc
+- voice
+- flute
+- sax
+- violin
+- piano
+- perc
 tags:
-  - sextet
-  - electroacoustic
-  - buffalo
+- sextet
+- electroacoustic
+- buffalo
 media:
-  - title:
-    url: 
+- title: null
+  url: null
+workId: 86c3f9c35d06
+sourceConcert: 2025-06-04-buffalo
+draft: true
 ---

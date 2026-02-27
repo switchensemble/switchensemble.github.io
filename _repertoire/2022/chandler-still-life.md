@@ -3,19 +3,22 @@ composer:
   first: Christopher
   last: Chandler
   url: https://www.christopherchandlermusic.com
-title: "still life"
-duration:
+title: still life
+duration: null
 yearComposed: 2022
 performedBySwitch: 2022, 2023
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: quartet
 instrumentation:
-  - quartet
-  - electronics
+- quartet
+- electronics
 tags:
-  - electroacoustic
-  - quartet 
+- electroacoustic
+- quartet
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: 85bf2cf402f3
+sourceConcert: 2022-05-23-union
+draft: true
 ---

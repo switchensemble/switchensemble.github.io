@@ -18,7 +18,7 @@ program:
   - composer: Tonia Ko
     title: Tribute | Axis II
     year: 2017
-  - composer: Santiago Diez Fischer
+  - composer: Santiago Diez-Fischer
     title: Loop's Definition
     year: 2010
   - composer: Elvira Garifzyanova
@@ -27,7 +27,7 @@ program:
   - composer: Sivan Eldar
     title: Tarr
     year: 2014
-  - composer: Victor Ibarra
+  - composer: Víctor Ibarra
     title: Química del agua
     year: 2015
 thumbnail: repertoire-images/pateras_brokenthenfixed_1000x500px.jpg

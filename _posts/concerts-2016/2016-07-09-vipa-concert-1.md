@@ -12,7 +12,7 @@ location:
   city: València
   country: Spain
 program:
-  - composer: Anna Walton
+  - composer: Anna-Louise Walton
     title: Jökulsárlón
     year: 2016
   - composer: Rand Steiger
@@ -21,7 +21,7 @@ program:
   - composer: Jeremy Corren
     title: fragile thread, suspended; unquiet surface
     year: 2016
-  - composer: Matthew Arrellin
+  - composer: Mathew Arrellin
     title: Vertigo
     year: 2015
   - composer: NamHoon Kim

@@ -18,7 +18,7 @@ program:
   - composer: ​Lisa Streich
     title: Asche
     year: 2012
-  - composer: Chris Chandler
+  - composer: Christopher Chandler
     title: "in shadow, in shade"
     year: 2016
   - composer: Max Murray

@@ -3,20 +3,23 @@ composer:
   first: Kevin
   last: Ernste
 title: Almatira
-movements:
-duration:
+movements: null
+duration: null
 yearComposed: 2015
 performedBySwitch: 2018
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - solo flute
-  - electronics
+- solo flute
+- electronics
 tags:
-  - electroacoustic
-  - cornell
-  - ithaca
+- electroacoustic
+- cornell
+- ithaca
 media:
-  - title:
-    type:
+- title: null
+  type: null
+workId: ca9d684d55e2
+sourceConcert: 2018-03-02-cornell-composers-2
+draft: true
 ---

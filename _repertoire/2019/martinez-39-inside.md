@@ -1,8 +1,8 @@
 ---
 composer:
-  first: Jose
-  last: Martinez
-title: "39 inside"
+  first: José
+  last: Martínez
+title: 39 inside
 movements:
 duration: 32 minutes
 yearComposed: 2019
@@ -26,4 +26,6 @@ media:
   - title:
     type:
     url:
+workId: c72787e6654b
+sourceConcert: 2022-04-23-colby
 ---

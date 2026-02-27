@@ -1,32 +1,34 @@
 ---
 composer:
   first: Katharina
-  last: "Rosenberger"
-title: "Up Close"
-duration:
+  last: Rosenberger
+title: Up Close
+duration: null
 yearComposed: 2019
 performedBySwitch: 2019, 2021
 commissionedOrWrittenFor: commissioned
 size: sextet
 instrumentation:
-  - flute
-  - clarinet
-  - violin
-  - cello
-  - piano
-  - percussion
-  - electronics
-  - lighting
+- flute
+- clarinet
+- violin
+- cello
+- piano
+- percussion
+- electronics
+- lighting
 tags:
-  - sextet
-  - electroacoustic
-  - lighting
-  - magdeburg
-  - NYC
+- sextet
+- electroacoustic
+- lighting
+- magdeburg
+- NYC
 media:
-  - title: "Up Close (2019) by Katharina Rosenberger - [Switch~ Ensemble]"
-    url: https://www.youtube.com/embed/Cw6twkr-Hk4
+- title: Up Close (2019) by Katharina Rosenberger - [Switch~ Ensemble]
+  url: https://www.youtube.com/embed/Cw6twkr-Hk4
 headerImage: repertoire-images/rosenberger-up-close_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/rosenberger-up-close_400x200.jpg
+workId: 2dfcfb06b9a6
+sourceConcert: 2019-12-05-ucsd-katharina
+draft: true
 ---
-

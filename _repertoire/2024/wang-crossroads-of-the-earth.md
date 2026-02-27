@@ -3,22 +3,25 @@ composer:
   first: Jiaqi
   last: Wang
 title: Crossroads of the Earth
-duration: 
+duration: null
 yearComposed: 2024
 performedBySwitch: 2024
 commissionedOrWrittenFor: written
 size: quartet
 instrumentation:
-  - flute
-  - sax
-  - cello
-  - piano
+- flute
+- sax
+- cello
+- piano
 tags:
-  - quartet
-  - acoustic
+- quartet
+- acoustic
 media:
-  - title:
-    url:
-headerImage: 
-thumbnailImage: 
+- title: null
+  url: null
+headerImage: null
+thumbnailImage: null
+workId: ad08d647840c
+sourceConcert: 2024-06-13-buffalo
+draft: true
 ---

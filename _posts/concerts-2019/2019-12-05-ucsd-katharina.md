@@ -19,7 +19,7 @@ program:
   - composer: Ashley Fure
     title: Therefore I Was
     year: 2012
-  - composer: Anna Louise-Walton
+  - composer: Anna-Louise Walton
     title: Uttered
     year: 2018
   - composer: Katharina Rosenberger

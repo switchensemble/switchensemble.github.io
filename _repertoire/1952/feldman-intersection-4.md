@@ -2,20 +2,23 @@
 composer:
   first: Morton
   last: Feldman
-  url:
+  url: null
 title: Intersection 4
-duration:
+duration: null
 yearComposed: 1952
 performedBySwitch: 2018
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - solo cello
+- solo cello
 tags:
-  - solo
-  - acoustic
-  - ithaca
+- solo
+- acoustic
+- ithaca
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: fc82ca04876c
+sourceConcert: 2018-02-25-bard-college
+draft: true
 ---

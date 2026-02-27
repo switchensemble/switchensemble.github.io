@@ -1,7 +1,7 @@
 ---
 composer:
-  first: Jason Thorpe Buchanan &
-  last: Christopher Chandler
+  first: ''
+  last: Jason Thorpe Buchanan & Chris Chandler
 title: GRIDS
 duration: 
 yearComposed: 2025
@@ -26,4 +26,6 @@ media:
     url:
 headerImage: 
 thumbnailImage: 
+workId: a34be5198b2a
+sourceConcert: 2026-04-09-overdrive-festival-cuny-nyc, 2025-9-12-EMPAC
 ---

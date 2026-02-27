@@ -3,32 +3,35 @@ composer:
   first: Joungbum
   last: Lee
 title: pa-an
-movements:
-duration:
+movements: null
+duration: null
 yearComposed: 2017
 performedBySwitch: 2017
 commissionedOrWrittenFor: written
 size: sextet
 instrumentation:
-  - flute
-  - clarinet
-  - violin
-  - cello
-  - piano
-  - percussion
-  - multimedia
-  - video
+- flute
+- clarinet
+- violin
+- cello
+- piano
+- percussion
+- multimedia
+- video
 tags:
-  - electroacoustic
-  - ensemble
-  - sextet
-  - uchicago
-  - conducted
-  - video
+- electroacoustic
+- ensemble
+- sextet
+- uchicago
+- conducted
+- video
 media:
-  - title:
-    type:
-    url:
+- title: null
+  type: null
+  url: null
+workId: 23dc65b9422f
+sourceConcert: 2017-05-14-elastic-arts-chicago
+draft: true
 ---
 
 media:

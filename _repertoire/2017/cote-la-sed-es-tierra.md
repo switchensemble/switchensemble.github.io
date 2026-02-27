@@ -2,7 +2,7 @@
 composer:
   first: Sergio
   last: Cote
-title: "La Sed Es Tierra"
+title: La Sed Es Tierra
 duration:
 yearComposed: 2018
 performedBySwitch: 2018
@@ -21,4 +21,6 @@ media:
     url: https://www.youtube.com/embed/DkVZ9rSVSZ8
 headerImage: repertoire-images/cote-la-sed_1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/cote-la-sed_400x200.jpg
+workId: 7ff34ab7a8fa
+sourceConcert: 2018-03-02-cornell-composers-2
 ---

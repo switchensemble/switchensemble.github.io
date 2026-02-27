@@ -3,18 +3,21 @@ composer:
   first: Rand
   last: Steiger
 title: Light on Water
-duration:
+duration: null
 yearComposed: 2012
 performedBySwitch: 2016
 size: duo
 instrumentation:
-  - flute
-  - piano
-  - electronics
+- flute
+- piano
+- electronics
 tags:
-  - electroacoustic
-  - duo
+- electroacoustic
+- duo
 media:
-  - title: Light on Water by Rand Steiger - the [Switch~ Ensemble]
-    url: https://www.youtube.com/embed/wkRoWju29AI
+- title: Light on Water by Rand Steiger - the [Switch~ Ensemble]
+  url: https://www.youtube.com/embed/wkRoWju29AI
+workId: cd14bfca545e
+sourceConcert: 2016-07-13-vipa-concert-2
+draft: true
 ---

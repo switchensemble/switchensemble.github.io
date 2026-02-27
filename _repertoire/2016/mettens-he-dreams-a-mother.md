@@ -25,4 +25,6 @@ media:
     url:
 headerImage: repertoire-images/mettens_hedreamsamother_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/mettens_hedreamsamother_400x200.jpg
+workId: b7a499e31e77
+sourceConcert: 2016-05-22-queens-new-music-festival
 ---

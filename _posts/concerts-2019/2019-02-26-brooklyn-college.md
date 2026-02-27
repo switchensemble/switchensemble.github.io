@@ -18,14 +18,14 @@ program:
   - composer: Clara Iannotta
     title: "dead wasps in the jam-jar (i)"
     year: 2015
-  - composer: Salvatora Sciarrino
+  - composer: Salvatore Sciarrino
     title: Let Me Die Before I Wake
     year: 1982
   - composer: Nathan Davis
     title: Simple Songs of Birth and Return
     year: 2006
   - composer: Timothy McCormack
-    title: Infinite Extension
+    title: Drift Matter
     year: 2013
 thumbnail: 
 header: 

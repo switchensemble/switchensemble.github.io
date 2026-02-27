@@ -3,17 +3,20 @@ composer:
   first: Sascha Lino
   last: Lemke
 title: Liebes-Lied
-duration:
+duration: null
 yearComposed: 2002
 performedBySwitch: 2012
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - solo cello
-  - electronics
+- solo cello
+- electronics
 tags:
-  - electroacoustic
+- electroacoustic
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: 8e77fc4a8506
+sourceConcert: 2012-11-12-ecmc-concert
+draft: true
 ---

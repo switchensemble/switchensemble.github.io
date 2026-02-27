@@ -3,21 +3,24 @@ composer:
   first: Anthony
   last: Vine
 title: Things Fall Apart
-duration:
+duration: null
 yearComposed: 2013
 performedBySwitch: 2016
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo, video
 instrumentation:
-  - solo percussion
-  - electronics
-  - video
+- solo percussion
+- electronics
+- video
 tags:
-  - electroacoustic
-  - video
+- electroacoustic
+- video
 media:
-  - title:
-    url:
+- title: null
+  url: null
 headerImage: repertoire-images/vine_thingsfallapart_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/vine_thingsfallapart_400x200.jpg
+workId: 34ca6448a2f9
+sourceConcert: 2016-05-22-queens-new-music-festival
+draft: true
 ---

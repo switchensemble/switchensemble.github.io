@@ -11,7 +11,7 @@ location:
   state: IL
   zip: 60608
 program:
-  - composer: Alican Camci
+  - composer: Alican Çamcı
     title: landscape, with inscription
     year: 2017
   - composer: Max Murray

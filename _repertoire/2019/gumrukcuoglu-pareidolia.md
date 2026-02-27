@@ -6,20 +6,22 @@ title: Pareidolia - Section V
 duration: 5
 yearComposed: 2019
 performedBySwitch: 2021
-commissionedOrWrittenFor: 
+commissionedOrWrittenFor: null
 size: trio
 instrumentation:
-  - cello
-  - percussion
-  - piano
-  - electronics
+- cello
+- percussion
+- piano
+- electronics
 tags:
-  - quintet
-  - electroacoustic
+- quintet
+- electroacoustic
 media:
-  - title:
-    url:
-headerImage:
-thumbnailImage: 
+- title: null
+  url: null
+headerImage: null
+thumbnailImage: null
+workId: 13d103c62ec2
+sourceConcert: 2021-04-24-seamus
+draft: true
 ---
-

@@ -3,20 +3,23 @@ composer:
   first: Elvira
   last: Garifzyanova
 title: Aurora Borealis
-movements:
-duration:
+movements: null
+duration: null
 yearComposed: 2012
 performedBySwitch: 2017
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - solo flute
-  - electronics
+- solo flute
+- electronics
 tags:
-  - electroacoustic
-  - chicago
-  - "san francisco"
+- electroacoustic
+- chicago
+- san francisco
 media:
-  - title:
-    type:
+- title: null
+  type: null
+workId: 87a87bc8cdaf
+sourceConcert: 2017-05-14-elastic-arts-chicago
+draft: true
 ---

@@ -2,9 +2,9 @@
 composer:
   first: Peter
   last: Gilbert
-title: "Meditation upon the awakening"
+title: Meditation upon the Awakening of the Spirit
 duration: "14:00"
-yearComposed: 2017
+yearComposed: 2021
 performedBySwitch: 2025
 commissionedOrWrittenFor:
 size: septet
@@ -25,4 +25,6 @@ media:
     url:
 headerImage: 
 thumbnailImage: 
+workId: 1c803c09150b
+sourceConcert: 2025-06-04-buffalo
 ---

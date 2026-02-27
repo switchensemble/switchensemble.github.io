@@ -3,24 +3,27 @@ composer:
   first: Karola
   last: Obermüller
 title: Quicksand
-duration: "11:30"
+duration: '11:30'
 yearComposed: 2024
 performedBySwitch: 2025
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: quintet
 instrumentation:
-  - flute
-  - clarinet
-  - violin
-  - cello
-  - piano
+- flute
+- clarinet
+- violin
+- cello
+- piano
 tags:
-  - quintet
-  - acoustic
-  - buffalo
+- quintet
+- acoustic
+- buffalo
 media:
-  - title:
-    url:
-headerImage: 
-thumbnailImage: 
+- title: null
+  url: null
+headerImage: null
+thumbnailImage: null
+workId: 701973b81cde
+sourceConcert: 2025-06-04-buffalo
+draft: true
 ---

@@ -2,7 +2,7 @@
 composer:
   first: Anna-Louise
   last: Walton
-title: "Jökulsárlón"
+title: Jökulsárlón
 duration:
 yearComposed: 2016
 performedBySwitch: 2016, 2017
@@ -21,4 +21,6 @@ media:
     url: https://www.youtube.com/embed/BP9b-C1nprs
 headerImage: repertoire-images/walton-jok_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/walton-jok_400x200.jpg
+workId: 13cb909e0111
+sourceConcert: 2016-07-09-vipa-concert-1
 ---

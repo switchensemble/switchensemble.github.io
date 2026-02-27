@@ -22,4 +22,6 @@ media:
     url:
 headerImage:
 thumbnailImage:
+workId: aeb1328c3347
+sourceConcert: 2017-05-12-mana-contemporary-chicago
 ---

@@ -3,20 +3,23 @@ composer:
   first: Anuj
   last: Bhutani
 title: To The Lighthouse
-duration:
+duration: null
 yearComposed: 2019
 performedBySwitch: 2021
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - violin
-  - electronics
+- violin
+- electronics
 tags:
-  - solo
-  - electroacoustic
+- solo
+- electroacoustic
 media:
-  - title: "To The Lighthouse (2019) by Anuj Bhutani - Lauren Cauley, the [Switch~ Ensemble]"
-    url: https://www.youtube.com/embed/Xj8I8MQBBXA
+- title: To The Lighthouse (2019) by Anuj Bhutani - Lauren Cauley, the [Switch~ Ensemble]
+  url: https://www.youtube.com/embed/Xj8I8MQBBXA
 headerImage: repertoire-images/bhutani-lighthouse_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/bhutani-lighthouse_400.jpg
+workId: da41a317fe42
+sourceConcert: 2021-04-24-seamus
+draft: true
 ---

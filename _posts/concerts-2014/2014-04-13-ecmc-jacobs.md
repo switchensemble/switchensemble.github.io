@@ -18,7 +18,7 @@ program:
   - composer: Panayiotis Kokoras
     title: Morphallaxis
     year: 2008
-  - composer: Clay Mettens
+  - composer: David Clay Mettens
     title: Labyrinth Meditations
     year: 2014
   - composer: Zach Sheets

@@ -2,7 +2,7 @@
 composer:
   first: Stylianos
   last: Dimou
-title: "[Hiss] structure...from {with[in} - g] v_1.2"
+title: '[Hiss] structure . . .from {with[in} - g]'
 movements:
 duration:
 yearComposed: 2015
@@ -20,4 +20,6 @@ tags:
   - clicktrack
   - NYC
 media:
+workId: eb5ca32d0595
+sourceConcert: 2015-05-15-mata-interval-series-hunger
 ---

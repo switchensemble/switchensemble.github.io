@@ -1,6 +1,6 @@
 ---
 composer:
-  first: Kathy van
+  first: Cathy van
   last: Eck
 title: Wings
 movements:
@@ -23,4 +23,6 @@ media:
     url:
 headerImage: repertoire-images/eck-wings_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/eck-wings_330.jpg
+workId: 7271ea90bbf8
+sourceConcert: 2020-03-21-dimenna
 ---

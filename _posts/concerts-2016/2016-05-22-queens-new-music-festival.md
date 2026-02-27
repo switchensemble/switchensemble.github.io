@@ -12,13 +12,13 @@ location:
   latitude: "40.748757"
   longitude: "-73.944731"
 program:
-  - composer: Chris Chandler
+  - composer: Christopher Chandler
     title: Smoke and Mirrors
     year: 2013
   - composer: Lisa Streich
     title: Asche
     year: 2012
-  - composer: Clay Mettens
+  - composer: David Clay Mettens
     title: He Dreams a Mother
     year: 2016
   - composer: Santiago Diez-Fischer

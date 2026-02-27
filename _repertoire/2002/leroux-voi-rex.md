@@ -2,7 +2,7 @@
 composer:
   first: Phillipe
   last: Leroux
-title: Voi(REX)
+title: Voi(rex)
 movements:
   - L'invisible debout
   - Jusque
@@ -37,4 +37,6 @@ media:
     ID: 176118045
 headerImage: repertoire-images/leroux_voirex_1000x500px.jpg
 thumbnailImage: repertoire-images/thumbnails/leroux_voirex_400x200.jpg
+workId: 693092ee4442
+sourceConcert: 2013-11-20-ecmc-leroux-residency
 ---

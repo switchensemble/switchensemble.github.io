@@ -19,7 +19,7 @@ program:
   title: still life
   year: 2022
 - composer: Victoria Cheah
-  title: We drank wine from the bottle on a rooftop next to god
+  title: We drank wine from the bottle on a rooftop next to god.
   year: 2017
 - composer: Heather Stebbins
   title: Among Arrows

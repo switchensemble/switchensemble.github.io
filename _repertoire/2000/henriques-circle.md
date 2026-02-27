@@ -2,20 +2,23 @@
 composer:
   first: Tomas
   last: Henriques
-  url:
+  url: null
 title: Circle
-duration:
+duration: null
 yearComposed: 2000
 performedBySwitch: 2018
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - solo flute
+- solo flute
 tags:
-  - solo
-  - acoustic
-  - buffalo
+- solo
+- acoustic
+- buffalo
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: 2c290db329f1
+sourceConcert: 2018-03-06-buffalo-state-university
+draft: true
 ---

@@ -3,22 +3,26 @@ composer:
   first: Marianthi
   last: Papalexandri-Alexandri
 title: Duo for motor and sound panels
-duration:
+duration: null
 yearComposed: 2016
 performedBySwitch: 2018
 size: duo
 instrumentation:
-  - two performers
-  - motors
-  - sound panels
+- two performers
+- motors
+- sound panels
 tags:
-  - electroacoustic
-  - motor
-  - two performers
-  - ithaca
+- electroacoustic
+- motor
+- two performers
+- ithaca
 media:
-  - title: "Duo for Motor and Sound Panels (2016) by Marianthi Papalexandri-Alexandri - [Switch~ Ensemble]"
-    url: https://www.youtube.com/embed/eunEZFvXung
+- title: Duo for Motor and Sound Panels (2016) by Marianthi Papalexandri-Alexandri
+    - [Switch~ Ensemble]
+  url: https://www.youtube.com/embed/eunEZFvXung
 headerImage: repertoire-images/papalexandri-duo_1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/papalexandri-duo_400x200.jpg
+workId: a21db6598896
+sourceConcert: 2018-03-02-cornell-composers-2
+draft: true
 ---

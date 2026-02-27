@@ -16,7 +16,7 @@ program:
     title: Constant Flowing
     year: 2008
   - composer: Fausto Romitelli
-    title: Domenica alla periferia dell'impero
+    title: Domeniche alla periferia dell'impero
     year: 1996
   - composer: Zach Sheets
     title: Seer

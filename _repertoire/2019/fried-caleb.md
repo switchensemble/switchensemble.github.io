@@ -2,23 +2,26 @@
 composer:
   first: Caleb
   last: Fried
-title: "walk over; hot coals"
-duration:
+title: walk over; hot coals
+duration: null
 yearComposed: 2019
 performedBySwitch: 2019
 commissionedOrWrittenFor: written
 size: sextet
 instrumentation:
-  - flute
-  - percussion
-  - two performers
+- flute
+- percussion
+- two performers
 tags:
-  - quartet
-  - acoustic
-  - boston
+- quartet
+- acoustic
+- boston
 media:
-  - title:
-    url:
+- title: null
+  url: null
 headerImage: repertoire-images/fried-walk-over_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/fried-walk-over_400x200.jpg
+workId: 68f29d35806e
+sourceConcert: 2019-10-05-harvard-group-for-new-music
+draft: true
 ---

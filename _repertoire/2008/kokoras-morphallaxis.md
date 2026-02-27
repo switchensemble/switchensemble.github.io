@@ -3,27 +3,29 @@ composer:
   first: Panayiotis
   last: Kokoras
 title: Morphallaxis
-movements:
-duration: "9:42"
+movements: null
+duration: '9:42'
 yearComposed: 2008
 performedBySwitch: 2014
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: trio
 instrumentation:
-  - flute
-  - cello
-  - frame drum
-  - electronics
+- flute
+- cello
+- frame drum
+- electronics
 tags:
-  - electroacoustic
-  - trio
+- electroacoustic
+- trio
 media:
-  - title: Morphallaxis by Panayiotis Kokoras - the [Switch~ Ensemble]
-    url: https://www.youtube.com/embed/4jcJhyt4TuY
-  - title: Morphallaxis (2008) by Panayiotis Kokoras
-    url: https://soundcloud.com/theswitchensemble/morphallaxis_kokoras
-    ID: 235823513
+- title: Morphallaxis by Panayiotis Kokoras - the [Switch~ Ensemble]
+  url: https://www.youtube.com/embed/4jcJhyt4TuY
+- title: Morphallaxis (2008) by Panayiotis Kokoras
+  url: https://soundcloud.com/theswitchensemble/morphallaxis_kokoras
+  ID: 235823513
 headerImage: repertoire-images/kokoras-morphallaxis_1000x500.jpg
 thumbnailImage: repertoire-images/thumbnails/kokoras-morphallaxis_400x200.jpg
-
+workId: ec72f4338e5a
+sourceConcert: 2014-04-13-ecmc-jacobs
+draft: true
 ---

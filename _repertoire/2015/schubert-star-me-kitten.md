@@ -3,26 +3,29 @@ composer:
   first: Alexander
   last: Schubert
 title: Star Me Kitten
-movements:
-duration: "13:30"
+movements: null
+duration: '13:30'
 yearComposed: 2015
 performedBySwitch: 2016
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: variable
 instrumentation:
-  - singer
-  - flexible ensemble
-  - video
-  - electronics
+- singer
+- flexible ensemble
+- video
+- electronics
 tags:
-  - multimedia
-  - electroacoustic
-  - video
-  - NYC
+- multimedia
+- electroacoustic
+- video
+- NYC
 media:
-  - title:
-    type:
-    url:
+- title: null
+  type: null
+  url: null
 headerImage: repertoire-images/schubert-star-me-kitten_1000.jpg
 thumbnailImage: repertoire-images/thumbnails/schubert-star-me-kitten_330.jpg
+workId: 01ad38b18e2a
+sourceConcert: 2016-05-22-queens-new-music-festival
+draft: true
 ---

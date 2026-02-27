@@ -2,21 +2,24 @@
 composer:
   first: Tomas
   last: Henriques
-  url:
+  url: null
 title: Silence
-duration:
+duration: null
 yearComposed: 1986
 revised: 2005
 performedBySwitch: 2018
-commissionedOrWrittenFor:
+commissionedOrWrittenFor: null
 size: solo
 instrumentation:
-  - solo piano
+- solo piano
 tags:
-  - solo
-  - acoustic
-  - buffalo
+- solo
+- acoustic
+- buffalo
 media:
-  - title:
-    url:
+- title: null
+  url: null
+workId: 44d95fb49ba7
+sourceConcert: 2018-03-06-buffalo-state-university
+draft: true
 ---
