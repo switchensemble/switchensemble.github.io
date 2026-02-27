@@ -10,7 +10,7 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "assets/images/auto-add"
-public_folder: "/assets/images/auto-add"
+public_folder: "/"
 
 site_url: "https://www.switchensemble.com"
 display_url: "https://www.switchensemble.com"
@@ -41,6 +41,7 @@ collections:
         format: "YYYY-MM-DD"
         time_format: false
         picker_utc: true
+        min: "1950-01-01"
 
       - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
 
@@ -66,7 +67,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
       - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
 
-      - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
+      - { label: "Title", name: "title", widget: "string", required: true }
 
       - { label: "Describe", name: "describe", widget: "string", required: true }
 
@@ -76,6 +77,7 @@ collections:
         format: "YYYY-MM-DD"
         time_format: false
         picker_utc: true
+        min: "1950-01-01"
 
       - { label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }
 
@@ -130,15 +132,21 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
       - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
-      - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
+
+      - { label: "Title", name: "title", widget: "string", required: true }
+
       - { label: "Describe", name: "describe", widget: "string", required: true }
+
       - label: "Date"
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD"
         time_format: false
         picker_utc: true
+        min: "1950-01-01"
+
       - { label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }
+
       - label: "Location"
         name: "location"
         widget: "object"
@@ -150,6 +158,7 @@ collections:
           - { label: "City", name: "city", widget: "string", required: true }
           - { label: "State", name: "state", widget: "string", required: true }
           - { label: "Zip", name: "zip", widget: "string", required: false }
+
       - label: "Program"
         name: "program"
         widget: "list"
@@ -158,15 +167,19 @@ collections:
           - { label: "Composer", name: "composer", widget: "string", required: true }
           - { label: "Title", name: "title", widget: "string", required: true }
           - { label: "Year", name: "year", widget: "string", required: false }
+
       - label: "Text"
         name: "text"
         widget: "object"
         required: false
         fields:
           - { label: "Below", name: "below", widget: "string", required: false }
+
       - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
+
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
       - { label: "Header", name: "header", widget: "image", required: true }
+
       - { label: "Body", name: "body", widget: "markdown" }
 
   # ----------------------------
@@ -185,15 +198,21 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
       - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
-      - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
+
+      - { label: "Title", name: "title", widget: "string", required: true }
+
       - { label: "Describe", name: "describe", widget: "string", required: true }
+
       - label: "Date"
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD"
         time_format: false
         picker_utc: true
+        min: "1950-01-01"
+
       - { label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }
+
       - label: "Location"
         name: "location"
         widget: "object"
@@ -205,6 +224,7 @@ collections:
           - { label: "City", name: "city", widget: "string", required: true }
           - { label: "State", name: "state", widget: "string", required: true }
           - { label: "Zip", name: "zip", widget: "string", required: false }
+
       - label: "Program"
         name: "program"
         widget: "list"
@@ -213,15 +233,19 @@ collections:
           - { label: "Composer", name: "composer", widget: "string", required: true }
           - { label: "Title", name: "title", widget: "string", required: true }
           - { label: "Year", name: "year", widget: "string", required: false }
+
       - label: "Text"
         name: "text"
         widget: "object"
         required: false
         fields:
           - { label: "Below", name: "below", widget: "string", required: false }
+
       - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
+
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
       - { label: "Header", name: "header", widget: "image", required: true }
+
       - { label: "Body", name: "body", widget: "markdown" }
 
   # ----------------------------
@@ -240,15 +264,21 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "concert" }
       - { label: "Category", name: "categories", widget: "hidden", default: "performance" }
-      - { label: "Title (internal)", name: "title", widget: "string", required: false, hint: "Optional. Used only for CMS listing; site may ignore it." }
+
+      - { label: "Title", name: "title", widget: "string", required: true }
+
       - { label: "Describe", name: "describe", widget: "string", required: true }
+
       - label: "Date"
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD"
         time_format: false
         picker_utc: true
+        min: "1950-01-01"
+
       - { label: "Time", name: "time", widget: "string", required: true, hint: "Example: 7:30pm" }
+
       - label: "Location"
         name: "location"
         widget: "object"
@@ -260,6 +290,7 @@ collections:
           - { label: "City", name: "city", widget: "string", required: true }
           - { label: "State", name: "state", widget: "string", required: true }
           - { label: "Zip", name: "zip", widget: "string", required: false }
+
       - label: "Program"
         name: "program"
         widget: "list"
@@ -268,15 +299,19 @@ collections:
           - { label: "Composer", name: "composer", widget: "string", required: true }
           - { label: "Title", name: "title", widget: "string", required: true }
           - { label: "Year", name: "year", widget: "string", required: false }
+
       - label: "Text"
         name: "text"
         widget: "object"
         required: false
         fields:
           - { label: "Below", name: "below", widget: "string", required: false }
+
       - { label: "Author", name: "author", widget: "string", required: false, default: "Switch Ensemble" }
+
       - { label: "Thumbnail", name: "thumbnail", widget: "image", required: true }
       - { label: "Header", name: "header", widget: "image", required: true }
+
       - { label: "Body", name: "body", widget: "markdown" }
 
   # ----------------------------
