@@ -273,25 +273,34 @@ collections:
     summary: "{{title}} — {{composer.last}} ({{yearComposed}})"
     sortable_fields: ["title", "yearComposed"]
     fields: &repertoire_fields
+      - { label: "Draft", name: "draft", widget: "hidden", default: true }
+      - { label: "Work ID", name: "workId", widget: "hidden", required: false }
+      - { label: "Source Concert", name: "sourceConcert", widget: "string", required: false, hint: "Auto-filled from concert PR; optional." }
+
       - label: "Composer"
         name: "composer"
         widget: "object"
         fields:
           - { label: "First", name: "first", widget: "string" }
           - { label: "Last", name: "last", widget: "string" }
+
       - { label: "Title", name: "title", widget: "string" }
+
       - { label: "Movements", name: "movements", widget: "list", required: false }
       - { label: "Duration (mm:ss)", name: "duration", widget: "string", required: false }
       - { label: "Year Composed", name: "yearComposed", widget: "number", value_type: "int", min: 0 }
       - { label: "Performed By Switch (years)", name: "performedBySwitch", widget: "string", required: false }
+
       - label: "Commissioned or Written For"
         name: "commissionedOrWrittenFor"
         widget: "select"
         options: ["commissioned", "written for", "unknown"]
         default: "unknown"
+
       - { label: "Size", name: "size", widget: "string", required: false }
       - { label: "Instrumentation", name: "instrumentation", widget: "list", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+
       - label: "Media"
         name: "media"
         widget: "list"
@@ -300,6 +309,8 @@ collections:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Type", name: "type", widget: "select", required: false, options: ["audio", "video", "score", "link", "other"] }
           - { label: "URL", name: "url", widget: "string", required: false }
+
+      - { label: "Program Notes", name: "body", widget: "markdown", required: false }
 
   - name: "repertoire_2024"
     label: "Repertoire (2024)"
