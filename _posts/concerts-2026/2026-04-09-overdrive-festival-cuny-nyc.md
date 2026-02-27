@@ -26,7 +26,7 @@ program:
     title: tendons for transformation ii
     year: "2026"
 author: Switch Ensemble
-thumbnail: /switch-final-press-photo_500.jpg
-header: /switch-final-press-photo_1920x1080.jpg
+thumbnail: auto-add/switch-final-press-photo_500.jpg
+header: auto-add/switch-final-press-photo_1920x1080.jpg
 ---
 April 9-10: \[Switch~ Ensemble] in Residence at the Overdrive Festival, NYC - Ensemble works by Kitty Xiao, Itzá García, Jason Thorpe Buchanan & Tobias Fandel
