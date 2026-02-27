@@ -5,7 +5,7 @@ title: University of New Mexico
 describe: Ensemble-in-Residence at the University of New Mexico, performing
   works by Obermüller, Gilbert, Thorpe Buchanan, Rizo, Ortiz, Feng, Medina, and
   Lopez
-date: 2026-04-06
+date: 2026-05-06
 time: 7:30pm
 location:
   institution: University of New Mexico
