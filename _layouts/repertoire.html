@@ -3,7 +3,9 @@ layout: page
 ---
 
 {% assign performancePosts = site.posts | where_exp:"item", "item.categories contains 'performance'" %}
-{% comment %}{% assign currentPiecePerfs = site.repertoire | where_exp:"item", "item.title contains 'page.title'" %}{% endcomment %}
+{% assign pageComposerFull = page.composer.first | append: " " | append: page.composer.last | strip | downcase %}
+{% assign pageTitle = page.title | to_s | strip %}
+{% assign matchedPerformanceUrls = "" | split: "" %}
 
 <!-- Composition-->
 <div class="row">
@@ -39,43 +41,61 @@ layout: page
 	</div>
 	<!-- Media end-->
 	{%- endif -%}
+
 	<div class="col-lg-8 order-2 order-md-1">
     <h2 class="single-portfolio-title">Performances of {{ page.title }}</h2>
     <div class="concert-program mb-3">
       {%- for performance in performancePosts -%}
-        {%- for piece in performance.program -%}
-          {%- if piece.title == page.title -%}
-					<div class="performance">
-						<div class="row">
-							{%- if performance.thumbnail -%}
-							<div class="col-sm-4">
-				        <a href="{{ performance.url }}"><img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/repertoire-images/{{ performance.thumbnail }}" alt=""></a>
-							</div>
-				      {%- endif -%}
-							<div class="col-sm-8 mb-3 location-details">
-								{{ performance.date | date: "%B %d, %Y" }} <br />
-								{%- if performance.event -%}{{ performance.event }}<br />{%- endif -%}
-								{%- if performance.location.institution -%}{{ performance.location.institution }}{%- endif -%}{%- if performance.location.building -%}, {{ performance.location.building }}<br />{%- endif -%}
-								{%- if performance.location.venue -%}{{ performance.location.venue }}<br />{%- endif -%}
-								{%- if performance.location.address -%}{{ performance.location.address }}<br />{%- endif -%}
-								{%- if performance.location.country -%}
-								{{ performance.location.city }}, {{ performance.location.country }}
-								{%- else -%}
-								{{ performance.location.city }}, {{ performance.location.state }} {{ performance.location.zip }}
-								{%- endif -%}
-							</div>
+        {%- assign matchedThisPerformance = false -%}
 
-						</div>
-					</div>
-					{% else %}
-					<!-- Piece Title: {{ piece.title }} -->
-					<!-- Page Title: {{ page.title }} -->
-					<!-- ---------------------------- -->
-          {%- endif -%}
-        {%- endfor -%}
+        {%- if performance.program -%}
+          {%- for piece in performance.program -%}
+            {%- if matchedThisPerformance -%}{% break %}{%- endif -%}
+
+            {%- assign pieceTitle = piece.title | to_s | strip -%}
+            {%- assign pieceComposer = piece.composer | to_s | strip | downcase -%}
+
+            {%- if pieceTitle == pageTitle and pieceComposer contains pageComposerFull -%}
+              {%- assign matchedThisPerformance = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+
+        {%- if matchedThisPerformance -%}
+          {%- unless matchedPerformanceUrls contains performance.url -%}
+            {%- assign matchedPerformanceUrls = matchedPerformanceUrls | push: performance.url -%}
+
+            <div class="performance">
+              <div class="row">
+                {%- if performance.thumbnail -%}
+                <div class="col-sm-4">
+                  <a href="{{ performance.url }}">
+                    <img class="img-fluid mb-3 mb-md-0" src="{{ site.images }}/repertoire-images/{{ performance.thumbnail }}" alt="">
+                  </a>
+                </div>
+                {%- endif -%}
+
+                <div class="col-sm-8 mb-3 location-details">
+                  {{ performance.date | date: "%B %d, %Y" }} <br />
+                  {%- if performance.event -%}{{ performance.event }}<br />{%- endif -%}
+                  {%- if performance.location.institution -%}{{ performance.location.institution }}{%- endif -%}{%- if performance.location.building -%}, {{ performance.location.building }}<br />{%- endif -%}
+                  {%- if performance.location.venue -%}{{ performance.location.venue }}<br />{%- endif -%}
+                  {%- if performance.location.address -%}{{ performance.location.address }}<br />{%- endif -%}
+                  {%- if performance.location.country -%}
+                    {{ performance.location.city }}, {{ performance.location.country }}
+                  {%- else -%}
+                    {{ performance.location.city }}, {{ performance.location.state }} {{ performance.location.zip }}
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
+
+          {%- endunless -%}
+        {%- endif -%}
       {%- endfor -%}
     </div>
   </div>
+
 	<div class="col-lg-4 order-1 order-md-2 pb-4">
 		<div class="portfolio-details border-left">
 			<h2 class="text-left">About the work:</h2>
@@ -84,6 +104,7 @@ layout: page
 					<h5>Year Composed:</h5>
           {{ page.yearComposed }}
 				</li>
+
         {%- if page.instrumentation -%}
           <li>
             <h5>Instrumentation:</h5>
@@ -96,13 +117,14 @@ layout: page
 	          {%- endfor -%}
           </li>
         {%- endif -%}
+
         {%- if page.composer.website -%}
           <li>
             <h5>Composer's Website:</h5>
             <a href="{{ page.composer.website }}">{{ page.composer.website }}</a>
           </li>
         {%- endif -%}
-				<li>
+
 				<li>
 					<h5>Share:</h5>
 					<ul class="social-icons">
