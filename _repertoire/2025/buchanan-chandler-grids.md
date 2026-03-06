@@ -24,8 +24,8 @@ tags:
 media:
   - title:
     url:
-headerImage: 
-thumbnailImage: 
+headerImage: repertoire-images/2025/grids_1000x500.jpg
+thumbnailImage: repertoire-images/2025/grids_640x360.jpg
 workId: a34be5198b2a
 sourceConcert: 2026-04-09-overdrive-festival-cuny-nyc, 2025-9-12-EMPAC
 ---
