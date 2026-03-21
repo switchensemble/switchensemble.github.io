@@ -9,10 +9,12 @@ title: new work
 yearComposed: 2026
 movements: []
 duration: ''
-performedBySwitch: ''
+performedBySwitch: 2026
 commissionedOrWrittenFor: written
 size: solo
-instrumentation: []
+instrumentation:
+- percussion
+- electronics
 tags: []
 media: []
 ---

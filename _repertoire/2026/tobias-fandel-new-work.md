@@ -9,10 +9,15 @@ title: new work
 yearComposed: 2026
 movements: []
 duration: ''
-performedBySwitch: ''
+performedBySwitch: 2026
 commissionedOrWrittenFor: written
 size: trio
-instrumentation: []
-tags: []
+instrumentation:
+  - flute
+  - violin
+  - cello
+  - electronics
+tags: 
+  - electroacoustic
 media: []
 ---

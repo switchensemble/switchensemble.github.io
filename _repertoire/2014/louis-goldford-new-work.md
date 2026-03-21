@@ -5,14 +5,17 @@ sourceConcert: 2026-04-08-overdrive-festival-cuny-nyc
 composer:
   first: Louis
   last: Goldford
-title: new work
-yearComposed: 2026
+title:  Travertine Hybrid #3
+yearComposed: 2014
 movements: []
 duration: ''
-performedBySwitch: ''
-commissionedOrWrittenFor: written
-size: ''
-instrumentation: []
-tags: []
+performedBySwitch: 2026
+commissionedOrWrittenFor: 
+size: solo
+instrumentation:
+- violin
+- electronics
+tags:
+- electroacoustic
 media: []
 ---

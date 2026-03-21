@@ -12,7 +12,8 @@ duration: ''
 performedBySwitch: ''
 commissionedOrWrittenFor: written
 size: solo
-instrumentation: []
+instrumentation:
+  - cello
 tags: []
 media: []
 ---

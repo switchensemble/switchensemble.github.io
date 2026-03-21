@@ -5,7 +5,7 @@ composer:
 title: GRIDS
 duration: 
 yearComposed: 2025
-performedBySwitch: 2025
+performedBySwitch: 2025, 2026
 commissionedOrWrittenFor: commissioned
 size: septet
 instrumentation:

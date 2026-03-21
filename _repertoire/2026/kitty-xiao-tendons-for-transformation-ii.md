@@ -12,7 +12,14 @@ duration: ''
 performedBySwitch: ''
 commissionedOrWrittenFor: commissioned
 size: quartet
-instrumentation: []
-tags: []
+instrumentation:
+  - flute
+  - violin
+  - cello
+  - percussion
+  - electronics
+tags: 
+  - electroacoustic
+  - quartet
 media: []
 ---
