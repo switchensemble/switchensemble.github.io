@@ -14,7 +14,7 @@ Founded in 2012 in Rochester, New York, [Switch~] looks toward the future of con
 
 [Switch~] contributes to the future of our field by strongly advocating for and commissioning the music of a new generation of emerging composers. Education and mentorship are central to our mission. Through residencies, workshops, masterclasses, reading sessions, open rehearsals, and recording projects, we provide emerging artists with direct access to professional performers while helping to build a diverse canon of 21st century repertoire that leaves space for all voices—especially those that have historically been excluded from our field. 
 
-Our 2026-27 season highlights include world premieres of commissioned works by Tonia Ko, Lauren Siess, Alex Stephenson, Inga Chinilina, Annie Hui-Hsin Hsieh, Jason Thorpe Buchanan, Tobias Fandel, Itzá García, and more, with support from Ernst von Siemens Musikstiftung, the Fromm Music Foundation, the Amphion Foundation, and New Music USA, including performances at Illinois State University's RED NOTE Festival, Carnegie Mellon University’s Meshwork Festival, Brown University, and the Performing Media Festival.
+Our 2026-27 season highlights include world premieres of commissioned works by Tonia Ko, Lauren Siess, Alex Stephenson, Inga Chinilina, Annie Hui-Hsin Hsieh, Jason Thorpe Buchanan, Tobias Fandel, Itzá García, and more, with support from Ernst von Siemens Musikstiftung, the Fromm Music Foundation, the Amphion Foundation, and New Music USA, including performances at Illinois State University's RED NOTE Festival, Carnegie Mellon University’s Meshwork Festival, Brown University, the Overdrive Festival, and the Performing Media Festival.
 
 {% include photos-portfolio-masonry-about.html folderName='featured/' %}
 
