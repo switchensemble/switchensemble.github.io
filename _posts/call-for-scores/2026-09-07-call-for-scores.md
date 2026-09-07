@@ -3,10 +3,10 @@ layout: post
 author: "[Switch~ Ensemble]"
 title: 2026 Call-for-Scores
 categories: blog
-image: header-blurry-vipa.jpg
-headerImage: header-blurry-vipa.jpg
+image: Switch-Louisville-rehearsal_1200px.jpeg
+headerImage: Switch-Louisville-rehearsal_1200px.jpeg
 date: 2026-09-07
-manualDate: Fall 2026
+manualDate: Deadline Dec. 1 2026
 sidebarName: call-for-scores-sidebar.html
 postDescription: "The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027."
 ---
@@ -19,7 +19,7 @@ Submission materials due December 1st, 2026, at 11:59 p.m. EST.
 
 ### Submission materials
 
-Composers should submit one recent work for 3-7 musicians from the below instrumentation. One application is free, without entry fee. For additional works by the same composer, we request a $5 tax-deductible donation for each additional work submitted. This donation can be made at the following link: https://fundraising.fracturedatlas.org/the-switch-ensemble
+Composers should submit one recent work for 3-7 musicians from the below instrumentation. One application is free, without entry fee. For additional works by the same composer, we request a $5 tax-deductible donation for each additional work submitted. This donation can be made at the following link: <a href="https://fundraising.fracturedatlas.org/the-switch-ensemble">https://fundraising.fracturedatlas.org/the-switch-ensemble</a>
 
 ### Core Instrumentation:
 
@@ -43,15 +43,11 @@ The winning work will be scores for 3-7 musicians and should incorporate electro
 
 ### Percussion List (anything large not listed may not be available)
 - Bass Drum
-- Large Tam-Tam
+- Vibraphone, Glockenspiel
+- Large Tam-Tam, Opera Gong
 - Woodblocks
-- Opera Gong
-- Vibraphone
-- Snare Drum
-- Bongos
-- 2 Tom-Toms
+- Bongos, 2 Tom-Toms, Snare Drum
 - Suspended Cymbal
-- Glockenspiel
 
 ### PIANO PREP RULES (Elebash Recital Hall, CUNY)
 - Anything plastic, paper, or rubber OK.      
@@ -68,12 +64,9 @@ networked cameras/live video (up to 3)
 click track
 Please clearly specify below if any additional equipment is required.
 
-### Application form
+### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: https://forms.gle/pactbUXhc8NBSzAr9</a>
+Deadline December 1st, 2026, at 11:59 p.m. EST.
 
 Please submit scores and recordings with a link via Dropbox or equivalent service. Scores and recordings must be anonymous. No composer names or identifying information anywhere on the score, nor in the file titles.
- 
-
-### Application Form: https://forms.gle/pactbUXhc8NBSzAr9
-Deadline December 1st, 2026, at 11:59 p.m. EST.
 
 ​Questions? Please contact switchensemble@gmail.com
