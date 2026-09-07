@@ -64,8 +64,8 @@ The winning work will be scores for 3-7 musicians and should incorporate electro
 - click track
 - Please clearly specify below if any additional equipment is required.
 
-### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: 
-https://forms.gle/pactbUXhc8NBSzAr9</a>
+### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: </a>
+<a href="https://forms.gle/pactbUXhc8NBSzAr9">https://forms.gle/pactbUXhc8NBSzAr9</a>
 Deadline December 1st, 2026, at 11:59 p.m. EST.
 
 Please submit scores and recordings with a link via Dropbox or equivalent service. Scores and recordings must be anonymous. No composer names or identifying information anywhere on the score, nor in the file titles.
