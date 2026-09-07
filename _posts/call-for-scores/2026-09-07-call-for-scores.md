@@ -41,13 +41,14 @@ The [Switch~ Ensemble] is principally interested in supporting emerging composer
 
 The winning work will be scores for 3-7 musicians and should incorporate electronics, multimedia, or technology in a significant way. Duration of the new work can be between 5 and 15 minutes. The winning composer is welcome to join the ensemble in NYC April 6-9 for a rehearsal and the performance, but we are unable to provide transportation or lodging expenses. All works will be reviewed by a panel of ensemble and festival leadership.
 
-### Percussion List (anything large not listed may not be available)
+### Percussion List 
 - Bass Drum
 - Vibraphone, Glockenspiel
 - Large Tam-Tam, Opera Gong
 - Woodblocks
 - Bongos, 2 Tom-Toms, Snare Drum
 - Suspended Cymbal
+- (anything large not listed may not be available)
 
 ### PIANO PREP RULES (Elebash Recital Hall, CUNY)
 - Anything plastic, paper, or rubber OK.      
@@ -66,6 +67,7 @@ The winning work will be scores for 3-7 musicians and should incorporate electro
 
 ### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: </a>
 <a href="https://forms.gle/pactbUXhc8NBSzAr9">https://forms.gle/pactbUXhc8NBSzAr9</a>
+
 Deadline December 1st, 2026, at 11:59 p.m. EST.
 
 Please submit scores and recordings with a link via Dropbox or equivalent service. Scores and recordings must be anonymous. No composer names or identifying information anywhere on the score, nor in the file titles.
