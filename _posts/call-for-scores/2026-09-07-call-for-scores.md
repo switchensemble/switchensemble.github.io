@@ -57,12 +57,12 @@ The winning work will be scores for 3-7 musicians and should incorporate electro
 - when preparing the instrument please be careful not to let anything fall onto the soundboard or into the action.
 
 ### Available Tech
-amplification & DSP (all instruments close-mic'd)
-video projection
-quad diffusion (up to hex may be possible)
-networked cameras/live video (up to 3)
-click track
-Please clearly specify below if any additional equipment is required.
+- amplification & DSP (all instruments close-mic'd)
+- video projection
+- quad diffusion (up to hex may be possible)
+- networked cameras/live video (up to 3)
+- click track
+- Please clearly specify below if any additional equipment is required.
 
 ### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: https://forms.gle/pactbUXhc8NBSzAr9</a>
 Deadline December 1st, 2026, at 11:59 p.m. EST.
