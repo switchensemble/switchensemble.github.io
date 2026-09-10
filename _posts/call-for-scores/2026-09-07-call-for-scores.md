@@ -11,7 +11,7 @@ sidebarName: call-for-scores-sidebar.html
 postDescription: "The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027."
 ---
 
-The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027. Additionally, any submitted works will be considered for our future programming. We hope to choose additional works to include for upcoming seasons, and see this as an excellent way to become acquainted with the work of composers unknown to us. 
+The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027. Additionally, any submitted works will be considered for our future programming. We hope to choose additional works to include in upcoming seasons, and see this as an excellent way to become acquainted with the work of composers unknown to us. 
 
 ### Deadline
 
@@ -39,7 +39,7 @@ The [Switch~ Ensemble] is principally interested in supporting emerging composer
 
 ### Selection Process
 
-The winning work will be scores for 3-7 musicians and should incorporate electronics, multimedia, or technology in a significant way. Duration of the new work can be between 5 and 15 minutes. The winning composer is welcome to join the ensemble in NYC April 6-9 for a rehearsal and the performance, but we are unable to provide transportation or lodging expenses. All works will be reviewed by a panel of ensemble and festival leadership.
+The winning work will be scored for 3-7 musicians and should incorporate electronics, multimedia, or technology in a significant way. Duration of the new work can be between 5 and 15 minutes. The winning composer is welcome to join the ensemble in NYC April 6-9 for a rehearsal and the performance, but we are unable to provide transportation or lodging expenses. All works will be reviewed by a panel of ensemble and festival leadership.
 
 ### Percussion List 
 - Bass Drum
