@@ -50,19 +50,21 @@ The winning work will be scored for 3-7 musicians and should incorporate electro
 - Suspended Cymbal
 - (anything large not listed may not be available)
 
-### PIANO PREP RULES (Elebash Recital Hall, CUNY)
-- Anything plastic, paper, or rubber OK.      
-- Nothing metal against the strings (screws, bolts, paper clips etc.)        
-- No white-out, tape, marker, stickers, or anything that leaves residue on the strings. 
-- Never handle the dampers (this includes stickers) which are very easily thrown out of regulation. 
-- when preparing the instrument please be careful not to let anything fall onto the soundboard or into the action.
+### PIANO PREPARATION RULES (Elebash Recital Hall, CUNY)
+- Preparations may use plastic, paper, rubber, or other non-metallic materials that do not damage or leave residue on the instrument.    
+- Metal objects or materials of any kind are strictly prohibited for piano preparation, including, but not limited to, screws, bolts, paper clips, coins, wire, or other metal components.     
+- White-out, tape, markers, stickers, adhesives, or any other materials that may leave marks or residue may not be applied to the strings or any other part of the instrument.
+- The dampers must not be touched, manipulated, prepared, or used for the attachment of any material or object. The damper mechanism is particularly sensitive and can easily be thrown out of regulation.
+- During the installation and removal of all preparations, care must be taken to ensure that no objects or materials fall onto the soundboard or into the piano action.
+- All preparations must be fully removable without causing damage, alteration, marking, or residue to the instrument.
 
 ### Available Tech
 - amplification & DSP (all instruments close-mic'd)
 - video projection
 - quad diffusion (up to hex may be possible)
 - networked cameras/live video (up to 3)
-- click track
+- audio or visual click tracks are possible
+- software and hardware for networked computing, gestural tracking, polytemporality, etc. (Sensors, Polytempo Network, Max, PD, Supercollider, etc.)
 - Please clearly specify below if any additional equipment is required.
 
 ### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: </a>
