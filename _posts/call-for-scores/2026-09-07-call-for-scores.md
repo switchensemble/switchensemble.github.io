@@ -14,15 +14,12 @@ postDescription: "The [Switch~ Ensemble] and Overdrive Festival NYC are happy to
 The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027. Additionally, any submitted works will be considered for our future programming. We hope to choose additional works to include in upcoming seasons, and see this as an excellent way to become acquainted with the work of composers unknown to us. 
 
 ### Deadline
-
 Submission materials due December 1st, 2026, at 11:59 p.m. EST.
 
 ### Submission materials
-
 Composers should submit one recent work for 3-7 musicians from the below instrumentation. One application is free, without entry fee. For additional works by the same composer, we request a $5 tax-deductible donation for each additional work submitted. This donation can be made at the following link: <a href="https://fundraising.fracturedatlas.org/the-switch-ensemble">https://fundraising.fracturedatlas.org/the-switch-ensemble</a>
 
 ### Core Instrumentation:
-
 - flute (dbl. bass/picc)
 - clarinet (dbl. bass)
 - saxophone (alt/bar)
@@ -34,11 +31,9 @@ Composers should submit one recent work for 3-7 musicians from the below instrum
 - 2 technologists/electronics performers
 
 ### Eligibility
-
-The [Switch~ Ensemble] is principally interested in supporting emerging composers, but we understand that “emerging” means something different to everyone—and that emerging composers come at a wide range of ages. Generally, we think of emerging composers as either (1) still enrolled in post-secondary or graduate study, (2) still seeking or only recently-appointed to full-time musical employment, or (3) still on a trajectory of development and self-renewal in musical thinking.
+The [Switch~ Ensemble] is principally interested in supporting emerging composers, but we understand that “emerging” means something different to everyone—and that emerging composers come at a wide range of ages. Generally, we think of emerging composers as either (1) still enrolled in post-secondary or graduate study, (2) still seeking or only recently-appointed to full-time musical employment, (3) still on a trajectory of development and self-renewal in musical thinking, or (4) composers for whom this would represent a significant opportunity.
 
 ### Selection Process
-
 The winning work will be scored for 3-7 musicians and should incorporate electronics, multimedia, or technology in a significant way. Duration of the new work can be between 5 and 15 minutes. The winning composer is welcome to join the ensemble in NYC April 6-9 for a rehearsal and the performance, but we are unable to provide transportation or lodging expenses. All works will be reviewed by a panel of ensemble and festival leadership.
 
 ### Percussion List 
