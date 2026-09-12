@@ -8,7 +8,7 @@ time: 7:30pm
 location:
   institution: WQED Studio A
   address: 4802 Fifth Ave · Oakland
-  city: Pittsburgh, PA
+  city: Pittsburgh
   state: PA
 program:
   - composer: Annie Hui-Hsin Hsieh
