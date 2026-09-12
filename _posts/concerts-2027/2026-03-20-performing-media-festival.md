@@ -8,8 +8,8 @@ time: 7:30pm
 location:
   institution: 
   address: 
-  city: 
-  state: 
+  city: South Bend
+  state: IN
 program:
   - composer: Annie Hui-Hsin Hsieh
     title: new work
