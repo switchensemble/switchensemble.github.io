@@ -19,8 +19,6 @@ The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026
 ### Deadline
 Submission materials due December 1st, 2026, at 11:59 p.m. EST.
 
-
-
 ### Submission materials
 Composers should submit one recent work for 3-7 musicians from the below instrumentation. Please submit scores and recordings with a link via Dropbox or equivalent service. Scores and recordings must be anonymous. No composer names or identifying information anywhere on the score, nor in the file titles.
 
