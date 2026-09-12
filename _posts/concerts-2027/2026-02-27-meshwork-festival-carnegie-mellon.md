@@ -2,7 +2,7 @@
 layout: concert
 categories: performance
 title: Meshwork Festival, Carnegie Mellon University
-describe: "[Switch~ Ensemble] in Residence at the Meshwork Festival, Carnegie Mellon University. Works for Ensemble and Multimedia by Annie Hui-Hsin Hsieh, Jason Thorpe Buchanan, Chris Chandler, & Kitty Xiao.
+describe: "[Switch~ Ensemble] in Residence at the Meshwork Festival, Carnegie Mellon University. Works for Ensemble and Multimedia by Annie Hui-Hsin Hsieh, Jason Thorpe Buchanan, Chris Chandler, & Kitty Xiao."
 date: 2027-02-27
 time: 7:30pm
 location:
