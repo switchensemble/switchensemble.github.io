@@ -11,7 +11,7 @@ sidebarName: call-for-scores-sidebar.html
 postDescription: "The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027."
 ---
 
-The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027. Additionally, any submitted works will be considered for our future programming. We hope to choose additional works to include in upcoming seasons, and see this as an excellent way to become acquainted with the work of composers unknown to us. 
+The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027. Additionally, any submitted works will be considered for our future programming. We hope to choose additional works to include in upcoming seasons, and see this as an excellent way to become acquainted with the work of composers unknown to us. Those who have not previously participated in the Overdrive Festival are especially encouraged to apply.
 
 ### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: </a>
 <a href="https://forms.gle/pactbUXhc8NBSzAr9">https://forms.gle/pactbUXhc8NBSzAr9</a>
