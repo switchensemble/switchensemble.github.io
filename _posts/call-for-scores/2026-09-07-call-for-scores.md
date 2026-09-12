@@ -1,6 +1,6 @@
 ---
 layout: post
-author: "[Switch~ Ensemble]"
+author: "[Switch~ Ensemble] & Overdrive Festival NYC"
 title: 2026 Call-for-Scores
 categories: blog
 image: Switch-Louisville-rehearsal_1200px.jpeg
