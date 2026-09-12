@@ -13,11 +13,18 @@ postDescription: "The [Switch~ Ensemble] and Overdrive Festival NYC are happy to
 
 The [Switch~ Ensemble] and Overdrive Festival NYC are happy to announce our 2026 Call-for-Scores. One work for 3-7 musicians and technology will be selected for a performance on the 2027 Overdrive Festival in Manhattan at the Graduate Center's Elebash Recital Hall on April 8, 2027. Additionally, any submitted works will be considered for our future programming. We hope to choose additional works to include in upcoming seasons, and see this as an excellent way to become acquainted with the work of composers unknown to us. 
 
+### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: </a>
+<a href="https://forms.gle/pactbUXhc8NBSzAr9">https://forms.gle/pactbUXhc8NBSzAr9</a>
+
 ### Deadline
 Submission materials due December 1st, 2026, at 11:59 p.m. EST.
 
+
+
 ### Submission materials
-Composers should submit one recent work for 3-7 musicians from the below instrumentation. One application is free, without entry fee. For additional works by the same composer, we request a $5 tax-deductible donation for each additional work submitted. This donation can be made at the following link: <a href="https://fundraising.fracturedatlas.org/the-switch-ensemble">https://fundraising.fracturedatlas.org/the-switch-ensemble</a>
+Composers should submit one recent work for 3-7 musicians from the below instrumentation. Please submit scores and recordings with a link via Dropbox or equivalent service. Scores and recordings must be anonymous. No composer names or identifying information anywhere on the score, nor in the file titles.
+
+One application is free, without entry fee. For additional works by the same composer, we request a $5 tax-deductible donation for each additional work submitted. This donation can be made at the following link: <a href="https://fundraising.fracturedatlas.org/the-switch-ensemble">https://fundraising.fracturedatlas.org/the-switch-ensemble</a>
 
 ### Core Instrumentation:
 - flute (dbl. bass/picc)
@@ -62,11 +69,5 @@ The winning work will be scored for 3-7 musicians and should incorporate electro
 - software and hardware for networked computing, gestural tracking, polytemporality, etc. (Sensors, Polytempo Network, Max, PD, Supercollider, etc.)
 - Please clearly specify below if any additional equipment is required.
 
-### <a href="https://forms.gle/pactbUXhc8NBSzAr9">Application Form: </a>
-<a href="https://forms.gle/pactbUXhc8NBSzAr9">https://forms.gle/pactbUXhc8NBSzAr9</a>
-
-Deadline December 1st, 2026, at 11:59 p.m. EST.
-
-Please submit scores and recordings with a link via Dropbox or equivalent service. Scores and recordings must be anonymous. No composer names or identifying information anywhere on the score, nor in the file titles.
 
 ​Questions? Please contact switchensemble@gmail.com
