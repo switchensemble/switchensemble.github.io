@@ -3,6 +3,14 @@ layout: ensemble-member
 about: Christopher Chandler
 ---
 
-Christopher Chandler is a composer of acoustic and electroacoustic music currently serving as a Visiting Assistant Professor at the University of Richmond where he teaches courses in composition and music technology. His music has been performed across the United States, Canada, and France by ensembles including eighth blackbird, the Argento Chamber Ensemble, Ensemble Interface, the Cleveland Chamber Symphony, and Le Nouvel Ensemble Moderne. Recent performances include June in Buffalo, Domaine Forget, the Florida State University New Music Festival, the New York City Electroacoustic Music Festival, and SEAMUS Conferences.
+Christopher Chandler is a composer, technologist, guitarist, and educator whose work explores the creative possibilities technology brings to musical expression. His music often incorporates field recordings, found sound objects, and custom-built generative software, creating immersive sound worlds that shift between the familiar and the unexpected.
 
-Christopher has been honored with awards including a BMI Student Composer Award, an ASCAP/SEAMUS Student Commission, two first prizes from the Austin Peay State University Young Composer's Award, winner of the American Modern Ensemble’s Annual Composition Competition, and the Nadia Boulanger Composition Prize from the American Conservatory in Fontainebleau, France. Christopher received his B.A. in composition and theory from the University of Richmond, his M.M. in composition from Bowling Green State University, and his Ph.D. in composition from the Eastman School of Music.
+Chandler’s compositions have been performed by leading ensembles including Eighth Blackbird, the 
+American Wild Ensemble, Ensemble Interface, Le Nouvel Ensemble Moderne, the Oberlin Contemporary Music Ensemble, and the Cleveland Chamber Symphony. His work has been recognized with awards and honors, including a BMI Student Composer Award, an ASCAP/SEAMUS Commission, and the Nadia Boulanger Composition Prize from the American Conservatory in Fontainebleau.
+
+He is a co-founder of the [Switch~ Ensemble], a chamber ensemble dedicated to the performance of cutting-edge contemporary music with technology. With [Switch~], Chandler has helped shape collaborations with composers and artists across the U.S. and abroad, supporting the development and performance of ambitious multimedia projects.
+
+In addition to his work as a composer, Chandler is active as a mentor and educator, serving as Associate Professor of Music at Union College in Schenectady, NY. His teaching and creative work reflect a commitment to connecting new music with technology, collaboration, and cross-disciplinary exchange.
+
+He holds degrees in composition from the Eastman School of Music (Ph.D.), Bowling Green State University (M.M.), and the University of Richmond (B.A.).
+
