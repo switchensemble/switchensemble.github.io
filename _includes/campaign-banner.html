@@ -1,0 +1,22 @@
+{%- assign c = site.data.campaign -%}
+{%- if c.enabled and page.url != "/" and page.url != "/index.html" -%}
+<aside class="campaign-banner" id="campaign-banner" aria-label="Season campaign" hidden>
+  <span class="campaign-banner__text">{{ c.banner_text }}</span>
+  <a class="campaign-banner__cta" href="{{ c.form_url }}" target="_blank" rel="noopener">{{ c.banner_cta }}</a>
+  <button class="campaign-banner__close" type="button" aria-label="Dismiss">&times;</button>
+</aside>
+<script>
+  (function () {
+    var key = 'switch-campaign-2026-27-dismissed';
+    var el = document.getElementById('campaign-banner');
+    try { if (localStorage.getItem(key)) return; } catch (e) {}
+    el.hidden = false;
+    document.body.classList.add('has-campaign-banner');
+    el.querySelector('.campaign-banner__close').addEventListener('click', function () {
+      el.hidden = true;
+      document.body.classList.remove('has-campaign-banner');
+      try { localStorage.setItem(key, '1'); } catch (e) {}
+    });
+  })();
+</script>
+{%- endif -%}

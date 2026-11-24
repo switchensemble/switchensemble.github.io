@@ -1,0 +1,22 @@
+{%- assign c = site.data.campaign -%}
+{%- if c.enabled -%}
+<section class="campaign" id="support-the-season" aria-labelledby="campaign-headline">
+  <div class="campaign__inner">
+    <div class="campaign__copy">
+      <p class="campaign__eyebrow">{{ c.eyebrow }}</p>
+      <h2 class="campaign__headline" id="campaign-headline">{{ c.headline }}</h2>
+      <p class="campaign__body">{{ c.body }}</p>
+      <p class="campaign__fallback">
+        Form not loading? <a href="{{ c.form_url }}" target="_blank" rel="noopener">Donate on Zeffy</a>.
+      </p>
+    </div>
+    <div class="campaign__form" style="height: {{ c.embed_height | default: 900 }}px">
+      <iframe title="Donation form powered by Zeffy"
+              src="{{ c.embed_url }}"
+              loading="lazy"
+              allowpaymentrequest
+              allowtransparency="true"></iframe>
+    </div>
+  </div>
+</section>
+{%- endif -%}

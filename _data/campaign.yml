@@ -1,0 +1,19 @@
+# 2026-27 crowdfunding campaign (Zeffy)
+# Set `enabled: false` to hide the banner and the homepage embed everywhere.
+enabled: true
+
+form_url: https://www.zeffy.com/en-US/donation-form/2026-27-concert-season-support
+embed_url: https://www.zeffy.com/en-US/embed/donation-form/2026-27-concert-season-support
+
+# Homepage section
+eyebrow: 2026–27 Season Campaign
+headline: Help us build our next season
+body: >-
+  From Meshwork and RED NOTE to Overdrive NYC and our Brown University residency,
+  this season [Switch~] premieres new works by composers across the country.
+  Every gift goes straight to commissioning, rehearsing, and touring new music.
+embed_height: 680
+
+# Site-wide banner (shown on every page except the homepage)
+banner_text: Support our 2026–27 concert season.
+banner_cta: Donate
